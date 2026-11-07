@@ -1,0 +1,33 @@
+{
+  "package": "psychology_advice_research_project",
+  "version": "v1",
+  "purpose": "ChatGPT Project instructions for psychological questions, practical psychological advice, and recent research summaries",
+  "zip_first": true,
+  "self_heal_required": true,
+  "clinical_boundary_guard": true,
+  "current_research_required_for_latest_claims": true,
+  "citation_required_for_research_and_clinical_claims": true,
+  "files": [
+    "00_README.md",
+    "00_compiled_instruction_set.md",
+    "01_core/01_core_role_instruction_set.md",
+    "02_helpers/02_general_helper_instruction_sets.md",
+    "03_sub_roles/03_specific_sub_role_instruction_sets.md",
+    "04_templates/04_response_templates.md",
+    "05_handoffs/05_phased_response_handoff_template.md",
+    "06_sources_to_update/06_preference_registry.md",
+    "06_sources_to_update/06_correction_log.md",
+    "06_sources_to_update/06_source_inventory.md",
+    "06_sources_to_update/06_example_bank.md",
+    "07_tables/07_expected_instruction_sets_table.md",
+    "07_tables/07_package_validation_table.md"
+  ],
+  "validation": {
+    "core_instruction_present": true,
+    "helper_instructions_present": true,
+    "sub_roles_present": true,
+    "templates_present": true,
+    "self_heal_present": true,
+    "manifest_present": true
+  }
+}

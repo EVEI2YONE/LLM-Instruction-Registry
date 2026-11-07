@@ -25,3 +25,11 @@ Download and extract an uploaded ZIP. Follow its own README for source-material 
 ## Import limitations
 
 The Atlas package is known by exact name, but its original binary content was not accessible through the currently available Project/Library file extraction interface. This README records the chosen authoritative archive; it **does not represent the Atlas ZIP as uploaded**. Add the original ZIP at `packages/ai-knowledge-atlas/latest/AI-Knowledge-Atlas-40-Project-Sources.zip` when its bytes are available.
+
+## Psychology Advice & Research
+
+| Instruction system | Authoritative package | Role | Repository status |
+|---|---|---|---|
+| Psychology Advice & Research v1 | [`psychology_advice_research_project_v1.zip`](packages/psychology-advice-research/v1/psychology_advice_research_project_v1.zip) | Psychology education, practical non-clinical advice, and evidence-aware research synthesis | Uploaded |
+
+[Browse package sources](packages/psychology-advice-research/v1/sources/) · [Package README](packages/psychology-advice-research/v1/README.md)

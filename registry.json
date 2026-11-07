@@ -13,9 +13,9 @@
         "orchestrator"
       ],
       "status": "available",
-      "readme": "meta-llm-orchestrator/README.md",
-      "archive": "meta-llm-orchestrator/meta-llm-orchestrator_v18.zip",
-      "sources": "meta-llm-orchestrator/sources/"
+      "readme": "instruction-sets/meta-llm-orchestrator/README.md",
+      "archive": "instruction-sets/meta-llm-orchestrator/meta-llm-orchestrator_v18.zip",
+      "sources": "instruction-sets/meta-llm-orchestrator/sources/"
     },
     {
       "id": "app-planning",
@@ -28,9 +28,9 @@
         "planning"
       ],
       "status": "available",
-      "readme": "app-planning/README.md",
-      "archive": "app-planning/app-planning_v1.zip",
-      "sources": "app-planning/sources/"
+      "readme": "instruction-sets/app-planning/README.md",
+      "archive": "instruction-sets/app-planning/app-planning_v1.zip",
+      "sources": "instruction-sets/app-planning/sources/"
     },
     {
       "id": "business-app-idea",
@@ -44,9 +44,9 @@
         "idea"
       ],
       "status": "available",
-      "readme": "business-app-idea/README.md",
-      "archive": "business-app-idea/business-app-idea_v1.zip",
-      "sources": "business-app-idea/sources/"
+      "readme": "instruction-sets/business-app-idea/README.md",
+      "archive": "instruction-sets/business-app-idea/business-app-idea_v1.zip",
+      "sources": "instruction-sets/business-app-idea/sources/"
     },
     {
       "id": "coding-partner-mentor-teacher",
@@ -61,9 +61,9 @@
         "teacher"
       ],
       "status": "available",
-      "readme": "coding-partner-mentor-teacher/README.md",
-      "archive": "coding-partner-mentor-teacher/coding-partner-mentor-teacher_v1.zip",
-      "sources": "coding-partner-mentor-teacher/sources/"
+      "readme": "instruction-sets/coding-partner-mentor-teacher/README.md",
+      "archive": "instruction-sets/coding-partner-mentor-teacher/coding-partner-mentor-teacher_v1.zip",
+      "sources": "instruction-sets/coding-partner-mentor-teacher/sources/"
     },
     {
       "id": "feature-extension-planning-council",
@@ -78,9 +78,9 @@
         "council"
       ],
       "status": "available",
-      "readme": "feature-extension-planning-council/README.md",
-      "archive": "feature-extension-planning-council/feature-extension-planning-council_v1.zip",
-      "sources": "feature-extension-planning-council/sources/"
+      "readme": "instruction-sets/feature-extension-planning-council/README.md",
+      "archive": "instruction-sets/feature-extension-planning-council/feature-extension-planning-council_v1.zip",
+      "sources": "instruction-sets/feature-extension-planning-council/sources/"
     },
     {
       "id": "psychology-advice-research",
@@ -94,9 +94,9 @@
         "research"
       ],
       "status": "available",
-      "readme": "psychology-advice-research/README.md",
-      "archive": "psychology-advice-research/psychology-advice-research_v1.zip",
-      "sources": "psychology-advice-research/sources/"
+      "readme": "instruction-sets/psychology-advice-research/README.md",
+      "archive": "instruction-sets/psychology-advice-research/psychology-advice-research_v1.zip",
+      "sources": "instruction-sets/psychology-advice-research/sources/"
     },
     {
       "id": "solid-visual-architecture",
@@ -110,9 +110,9 @@
         "architecture"
       ],
       "status": "available",
-      "readme": "solid-visual-architecture/README.md",
-      "archive": "solid-visual-architecture/solid-visual-architecture_v1.zip",
-      "sources": "solid-visual-architecture/sources/"
+      "readme": "instruction-sets/solid-visual-architecture/README.md",
+      "archive": "instruction-sets/solid-visual-architecture/solid-visual-architecture_v1.zip",
+      "sources": "instruction-sets/solid-visual-architecture/sources/"
     },
     {
       "id": "technical-research-project-instructions",
@@ -127,9 +127,9 @@
         "instructions"
       ],
       "status": "available",
-      "readme": "technical-research-project-instructions/README.md",
-      "archive": "technical-research-project-instructions/technical-research-project-instructions_v2.zip",
-      "sources": "technical-research-project-instructions/sources/"
+      "readme": "instruction-sets/technical-research-project-instructions/README.md",
+      "archive": "instruction-sets/technical-research-project-instructions/technical-research-project-instructions_v2.zip",
+      "sources": "instruction-sets/technical-research-project-instructions/sources/"
     }
   ]
 }

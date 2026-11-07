@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Rebuild root-level instruction registry from the legacy packages/ input tree.
+"""Rebuild instruction-sets/ registry from the legacy packages/ input tree.
 
 Extract each source archive, normalize its top-level directory, and create a
 fresh ZIP. Do not use a binary rename as a substitute for repackaging.
@@ -100,8 +100,8 @@ def main() -> None:
         entries = []
         catalog = []
         for slug, version, name, purpose, zip_path, source_path, role in PACKAGES:
-            folder = ROOT / slug
-            folder.mkdir(exist_ok=True)
+            folder = ROOT / "instruction-sets" / slug
+            folder.mkdir(parents=True, exist_ok=True)
             original_zip = (saved / zip_path) if zip_path else None
             source_dir = (saved / source_path) if source_path else None
             if original_zip and not original_zip.is_file():
@@ -141,21 +141,22 @@ def main() -> None:
                 encoding="utf-8")
             entries.append({"id": slug, "name": name, "description": purpose, "version": version,
                             "role": role, "tags": [word for word in re.findall(r"[a-z]+", slug) if len(word) > 2],
-                            "status": "available", "readme": f"{slug}/README.md",
-                            "archive": f"{slug}/{dest_name}", "sources": f"{slug}/sources/"})
-            catalog.append(f"| [{name}]({slug}/README.md) | {version} | {purpose} | [{dest_name}]({slug}/{dest_name}) |")
+                            "status": "available", "readme": f"instruction-sets/{slug}/README.md",
+                            "archive": f"instruction-sets/{slug}/{dest_name}", "sources": f"instruction-sets/{slug}/sources/"})
+            catalog.append(f"| [{name}](instruction-sets/{slug}/README.md) | {version} | {purpose} | [{dest_name}](instruction-sets/{slug}/{dest_name}) |")
         (ROOT / "registry.json").write_text(json.dumps({"schema_version": 1, "instruction_sets": entries}, indent=2) + "\n", encoding="utf-8")
-        (ROOT / "README.md").write_text(
+        # Do not overwrite the hand-maintained README and agent instructions.
+        (ROOT / "MIGRATION_CATALOG_PREVIEW.md").write_text(
             "# LLM Instruction Registry\n\n"
             "A versioned catalog of standalone LLM instruction sets. **Meta-LLM Orchestrator v18** "
-            "is the foundational progenitor. Each package has its own top-level folder, ZIP, "
+            "is the foundational progenitor. Each package lives under instruction-sets/ with a ZIP, "
             "sources, and explanatory README.\n\n## Lookup catalog\n\n"
             "| Instruction set | Version | Purpose | Archive |\n|---|---|---|---|\n" +
             "\n".join(catalog) +
             "\n\nFor programmatic lookup, use [registry.json](registry.json). "
             "Every listed archive is checked in and has a matching internal top-level directory.\n\n"
             "## Folder convention\n\n"
-            "\`\`\`text\n<instruction-set>/\n  README.md\n  <instruction-set>_vN.zip\n  sources/\n    README.md\n\`\`\`\n\n"
+            "\`\`\`text\ninstruction-sets/\n  <instruction-set>/\n    README.md\n    <instruction-set>_vN.zip\n    sources/\n      README.md\n\`\`\`\n\n"
             "Read the package README before loading an archive; individual instruction systems may "
             "have different entrypoints or prerequisites.\n\n"
             "## Canonical and pending packages\n\n"

@@ -1,0 +1,3 @@
+# Technical Research Project Instructions — Sources
+
+This directory holds source materials and provenance for the **v2** package. For packages originating as an archive only, additional sources may not be separately available.

@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "instruction_sets": [
     {
       "id": "meta-llm-orchestrator",
@@ -13,169 +13,34 @@
         "orchestrator"
       ],
       "status": "available",
-      "readme": "instruction-sets/meta-llm-orchestrator/README.md",
-      "archive": "instruction-sets/meta-llm-orchestrator/meta-llm-orchestrator_v18.zip",
-      "sources": "instruction-sets/meta-llm-orchestrator/sources/"
-    },
-    {
-      "id": "app-planning",
-      "name": "App Planning",
-      "description": "Business, product, architecture, stack, research, and engineering handoff planning.",
-      "version": "v1",
-      "role": "specialized",
-      "tags": [
-        "app",
-        "planning"
+      "readme": "instruction-sets/progenitors/meta-llm-orchestrator/README.md",
+      "archive": "instruction-sets/progenitors/meta-llm-orchestrator/meta-llm-orchestrator_v18.zip",
+      "sources": "instruction-sets/progenitors/meta-llm-orchestrator/sources/",
+      "capabilities": [
+        "instruction-generation",
+        "agent-orchestration",
+        "instruction-architecture"
       ],
-      "status": "available",
-      "readme": "instruction-sets/app-planning/README.md",
-      "archive": "instruction-sets/app-planning/app-planning_v1.zip",
-      "sources": "instruction-sets/app-planning/sources/"
-    },
-    {
-      "id": "business-app-idea",
-      "name": "Business App Idea",
-      "description": "Instruction set for shaping business application concepts into actionable plans.",
-      "version": "v1",
-      "role": "specialized",
-      "tags": [
-        "business",
-        "app",
-        "idea"
+      "domains": [
+        "meta-instructions",
+        "llm-systems"
       ],
-      "status": "available",
-      "readme": "instruction-sets/business-app-idea/README.md",
-      "archive": "instruction-sets/business-app-idea/business-app-idea_v1.zip",
-      "sources": "instruction-sets/business-app-idea/sources/"
-    },
-    {
-      "id": "coding-partner-mentor-teacher",
-      "name": "Coding Partner / Mentor / Teacher",
-      "description": "Engineering assistance, debugging, code review, and practical mentorship.",
-      "version": "v1",
-      "role": "specialized",
-      "tags": [
-        "coding",
-        "partner",
-        "mentor",
-        "teacher"
+      "aliases": [
+        "meta orchestrator",
+        "instruction set generator",
+        "agent instruction architect"
       ],
-      "status": "available",
-      "readme": "instruction-sets/coding-partner-mentor-teacher/README.md",
-      "archive": "instruction-sets/coding-partner-mentor-teacher/coding-partner-mentor-teacher_v1.zip",
-      "sources": "instruction-sets/coding-partner-mentor-teacher/sources/"
-    },
-    {
-      "id": "feature-extension-planning-council",
-      "name": "Feature Extension Planning Council",
-      "description": "Council-based feature planning, scope, architecture, risk, and implementation handoffs.",
-      "version": "v1",
-      "role": "specialized",
-      "tags": [
-        "feature",
-        "extension",
-        "planning",
-        "council"
-      ],
-      "status": "available",
-      "readme": "instruction-sets/feature-extension-planning-council/README.md",
-      "archive": "instruction-sets/feature-extension-planning-council/feature-extension-planning-council_v1.zip",
-      "sources": "instruction-sets/feature-extension-planning-council/sources/"
-    },
-    {
-      "id": "psychology-advice-research",
-      "name": "Psychology Advice & Research",
-      "description": "Psychology education, non-clinical advice, and evidence-aware research synthesis.",
-      "version": "v1",
-      "role": "specialized",
-      "tags": [
-        "psychology",
-        "advice",
-        "research"
-      ],
-      "status": "available",
-      "readme": "instruction-sets/psychology-advice-research/README.md",
-      "archive": "instruction-sets/psychology-advice-research/psychology-advice-research_v1.zip",
-      "sources": "instruction-sets/psychology-advice-research/sources/"
-    },
-    {
-      "id": "solid-visual-architecture",
-      "name": "SOLID Visual Architecture",
-      "description": "Architecture visualization and SOLID-oriented design instruction system.",
-      "version": "v1",
-      "role": "specialized",
-      "tags": [
-        "solid",
-        "visual",
-        "architecture"
-      ],
-      "status": "available",
-      "readme": "instruction-sets/solid-visual-architecture/README.md",
-      "archive": "instruction-sets/solid-visual-architecture/solid-visual-architecture_v1.zip",
-      "sources": "instruction-sets/solid-visual-architecture/sources/"
-    },
-    {
-      "id": "technical-research-project-instructions",
-      "name": "Technical Research Project Instructions",
-      "description": "Evidence-backed technical research, architecture consulting, and teaching.",
-      "version": "v2",
-      "role": "specialized",
-      "tags": [
-        "technical",
-        "research",
-        "project",
-        "instructions"
-      ],
-      "status": "available",
-      "readme": "instruction-sets/technical-research-project-instructions/README.md",
-      "archive": "instruction-sets/technical-research-project-instructions/technical-research-project-instructions_v2.zip",
-      "sources": "instruction-sets/technical-research-project-instructions/sources/"
-    },
-    {
-      "id": "general-purpose-chatgpt-conversations",
-      "name": "General-Purpose ChatGPT Conversations",
-      "description": "Efficient, friendly general-purpose ChatGPT conversations with mode-sensitive pacing, credible research, source filtering, and self-heal guidance.",
-      "version": "v2",
-      "role": "specialized",
-      "tags": [
-        "general-purpose",
-        "chatgpt",
-        "conversation",
-        "research",
-        "source-filtering",
-        "self-heal"
-      ],
-      "status": "available",
-      "readme": "instruction-sets/general-purpose-chatgpt-conversations/README.md",
-      "archive": "instruction-sets/general-purpose-chatgpt-conversations/general-purpose-chatgpt-conversations_v2.zip",
-      "sources": "instruction-sets/general-purpose-chatgpt-conversations/sources/"
-    },
-    {
-      "id": "ui-ux-design-system-architect",
-      "name": "UI/UX Design System Architect",
-      "description": "Catalog-first UI/UX knowledge and component audits and prioritized migration guidance.",
-      "version": "v1.1",
-      "role": "specialized",
-      "tags": [
-        "ux",
-        "ui",
-        "design-system",
-        "catalog",
-        "a11y",
-        "i18n",
-        "migration"
-      ],
-      "status": "available",
-      "readme": "instruction-sets/ui-ux-design-system-architect/README.md",
-      "archive": "instruction-sets/ui-ux-design-system-architect/ui-ux-design-system-architect_v1.1.zip",
-      "sources": "instruction-sets/ui-ux-design-system-architect/sources/"
+      "use_cases": [
+        "design reusable instruction sets",
+        "coordinate specialist instruction roles"
+      ]
     },
     {
       "id": "ai-knowledge-atlas",
       "name": "AI Knowledge Atlas",
       "description": "Living evidence-backed AI research catalog; source freshness, relevance, knowledge-gap curation, agent-friendly search and technical architecture reference.",
       "version": "v2.1",
-      "role": "specialized",
+      "role": "curator",
       "tags": [
         "ai",
         "research",
@@ -187,9 +52,338 @@
         "gap-analysis"
       ],
       "status": "available",
-      "readme": "instruction-sets/ai-knowledge-atlas/README.md",
-      "archive": "instruction-sets/ai-knowledge-atlas/ai-knowledge-atlas_v2.1.zip",
-      "sources": "instruction-sets/ai-knowledge-atlas/sources/"
+      "readme": "instruction-sets/curators/ai-knowledge-atlas/README.md",
+      "archive": "instruction-sets/curators/ai-knowledge-atlas/ai-knowledge-atlas_v2.1.zip",
+      "sources": "instruction-sets/curators/ai-knowledge-atlas/sources/",
+      "capabilities": [
+        "research-surveillance",
+        "knowledge-gap-analysis",
+        "evidence-verification",
+        "catalog-maintenance",
+        "agentic-retrieval"
+      ],
+      "domains": [
+        "artificial-intelligence",
+        "machine-learning",
+        "agentic-systems"
+      ],
+      "aliases": [
+        "ai atlas",
+        "knowledge atlas",
+        "ai research curator",
+        "ai knowledge base"
+      ],
+      "use_cases": [
+        "audit AI research knowledge gaps",
+        "update evidence-backed AI knowledge catalog",
+        "find AI architecture and evaluation research"
+      ]
+    },
+    {
+      "id": "ui-ux-design-system-architect",
+      "name": "UI/UX Design System Architect",
+      "description": "Catalog-first UI/UX knowledge and component audits and prioritized migration guidance.",
+      "version": "v1.1",
+      "role": "curator",
+      "tags": [
+        "ux",
+        "ui",
+        "design-system",
+        "catalog",
+        "a11y",
+        "i18n",
+        "migration"
+      ],
+      "status": "available",
+      "readme": "instruction-sets/curators/ui-ux-design-system-architect/README.md",
+      "archive": "instruction-sets/curators/ui-ux-design-system-architect/ui-ux-design-system-architect_v1.1.zip",
+      "sources": "instruction-sets/curators/ui-ux-design-system-architect/sources/",
+      "capabilities": [
+        "design-catalog-curation",
+        "accessibility-audit",
+        "ux-research",
+        "design-system-governance"
+      ],
+      "domains": [
+        "ui-ux",
+        "design-systems"
+      ],
+      "aliases": [
+        "design system curator",
+        "ui ux design architect",
+        "design catalog"
+      ],
+      "use_cases": [
+        "audit UI UX catalog",
+        "plan accessible component modernization"
+      ]
+    },
+    {
+      "id": "coding-partner-mentor-teacher",
+      "name": "Coding Partner / Mentor / Teacher",
+      "description": "Engineering assistance, debugging, code review, and practical mentorship.",
+      "version": "v1",
+      "role": "expert",
+      "tags": [
+        "coding",
+        "partner",
+        "mentor",
+        "teacher"
+      ],
+      "status": "available",
+      "readme": "instruction-sets/experts/coding-partner-mentor-teacher/README.md",
+      "archive": "instruction-sets/experts/coding-partner-mentor-teacher/coding-partner-mentor-teacher_v1.zip",
+      "sources": "instruction-sets/experts/coding-partner-mentor-teacher/sources/",
+      "capabilities": [
+        "debugging",
+        "code-review",
+        "mentorship",
+        "implementation-guidance"
+      ],
+      "domains": [
+        "software-engineering"
+      ],
+      "aliases": [
+        "coding mentor",
+        "code reviewer",
+        "debugging partner"
+      ],
+      "use_cases": [
+        "debug code and explain fixes",
+        "review software maintainability"
+      ]
+    },
+    {
+      "id": "psychology-advice-research",
+      "name": "Psychology Advice & Research",
+      "description": "Psychology education, non-clinical advice, and evidence-aware research synthesis.",
+      "version": "v1",
+      "role": "expert",
+      "tags": [
+        "psychology",
+        "advice",
+        "research"
+      ],
+      "status": "available",
+      "readme": "instruction-sets/experts/psychology-advice-research/README.md",
+      "archive": "instruction-sets/experts/psychology-advice-research/psychology-advice-research_v1.zip",
+      "sources": "instruction-sets/experts/psychology-advice-research/sources/",
+      "capabilities": [
+        "psychology-education",
+        "research-synthesis",
+        "non-clinical-guidance"
+      ],
+      "domains": [
+        "psychology"
+      ],
+      "aliases": [
+        "psychology research",
+        "psychology explainer"
+      ],
+      "use_cases": [
+        "explain psychological research",
+        "provide non-clinical psychology education"
+      ]
+    },
+    {
+      "id": "solid-visual-architecture",
+      "name": "SOLID Visual Architecture",
+      "description": "Architecture visualization and SOLID-oriented design instruction system.",
+      "version": "v1",
+      "role": "expert",
+      "tags": [
+        "solid",
+        "visual",
+        "architecture"
+      ],
+      "status": "available",
+      "readme": "instruction-sets/experts/solid-visual-architecture/README.md",
+      "archive": "instruction-sets/experts/solid-visual-architecture/solid-visual-architecture_v1.zip",
+      "sources": "instruction-sets/experts/solid-visual-architecture/sources/",
+      "capabilities": [
+        "software-architecture",
+        "visualization",
+        "solid-design"
+      ],
+      "domains": [
+        "software-architecture"
+      ],
+      "aliases": [
+        "solid architect",
+        "software architecture visualization"
+      ],
+      "use_cases": [
+        "visualize software architecture using SOLID principles"
+      ]
+    },
+    {
+      "id": "technical-research-project-instructions",
+      "name": "Technical Research Project Instructions",
+      "description": "Evidence-backed technical research, architecture consulting, and teaching.",
+      "version": "v2",
+      "role": "expert",
+      "tags": [
+        "technical",
+        "research",
+        "project",
+        "instructions"
+      ],
+      "status": "available",
+      "readme": "instruction-sets/experts/technical-research-project-instructions/README.md",
+      "archive": "instruction-sets/experts/technical-research-project-instructions/technical-research-project-instructions_v2.zip",
+      "sources": "instruction-sets/experts/technical-research-project-instructions/sources/",
+      "capabilities": [
+        "technical-research",
+        "evidence-synthesis",
+        "architecture-consulting",
+        "teaching"
+      ],
+      "domains": [
+        "software-engineering",
+        "technology-research"
+      ],
+      "aliases": [
+        "technical research agent",
+        "architecture consultant",
+        "technology researcher"
+      ],
+      "use_cases": [
+        "compare technologies with evidence",
+        "review technical architecture tradeoffs"
+      ]
+    },
+    {
+      "id": "app-planning",
+      "name": "App Planning",
+      "description": "Business, product, architecture, stack, research, and engineering handoff planning.",
+      "version": "v1",
+      "role": "strategist",
+      "tags": [
+        "app",
+        "planning"
+      ],
+      "status": "available",
+      "readme": "instruction-sets/strategists/app-planning/README.md",
+      "archive": "instruction-sets/strategists/app-planning/app-planning_v1.zip",
+      "sources": "instruction-sets/strategists/app-planning/sources/",
+      "capabilities": [
+        "product-planning",
+        "technical-architecture",
+        "implementation-roadmap",
+        "handoff"
+      ],
+      "domains": [
+        "software-products"
+      ],
+      "aliases": [
+        "application planner",
+        "app architect",
+        "product development planner"
+      ],
+      "use_cases": [
+        "plan applications and implementation roadmaps"
+      ]
+    },
+    {
+      "id": "business-app-idea",
+      "name": "Business App Idea",
+      "description": "Instruction set for shaping business application concepts into actionable plans.",
+      "version": "v1",
+      "role": "strategist",
+      "tags": [
+        "business",
+        "app",
+        "idea"
+      ],
+      "status": "available",
+      "readme": "instruction-sets/strategists/business-app-idea/README.md",
+      "archive": "instruction-sets/strategists/business-app-idea/business-app-idea_v1.zip",
+      "sources": "instruction-sets/strategists/business-app-idea/sources/",
+      "capabilities": [
+        "business-ideation",
+        "product-concept-development"
+      ],
+      "domains": [
+        "business",
+        "software-products"
+      ],
+      "aliases": [
+        "business application ideation",
+        "startup app idea"
+      ],
+      "use_cases": [
+        "shape business app concepts and value propositions"
+      ]
+    },
+    {
+      "id": "feature-extension-planning-council",
+      "name": "Feature Extension Planning Council",
+      "description": "Council-based feature planning, scope, architecture, risk, and implementation handoffs.",
+      "version": "v1",
+      "role": "orchestrator",
+      "tags": [
+        "feature",
+        "extension",
+        "planning",
+        "council"
+      ],
+      "status": "available",
+      "readme": "instruction-sets/orchestrators/feature-extension-planning-council/README.md",
+      "archive": "instruction-sets/orchestrators/feature-extension-planning-council/feature-extension-planning-council_v1.zip",
+      "sources": "instruction-sets/orchestrators/feature-extension-planning-council/sources/",
+      "capabilities": [
+        "specialist-coordination",
+        "feature-planning",
+        "risk-analysis",
+        "agent-handoffs"
+      ],
+      "domains": [
+        "software-products",
+        "delivery-planning"
+      ],
+      "aliases": [
+        "feature planning council",
+        "multi agent feature planning"
+      ],
+      "use_cases": [
+        "coordinate specialist feature extension planning"
+      ]
+    },
+    {
+      "id": "general-purpose-chatgpt-conversations",
+      "name": "General-Purpose ChatGPT Conversations",
+      "description": "Efficient, friendly general-purpose ChatGPT conversations with mode-sensitive pacing, credible research, source filtering, and self-heal guidance.",
+      "version": "v2",
+      "role": "generalist",
+      "tags": [
+        "general-purpose",
+        "chatgpt",
+        "conversation",
+        "research",
+        "source-filtering",
+        "self-heal"
+      ],
+      "status": "available",
+      "readme": "instruction-sets/generalists/general-purpose-chatgpt-conversations/README.md",
+      "archive": "instruction-sets/generalists/general-purpose-chatgpt-conversations/general-purpose-chatgpt-conversations_v2.zip",
+      "sources": "instruction-sets/generalists/general-purpose-chatgpt-conversations/sources/",
+      "capabilities": [
+        "general-conversation",
+        "research-assistance",
+        "brainstorming"
+      ],
+      "domains": [
+        "general-purpose"
+      ],
+      "aliases": [
+        "general chatgpt",
+        "everyday assistant",
+        "general conversation assistant"
+      ],
+      "use_cases": [
+        "answer everyday questions",
+        "brainstorm and offer general advice"
+      ]
     }
   ]
 }

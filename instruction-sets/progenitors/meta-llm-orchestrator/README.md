@@ -42,4 +42,4 @@ This overview describes the package's role in the registry, not a complete speci
 
 Repackaged from `packages/meta-llm-orchestrator/v18/meta_llm_orchestrator_instruction_set_v18.zip`. Archive contents were reorganized beneath the normalized `meta-llm-orchestrator/` directory without intended changes to source instructions.
 
-This instruction system is independent in the [registry](../../registry.json). [Meta-LLM Orchestrator v18](../meta-llm-orchestrator/README.md) is retained as the foundational progenitor; that designation does not imply all specialized packages have identical internal behavior.
+This instruction system is independent in the [registry](../../../registry.json). [Meta-LLM Orchestrator v18](../../progenitors/meta-llm-orchestrator/README.md) is retained as the foundational progenitor; that designation does not imply all specialized packages have identical internal behavior.

@@ -42,4 +42,4 @@ Specific capabilities and output contracts have not been independently audited h
 
 Originally stored at `packages/meta-llm-orchestrator/v18/business_app_idea_project_instruction_set_v1.zip`. Its separate registry entry is a classification change, not a claim that its content is the v18 progenitor.
 
-This instruction system is independent in the [registry](../../registry.json). [Meta-LLM Orchestrator v18](../meta-llm-orchestrator/README.md) is retained as the foundational progenitor; that designation does not imply all specialized packages have identical internal behavior.
+This instruction system is independent in the [registry](../../../registry.json). [Meta-LLM Orchestrator v18](../../progenitors/meta-llm-orchestrator/README.md) is retained as the foundational progenitor; that designation does not imply all specialized packages have identical internal behavior.

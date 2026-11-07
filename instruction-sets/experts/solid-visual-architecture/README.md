@@ -42,4 +42,4 @@ The actual diagram notation, workflow sequence, and evaluation rubric need to be
 
 Originally stored at `packages/meta-llm-orchestrator/v18/solid_visual_architecture_instruction_set_v1.zip`; published separately because it is a distinct instruction system.
 
-This instruction system is independent in the [registry](../../registry.json). [Meta-LLM Orchestrator v18](../meta-llm-orchestrator/README.md) is retained as the foundational progenitor; that designation does not imply all specialized packages have identical internal behavior.
+This instruction system is independent in the [registry](../../../registry.json). [Meta-LLM Orchestrator v18](../../progenitors/meta-llm-orchestrator/README.md) is retained as the foundational progenitor; that designation does not imply all specialized packages have identical internal behavior.

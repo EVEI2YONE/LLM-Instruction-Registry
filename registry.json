@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "description": "Canonical, available LLM instruction sets. Paths are repository-relative.",
+  "instruction_sets": [
+    {
+      "id": "meta-llm-orchestrator",
+      "name": "Meta-LLM Orchestrator",
+      "description": "Foundational progenitor instruction architecture for designing and organizing other LLM instruction sets.",
+      "version": "v18",
+      "status": "available",
+      "role": "progenitor",
+      "tags": [
+        "architecture",
+        "instruction-design",
+        "orchestration",
+        "foundational"
+      ],
+      "readme": "meta-llm-orchestrator/README.md",
+      "archive": "meta-llm-orchestrator/meta-llm-orchestrator.zip",
+      "sources": "meta-llm-orchestrator/sources/"
+    }
+  ]
+}

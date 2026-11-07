@@ -6,6 +6,7 @@ A versioned catalog of standalone LLM instruction sets. **Meta-LLM Orchestrator 
 
 | Instruction set | Version | Purpose | Archive |
 |---|---|---|---|
+| [AI Knowledge Atlas](instruction-sets/ai-knowledge-atlas/README.md) | v2.1 | Living evidence-backed AI research catalog, relevance/currency reviews, agentic retrieval, and coding-agent knowledge-gap analysis. | [ai-knowledge-atlas_v2.1.zip](instruction-sets/ai-knowledge-atlas/ai-knowledge-atlas_v2.1.zip) |
 | [Meta-LLM Orchestrator](instruction-sets/meta-llm-orchestrator/README.md) | v18 | Foundational progenitor for composing and coordinating specialized LLM instruction sets. | [meta-llm-orchestrator_v18.zip](instruction-sets/meta-llm-orchestrator/meta-llm-orchestrator_v18.zip) |
 | [App Planning](instruction-sets/app-planning/README.md) | v1 | Business, product, architecture, stack, research, and engineering handoff planning. | [app-planning_v1.zip](instruction-sets/app-planning/app-planning_v1.zip) |
 | [Business App Idea](instruction-sets/business-app-idea/README.md) | v1 | Instruction set for shaping business application concepts into actionable plans. | [business-app-idea_v1.zip](instruction-sets/business-app-idea/business-app-idea_v1.zip) |
@@ -35,7 +36,7 @@ Read the package README before loading an archive; individual instruction system
 ## Canonical and pending packages
 
 - **Meta-LLM Orchestrator v18** remains the progenitor independently of later derivatives.
-- **AI Knowledge Atlas**: owner-designated archive `AI-Knowledge-Atlas-40-Project-Sources.zip` is **not uploaded**; no reconstructed or placeholder archive is published.
+- **AI Knowledge Atlas v2.1** is available with 40 browsable source documents and a normalized archive. Its emphasis is living research catalog maintenance and agent-friendly search.
 - Archive versions remain explicit in their filenames and metadata. See [CONTRIBUTING.md](CONTRIBUTING.md) to add an instruction set.
 
 ## Agent instructions — registering and maintaining instruction sets

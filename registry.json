@@ -169,6 +169,27 @@
       "readme": "instruction-sets/ui-ux-design-system-architect/README.md",
       "archive": "instruction-sets/ui-ux-design-system-architect/ui-ux-design-system-architect_v1.1.zip",
       "sources": "instruction-sets/ui-ux-design-system-architect/sources/"
+    },
+    {
+      "id": "ai-knowledge-atlas",
+      "name": "AI Knowledge Atlas",
+      "description": "Living evidence-backed AI research catalog; source freshness, relevance, knowledge-gap curation, agent-friendly search and technical architecture reference.",
+      "version": "v2.1",
+      "role": "specialized",
+      "tags": [
+        "ai",
+        "research",
+        "knowledge-catalog",
+        "agentic-search",
+        "retrieval",
+        "source-freshness",
+        "architecture",
+        "gap-analysis"
+      ],
+      "status": "available",
+      "readme": "instruction-sets/ai-knowledge-atlas/README.md",
+      "archive": "instruction-sets/ai-knowledge-atlas/ai-knowledge-atlas_v2.1.zip",
+      "sources": "instruction-sets/ai-knowledge-atlas/sources/"
     }
   ]
 }

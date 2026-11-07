@@ -9,6 +9,7 @@ Central registry of authoritative, reusable LLM instruction-set ZIP packages.
 | Meta-LLM Instruction Architect | [`meta_llm_orchestrator_instruction_set_v18.zip`](packages/meta-llm-orchestrator/v18/meta_llm_orchestrator_instruction_set_v18.zip) | **Progenitor** instruction architecture; retain as the foundational system | Uploaded |
 | Technical Research Project Instructions v2 | [`technical_research_project_instructions_v2.zip`](packages/technical-research-project-instructions/v2/technical_research_project_instructions_v2.zip) | Research, architecture consulting, and technical teaching | Uploaded |
 | AI Knowledge Atlas | `AI-Knowledge-Atlas-40-Project-Sources.zip` | **Latest authoritative Atlas instruction set**, confirmed by repository owner | Awaiting recovery of original ZIP bytes |
+| App Planning Instruction Set v1 | [ZIP archive](packages/app-planning/v1/app_planning_instruction_set_v1.zip) | Product, architecture, modularity, stack, research and agent handoff planning | Sources uploaded |
 | Feature Extension Planning Council | [v1 sources](packages/feature-extension-planning-council/v1/README.md) | Feature scope, architecture, risk, phased delivery, and TPM handoff council | Sources uploaded |
 
 ## Canonical selection decisions
@@ -33,3 +34,7 @@ The Atlas package is known by exact name, but its original binary content was no
 | Psychology Advice & Research v1 | [`psychology_advice_research_project_v1.zip`](packages/psychology-advice-research/v1/psychology_advice_research_project_v1.zip) | Psychology education, practical non-clinical advice, and evidence-aware research synthesis | Uploaded |
 
 [Browse package sources](packages/psychology-advice-research/v1/sources/) · [Package README](packages/psychology-advice-research/v1/README.md)
+
+## App Planning Instruction Set
+
+[Version 1 overview](packages/app-planning/v1/README.md) · [Source directory](packages/app-planning/v1/sources/) · [ZIP archive](packages/app-planning/v1/app_planning_instruction_set_v1.zip)

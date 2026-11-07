@@ -24,3 +24,11 @@ Download and extract an uploaded ZIP. Follow its own README for source-material 
 ## Import limitations
 
 The Atlas package is known by exact name, but its original binary content was not accessible through the currently available Project/Library file extraction interface. This README records the chosen authoritative archive; it **does not represent the Atlas ZIP as uploaded**. Add the original ZIP at `packages/ai-knowledge-atlas/latest/AI-Knowledge-Atlas-40-Project-Sources.zip` when its bytes are available.
+
+## Coding Partner / Mentor / Teacher
+
+The [Coding Partner v1 instruction package](packages/coding-partner-mentor-teacher/v1/README.md) provides a practical software-engineering assistant configuration with concise recommendations, debugging workflows, design reviews, mentorship examples, and self-heal guidance.
+
+- [Download the v1 ZIP](packages/coding-partner-mentor-teacher/v1/coding_partner_mentor_teacher_instruction_set_v1.zip)
+- [Browse editable source files](packages/coding-partner-mentor-teacher/v1/sources/)
+- Primary prompt: `packages/coding-partner-mentor-teacher/v1/sources/00_compiled_instruction_prompt.md`

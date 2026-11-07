@@ -43,4 +43,4 @@ Plans should distinguish verified existing behavior from assumptions. This packa
 
 Migrated from the original v1 sources. No original archive was supplied for that package; the canonical ZIP was assembled from its source tree. See [the original package README](sources/ORIGINAL_PACKAGE_README.md).
 
-This instruction system is independent in the [registry](../../registry.json). [Meta-LLM Orchestrator v18](../meta-llm-orchestrator/README.md) is retained as the foundational progenitor; that designation does not imply all specialized packages have identical internal behavior.
+This instruction system is independent in the [registry](../../../registry.json). [Meta-LLM Orchestrator v18](../../progenitors/meta-llm-orchestrator/README.md) is retained as the foundational progenitor; that designation does not imply all specialized packages have identical internal behavior.

@@ -43,4 +43,4 @@ This is not a clinical diagnosis, therapy, or emergency-support system. Avoid pr
 
 Based on the original psychology research v1 source package, with its [original README](sources/ORIGINAL_PACKAGE_README.md) retained.
 
-This instruction system is independent in the [registry](../../registry.json). [Meta-LLM Orchestrator v18](../meta-llm-orchestrator/README.md) is retained as the foundational progenitor; that designation does not imply all specialized packages have identical internal behavior.
+This instruction system is independent in the [registry](../../../registry.json). [Meta-LLM Orchestrator v18](../../progenitors/meta-llm-orchestrator/README.md) is retained as the foundational progenitor; that designation does not imply all specialized packages have identical internal behavior.

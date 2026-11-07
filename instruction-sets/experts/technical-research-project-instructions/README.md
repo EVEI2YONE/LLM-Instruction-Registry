@@ -43,4 +43,4 @@ Research quality depends on access to reliable and current sources. Do not treat
 
 Migrated from the technical research v2 package; the [original README](sources/ORIGINAL_PACKAGE_README.md) and source files remain available.
 
-This instruction system is independent in the [registry](../../registry.json). [Meta-LLM Orchestrator v18](../meta-llm-orchestrator/README.md) is retained as the foundational progenitor; that designation does not imply all specialized packages have identical internal behavior.
+This instruction system is independent in the [registry](../../../registry.json). [Meta-LLM Orchestrator v18](../../progenitors/meta-llm-orchestrator/README.md) is retained as the foundational progenitor; that designation does not imply all specialized packages have identical internal behavior.

@@ -2,25 +2,24 @@
 
 Central registry of authoritative, reusable LLM instruction-set ZIP packages.
 
-## Current packages
+## Canonical packages
 
-| Instruction system | Latest verified version | Archive | Provenance |
+| Instruction system | Authoritative package | Role | Repository status |
 |---|---|---|---|
-| Meta-LLM Instruction Architect | v18 | [Download v18 ZIP](packages/meta-llm-orchestrator/v18/meta_llm_orchestrator_instruction_set_v18.zip) | Reconstructed from current project source files |
+| Meta-LLM Instruction Architect | [`meta_llm_orchestrator_instruction_set_v18.zip`](packages/meta-llm-orchestrator/v18/meta_llm_orchestrator_instruction_set_v18.zip) | **Progenitor** instruction architecture; retain as the foundational system | Uploaded |
+| AI Knowledge Atlas | `AI-Knowledge-Atlas-40-Project-Sources.zip` | **Latest authoritative Atlas instruction set**, confirmed by repository owner | Awaiting recovery of original ZIP bytes |
 
-## Deduplication policy
+## Canonical selection decisions
 
-- **One current authoritative package per distinct instruction system.** Revisions to the same project are versions, not separate systems.
-- **Compare archive contents, not just filenames.** Alternate names can represent identical packages. Do not assert duplication until hashes or extracted contents have been compared.
-- **Prefer the latest complete, validated instruction set.** Preserve historical versions under the same project directory only when needed for rollback or provenance.
-- **Distinguish instructions from supporting resources.** Project-source bundles, development plans, and repository exports are not automatically standalone instruction systems.
-- **Do not silently reconstruct missing past packages.** Mark packages unavailable if only conversation-memory references exist without recoverable ZIP bytes.
-- **Never overwrite an authoritative release without validating it.** For uploaded ZIPs, record version, date, source project and content hash when possible.
+- **Retain the Meta-LLM Orchestrator v18 ZIP** as the progenitor, even if newer specialized instruction systems are added.
+- **Retain AI-Knowledge-Atlas-40-Project-Sources.zip** as the sole authoritative latest Atlas package. Other Atlas v1/v2/compact or alias archives are not separate current releases and should not be imported as competing canonical entries.
+- Archive contents, if available, should be verified before upload. No replacement or speculative reconstruction of the canonical Atlas ZIP.
+- Distinct instruction systems may each have one latest canonical release; historical versions remain optional, clearly labeled, and separate.
 
 ## Loading a package
 
-Download and extract the selected ZIP. Refer to the package's own `00_README.md` for its source-material layout, and add the extracted files to the target project or agent.
+Download and extract an uploaded ZIP. Follow its own README for source-material setup and project or agent integration.
 
-## Import status
+## Import limitations
 
-Additional instruction-related ZIP names were identified in the Library, including AI Knowledge Atlas aliases and versions. They are **not yet uploaded**: their original binary contents could not be recovered through the available file interface. The v18 package above is the only ZIP currently imported.
+The Atlas package is known by exact name, but its original binary content was not accessible through the currently available Project/Library file extraction interface. This README records the chosen authoritative archive; it **does not represent the Atlas ZIP as uploaded**. Add the original ZIP at `packages/ai-knowledge-atlas/latest/AI-Knowledge-Atlas-40-Project-Sources.zip` when its bytes are available.

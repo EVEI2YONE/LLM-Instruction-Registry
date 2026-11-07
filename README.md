@@ -8,6 +8,7 @@ Central registry of authoritative, reusable LLM instruction-set ZIP packages.
 |---|---|---|---|
 | Meta-LLM Instruction Architect | [`meta_llm_orchestrator_instruction_set_v18.zip`](packages/meta-llm-orchestrator/v18/meta_llm_orchestrator_instruction_set_v18.zip) | **Progenitor** instruction architecture; retain as the foundational system | Uploaded |
 | AI Knowledge Atlas | `AI-Knowledge-Atlas-40-Project-Sources.zip` | **Latest authoritative Atlas instruction set**, confirmed by repository owner | Awaiting recovery of original ZIP bytes |
+| Feature Extension Planning Council | [v1 sources](packages/feature-extension-planning-council/v1/README.md) | Feature scope, architecture, risk, phased delivery, and TPM handoff council | Sources uploaded |
 
 ## Canonical selection decisions
 
@@ -15,8 +16,6 @@ Central registry of authoritative, reusable LLM instruction-set ZIP packages.
 - **Retain AI-Knowledge-Atlas-40-Project-Sources.zip** as the sole authoritative latest Atlas package. Other Atlas v1/v2/compact or alias archives are not separate current releases and should not be imported as competing canonical entries.
 - Archive contents, if available, should be verified before upload. No replacement or speculative reconstruction of the canonical Atlas ZIP.
 - Distinct instruction systems may each have one latest canonical release; historical versions remain optional, clearly labeled, and separate.
-
-| Feature Extension Planning Council | [v1 sources](packages/feature-extension-planning-council/v1/README.md) | Feature scope, architecture, risk, phased delivery, and TPM handoff council | Sources uploaded |
 
 ## Loading a package
 

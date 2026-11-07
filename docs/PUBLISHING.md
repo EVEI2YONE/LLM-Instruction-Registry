@@ -11,4 +11,16 @@ Follow [CONTRIBUTING](../CONTRIBUTING.md), [role taxonomy](ROLE_TAXONOMY.md), th
 7. Incomplete source-only packages may have pending documentation but must not have fabricated available releases.
 8. Open or update a reviewable PR based on current `main`; never merge without explicit authorization. State file count, verification scope and known limitations. No claim of post-upload ZIP integrity unless verified.
 
+## Search index maintenance gate
+
+Include informative `aliases` and `use_cases` for every available release, in addition to role, capabilities and domains. On additions, renames or role changes, validate the catalog and expected search results:
+
+```sh
+python3 scripts/search_registry.py validate
+python3 -m unittest discover -s scripts -p 'test_*.py'
+python3 scripts/search_registry.py search --query "coding mentor"
+```
+
+See [agent discovery protocol](AGENTIC_SEARCH.md). Document newly ambiguous aliases and add appropriate regressions. Do not claim local tests passed unless run; CI status is a separate verification gate.
+
 Do not rerun the legacy one-time `scripts/rebuild_registry.py` migration.

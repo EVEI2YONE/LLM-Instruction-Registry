@@ -8,4 +8,6 @@ The ZIP inside each package must have one `<id>/` top-level directory. **For new
 
 Do not fabricate archives, tests or metadata. Packages without a real ZIP and source README remain pending and unregistered. Use branches and reviewable PRs; never merge without explicit user authorization. [Executive Product Repository Review](instruction-sets/strategists/executive-product-repo-review/README.md) is such a pending source-only package.
 
+Maintain meaningful `aliases` and `use_cases` for search, plus one primary role and multiple useful capability/domain facets. Consult the [agent discovery protocol](docs/AGENTIC_SEARCH.md) and run `python3 scripts/search_registry.py validate` plus the search unit tests before publishing. Source paths and metadata must describe actual capabilities, not claimed tool availability.
+
 Do not rerun legacy `scripts/rebuild_registry.py` when `packages/` is absent.

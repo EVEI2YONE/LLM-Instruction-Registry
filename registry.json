@@ -1,5 +1,5 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "instruction_sets": [
     {
       "id": "meta-llm-orchestrator",
@@ -24,6 +24,15 @@
       "domains": [
         "meta-instructions",
         "llm-systems"
+      ],
+      "aliases": [
+        "meta orchestrator",
+        "instruction set generator",
+        "agent instruction architect"
+      ],
+      "use_cases": [
+        "design reusable instruction sets",
+        "coordinate specialist instruction roles"
       ]
     },
     {
@@ -57,6 +66,17 @@
         "artificial-intelligence",
         "machine-learning",
         "agentic-systems"
+      ],
+      "aliases": [
+        "ai atlas",
+        "knowledge atlas",
+        "ai research curator",
+        "ai knowledge base"
+      ],
+      "use_cases": [
+        "audit AI research knowledge gaps",
+        "update evidence-backed AI knowledge catalog",
+        "find AI architecture and evaluation research"
       ]
     },
     {
@@ -87,6 +107,15 @@
       "domains": [
         "ui-ux",
         "design-systems"
+      ],
+      "aliases": [
+        "design system curator",
+        "ui ux design architect",
+        "design catalog"
+      ],
+      "use_cases": [
+        "audit UI UX catalog",
+        "plan accessible component modernization"
       ]
     },
     {
@@ -113,6 +142,15 @@
       ],
       "domains": [
         "software-engineering"
+      ],
+      "aliases": [
+        "coding mentor",
+        "code reviewer",
+        "debugging partner"
+      ],
+      "use_cases": [
+        "debug code and explain fixes",
+        "review software maintainability"
       ]
     },
     {
@@ -137,6 +175,14 @@
       ],
       "domains": [
         "psychology"
+      ],
+      "aliases": [
+        "psychology research",
+        "psychology explainer"
+      ],
+      "use_cases": [
+        "explain psychological research",
+        "provide non-clinical psychology education"
       ]
     },
     {
@@ -161,6 +207,13 @@
       ],
       "domains": [
         "software-architecture"
+      ],
+      "aliases": [
+        "solid architect",
+        "software architecture visualization"
+      ],
+      "use_cases": [
+        "visualize software architecture using SOLID principles"
       ]
     },
     {
@@ -188,6 +241,15 @@
       "domains": [
         "software-engineering",
         "technology-research"
+      ],
+      "aliases": [
+        "technical research agent",
+        "architecture consultant",
+        "technology researcher"
+      ],
+      "use_cases": [
+        "compare technologies with evidence",
+        "review technical architecture tradeoffs"
       ]
     },
     {
@@ -212,6 +274,14 @@
       ],
       "domains": [
         "software-products"
+      ],
+      "aliases": [
+        "application planner",
+        "app architect",
+        "product development planner"
+      ],
+      "use_cases": [
+        "plan applications and implementation roadmaps"
       ]
     },
     {
@@ -236,6 +306,13 @@
       "domains": [
         "business",
         "software-products"
+      ],
+      "aliases": [
+        "business application ideation",
+        "startup app idea"
+      ],
+      "use_cases": [
+        "shape business app concepts and value propositions"
       ]
     },
     {
@@ -263,6 +340,13 @@
       "domains": [
         "software-products",
         "delivery-planning"
+      ],
+      "aliases": [
+        "feature planning council",
+        "multi agent feature planning"
+      ],
+      "use_cases": [
+        "coordinate specialist feature extension planning"
       ]
     },
     {
@@ -290,6 +374,15 @@
       ],
       "domains": [
         "general-purpose"
+      ],
+      "aliases": [
+        "general chatgpt",
+        "everyday assistant",
+        "general conversation assistant"
+      ],
+      "use_cases": [
+        "answer everyday questions",
+        "brainstorm and offer general advice"
       ]
     }
   ]

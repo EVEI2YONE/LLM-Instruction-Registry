@@ -31,6 +31,18 @@ A versioned catalog of reusable LLM instruction systems grouped by **primary rol
 
 Use [registry.json](registry.json) for programmatic lookup by stable `id`, `role`, `capabilities`, `domains` or `tags`. See [role taxonomy and relocation map](docs/ROLE_TAXONOMY.md).
 
+## Agentic search and discovery
+
+Use the [agent discovery protocol](docs/AGENTIC_SEARCH.md) and zero-dependency [registry lookup CLI](scripts/search_registry.py) to find instruction sets by natural-language goal, primary `role`, exact `capability`, or `domain`. The CLI returns compact ranked JSON with canonical source paths and match-explanation fields, without loading every package into context.
+
+```sh
+python3 scripts/search_registry.py search --query "coding mentor"
+python3 scripts/search_registry.py search --role curator --capability catalog-maintenance
+python3 scripts/search_registry.py facets
+python3 scripts/search_registry.py validate
+```
+
+The [GitHub Actions discovery tests](.github/workflows/registry-search-checks.yml) verify metadata and canonical paths. Ranking is deterministic lexical relevance, not semantic inference, quality scoring or proof of tool capabilities.
 ## Folder structure
 
 ```text

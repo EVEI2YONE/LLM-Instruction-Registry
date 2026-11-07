@@ -1,0 +1,6 @@
+Claude Code template
+- Remember to include this for actionable items when anti-gravity hands off its implementation and tasks artifacts
+
+```
+Categorize these into actionable phases with each phase having its own set of related tasks to hand off to subagents in their own worktrees to achieve the goals of the implemetnation and subtasks without causing conflicts.
+```

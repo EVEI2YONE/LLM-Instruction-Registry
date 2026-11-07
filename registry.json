@@ -130,6 +130,25 @@
       "readme": "instruction-sets/technical-research-project-instructions/README.md",
       "archive": "instruction-sets/technical-research-project-instructions/technical-research-project-instructions_v2.zip",
       "sources": "instruction-sets/technical-research-project-instructions/sources/"
+    },
+    {
+      "id": "general-purpose-chatgpt-conversations",
+      "name": "General-Purpose ChatGPT Conversations",
+      "description": "Efficient, friendly general-purpose ChatGPT conversations with mode-sensitive pacing, credible research, source filtering, and self-heal guidance.",
+      "version": "v2",
+      "role": "specialized",
+      "tags": [
+        "general-purpose",
+        "chatgpt",
+        "conversation",
+        "research",
+        "source-filtering",
+        "self-heal"
+      ],
+      "status": "available",
+      "readme": "instruction-sets/general-purpose-chatgpt-conversations/README.md",
+      "archive": "instruction-sets/general-purpose-chatgpt-conversations/general-purpose-chatgpt-conversations_v2.zip",
+      "sources": "instruction-sets/general-purpose-chatgpt-conversations/sources/"
     }
   ]
 }

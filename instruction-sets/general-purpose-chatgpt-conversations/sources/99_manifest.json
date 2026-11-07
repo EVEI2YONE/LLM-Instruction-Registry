@@ -1,0 +1,36 @@
+{
+  "package": "efficient_conversation_research_project",
+  "version": "v2",
+  "purpose": "ChatGPT Project instructions for concise, friendly, topic-enhancing conversation with credible-source research when useful.",
+  "files": [
+    "00_README.md",
+    "00_compiled_instruction_set.md",
+    "01_core/01_core_role_instruction_set.md",
+    "02_helpers/02_conversation_pacing_helpers.md",
+    "02_helpers/02_research_and_source_filtering_helpers.md",
+    "03_sub_roles/03_sub_role_instruction_sets.md",
+    "04_templates/04_response_templates.md",
+    "04_templates/04_source_review_template.md",
+    "05_handoffs/05_phased_handoff_template.md",
+    "06_sources_to_update/06_preference_registry.md",
+    "06_sources_to_update/06_source_quality_registry.md",
+    "06_sources_to_update/06_correction_log.md",
+    "06_sources_to_update/06_self_heal_instruction_set.md",
+    "07_tables/07_expected_instruction_sets_table.md",
+    "07_tables/07_validation_table.md",
+    "99_manifest.json"
+  ],
+  "validation": {
+    "zip_exists": true,
+    "organized_source_artifacts": true,
+    "compiled_instruction_set_present": true,
+    "conversation_pacing_present": true,
+    "source_filtering_present": true,
+    "source_quality_registry_present": true,
+    "self_heal_required": true,
+    "self_heal_artifact_present": true,
+    "expected_table_present": true,
+    "delivery_table_required": true,
+    "extraction_guidance_required": true
+  }
+}

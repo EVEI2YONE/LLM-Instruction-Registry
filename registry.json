@@ -1,0 +1,135 @@
+{
+  "schema_version": 1,
+  "instruction_sets": [
+    {
+      "id": "meta-llm-orchestrator",
+      "name": "Meta-LLM Orchestrator",
+      "description": "Foundational progenitor for composing and coordinating specialized LLM instruction sets.",
+      "version": "v18",
+      "role": "progenitor",
+      "tags": [
+        "meta",
+        "llm",
+        "orchestrator"
+      ],
+      "status": "available",
+      "readme": "instruction-sets/meta-llm-orchestrator/README.md",
+      "archive": "instruction-sets/meta-llm-orchestrator/meta-llm-orchestrator_v18.zip",
+      "sources": "instruction-sets/meta-llm-orchestrator/sources/"
+    },
+    {
+      "id": "app-planning",
+      "name": "App Planning",
+      "description": "Business, product, architecture, stack, research, and engineering handoff planning.",
+      "version": "v1",
+      "role": "specialized",
+      "tags": [
+        "app",
+        "planning"
+      ],
+      "status": "available",
+      "readme": "instruction-sets/app-planning/README.md",
+      "archive": "instruction-sets/app-planning/app-planning_v1.zip",
+      "sources": "instruction-sets/app-planning/sources/"
+    },
+    {
+      "id": "business-app-idea",
+      "name": "Business App Idea",
+      "description": "Instruction set for shaping business application concepts into actionable plans.",
+      "version": "v1",
+      "role": "specialized",
+      "tags": [
+        "business",
+        "app",
+        "idea"
+      ],
+      "status": "available",
+      "readme": "instruction-sets/business-app-idea/README.md",
+      "archive": "instruction-sets/business-app-idea/business-app-idea_v1.zip",
+      "sources": "instruction-sets/business-app-idea/sources/"
+    },
+    {
+      "id": "coding-partner-mentor-teacher",
+      "name": "Coding Partner / Mentor / Teacher",
+      "description": "Engineering assistance, debugging, code review, and practical mentorship.",
+      "version": "v1",
+      "role": "specialized",
+      "tags": [
+        "coding",
+        "partner",
+        "mentor",
+        "teacher"
+      ],
+      "status": "available",
+      "readme": "instruction-sets/coding-partner-mentor-teacher/README.md",
+      "archive": "instruction-sets/coding-partner-mentor-teacher/coding-partner-mentor-teacher_v1.zip",
+      "sources": "instruction-sets/coding-partner-mentor-teacher/sources/"
+    },
+    {
+      "id": "feature-extension-planning-council",
+      "name": "Feature Extension Planning Council",
+      "description": "Council-based feature planning, scope, architecture, risk, and implementation handoffs.",
+      "version": "v1",
+      "role": "specialized",
+      "tags": [
+        "feature",
+        "extension",
+        "planning",
+        "council"
+      ],
+      "status": "available",
+      "readme": "instruction-sets/feature-extension-planning-council/README.md",
+      "archive": "instruction-sets/feature-extension-planning-council/feature-extension-planning-council_v1.zip",
+      "sources": "instruction-sets/feature-extension-planning-council/sources/"
+    },
+    {
+      "id": "psychology-advice-research",
+      "name": "Psychology Advice & Research",
+      "description": "Psychology education, non-clinical advice, and evidence-aware research synthesis.",
+      "version": "v1",
+      "role": "specialized",
+      "tags": [
+        "psychology",
+        "advice",
+        "research"
+      ],
+      "status": "available",
+      "readme": "instruction-sets/psychology-advice-research/README.md",
+      "archive": "instruction-sets/psychology-advice-research/psychology-advice-research_v1.zip",
+      "sources": "instruction-sets/psychology-advice-research/sources/"
+    },
+    {
+      "id": "solid-visual-architecture",
+      "name": "SOLID Visual Architecture",
+      "description": "Architecture visualization and SOLID-oriented design instruction system.",
+      "version": "v1",
+      "role": "specialized",
+      "tags": [
+        "solid",
+        "visual",
+        "architecture"
+      ],
+      "status": "available",
+      "readme": "instruction-sets/solid-visual-architecture/README.md",
+      "archive": "instruction-sets/solid-visual-architecture/solid-visual-architecture_v1.zip",
+      "sources": "instruction-sets/solid-visual-architecture/sources/"
+    },
+    {
+      "id": "technical-research-project-instructions",
+      "name": "Technical Research Project Instructions",
+      "description": "Evidence-backed technical research, architecture consulting, and teaching.",
+      "version": "v2",
+      "role": "specialized",
+      "tags": [
+        "technical",
+        "research",
+        "project",
+        "instructions"
+      ],
+      "status": "available",
+      "readme": "instruction-sets/technical-research-project-instructions/README.md",
+      "archive": "instruction-sets/technical-research-project-instructions/technical-research-project-instructions_v2.zip",
+      "sources": "instruction-sets/technical-research-project-instructions/sources/"
+    }
+  ]
+}

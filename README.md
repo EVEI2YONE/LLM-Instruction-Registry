@@ -7,6 +7,7 @@ Central registry of authoritative, reusable LLM instruction-set ZIP packages.
 | Instruction system | Authoritative package | Role | Repository status |
 |---|---|---|---|
 | Meta-LLM Instruction Architect | [`meta_llm_orchestrator_instruction_set_v18.zip`](packages/meta-llm-orchestrator/v18/meta_llm_orchestrator_instruction_set_v18.zip) | **Progenitor** instruction architecture; retain as the foundational system | Uploaded |
+| Technical Research Project Instructions v2 | [`technical_research_project_instructions_v2.zip`](packages/technical-research-project-instructions/v2/technical_research_project_instructions_v2.zip) | Research, architecture consulting, and technical teaching | Uploaded |
 | AI Knowledge Atlas | `AI-Knowledge-Atlas-40-Project-Sources.zip` | **Latest authoritative Atlas instruction set**, confirmed by repository owner | Awaiting recovery of original ZIP bytes |
 
 ## Canonical selection decisions

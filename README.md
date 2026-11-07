@@ -16,6 +16,8 @@ Central registry of authoritative, reusable LLM instruction-set ZIP packages.
 - Archive contents, if available, should be verified before upload. No replacement or speculative reconstruction of the canonical Atlas ZIP.
 - Distinct instruction systems may each have one latest canonical release; historical versions remain optional, clearly labeled, and separate.
 
+| Feature Extension Planning Council | [v1 sources](packages/feature-extension-planning-council/v1/README.md) | Feature scope, architecture, risk, phased delivery, and TPM handoff council | Sources uploaded |
+
 ## Loading a package
 
 Download and extract an uploaded ZIP. Follow its own README for source-material setup and project or agent integration.

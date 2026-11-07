@@ -1,0 +1,19 @@
+{
+  "package": "coding_partner_mentor_teacher_instruction_package",
+  "version": "1.0.0",
+  "primary_prompt": "00_compiled_instruction_prompt.md",
+  "artifacts": [
+    "README.md",
+    "00_compiled_instruction_prompt.md",
+    "01_core_role_instruction_set.md",
+    "02_response_helpers.md",
+    "03_quick_reference_examples.md",
+    "04_boundaries_and_preferences.md",
+    "05_self_heal_instruction_set.md",
+    "06_manifest.json",
+    "07_validation_table.md"
+  ],
+  "self_heal_required": true,
+  "self_heal_artifact_present": true,
+  "delivery_table_required": true
+}

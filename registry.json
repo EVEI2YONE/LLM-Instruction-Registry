@@ -149,6 +149,26 @@
       "readme": "instruction-sets/general-purpose-chatgpt-conversations/README.md",
       "archive": "instruction-sets/general-purpose-chatgpt-conversations/general-purpose-chatgpt-conversations_v2.zip",
       "sources": "instruction-sets/general-purpose-chatgpt-conversations/sources/"
+    },
+    {
+      "id": "ui-ux-design-system-architect",
+      "name": "UI/UX Design System Architect",
+      "description": "Catalog-first UI/UX knowledge and component audits and prioritized migration guidance.",
+      "version": "v1.1",
+      "role": "specialized",
+      "tags": [
+        "ux",
+        "ui",
+        "design-system",
+        "catalog",
+        "a11y",
+        "i18n",
+        "migration"
+      ],
+      "status": "available",
+      "readme": "instruction-sets/ui-ux-design-system-architect/README.md",
+      "archive": "instruction-sets/ui-ux-design-system-architect/ui-ux-design-system-architect_v1.1.zip",
+      "sources": "instruction-sets/ui-ux-design-system-architect/sources/"
     }
   ]
 }

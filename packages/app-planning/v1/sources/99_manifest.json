@@ -1,0 +1,49 @@
+{
+  "package": "app_planning_instruction_set",
+  "version": "v1",
+  "created_date": "2026-05-08",
+  "source_files": [
+    "LLM Instructions Orchestrator.txt",
+    "Roles and Plan Workflow (1).txt",
+    "Roles and Plan Workflow - compact.txt",
+    "TidBits (1).txt"
+  ],
+  "zip_first": true,
+  "self_heal_required": true,
+  "self_heal_artifact_present": true,
+  "compiled_instruction_set_present": true,
+  "mode_registry_present": true,
+  "stack_review_required": true,
+  "modular_review_required": true,
+  "research_handoff_required": true,
+  "antigravity_handoff_required": true,
+  "claude_handoff_required": true,
+  "validation": {
+    "zip_exists": true,
+    "organized_sources": true,
+    "readme_present": true,
+    "artifact_summary_table_required": true,
+    "extraction_guidance_required": true,
+    "self_heal_validation_required": true
+  },
+  "artifacts": [
+    "00_README.md",
+    "00_compiled_instruction_set.md",
+    "01_core/01_core_role_instruction_set.md",
+    "02_operating_modes/02_mode_command_registry.md",
+    "03_planning_workflow/03_stage_workflow.md",
+    "03_planning_workflow/04_required_output_structure.md",
+    "04_stack_and_modularity/05_default_platform_strategy.md",
+    "04_stack_and_modularity/06_modular_design_rules.md",
+    "05_handoffs/07_research_agent_handoff.md",
+    "05_handoffs/08_antigravity_handoff.md",
+    "05_handoffs/09_claude_handoff.md",
+    "06_templates/10_planning_package_template.md",
+    "06_templates/11_phase_plan_template.md",
+    "07_validation/12_final_validation_checklist.md",
+    "07_validation/13_artifact_completion_guard.md",
+    "08_sources/15_source_inventory.md",
+    "08_sources/16_revision_notes.md",
+    "09_self_heal/14_self_heal_instruction_set.md"
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "description": "Logical source identities and known locations; location does not grant access or authority.",
+  "sources": [
+    {
+      "id": "llm-instruction-registry",
+      "kind": "agent-registry",
+      "identity": {
+        "namespace": "EVEI2YONE",
+        "name": "LLM-Instruction-Registry"
+      },
+      "locations": [
+        {
+          "provider": "github",
+          "repository": "EVEI2YONE/LLM-Instruction-Registry",
+          "url": "https://github.com/EVEI2YONE/LLM-Instruction-Registry"
+        }
+      ],
+      "revision_policy": {
+        "strategy": "resolve-and-pin-commit",
+        "branch_hint": "main"
+      },
+      "entrypoints": {
+        "registry": "registry.json",
+        "search_script": "scripts/search_registry.py",
+        "section_lookup_script": "scripts/lookup_sections.py",
+        "governance": "governance/",
+        "schemas": "schemas/"
+      },
+      "access_order": [
+        "connected-repository",
+        "local-checkout",
+        "web-read",
+        "supplied-snapshot"
+      ],
+      "fallback": "unavailable-not-verified",
+      "authority": "registry-metadata-only"
+    }
+  ]
+}

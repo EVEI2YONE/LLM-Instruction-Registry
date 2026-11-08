@@ -33,7 +33,8 @@
     "04_governance_self_heal.md",
     "README.md",
     "agents/openai.yaml",
-    "99_manifest.json"
+    "99_manifest.json",
+    "04_workflow_integration.md"
   ],
   "zip_root": "catalog-grounded-consultant",
   "workflow_integration": "04_workflow_integration.md",

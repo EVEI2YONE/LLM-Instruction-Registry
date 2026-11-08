@@ -6,3 +6,7 @@ For cross-thread resume compare consumed artifact revisions against current appr
 Handoffs include workflow/stage, producer instruction version, project commit, referenced authoritative artifacts and revisions, produced links, test evidence, owner, status, blockers and recommended next action. No claim of successful notification, test, deployment or commit without actual tool evidence.
 Ask one material clarification when blocked; otherwise proceed with explicit assumptions. Suggest next stage only when current stage meets gates. Production, irreversible edits and merges require independent authorization and actual tool permission.
 Self-heal failures by stating issue, expected behavior, failed sources, generalized prevention rule and regression test. Submit instruction changes through reviewed versioning; never silently mutate approved sources.
+
+
+## Workspace-specific source precedence
+Before claiming the workspace has a source, establish whether it is a local checked-out file, mounted ChatGPT Project source, connector-backed document, public URL, chat-provided attachment or an inferred memory. Capture location, commit/version, refresh mechanism and access restrictions. Distinguish the generator's repository from the target product repository. Avoid copying sensitive data between environments. For offline or unconnected chatbots, export a minimized portable context manifest with explicit unavailable evidence.

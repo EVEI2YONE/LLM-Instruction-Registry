@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "target_workspace",
+    "execution_surface",
+    "tool_capabilities",
+    "instruction_entrypoint"
+  ],
+  "properties": {
+    "target_workspace": {
+      "type": "string"
+    },
+    "execution_surface": {
+      "type": "string"
+    },
+    "tool_capabilities": {
+      "type": "object",
+      "additionalProperties": {
+        "enum": [
+          "verified-available",
+          "verified-unavailable",
+          "unknown"
+        ]
+      }
+    },
+    "instruction_entrypoint": {
+      "type": "string"
+    },
+    "evidence_ref": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "approved_write_scope": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "artifact_format": {
+      "type": "string"
+    }
+  }
+}

@@ -878,8 +878,8 @@
     {
       "id": "meta-llm-orchestrator",
       "name": "Meta-LLM Orchestrator",
-      "description": "Generate standalone specialists, workflow-aware specialists and orchestrators with existing-repository context governance.",
-      "version": "v19",
+      "description": "Generate and update registry-consistent instruction sets and orchestrators for verified local, hosted, ChatGPT Project and bot runtime capabilities.",
+      "version": "v20",
       "role": "progenitor",
       "tags": [
         "workflow-aware",
@@ -887,12 +887,16 @@
       ],
       "status": "available",
       "readme": "orchestrators/meta/meta-llm-orchestrator/README.md",
-      "archive": "orchestrators/meta/meta-llm-orchestrator/meta-llm-orchestrator_v19.zip",
+      "archive": "orchestrators/meta/meta-llm-orchestrator/meta-llm-orchestrator_v20.zip",
       "sources": "orchestrators/meta/meta-llm-orchestrator/sources/",
       "capabilities": [
         "instruction-generation",
         "workflow-aware-generation",
-        "context-space-governance"
+        "context-space-governance",
+        "workspace-adaptive-generation",
+        "repository-aware-generation",
+        "capability-probing",
+        "ownership-aware-generation"
       ],
       "domains": [
         "meta-instructions",
@@ -903,7 +907,9 @@
         "meta-llm orchestrator"
       ],
       "use_cases": [
-        "Generate standalone specialists, workflow-aware specialists and orchestrators with existing-repository context governance."
+        "Generate a workspace-tailored specialist for Codex or Claude Code",
+        "Create instruction sets for hosted chatbots, Grok bots or ChatGPT Projects",
+        "Evolve an existing agent without duplicating registry capabilities"
       ],
       "kind": "meta-orchestrator"
     },

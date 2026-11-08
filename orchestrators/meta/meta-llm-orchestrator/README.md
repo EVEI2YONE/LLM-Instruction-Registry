@@ -1,8 +1,7 @@
-# Meta-LLM Orchestrator (v19)
+# Meta-LLM Orchestrator (v20)
 
-Generate standalone specialists, workflow-aware specialists and orchestrators with existing-repository context governance.
+Repository-first, workspace-aware generator of standalone specialists, workflow coordinators and primary orchestrators. It probes target capabilities before generating an agent-specific entrypoint and delivery package.
 
-## Usage
-[Skill entrypoint](sources/SKILL.md) | [Compiled instructions](sources/00_compiled_instruction_set.md) | [Source guide](sources/README.md) | [Versioned ZIP](meta-llm-orchestrator_v19.zip).
+[Skill](sources/SKILL.md) · [Compiled instructions](sources/00_compiled_instruction_set.md) · [Workspace adapters](sources/05_target_adapters.md) · [Source guide](sources/README.md) · [ZIP](meta-llm-orchestrator_v20.zip).
 
-For coordinated work, follow the [SDLC workflow-specific README](../../../workflows/software-delivery-lifecycle/README.md). Workflow-aware profiles do not replace existing project documentation or owners. This is a new authored package, not a copy of a previous specialist archive.
+Preserved: [v19](meta-llm-orchestrator_v19.zip) and [v18](meta-llm-orchestrator_v18.zip) archives. This generator does not replace the [user-facing Product Lifecycle Orchestrator](../../primary/product-lifecycle-orchestrator/README.md).

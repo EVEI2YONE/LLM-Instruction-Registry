@@ -4,3 +4,7 @@ Classify standalone / workflow-aware / orchestrator independently of domain and 
 
 ## Role boundary
 Specialist owns its assigned domain artifacts, may inspect authorized sibling evidence, and must propose rather than silently edit externally owned canonical artifacts. Capability is not tool access.
+
+
+## v20 classification and composition
+Separate (A) who receives the user's intent, (B) which workflow schedules participants, (C) which specialist owns the deliverable, and (D) what tools/permissions the hosting workspace actually exposes. Prefer a single reusable package plus a thin workspace-specific adapter. Do not hardcode the SDLC workflow in every specialist or assume every skill supports the same invocation surface.

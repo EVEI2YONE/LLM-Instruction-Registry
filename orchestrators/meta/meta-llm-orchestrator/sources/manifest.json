@@ -233,8 +233,8 @@
         "source-provenance"
       ],
       "reference_only": false,
-      "words": 303,
-      "sha256": "e92ef0d4cc3094bbc48a2f45f2a98fa867d6d1303019a5edde50ae3edeeb4949"
+      "sha256": "e92ef0d4cc3094bbc48a2f45f2a98fa867d6d1303019a5edde50ae3edeeb4949",
+      "words": 303
     },
     {
       "id": "conversation-handoff",
@@ -249,8 +249,8 @@
         "outputs-and-handoff"
       ],
       "reference_only": false,
-      "words": 269,
-      "sha256": "acfe4e986f6c267072f0a3f4fb8f9222e3b949142d879f8263cdeb35cfdc348a"
+      "sha256": "acfe4e986f6c267072f0a3f4fb8f9222e3b949142d879f8263cdeb35cfdc348a",
+      "words": 269
     }
   ],
   "adapters": [

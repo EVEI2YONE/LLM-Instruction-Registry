@@ -74,3 +74,7 @@ Changing normative behavior requires a new package version. Distribution-only re
 - Resolve governance policy conflicts before turning draft common rules into an injected global baseline.
 
 **This PR is a specification, not a claim of deployed source resolution, script execution or multi-agent orchestration.**
+
+## Conversation-only hosted handoffs (companion RFC)
+
+In a hosted environment where models run sequentially across conversation turns and no scripts or lockfile reader are exposed, state must travel as an explicit **conversation-visible handoff**. See [conversation-state continuity](CONVERSATION_STATE_CONTINUITY.md) and [schema](../schemas/conversation-state.schema.json). The model can emit a versioned JSON file only if file creation is supported; the next model must independently verify retrieval. Otherwise supply the equivalent inline handoff. Pre-generation lockfiles remain build-time provenance and are **not** assumed available in a prompt-only hosted runtime. This is proposed behavior, not a verified provider capability.

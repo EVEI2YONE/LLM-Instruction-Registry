@@ -1,0 +1,251 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Conversation state handoff (proposed)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "workflow_id",
+    "revision",
+    "previous",
+    "stage",
+    "status",
+    "producer",
+    "authoritative_inputs",
+    "completed",
+    "artifacts",
+    "limitations",
+    "next",
+    "delivery"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": 1
+    },
+    "workflow_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "revision": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "previous": {
+      "oneOf": [
+        {
+          "type": "null"
+        },
+        {
+          "type": "object",
+          "required": [
+            "revision",
+            "sha256"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "revision": {
+              "type": "integer",
+              "minimum": 1
+            },
+            "sha256": {
+              "type": "string",
+              "pattern": "^[a-f0-9]{64}$"
+            }
+          }
+        }
+      ]
+    },
+    "stage": {
+      "type": "string",
+      "minLength": 1
+    },
+    "status": {
+      "enum": [
+        "in_progress",
+        "ready_for_handoff",
+        "blocked",
+        "needs_approval",
+        "complete"
+      ]
+    },
+    "producer": {
+      "type": "object",
+      "required": [
+        "role"
+      ],
+      "properties": {
+        "role": {
+          "type": "string"
+        },
+        "model": {
+          "type": "string"
+        },
+        "identity_verification": {
+          "enum": [
+            "verified",
+            "self_reported",
+            "unknown"
+          ]
+        }
+      },
+      "additionalProperties": false
+    },
+    "authoritative_inputs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "ref",
+          "verification"
+        ],
+        "properties": {
+          "ref": {
+            "type": "string"
+          },
+          "revision": {
+            "type": "string"
+          },
+          "verification": {
+            "enum": [
+              "verified",
+              "provisional",
+              "not_verified"
+            ]
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "completed": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "artifacts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "revision",
+          "availability",
+          "status"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "revision": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "availability": {
+            "enum": [
+              "verified_accessible",
+              "attached_unverified",
+              "inline",
+              "missing"
+            ]
+          },
+          "status": {
+            "enum": [
+              "draft",
+              "provisional",
+              "approved",
+              "blocked"
+            ]
+          },
+          "ref": {
+            "type": "string"
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "next": {
+      "type": "object",
+      "required": [
+        "role",
+        "objective"
+      ],
+      "properties": {
+        "role": {
+          "type": "string"
+        },
+        "objective": {
+          "type": "string"
+        },
+        "required_inputs": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "delivery": {
+      "type": "object",
+      "required": [
+        "mode",
+        "persistence",
+        "retrieval"
+      ],
+      "properties": {
+        "mode": {
+          "enum": [
+            "conversation_file",
+            "inline_handoff"
+          ]
+        },
+        "persistence": {
+          "enum": [
+            "verified",
+            "unverified",
+            "unavailable"
+          ]
+        },
+        "retrieval": {
+          "enum": [
+            "verified",
+            "unverified",
+            "unavailable"
+          ]
+        },
+        "file_name": {
+          "type": "string",
+          "pattern": "^conversation-state-r[0-9]{3,}\\.json$"
+        }
+      },
+      "additionalProperties": false
+    },
+    "integrity": {
+      "type": "object",
+      "required": [
+        "algorithm",
+        "digest"
+      ],
+      "properties": {
+        "algorithm": {
+          "const": "sha256-canonical-json-excluding-integrity"
+        },
+        "digest": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

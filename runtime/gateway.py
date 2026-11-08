@@ -154,6 +154,9 @@ class Gateway:
                         try:
                             context = store.get_context(project, context_id, revision)
                             self.require_run(context["run_id"])
+                            if context.get("visibility") == "private-task" and (
+                                    context["task_id"] not in self.binding.get("task_ids", [])):
+                                raise PermissionError("private task context")
                             self.send_json(200, context)
                         finally:
                             store.close()

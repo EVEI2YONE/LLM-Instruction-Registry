@@ -78,6 +78,11 @@ class StateStore:
         payload = canonical(envelope)
         hashval = digest(payload.encode("utf8"))
         with self.db:
+            current = self.db.execute(
+                "SELECT MAX(revision) FROM contexts WHERE namespace=? AND context_id=?",
+                (namespace, envelope["context_id"])).fetchone()[0]
+            if envelope["revision"] != (current or 0) + 1:
+                raise ConflictError("context revision must advance exactly once")
             self.db.execute("INSERT INTO contexts VALUES (?,?,?,?,?)",
                             (namespace, envelope["context_id"], envelope["revision"], payload, hashval))
             self.db.execute("INSERT INTO audit(namespace,object_id,operation,revision) VALUES (?,?,?,?)",

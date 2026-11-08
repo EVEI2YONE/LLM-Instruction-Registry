@@ -911,7 +911,7 @@
       "id": "operations-reliability-specialist",
       "name": "Operations and Reliability Specialist",
       "description": "Own observable health, incident evidence, post-release verification and feedback handoffs.",
-      "version": "v1",
+      "version": "v1.1",
       "role": "expert",
       "tags": [
         "workflow-aware",
@@ -919,7 +919,7 @@
       ],
       "status": "available",
       "readme": "specialists/operations/operations-reliability-specialist/README.md",
-      "archive": "specialists/operations/operations-reliability-specialist/operations-reliability-specialist_v1.zip",
+      "archive": "specialists/operations/operations-reliability-specialist/operations-reliability-specialist_v1.1.zip",
       "sources": "specialists/operations/operations-reliability-specialist/sources/",
       "capabilities": [
         "observability",

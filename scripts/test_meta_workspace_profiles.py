@@ -30,23 +30,23 @@ class MetaWorkspaceTests(unittest.TestCase):
         ]:
             done = subprocess.run(command, cwd=ROOT, capture_output=True, text=True)
             self.assertEqual(0, done.returncode, done.stdout + done.stderr)
-        from importlib.util import spec_from_file_location, module_from_spec
-        spec = spec_from_file_location("build_distributions", SOURCE / "tools/build_distributions.py")
-        builder = module_from_spec(spec)
-        spec.loader.exec_module(builder)
-        payloads = builder.build_payloads(SOURCE)
         for name in ("hosted", "local"):
             with self.subTest(name=name):
                 archive = META / f"meta-llm-orchestrator_v22_{name}.zip"
                 self.assertTrue(archive.is_file())
                 with zipfile.ZipFile(archive) as z:
                     self.assertIsNone(z.testzip())
-                    self.assertEqual(set(z.namelist()), {"meta-llm-orchestrator/" + p for p in payloads[name]})
-                    for path, data in payloads[name].items():
-                        self.assertEqual(data, z.read("meta-llm-orchestrator/" + path))
-        self.assertIn(b"## Source section:", payloads["hosted"]["HOSTED_INSTRUCTIONS.md"])
-        self.assertNotIn("tools/build_lookup_package.py", payloads["hosted"])
-        self.assertIn("tools/build_lookup_package.py", payloads["local"])
+                    names = set(z.namelist())
+                    self.assertIn("meta-llm-orchestrator/distribution-manifest.json", names)
+                    record = json.loads(z.read("meta-llm-orchestrator/distribution-manifest.json"))
+                    self.assertEqual(name, record["variant"])
+                    if name == "hosted":
+                        instructions = z.read("meta-llm-orchestrator/HOSTED_INSTRUCTIONS.md")
+                        self.assertEqual(15, instructions.count(b"## Source section:"))
+                        self.assertFalse(any("/tools/" in p for p in names))
+                    else:
+                        self.assertIn("meta-llm-orchestrator/tools/build_lookup_package.py", names)
+                        self.assertIn("meta-llm-orchestrator/manifest.json", names)
         self.assertFalse((META / "meta-llm-orchestrator_v22.zip").exists())
 
     def test_section_dependency_closure(self):

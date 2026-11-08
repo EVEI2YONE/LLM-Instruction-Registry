@@ -83,8 +83,21 @@ def validate(data, root=ROOT):
                     errors.append(at + ": missing sources README")
             elif not candidate.is_file():
                 errors.append(at + ": missing " + key + ": " + p)
-        if item["archive"] != prefix + ident + "_" + item["version"] + ".zip":
-            errors.append(at + ": archive/version mismatch")
+        variants = item.get("distribution_archives")
+        if variants is None:
+            if item["archive"] != prefix + ident + "_" + item["version"] + ".zip":
+                errors.append(at + ": archive/version mismatch")
+        elif (ident != "meta-llm-orchestrator" or item["version"] != "v22"
+              or not isinstance(variants, dict)
+              or set(variants) != {"hosted", "local"}):
+            errors.append(at + ": invalid distribution variants")
+        else:
+            for variant in ("hosted", "local"):
+                expected = prefix + ident + "_" + item["version"] + "_" + variant + ".zip"
+                if variants[variant] != expected or not (Path(root) / expected).is_file():
+                    errors.append(at + ": invalid or missing " + variant + " distribution")
+            if item["archive"] != variants["hosted"]:
+                errors.append(at + ": default archive must be hosted")
     return errors
 
 

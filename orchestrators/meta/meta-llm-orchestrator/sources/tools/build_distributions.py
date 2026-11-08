@@ -8,6 +8,7 @@ import argparse
 import hashlib
 import json
 import sys
+sys.dont_write_bytecode = True  # importing the validator must not dirty the canonical source tree
 import zipfile
 from pathlib import Path
 

@@ -1,0 +1,81 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Verified agent runtime capability report",
+  "type": "object",
+  "required": [
+    "runtime_id",
+    "execution_surface",
+    "measured_at",
+    "features",
+    "spawn_mode"
+  ],
+  "properties": {
+    "runtime_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "execution_surface": {
+      "enum": [
+        "local",
+        "hosted-chat",
+        "hosted-api",
+        "gateway",
+        "unknown"
+      ]
+    },
+    "measured_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "spawn_mode": {
+      "enum": [
+        "native",
+        "process-or-sdk",
+        "gateway",
+        "single-agent",
+        "unavailable"
+      ]
+    },
+    "features": {
+      "type": "object",
+      "additionalProperties": {
+        "enum": [
+          "verified-available",
+          "verified-unavailable",
+          "unknown"
+        ]
+      }
+    },
+    "limits": {
+      "type": "object",
+      "properties": {
+        "max_parallel": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "max_depth": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "max_context_tokens": {
+          "type": "integer",
+          "minimum": 1
+        }
+      },
+      "additionalProperties": true
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "permissions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": false
+}

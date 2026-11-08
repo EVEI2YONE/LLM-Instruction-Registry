@@ -1,0 +1,154 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/EVEI2YONE/LLM-Instruction-Registry/blob/main/schemas/lookup-package.schema.json",
+  "title": "Lookup-first instruction package manifest",
+  "type": "object",
+  "required": [
+    "id",
+    "version",
+    "entrypoint",
+    "sections"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_contract": {
+      "const": "lookup-first-v1"
+    },
+    "common_rules_version": {
+      "type": "string",
+      "minLength": 1
+    },
+    "entrypoint": {
+      "type": "object",
+      "required": [
+        "path"
+      ],
+      "properties": {
+        "path": {
+          "const": "SKILL.md"
+        },
+        "words": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "sha256": {
+          "type": "string",
+          "pattern": "^[a-f0-9]{64}$"
+        }
+      }
+    },
+    "sections": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "kind",
+          "path",
+          "summary",
+          "read_when"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+          },
+          "kind": {
+            "enum": [
+              "procedure",
+              "template",
+              "contract",
+              "role",
+              "playbook",
+              "example",
+              "reference"
+            ]
+          },
+          "path": {
+            "type": "string",
+            "pattern": "^sections/[a-z0-9_/-]+\\.(md|json)$"
+          },
+          "summary": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 220
+          },
+          "read_when": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          },
+          "requires": {
+            "type": "array",
+            "uniqueItems": true,
+            "items": {
+              "type": "string"
+            }
+          },
+          "reference_only": {
+            "type": "boolean"
+          },
+          "words": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[a-f0-9]{64}$"
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "knowledge": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "catalog",
+          "ref_policy"
+        ],
+        "properties": {
+          "catalog": {
+            "type": "string"
+          },
+          "ref_policy": {
+            "type": "string"
+          },
+          "index": {
+            "type": "string"
+          },
+          "query": {
+            "type": "string"
+          },
+          "curator": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": true
+      }
+    },
+    "adapters": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "sources": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "additionalProperties": true
+}

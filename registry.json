@@ -632,17 +632,18 @@
       "id": "feature-extension-planning-council",
       "name": "Feature Extension Planning Council",
       "description": "Council-based feature planning, scope, architecture, risk, and implementation handoffs.",
-      "version": "v1",
+      "version": "v1.1",
       "role": "orchestrator",
       "tags": [
         "feature",
         "extension",
         "planning",
-        "council"
+        "council",
+        "workflow-aware"
       ],
       "status": "available",
       "readme": "orchestrators/workflow/feature-extension-planning-council/README.md",
-      "archive": "orchestrators/workflow/feature-extension-planning-council/feature-extension-planning-council_v1.zip",
+      "archive": "orchestrators/workflow/feature-extension-planning-council/feature-extension-planning-council_v1.1.zip",
       "sources": "orchestrators/workflow/feature-extension-planning-council/sources/",
       "capabilities": [
         "specialist-coordination",

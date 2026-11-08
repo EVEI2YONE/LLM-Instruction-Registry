@@ -1128,7 +1128,7 @@
       "id": "qa-verification-specialist",
       "name": "QA and Verification Specialist",
       "description": "Independently verify acceptance, regression and change risk with pinned test evidence.",
-      "version": "v1",
+      "version": "v1.1",
       "role": "expert",
       "tags": [
         "workflow-aware",
@@ -1136,7 +1136,7 @@
       ],
       "status": "available",
       "readme": "specialists/quality/qa-verification-specialist/README.md",
-      "archive": "specialists/quality/qa-verification-specialist/qa-verification-specialist_v1.zip",
+      "archive": "specialists/quality/qa-verification-specialist/qa-verification-specialist_v1.1.zip",
       "sources": "specialists/quality/qa-verification-specialist/sources/",
       "capabilities": [
         "acceptance-verification",

@@ -9,7 +9,7 @@
   "entrypoint": {
     "path": "SKILL.md",
     "words": 579,
-    "sha256": "46a857f09806200e66110ff4412902f611e6358cf93021edf63df1bbc1f24385"
+    "sha256": "ddaccb7d19255f111c338aa8ee29b4448395925cd567413fdac91a709dcc79da"
   },
   "modes": [
     {
@@ -45,7 +45,7 @@
       "requires": [],
       "reference_only": false,
       "words": 289,
-      "sha256": "8c9d0209ddfaca27ba2d6dc8e9d3d4793fe87aa37e05881a70ba79be5a8a3789"
+      "sha256": "22dde87f9bff17cab97f459cfce0f554d7eed71f2e59a96eea04a80f236b04d4"
     },
     {
       "id": "registry-reuse",
@@ -58,7 +58,7 @@
       "requires": [],
       "reference_only": false,
       "words": 244,
-      "sha256": "5f74cd44b0d29562b036bff61d9d863580f6258f5ba5d6d34b501744cfed9773"
+      "sha256": "3f15227d005200baa371adbd6931260da9db429b7452bd89b53c552e1d23493b"
     },
     {
       "id": "instruction-classification",
@@ -73,7 +73,7 @@
       ],
       "reference_only": false,
       "words": 300,
-      "sha256": "5387d69ca4e59ebac5a6fe85830f5b9ca99f140ca0cfc11bda3db2a519464466"
+      "sha256": "651a8e5d99db4dfbad68e5e606137005918c46e420ee06fffbbb54b0e7c1c55d"
     },
     {
       "id": "lookup-first-generation",
@@ -88,7 +88,7 @@
       ],
       "reference_only": false,
       "words": 309,
-      "sha256": "48dbaa359a397253948aa177f2f261e702d13eb6be4a02974e1f512962ec9f7d"
+      "sha256": "c5d052a6d118ff9641d69bd9ba4eeef8708d938f51810bf2ea634c85d05e9e6a"
     },
     {
       "id": "workspace-adaptation",
@@ -104,7 +104,7 @@
       ],
       "reference_only": false,
       "words": 243,
-      "sha256": "b6c6484c0824106a790069e423e9f23fc279f12f8ca51f5b77f58658929334dd"
+      "sha256": "a177164ec9d4027882e612812445177fc1db1128cc487f8c8b8880198e548e21"
     },
     {
       "id": "delegation-and-handoffs",
@@ -120,7 +120,7 @@
       ],
       "reference_only": false,
       "words": 249,
-      "sha256": "9b7aa048ecd86866137f4e4972eb5e1a7a64c73ce134f0b69c8604249bbdfe1b"
+      "sha256": "71b8977a41640cec71e43ca29d296b6dc8f9ac1d8f740c23b2b3d9317799c006"
     },
     {
       "id": "source-provenance",
@@ -133,7 +133,7 @@
       "requires": [],
       "reference_only": false,
       "words": 233,
-      "sha256": "732d9feec48b680c2a06946c4d511a0b2c2c68a9546ff82a24b4d85b4d3b8fa7"
+      "sha256": "26e1f074dc54d18a585e6bc2ed2c49d98e6ef437ab00b038e525ff5457f068ca"
     },
     {
       "id": "package-and-publish",
@@ -150,7 +150,7 @@
       ],
       "reference_only": false,
       "words": 290,
-      "sha256": "5ca9cba1ae0793bf743b4f91310486b3bb5edcb250b246b77445b42556b48438"
+      "sha256": "da972076d0dbde289ac3f75c4037fa85e4af82f2ca9b325c0e712467bff8763e"
     },
     {
       "id": "validation-and-evaluation",
@@ -166,7 +166,7 @@
       ],
       "reference_only": false,
       "words": 279,
-      "sha256": "a87a6847f9d830654526b52e9f303493b590cee5d00d0a0b0778551e86d784ba"
+      "sha256": "05a29af6190602afe68bdab4a9fd80aec775d018f0ad1a90f6d42628fc1e0cee"
     },
     {
       "id": "self-heal",
@@ -181,7 +181,7 @@
       ],
       "reference_only": false,
       "words": 200,
-      "sha256": "4e6a8b689fc853863223d49049fdb25b2f94165c9ba2b84825017c459d23c0d7"
+      "sha256": "4a5cb28f278a973e861299282b7d86bf82103351960c475b99b64d3f00c9a6e6"
     },
     {
       "id": "outputs-and-handoff",
@@ -194,7 +194,7 @@
       "requires": [],
       "reference_only": false,
       "words": 176,
-      "sha256": "e7304836388e1054493e53117c393f6185b41cf864077ec32f3519a42a1362b7"
+      "sha256": "78eb5c37bea6881c46d849a6a59bb3fa4f6eab2075f082ce0578cd0ca9d5a8ad"
     },
     {
       "id": "generation-report",
@@ -207,7 +207,7 @@
       "requires": [],
       "reference_only": false,
       "words": 197,
-      "sha256": "87477948d8a54166b7d5b25f8063d00a12971d8a48d9cde294d4760c2585024b"
+      "sha256": "7124046eca44fb379b41055291cc71a173fbd93c59f6ed5ee872a01871f7c670"
     },
     {
       "id": "request-scenarios",
@@ -218,7 +218,7 @@
       "requires": [],
       "reference_only": true,
       "words": 173,
-      "sha256": "a85941cdf9b709eb235bf1017af9e87f8834824bf9dd94d5096d218485c50693"
+      "sha256": "e1d160abe58e85f2882f69cd314854671285d777e7898401171c2bf75d1688c5"
     }
   ],
   "adapters": [

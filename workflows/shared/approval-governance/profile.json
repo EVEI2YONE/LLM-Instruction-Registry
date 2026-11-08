@@ -1,0 +1,22 @@
+{
+  "id": "approval-governance",
+  "version": "v0-scaffold",
+  "status": "scaffold",
+  "triggers": [
+    "human-approval"
+  ],
+  "stages": [
+    {
+      "id": "evidence",
+      "pattern": "sequential"
+    },
+    {
+      "id": "approve",
+      "pattern": "approval",
+      "depends_on": [
+        "evidence"
+      ],
+      "approval_required": true
+    }
+  ]
+}

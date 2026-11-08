@@ -1,0 +1,38 @@
+{
+  "id": "backlog-refinement",
+  "version": "v0-scaffold",
+  "status": "scaffold",
+  "triggers": [
+    "story-refinement",
+    "backlog-grooming"
+  ],
+  "stages": [
+    {
+      "id": "context",
+      "pattern": "sequential",
+      "requires": [
+        "requirements-management"
+      ]
+    },
+    {
+      "id": "council",
+      "pattern": "council",
+      "depends_on": [
+        "context"
+      ],
+      "requires": [
+        "acceptance-criteria",
+        "software-architecture",
+        "acceptance-verification"
+      ]
+    },
+    {
+      "id": "ready",
+      "pattern": "approval",
+      "depends_on": [
+        "council"
+      ],
+      "approval_required": true
+    }
+  ]
+}

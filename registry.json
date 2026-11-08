@@ -1,5 +1,5 @@
 {
-  "schema_version": 2,
+  "schema_version": 3,
   "instruction_sets": [
     {
       "id": "ai-knowledge-atlas",
@@ -18,9 +18,9 @@
         "gap-analysis"
       ],
       "status": "available",
-      "readme": "instruction-sets/curators/ai-knowledge-atlas/README.md",
-      "archive": "instruction-sets/curators/ai-knowledge-atlas/ai-knowledge-atlas_v2.1.zip",
-      "sources": "instruction-sets/curators/ai-knowledge-atlas/sources/",
+      "readme": "specialists/knowledge/ai-knowledge-atlas/README.md",
+      "archive": "specialists/knowledge/ai-knowledge-atlas/ai-knowledge-atlas_v2.1.zip",
+      "sources": "specialists/knowledge/ai-knowledge-atlas/sources/",
       "capabilities": [
         "research-surveillance",
         "knowledge-gap-analysis",
@@ -43,7 +43,8 @@
         "audit AI research knowledge gaps",
         "update evidence-backed AI knowledge catalog",
         "find AI architecture and evaluation research"
-      ]
+      ],
+      "kind": "specialist"
     },
     {
       "id": "ui-ux-design-system-architect",
@@ -61,9 +62,9 @@
         "migration"
       ],
       "status": "available",
-      "readme": "instruction-sets/curators/ui-ux-design-system-architect/README.md",
-      "archive": "instruction-sets/curators/ui-ux-design-system-architect/ui-ux-design-system-architect_v1.1.zip",
-      "sources": "instruction-sets/curators/ui-ux-design-system-architect/sources/",
+      "readme": "specialists/design/ui-ux-design-system-architect/README.md",
+      "archive": "specialists/design/ui-ux-design-system-architect/ui-ux-design-system-architect_v1.1.zip",
+      "sources": "specialists/design/ui-ux-design-system-architect/sources/",
       "capabilities": [
         "design-catalog-curation",
         "accessibility-audit",
@@ -82,7 +83,8 @@
       "use_cases": [
         "audit UI UX catalog",
         "plan accessible component modernization"
-      ]
+      ],
+      "kind": "specialist"
     },
     {
       "id": "coding-partner-mentor-teacher",
@@ -97,9 +99,9 @@
         "teacher"
       ],
       "status": "available",
-      "readme": "instruction-sets/experts/coding-partner-mentor-teacher/README.md",
-      "archive": "instruction-sets/experts/coding-partner-mentor-teacher/coding-partner-mentor-teacher_v1.zip",
-      "sources": "instruction-sets/experts/coding-partner-mentor-teacher/sources/",
+      "readme": "specialists/engineering/coding-partner-mentor-teacher/README.md",
+      "archive": "specialists/engineering/coding-partner-mentor-teacher/coding-partner-mentor-teacher_v1.zip",
+      "sources": "specialists/engineering/coding-partner-mentor-teacher/sources/",
       "capabilities": [
         "debugging",
         "code-review",
@@ -117,7 +119,8 @@
       "use_cases": [
         "debug code and explain fixes",
         "review software maintainability"
-      ]
+      ],
+      "kind": "specialist"
     },
     {
       "id": "psychology-advice-research",
@@ -131,9 +134,9 @@
         "research"
       ],
       "status": "available",
-      "readme": "instruction-sets/experts/psychology-advice-research/README.md",
-      "archive": "instruction-sets/experts/psychology-advice-research/psychology-advice-research_v1.zip",
-      "sources": "instruction-sets/experts/psychology-advice-research/sources/",
+      "readme": "specialists/research/psychology-advice-research/README.md",
+      "archive": "specialists/research/psychology-advice-research/psychology-advice-research_v1.zip",
+      "sources": "specialists/research/psychology-advice-research/sources/",
       "capabilities": [
         "psychology-education",
         "research-synthesis",
@@ -149,7 +152,8 @@
       "use_cases": [
         "explain psychological research",
         "provide non-clinical psychology education"
-      ]
+      ],
+      "kind": "specialist"
     },
     {
       "id": "solid-visual-architecture",
@@ -163,9 +167,9 @@
         "architecture"
       ],
       "status": "available",
-      "readme": "instruction-sets/experts/solid-visual-architecture/README.md",
-      "archive": "instruction-sets/experts/solid-visual-architecture/solid-visual-architecture_v1.zip",
-      "sources": "instruction-sets/experts/solid-visual-architecture/sources/",
+      "readme": "specialists/architecture/solid-visual-architecture/README.md",
+      "archive": "specialists/architecture/solid-visual-architecture/solid-visual-architecture_v1.zip",
+      "sources": "specialists/architecture/solid-visual-architecture/sources/",
       "capabilities": [
         "software-architecture",
         "visualization",
@@ -180,7 +184,8 @@
       ],
       "use_cases": [
         "visualize software architecture using SOLID principles"
-      ]
+      ],
+      "kind": "specialist"
     },
     {
       "id": "technical-research-project-instructions",
@@ -195,9 +200,9 @@
         "instructions"
       ],
       "status": "available",
-      "readme": "instruction-sets/experts/technical-research-project-instructions/README.md",
-      "archive": "instruction-sets/experts/technical-research-project-instructions/technical-research-project-instructions_v2.zip",
-      "sources": "instruction-sets/experts/technical-research-project-instructions/sources/",
+      "readme": "specialists/research/technical-research-project-instructions/README.md",
+      "archive": "specialists/research/technical-research-project-instructions/technical-research-project-instructions_v2.zip",
+      "sources": "specialists/research/technical-research-project-instructions/sources/",
       "capabilities": [
         "technical-research",
         "evidence-synthesis",
@@ -216,7 +221,8 @@
       "use_cases": [
         "compare technologies with evidence",
         "review technical architecture tradeoffs"
-      ]
+      ],
+      "kind": "specialist"
     },
     {
       "id": "app-planning",
@@ -229,9 +235,9 @@
         "planning"
       ],
       "status": "available",
-      "readme": "instruction-sets/strategists/app-planning/README.md",
-      "archive": "instruction-sets/strategists/app-planning/app-planning_v1.zip",
-      "sources": "instruction-sets/strategists/app-planning/sources/",
+      "readme": "specialists/product/app-planning/README.md",
+      "archive": "specialists/product/app-planning/app-planning_v1.zip",
+      "sources": "specialists/product/app-planning/sources/",
       "capabilities": [
         "product-planning",
         "technical-architecture",
@@ -248,7 +254,8 @@
       ],
       "use_cases": [
         "plan applications and implementation roadmaps"
-      ]
+      ],
+      "kind": "specialist"
     },
     {
       "id": "business-app-idea",
@@ -262,9 +269,9 @@
         "idea"
       ],
       "status": "available",
-      "readme": "instruction-sets/strategists/business-app-idea/README.md",
-      "archive": "instruction-sets/strategists/business-app-idea/business-app-idea_v1.zip",
-      "sources": "instruction-sets/strategists/business-app-idea/sources/",
+      "readme": "specialists/business/business-app-idea/README.md",
+      "archive": "specialists/business/business-app-idea/business-app-idea_v1.zip",
+      "sources": "specialists/business/business-app-idea/sources/",
       "capabilities": [
         "business-ideation",
         "product-concept-development"
@@ -279,7 +286,8 @@
       ],
       "use_cases": [
         "shape business app concepts and value propositions"
-      ]
+      ],
+      "kind": "specialist"
     },
     {
       "id": "feature-extension-planning-council",
@@ -294,9 +302,9 @@
         "council"
       ],
       "status": "available",
-      "readme": "instruction-sets/orchestrators/feature-extension-planning-council/README.md",
-      "archive": "instruction-sets/orchestrators/feature-extension-planning-council/feature-extension-planning-council_v1.zip",
-      "sources": "instruction-sets/orchestrators/feature-extension-planning-council/sources/",
+      "readme": "orchestrators/workflow/feature-extension-planning-council/README.md",
+      "archive": "orchestrators/workflow/feature-extension-planning-council/feature-extension-planning-council_v1.zip",
+      "sources": "orchestrators/workflow/feature-extension-planning-council/sources/",
       "capabilities": [
         "specialist-coordination",
         "feature-planning",
@@ -313,7 +321,8 @@
       ],
       "use_cases": [
         "coordinate specialist feature extension planning"
-      ]
+      ],
+      "kind": "workflow-orchestrator"
     },
     {
       "id": "general-purpose-chatgpt-conversations",
@@ -330,9 +339,9 @@
         "self-heal"
       ],
       "status": "available",
-      "readme": "instruction-sets/generalists/general-purpose-chatgpt-conversations/README.md",
-      "archive": "instruction-sets/generalists/general-purpose-chatgpt-conversations/general-purpose-chatgpt-conversations_v2.zip",
-      "sources": "instruction-sets/generalists/general-purpose-chatgpt-conversations/sources/",
+      "readme": "specialists/general/general-purpose-chatgpt-conversations/README.md",
+      "archive": "specialists/general/general-purpose-chatgpt-conversations/general-purpose-chatgpt-conversations_v2.zip",
+      "sources": "specialists/general/general-purpose-chatgpt-conversations/sources/",
       "capabilities": [
         "general-conversation",
         "research-assistance",
@@ -349,7 +358,8 @@
       "use_cases": [
         "answer everyday questions",
         "brainstorm and offer general advice"
-      ]
+      ],
+      "kind": "specialist"
     },
     {
       "id": "meta-llm-orchestrator",
@@ -362,9 +372,9 @@
         "context-space"
       ],
       "status": "available",
-      "readme": "instruction-sets/progenitors/meta-llm-orchestrator/README.md",
-      "archive": "instruction-sets/progenitors/meta-llm-orchestrator/meta-llm-orchestrator_v19.zip",
-      "sources": "instruction-sets/progenitors/meta-llm-orchestrator/sources/",
+      "readme": "orchestrators/meta/meta-llm-orchestrator/README.md",
+      "archive": "orchestrators/meta/meta-llm-orchestrator/meta-llm-orchestrator_v19.zip",
+      "sources": "orchestrators/meta/meta-llm-orchestrator/sources/",
       "capabilities": [
         "instruction-generation",
         "workflow-aware-generation",
@@ -380,7 +390,8 @@
       ],
       "use_cases": [
         "Generate standalone specialists, workflow-aware specialists and orchestrators with existing-repository context governance."
-      ]
+      ],
+      "kind": "meta-orchestrator"
     },
     {
       "id": "software-delivery-lifecycle",
@@ -393,9 +404,9 @@
         "context-space"
       ],
       "status": "available",
-      "readme": "instruction-sets/orchestrators/software-delivery-lifecycle/README.md",
-      "archive": "instruction-sets/orchestrators/software-delivery-lifecycle/software-delivery-lifecycle_v1.zip",
-      "sources": "instruction-sets/orchestrators/software-delivery-lifecycle/sources/",
+      "readme": "orchestrators/workflow/software-delivery-lifecycle/README.md",
+      "archive": "orchestrators/workflow/software-delivery-lifecycle/software-delivery-lifecycle_v1.zip",
+      "sources": "orchestrators/workflow/software-delivery-lifecycle/sources/",
       "capabilities": [
         "workflow-orchestration",
         "stage-routing",
@@ -411,7 +422,8 @@
       ],
       "use_cases": [
         "Route specialist work from idea through operations with durable gate evidence and controlled handoffs."
-      ]
+      ],
+      "kind": "workflow-orchestrator"
     },
     {
       "id": "product-delivery-specialist",
@@ -424,9 +436,9 @@
         "context-space"
       ],
       "status": "available",
-      "readme": "instruction-sets/strategists/product-delivery-specialist/README.md",
-      "archive": "instruction-sets/strategists/product-delivery-specialist/product-delivery-specialist_v1.zip",
-      "sources": "instruction-sets/strategists/product-delivery-specialist/sources/",
+      "readme": "specialists/product/product-delivery-specialist/README.md",
+      "archive": "specialists/product/product-delivery-specialist/product-delivery-specialist_v1.zip",
+      "sources": "specialists/product/product-delivery-specialist/sources/",
       "capabilities": [
         "product-discovery",
         "requirements-management",
@@ -441,7 +453,8 @@
       ],
       "use_cases": [
         "Own validated product intent, scope, requirements, acceptance criteria and business handoffs."
-      ]
+      ],
+      "kind": "specialist"
     },
     {
       "id": "architecture-delivery-specialist",
@@ -454,9 +467,9 @@
         "context-space"
       ],
       "status": "available",
-      "readme": "instruction-sets/experts/architecture-delivery-specialist/README.md",
-      "archive": "instruction-sets/experts/architecture-delivery-specialist/architecture-delivery-specialist_v1.zip",
-      "sources": "instruction-sets/experts/architecture-delivery-specialist/sources/",
+      "readme": "specialists/architecture/architecture-delivery-specialist/README.md",
+      "archive": "specialists/architecture/architecture-delivery-specialist/architecture-delivery-specialist_v1.zip",
+      "sources": "specialists/architecture/architecture-delivery-specialist/sources/",
       "capabilities": [
         "software-architecture",
         "api-design",
@@ -471,7 +484,8 @@
       ],
       "use_cases": [
         "Own architecture proposals, reviewed ADRs, interface contracts and dependency-aware technical handoffs."
-      ]
+      ],
+      "kind": "specialist"
     },
     {
       "id": "engineering-execution-specialist",
@@ -484,9 +498,9 @@
         "context-space"
       ],
       "status": "available",
-      "readme": "instruction-sets/experts/engineering-execution-specialist/README.md",
-      "archive": "instruction-sets/experts/engineering-execution-specialist/engineering-execution-specialist_v1.zip",
-      "sources": "instruction-sets/experts/engineering-execution-specialist/sources/",
+      "readme": "specialists/engineering/engineering-execution-specialist/README.md",
+      "archive": "specialists/engineering/engineering-execution-specialist/engineering-execution-specialist_v1.zip",
+      "sources": "specialists/engineering/engineering-execution-specialist/sources/",
       "capabilities": [
         "implementation",
         "debugging",
@@ -501,7 +515,8 @@
       ],
       "use_cases": [
         "Implement bounded changes through repository-native branches, tests and PR evidence."
-      ]
+      ],
+      "kind": "specialist"
     },
     {
       "id": "qa-verification-specialist",
@@ -514,9 +529,9 @@
         "context-space"
       ],
       "status": "available",
-      "readme": "instruction-sets/experts/qa-verification-specialist/README.md",
-      "archive": "instruction-sets/experts/qa-verification-specialist/qa-verification-specialist_v1.zip",
-      "sources": "instruction-sets/experts/qa-verification-specialist/sources/",
+      "readme": "specialists/quality/qa-verification-specialist/README.md",
+      "archive": "specialists/quality/qa-verification-specialist/qa-verification-specialist_v1.zip",
+      "sources": "specialists/quality/qa-verification-specialist/sources/",
       "capabilities": [
         "acceptance-verification",
         "regression-testing",
@@ -532,7 +547,8 @@
       ],
       "use_cases": [
         "Independently verify acceptance, regression and change risk with pinned test evidence."
-      ]
+      ],
+      "kind": "specialist"
     },
     {
       "id": "devsecops-release-specialist",
@@ -545,9 +561,9 @@
         "context-space"
       ],
       "status": "available",
-      "readme": "instruction-sets/experts/devsecops-release-specialist/README.md",
-      "archive": "instruction-sets/experts/devsecops-release-specialist/devsecops-release-specialist_v1.zip",
-      "sources": "instruction-sets/experts/devsecops-release-specialist/sources/",
+      "readme": "specialists/security/devsecops-release-specialist/README.md",
+      "archive": "specialists/security/devsecops-release-specialist/devsecops-release-specialist_v1.zip",
+      "sources": "specialists/security/devsecops-release-specialist/sources/",
       "capabilities": [
         "ci-cd",
         "release-readiness",
@@ -563,7 +579,8 @@
       ],
       "use_cases": [
         "Govern security, CI/CD, deployment approvals, staging verification and rollback readiness."
-      ]
+      ],
+      "kind": "specialist"
     },
     {
       "id": "operations-reliability-specialist",
@@ -576,9 +593,9 @@
         "context-space"
       ],
       "status": "available",
-      "readme": "instruction-sets/experts/operations-reliability-specialist/README.md",
-      "archive": "instruction-sets/experts/operations-reliability-specialist/operations-reliability-specialist_v1.zip",
-      "sources": "instruction-sets/experts/operations-reliability-specialist/sources/",
+      "readme": "specialists/operations/operations-reliability-specialist/README.md",
+      "archive": "specialists/operations/operations-reliability-specialist/operations-reliability-specialist_v1.zip",
+      "sources": "specialists/operations/operations-reliability-specialist/sources/",
       "capabilities": [
         "observability",
         "incident-triage",
@@ -594,7 +611,8 @@
       ],
       "use_cases": [
         "Own observable health, incident evidence, post-release verification and feedback handoffs."
-      ]
+      ],
+      "kind": "specialist"
     },
     {
       "id": "organizational-strategy-specialist",
@@ -608,9 +626,9 @@
         "mvp"
       ],
       "status": "available",
-      "readme": "instruction-sets/strategists/organizational-strategy-specialist/README.md",
-      "archive": "instruction-sets/strategists/organizational-strategy-specialist/organizational-strategy-specialist_v1.zip",
-      "sources": "instruction-sets/strategists/organizational-strategy-specialist/sources/",
+      "readme": "specialists/business/organizational-strategy-specialist/README.md",
+      "archive": "specialists/business/organizational-strategy-specialist/organizational-strategy-specialist_v1.zip",
+      "sources": "specialists/business/organizational-strategy-specialist/sources/",
       "capabilities": [
         "organizational-strategy"
       ],
@@ -622,7 +640,8 @@
       ],
       "use_cases": [
         "Connect organization mission, portfolio priorities and investment constraints to product opportunity selection."
-      ]
+      ],
+      "kind": "specialist"
     },
     {
       "id": "idea-to-mvp-orchestrator",
@@ -636,9 +655,9 @@
         "mvp"
       ],
       "status": "available",
-      "readme": "instruction-sets/orchestrators/idea-to-mvp-orchestrator/README.md",
-      "archive": "instruction-sets/orchestrators/idea-to-mvp-orchestrator/idea-to-mvp-orchestrator_v1.zip",
-      "sources": "instruction-sets/orchestrators/idea-to-mvp-orchestrator/sources/",
+      "readme": "orchestrators/workflow/idea-to-mvp-orchestrator/README.md",
+      "archive": "orchestrators/workflow/idea-to-mvp-orchestrator/idea-to-mvp-orchestrator_v1.zip",
+      "sources": "orchestrators/workflow/idea-to-mvp-orchestrator/sources/",
       "capabilities": [
         "organization-to-mvp"
       ],
@@ -651,7 +670,8 @@
       ],
       "use_cases": [
         "Coordinate top-down strategy, portfolio choices, ideation, validation, MVP investment approval, design, build and learning."
-      ]
+      ],
+      "kind": "workflow-orchestrator"
     },
     {
       "id": "frontend-engineering-specialist",
@@ -665,9 +685,9 @@
         "mvp"
       ],
       "status": "available",
-      "readme": "instruction-sets/experts/frontend-engineering-specialist/README.md",
-      "archive": "instruction-sets/experts/frontend-engineering-specialist/frontend-engineering-specialist_v1.zip",
-      "sources": "instruction-sets/experts/frontend-engineering-specialist/sources/",
+      "readme": "specialists/engineering/frontend-engineering-specialist/README.md",
+      "archive": "specialists/engineering/frontend-engineering-specialist/frontend-engineering-specialist_v1.zip",
+      "sources": "specialists/engineering/frontend-engineering-specialist/sources/",
       "capabilities": [
         "frontend-implementation"
       ],
@@ -679,7 +699,8 @@
       ],
       "use_cases": [
         "Build accessible, responsive frontend interactions against approved UX and API contracts."
-      ]
+      ],
+      "kind": "specialist"
     },
     {
       "id": "backend-engineering-specialist",
@@ -693,9 +714,9 @@
         "mvp"
       ],
       "status": "available",
-      "readme": "instruction-sets/experts/backend-engineering-specialist/README.md",
-      "archive": "instruction-sets/experts/backend-engineering-specialist/backend-engineering-specialist_v1.zip",
-      "sources": "instruction-sets/experts/backend-engineering-specialist/sources/",
+      "readme": "specialists/engineering/backend-engineering-specialist/README.md",
+      "archive": "specialists/engineering/backend-engineering-specialist/backend-engineering-specialist_v1.zip",
+      "sources": "specialists/engineering/backend-engineering-specialist/sources/",
       "capabilities": [
         "backend-implementation"
       ],
@@ -707,7 +728,8 @@
       ],
       "use_cases": [
         "Implement APIs, persistence, authorization, integrations and safe migrations with testable contracts."
-      ]
+      ],
+      "kind": "specialist"
     },
     {
       "id": "ai-ml-engineering-specialist",
@@ -721,9 +743,9 @@
         "mvp"
       ],
       "status": "available",
-      "readme": "instruction-sets/experts/ai-ml-engineering-specialist/README.md",
-      "archive": "instruction-sets/experts/ai-ml-engineering-specialist/ai-ml-engineering-specialist_v1.zip",
-      "sources": "instruction-sets/experts/ai-ml-engineering-specialist/sources/",
+      "readme": "specialists/engineering/ai-ml-engineering-specialist/README.md",
+      "archive": "specialists/engineering/ai-ml-engineering-specialist/ai-ml-engineering-specialist_v1.zip",
+      "sources": "specialists/engineering/ai-ml-engineering-specialist/sources/",
       "capabilities": [
         "ai-engineering"
       ],
@@ -736,7 +758,8 @@
       ],
       "use_cases": [
         "Implement and evaluate AI models, RAG, agent workflows and inference with safety, latency and cost evidence."
-      ]
+      ],
+      "kind": "specialist"
     },
     {
       "id": "catalog-grounded-consultant",
@@ -754,9 +777,9 @@
         "agentic-search"
       ],
       "status": "available",
-      "readme": "instruction-sets/orchestrators/catalog-grounded-consultant/README.md",
-      "archive": "instruction-sets/orchestrators/catalog-grounded-consultant/catalog-grounded-consultant_v1.zip",
-      "sources": "instruction-sets/orchestrators/catalog-grounded-consultant/sources/",
+      "readme": "orchestrators/workflow/catalog-grounded-consultant/README.md",
+      "archive": "orchestrators/workflow/catalog-grounded-consultant/catalog-grounded-consultant_v1.zip",
+      "sources": "orchestrators/workflow/catalog-grounded-consultant/sources/",
       "capabilities": [
         "catalog-grounded-consultation",
         "knowledge-gap-analysis",
@@ -779,7 +802,8 @@
       ],
       "use_cases": [
         "Assess target repo/media with AI Knowledge Atlas or UI/UX catalog; fill verified reusable knowledge gaps via authorized batches; refresh catalog and target before recommending changes"
-      ]
+      ],
+      "kind": "workflow-orchestrator"
     },
     {
       "id": "backend-architecture-consultant",
@@ -794,9 +818,9 @@
         "modularity"
       ],
       "status": "available",
-      "readme": "instruction-sets/experts/backend-architecture-consultant/README.md",
-      "archive": "instruction-sets/experts/backend-architecture-consultant/backend-architecture-consultant_v1.zip",
-      "sources": "instruction-sets/experts/backend-architecture-consultant/sources/",
+      "readme": "specialists/architecture/backend-architecture-consultant/README.md",
+      "archive": "specialists/architecture/backend-architecture-consultant/backend-architecture-consultant_v1.zip",
+      "sources": "specialists/architecture/backend-architecture-consultant/sources/",
       "capabilities": [
         "backend-architecture-review",
         "catalog-grounded-consultation",
@@ -816,7 +840,8 @@
       ],
       "use_cases": [
         "Review backend architecture and optionally curate knowledge gaps in Software Architecture Atlas"
-      ]
+      ],
+      "kind": "specialist"
     }
   ]
 }

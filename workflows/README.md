@@ -1,7 +1,14 @@
-# Extensible workflow profiles
+# Composable workflow definitions
 
-Profiles connect independent specialist instruction packages by capabilities, gates, evidence contracts, and stage dependencies. Each workflow has its own usage README and profile. Add other workflows without altering standalone specialist core instructions.
+Existing profiles:
+- [Organization-to-MVP](strategic/organization-idea-to-mvp/README.md)
+- [Software Delivery Lifecycle](engineering/software-delivery-lifecycle/README.md)
+- [Catalog Consultation](shared/catalog-consultation/README.md)
 
-- [Software Delivery Lifecycle](software-delivery-lifecycle/README.md)
-- [Organization-to-MVP](organization-idea-to-mvp/README.md) — strategy, portfolio, ideation, MVP funding and validation.
-- [Catalog Consultation](catalog-consultation/README.md) — optional cross-cutting assessment, knowledge-gap batches, catalog PR and refreshed playbook.
+New source-only scaffolds:
+- [Story Refinement](planning/backlog-refinement/profile.json)
+- [Pragmatic PR Review](engineering/pragmatic-pr-review/profile.json)
+- [Specialist Consultation](shared/specialist-consultation/profile.json)
+- [Human Approval](shared/approval-governance/profile.json)
+
+Profiles define triggers, role/capability requirements, stage ordering, independent parallel tasks, specialist council consultations, conditionals, bounded feedback, exit evidence and human approvals. They do not contain copied specialist instruction sets.

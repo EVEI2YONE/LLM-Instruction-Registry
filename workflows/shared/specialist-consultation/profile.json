@@ -1,0 +1,28 @@
+{
+  "id": "specialist-consultation",
+  "version": "v0-scaffold",
+  "status": "scaffold",
+  "triggers": [
+    "cross-domain-consultation"
+  ],
+  "stages": [
+    {
+      "id": "select",
+      "pattern": "conditional"
+    },
+    {
+      "id": "review",
+      "pattern": "parallel",
+      "depends_on": [
+        "select"
+      ]
+    },
+    {
+      "id": "reconcile",
+      "pattern": "council",
+      "depends_on": [
+        "review"
+      ]
+    }
+  ]
+}

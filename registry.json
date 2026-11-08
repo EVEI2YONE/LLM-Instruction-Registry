@@ -942,7 +942,7 @@
     {
       "id": "organizational-strategy-specialist",
       "name": "Organizational Strategy Specialist",
-      "version": "v1",
+      "version": "v1.1",
       "role": "strategist",
       "description": "Connect organization mission, portfolio priorities and investment constraints to product opportunity selection.",
       "tags": [
@@ -952,7 +952,7 @@
       ],
       "status": "available",
       "readme": "specialists/business/organizational-strategy-specialist/README.md",
-      "archive": "specialists/business/organizational-strategy-specialist/organizational-strategy-specialist_v1.zip",
+      "archive": "specialists/business/organizational-strategy-specialist/organizational-strategy-specialist_v1.1.zip",
       "sources": "specialists/business/organizational-strategy-specialist/sources/",
       "capabilities": [
         "organizational-strategy"

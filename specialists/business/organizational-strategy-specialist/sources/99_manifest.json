@@ -1,6 +1,6 @@
 {
   "id": "organizational-strategy-specialist",
-  "version": "v1",
+  "version": "v1.1",
   "role": "strategist",
   "capabilities": [
     "organizational-strategy"
@@ -21,5 +21,7 @@
     "agents/openai.yaml",
     "99_manifest.json"
   ],
-  "zip_root": "organizational-strategy-specialist"
+  "zip_root": "organizational-strategy-specialist",
+  "workflow_integration": "04_workflow_integration.md",
+  "self_heal_present": true
 }

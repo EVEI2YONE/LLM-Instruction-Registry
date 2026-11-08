@@ -19,7 +19,8 @@ jobs:
           python3 scripts/search_registry.py validate
           python3 scripts/migration_inventory.py --verify migration/inventory.json
       - name: Test lookup-first resolver and durable reference store
-        run: python3 -m unittest discover -s scripts -p 'test_lookup_foundations.py' -v
+        run: |
+          python3 -m unittest discover -s scripts -p 'test_lookup_foundations.py' -v
           python3 -m unittest discover -s scripts -p 'test_runtime_integration.py' -v
       - name: Parse new JSON schemas
         run: |

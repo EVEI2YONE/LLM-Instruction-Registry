@@ -7,6 +7,8 @@ Read:
 - [Adapter protocol](ADAPTER_CONTRACT.md)
 - [Execution setup](EXECUTION_SETUP.md)
 - [Gateway OpenAPI contract](gateway.openapi.json)
+- [Gateway security and reproducible verification](SECURITY_AND_DEPLOYMENT.md)
+- [Local container packaging recipe](Dockerfile)
 - [Portable adapter profiles](../adapters/README.md)
 - [Context and artifacts](CONTEXT_AND_ARTIFACT_CONTRACT.md)
 - [Runtime capability schema](../schemas/runtime-capabilities.schema.json)
@@ -14,4 +16,4 @@ Read:
 - [Context schema](../schemas/context-envelope.schema.json)
 - [Artifact schema](../schemas/artifact-record.schema.json)
 
-For real local execution, implement or configure a provider adapter, using authorized credentials and a scoped filesystem. Hosted environments require platform tools or an external authenticated gateway. A reference in-process adapter is for correctness tests, **not** a deployed hosted subagent system.
+For real local execution, implement or configure a provider adapter, using authorized credentials and a scoped filesystem. Hosted environments require platform tools or an external authenticated gateway. A deterministic local fixture process is for correctness tests, **not** a deployed hosted subagent system.

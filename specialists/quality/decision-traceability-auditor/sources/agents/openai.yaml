@@ -1,0 +1,3 @@
+interface:
+  display_name: "Decision and Traceability Auditor"
+  short_description: "Verify that approved business goals trace coherently through requirements, ADRs, implementation, tests an"

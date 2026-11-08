@@ -1,0 +1,18 @@
+{
+  "id": "decision-traceability-auditor",
+  "version": "v1",
+  "role": "expert",
+  "kind": "specialist",
+  "capabilities": [
+    "requirements-traceability",
+    "decision-audit",
+    "artifact-consistency"
+  ],
+  "workflows": [
+    "backlog-refinement",
+    "software-delivery-lifecycle",
+    "approval-governance"
+  ],
+  "source_count": 8,
+  "self_heal_present": true
+}

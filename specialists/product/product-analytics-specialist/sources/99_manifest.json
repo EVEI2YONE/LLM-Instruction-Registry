@@ -1,0 +1,17 @@
+{
+  "id": "product-analytics-specialist",
+  "version": "v1",
+  "role": "strategist",
+  "kind": "specialist",
+  "capabilities": [
+    "product-analytics",
+    "outcome-validation",
+    "measurement-design"
+  ],
+  "workflows": [
+    "organization-idea-to-mvp",
+    "software-delivery-lifecycle"
+  ],
+  "source_count": 8,
+  "self_heal_present": true
+}

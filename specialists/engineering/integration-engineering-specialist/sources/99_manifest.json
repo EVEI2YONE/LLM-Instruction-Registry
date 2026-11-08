@@ -1,0 +1,17 @@
+{
+  "id": "integration-engineering-specialist",
+  "version": "v1",
+  "role": "expert",
+  "kind": "specialist",
+  "capabilities": [
+    "integration-implementation",
+    "contract-testing",
+    "resilience-engineering"
+  ],
+  "workflows": [
+    "software-delivery-lifecycle",
+    "pragmatic-pr-review"
+  ],
+  "source_count": 8,
+  "self_heal_present": true
+}

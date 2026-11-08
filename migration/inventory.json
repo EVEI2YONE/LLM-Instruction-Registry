@@ -338,7 +338,7 @@
       "migration_status": "completed",
       "target_source_contract": "lookup-first-v1",
       "new_version": "v21",
-      "validation": "NOT_RUN"
+      "validation": "STATIC_PASS_RUNTIME_NOT_RUN"
     },
     {
       "id": "operations-reliability-specialist",

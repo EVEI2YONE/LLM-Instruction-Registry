@@ -1,0 +1,11 @@
+# Source bootstrap and verified access
+
+Use **before** any registry-first generation or agent discovery, even in a newly pasted hosted prompt. This is a small conditional procedure; do not load every package.
+
+1. Read `references/source-locations.json`, resolve `llm-instruction-registry` to its provider-neutral identity and available location hints. The named repository is a *locator*, not an access token, a pinned commit, or a running agent.
+2. Probe actual abilities separately: connected-repository read, local checkout, public read, supplied snapshot, Python/shell execution, writable file surface, and instruction injection. Record each verified/unknown/unavailable with evidence. Prefer least-privileged read-only discovery.
+3. Read `registry.json` via an accessible channel and pin the resolved commit/content revision. If a checkout and authorized interpreter both exist, execute the *real* `scripts/search_registry.py`; otherwise search the verified registry metadata with documented matching behavior and label it **metadata fallback, script NOT_RUN**. Do not pretend a repository URL causes execution.
+4. For `scripts/lookup_sections.py`, require a verified registered package source tree and real execution permission. Without it, read only accessible manifest-indexed sections and declare which dependency closure could not be verified.
+5. Before any generation or upgrade, resolve approved governance, target project, source catalog references, owners and applicable source/approval authority. Current shared common rules are **draft v0, not injected**. If mandatory authority is missing or contradictory, block consequential actions; optional catalog gaps are `not_verified`, never silently replaced by generic world knowledge.
+6. For local targets, never broaden filesystem roots, network, shell, process, secret or child-agent permissions. For hosted prompt-only targets, pre-resolve bounded instructions in an authorized build environment, deliver the payload in the actual supported instruction surface, and do not require runtime Python or lockfiles. Distinguish built instructions from confirmed injection.
+7. Record consumed refs, actual resolved revisions, tool observations, omitted sources and PASS/NOT_RUN/BLOCKED status in a short evidence report. A full registry checkout or copied prompts are not permanent shared memory.

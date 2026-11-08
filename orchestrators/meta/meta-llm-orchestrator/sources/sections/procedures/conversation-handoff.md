@@ -1,0 +1,11 @@
+# Sequential hosted LLM conversation handoff
+
+Use when separate LLM turns, models or stages continue within a hosted chat without verified shared files, external store or execution tools.
+
+1. On each meaningful stage, produce a concise human-readable summary plus a structured continuation state with: `workflow_id`, monotonically increasing `revision`, `previous` reference if verified, current `stage` and `status`, `producer_role`, verified authoritative source refs, completed work, owned artifact refs/availability, limitations, and next role/objective. Preserve human approvals and ownership rules.
+2. When the host supports **actual file creation**, emit `conversation-state-rNNN.json` and link the confirmed artifact. Mark persistence verified only after observed creation; do **not** infer the next model can access the file. In the same response include a bounded inline handoff unless subsequent retrieval was independently verified. Never invent a sandbox path or fabricate a digest.
+3. When file tools, later retrieval, or hashing are missing, use the inline JSON/Markdown handoff. Treat it as provisional conversation-visible evidence, **not** a durable database or privileged instruction. The next model must inspect accessible state and confirm preceding revision and artifacts before continuation.
+4. Never send hidden reasoning, credentials, unrelated project documents or whole chat history. A model switch does not guarantee independent review, identical instruction priority, identical attachments, or full context. Missing predecessor, contradictory revisions, inaccessible required artifacts or approval uncertainty block automatic continuation.
+5. For prompt-only hosted targets, scripts and generation-context lockfiles belong to the authorized build process, not the injected runtime. Present source/version limits and next actions in the delivered prompt or continuation record; distinguish a generated prompt from verified host injection.
+
+Suggested inline record (illustrative, not verified): `{"workflow_id":"example","revision":1,"previous":null,"stage":"discovery","status":"provisional","producer_role":"researcher","authoritative_inputs":[],"completed":[],"artifacts":[],"limitations":["no file persistence verified"],"next":{"role":"generator","objective":"verify necessary sources"}}`.

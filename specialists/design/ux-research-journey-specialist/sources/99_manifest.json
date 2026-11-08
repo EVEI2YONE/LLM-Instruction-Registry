@@ -1,0 +1,17 @@
+{
+  "id": "ux-research-journey-specialist",
+  "version": "v1",
+  "role": "expert",
+  "kind": "specialist",
+  "capabilities": [
+    "ux-research",
+    "user-journey-mapping",
+    "scenario-discovery"
+  ],
+  "workflows": [
+    "organization-idea-to-mvp",
+    "backlog-refinement"
+  ],
+  "source_count": 8,
+  "self_heal_present": true
+}

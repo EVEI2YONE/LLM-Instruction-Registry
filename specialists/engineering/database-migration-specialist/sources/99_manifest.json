@@ -1,0 +1,17 @@
+{
+  "id": "database-migration-specialist",
+  "version": "v1",
+  "role": "expert",
+  "kind": "specialist",
+  "capabilities": [
+    "database-migration",
+    "schema-evolution",
+    "data-integrity"
+  ],
+  "workflows": [
+    "software-delivery-lifecycle",
+    "pragmatic-pr-review"
+  ],
+  "source_count": 8,
+  "self_heal_present": true
+}

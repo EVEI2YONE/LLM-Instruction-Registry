@@ -1,0 +1,17 @@
+{
+  "id": "security-architecture-specialist",
+  "version": "v1",
+  "role": "expert",
+  "kind": "specialist",
+  "capabilities": [
+    "threat-modeling",
+    "security-architecture",
+    "trust-boundary-design"
+  ],
+  "workflows": [
+    "technical-feasibility",
+    "software-delivery-lifecycle"
+  ],
+  "source_count": 8,
+  "self_heal_present": true
+}

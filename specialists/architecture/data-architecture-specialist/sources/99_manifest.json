@@ -1,0 +1,17 @@
+{
+  "id": "data-architecture-specialist",
+  "version": "v1",
+  "role": "expert",
+  "kind": "specialist",
+  "capabilities": [
+    "data-architecture",
+    "data-modeling",
+    "data-governance"
+  ],
+  "workflows": [
+    "software-delivery-lifecycle",
+    "backlog-refinement"
+  ],
+  "source_count": 8,
+  "self_heal_present": true
+}

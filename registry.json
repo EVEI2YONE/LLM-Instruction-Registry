@@ -885,8 +885,8 @@
     {
       "id": "meta-llm-orchestrator",
       "name": "Meta-LLM Orchestrator",
-      "description": "Generate and update registry-consistent instruction sets and orchestrators for verified local, hosted, ChatGPT Project and bot runtime capabilities.",
-      "version": "v20",
+      "description": "Generate and publish lookup-first versioned agent instruction packages with modular sections, manifest-driven retrieval and local/hosted runtime contracts.",
+      "version": "v21",
       "role": "progenitor",
       "tags": [
         "workflow-aware",
@@ -894,7 +894,7 @@
       ],
       "status": "available",
       "readme": "orchestrators/meta/meta-llm-orchestrator/README.md",
-      "archive": "orchestrators/meta/meta-llm-orchestrator/meta-llm-orchestrator_v20.zip",
+      "archive": "orchestrators/meta/meta-llm-orchestrator/meta-llm-orchestrator_v21.zip",
       "sources": "orchestrators/meta/meta-llm-orchestrator/sources/",
       "capabilities": [
         "instruction-generation",
@@ -903,7 +903,10 @@
         "workspace-adaptive-generation",
         "repository-aware-generation",
         "capability-probing",
-        "ownership-aware-generation"
+        "ownership-aware-generation",
+        "lookup-first-generation",
+        "section-manifest-authoring",
+        "subagent-context-handoff-design"
       ],
       "domains": [
         "meta-instructions",
@@ -916,7 +919,9 @@
       "use_cases": [
         "Generate a workspace-tailored specialist for Codex or Claude Code",
         "Create instruction sets for hosted chatbots, Grok bots or ChatGPT Projects",
-        "Evolve an existing agent without duplicating registry capabilities"
+        "Evolve an existing agent without duplicating registry capabilities",
+        "Regenerate instruction systems into modular manifest-indexed packages",
+        "Produce scoped subagent and artifact handoff contracts for verified local or hosted runtimes"
       ],
       "kind": "meta-orchestrator"
     },

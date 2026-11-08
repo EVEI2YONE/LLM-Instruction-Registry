@@ -4,7 +4,7 @@ A versioned registry of **orchestrators**, **composable workflows**, **independe
 
 ## Entry points
 - [Product Lifecycle Orchestrator v1](orchestrators/primary/product-lifecycle-orchestrator/README.md) — user-facing intent routing, specialist selection and workflow composition.
-- [Meta-LLM Orchestrator v20](orchestrators/meta/meta-llm-orchestrator/README.md) — repository-first generation for verified chatbot, local agent, bot and ChatGPT Project workspaces.
+- [Meta-LLM Orchestrator v21](orchestrators/meta/meta-llm-orchestrator/README.md) — repository-first generation for verified chatbot, local agent, bot and ChatGPT Project workspaces.
 - [Workflow catalog](workflows/README.md) — stages, execution patterns, coordination and capability ownership.
 - [Specialist catalog](specialists/README.md) — independently invocable domain packages.
 - [Available package registry](registry.json) — 49 registered packages with actual versioned archives and browsable sources.

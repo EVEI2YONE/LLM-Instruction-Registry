@@ -12,7 +12,7 @@ sys.path.insert(0, str(ROOT))
 import lookup_sections as ls
 from runtime.state_store import StateStore, ConflictError, digest
 from runtime.reference_adapter import Adapter, UnsupportedSpawn
-from migration_inventory import inventory
+from migration_inventory import inventory, verify_snapshot
 
 
 class LookupTests(unittest.TestCase):
@@ -146,7 +146,10 @@ class InventoryTests(unittest.TestCase):
     def test_snapshot_matches(self):
         live = inventory(ROOT)
         expected = json.loads((ROOT / "migration" / "inventory.json").read_text(encoding="utf8"))
-        self.assertEqual(live, expected)
+        self.assertEqual([], verify_snapshot(ROOT, expected))
+        meta = next(x for x in expected["packages"] if x["id"] == "meta-llm-orchestrator")
+        self.assertEqual(("v20", "v21", "completed"),
+                         (meta["baseline_version"], meta["new_version"], meta["migration_status"]))
 
 
 if __name__ == "__main__":

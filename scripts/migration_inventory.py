@@ -44,6 +44,36 @@ def inventory(root: Path) -> dict:
     }
 
 
+def verify_snapshot(root: Path, saved: dict) -> list[str]:
+    """Keep frozen baseline archives while accepting explicitly versioned migrations."""
+    data = json.loads((root / "registry.json").read_text(encoding="utf8"))
+    current = {item["id"]: item for item in data["instruction_sets"]}
+    baseline = {item["id"]: item for item in saved["packages"]}
+    errors = []
+    if len(current) != saved["count"] or set(current) != set(baseline):
+        errors.append("registry package IDs or count changed")
+    for ident, old in baseline.items():
+        item = current.get(ident)
+        if item is None:
+            continue
+        if item["kind"] != old["kind"] or item["role"] != old["role"]:
+            errors.append(ident + ": role/kind drift")
+        if not (root / old["baseline_archive"]).is_file():
+            errors.append(ident + ": original archive missing")
+        if item["sources"] != old["baseline_sources"]:
+            errors.append(ident + ": source location drift")
+        status = old["migration_status"]
+        if status == "pending":
+            if item["version"] != old["baseline_version"] or item["archive"] != old["baseline_archive"]:
+                errors.append(ident + ": untracked version upgrade")
+        elif status == "completed":
+            if item["version"] != old.get("new_version") or not (root / item["archive"]).is_file():
+                errors.append(ident + ": completed version/archive mismatch")
+        else:
+            errors.append(ident + ": unsupported migration status")
+    return errors
+
+
 def main(argv=None):
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument("--root", type=Path, default=ROOT)
@@ -54,8 +84,9 @@ def main(argv=None):
         obj = inventory(args.root)
         if args.verify:
             saved = json.loads(args.verify.read_text(encoding="utf8"))
-            if saved != obj:
-                print("migration inventory out of sync", file=sys.stderr)
+            errors = verify_snapshot(args.root, saved)
+            if errors:
+                print("migration inventory out of sync: " + "; ".join(errors), file=sys.stderr)
                 return 1
         if args.output:
             args.output.parent.mkdir(parents=True, exist_ok=True)

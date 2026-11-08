@@ -9,7 +9,7 @@ class LifecycleRoutingTests(unittest.TestCase):
         registry = json.loads((ROOT / "registry.json").read_text())
         packages = {x["id"]: x for x in registry["instruction_sets"]}
         self.assertEqual("primary-orchestrator", packages["product-lifecycle-orchestrator"]["kind"])
-        self.assertEqual("v20", packages["meta-llm-orchestrator"]["version"])
+        self.assertEqual("v21", packages["meta-llm-orchestrator"]["version"])
         config = json.loads((ROOT / "orchestrators/primary/product-lifecycle-orchestrator/routing.json").read_text())
         self.assertEqual("available", config["status"])
         workflows = {json.loads(p.read_text())["id"] for p in (ROOT / "workflows").rglob("profile.json")}

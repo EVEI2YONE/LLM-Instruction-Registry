@@ -1,0 +1,262 @@
+{
+  "id": "meta-llm-orchestrator",
+  "version": "v21",
+  "role": "progenitor",
+  "kind": "meta-orchestrator",
+  "source_contract": "lookup-first-v1",
+  "common_rules_version": "v0-draft",
+  "common_rules_status": "unapproved-not-runtime-injected",
+  "entrypoint": {
+    "path": "SKILL.md",
+    "words": 579,
+    "sha256": "ddaccb7d19255f111c338aa8ee29b4448395925cd567413fdac91a709dcc79da"
+  },
+  "modes": [
+    {
+      "id": "generate",
+      "when": "Create a new instruction package",
+      "start_with": "sections/procedures/registry-reuse.md"
+    },
+    {
+      "id": "upgrade",
+      "when": "Upgrade an existing instruction set",
+      "start_with": "sections/procedures/instruction-classification.md"
+    },
+    {
+      "id": "adapt",
+      "when": "Target a particular local or hosted runtime",
+      "start_with": "sections/procedures/target-intake.md"
+    },
+    {
+      "id": "repair",
+      "when": "Correct a failed instruction behavior",
+      "start_with": "sections/procedures/self-heal.md"
+    }
+  ],
+  "sections": [
+    {
+      "id": "target-intake",
+      "kind": "procedure",
+      "path": "sections/procedures/target-intake.md",
+      "summary": "Determine runtime, permissions and verified capabilities.",
+      "read_when": [
+        "assess the execution runtime and permissions"
+      ],
+      "requires": [],
+      "reference_only": false,
+      "words": 289,
+      "sha256": "22dde87f9bff17cab97f459cfce0f554d7eed71f2e59a96eea04a80f236b04d4"
+    },
+    {
+      "id": "registry-reuse",
+      "kind": "procedure",
+      "path": "sections/procedures/registry-reuse.md",
+      "summary": "Search registry and choose reuse, upgrade or creation.",
+      "read_when": [
+        "search existing packages before creating an agent"
+      ],
+      "requires": [],
+      "reference_only": false,
+      "words": 244,
+      "sha256": "3f15227d005200baa371adbd6931260da9db429b7452bd89b53c552e1d23493b"
+    },
+    {
+      "id": "instruction-classification",
+      "kind": "procedure",
+      "path": "sections/procedures/instruction-classification.md",
+      "summary": "Classify instructions into always, shared and conditional layers.",
+      "read_when": [
+        "classify legacy instruction content into canonical layers"
+      ],
+      "requires": [
+        "registry-reuse"
+      ],
+      "reference_only": false,
+      "words": 300,
+      "sha256": "651a8e5d99db4dfbad68e5e606137005918c46e420ee06fffbbb54b0e7c1c55d"
+    },
+    {
+      "id": "lookup-first-generation",
+      "kind": "procedure",
+      "path": "sections/procedures/lookup-first-generation.md",
+      "summary": "Author modular sources and manifest-driven entrypoints.",
+      "read_when": [
+        "generate a lookup-first instruction package"
+      ],
+      "requires": [
+        "instruction-classification"
+      ],
+      "reference_only": false,
+      "words": 309,
+      "sha256": "c5d052a6d118ff9641d69bd9ba4eeef8708d938f51810bf2ea634c85d05e9e6a"
+    },
+    {
+      "id": "workspace-adaptation",
+      "kind": "procedure",
+      "path": "sections/procedures/workspace-adaptation.md",
+      "summary": "Render verified local or hosted instructions.",
+      "read_when": [
+        "adapt an instruction package to a target workspace"
+      ],
+      "requires": [
+        "target-intake",
+        "lookup-first-generation"
+      ],
+      "reference_only": false,
+      "words": 243,
+      "sha256": "a177164ec9d4027882e612812445177fc1db1128cc487f8c8b8880198e548e21"
+    },
+    {
+      "id": "delegation-and-handoffs",
+      "kind": "procedure",
+      "path": "sections/procedures/delegation-and-handoffs.md",
+      "summary": "Design dynamic subagent tasks and scoped artifacts.",
+      "read_when": [
+        "generate a dynamic subagent handoff contract"
+      ],
+      "requires": [
+        "target-intake",
+        "source-provenance"
+      ],
+      "reference_only": false,
+      "words": 249,
+      "sha256": "71b8977a41640cec71e43ca29d296b6dc8f9ac1d8f740c23b2b3d9317799c006"
+    },
+    {
+      "id": "source-provenance",
+      "kind": "procedure",
+      "path": "sections/procedures/source-provenance.md",
+      "summary": "Pin evidence, source authority and approval controls.",
+      "read_when": [
+        "verify catalog sources or governance authority"
+      ],
+      "requires": [],
+      "reference_only": false,
+      "words": 233,
+      "sha256": "26e1f074dc54d18a585e6bc2ed2c49d98e6ef437ab00b038e525ff5457f068ca"
+    },
+    {
+      "id": "package-and-publish",
+      "kind": "procedure",
+      "path": "sections/procedures/package-and-publish.md",
+      "summary": "Build versioned release ZIPs and reviewed changes.",
+      "read_when": [
+        "package and publish a versioned instruction release"
+      ],
+      "requires": [
+        "lookup-first-generation",
+        "workspace-adaptation",
+        "validation-and-evaluation"
+      ],
+      "reference_only": false,
+      "words": 290,
+      "sha256": "da972076d0dbde289ac3f75c4037fa85e4af82f2ca9b325c0e712467bff8763e"
+    },
+    {
+      "id": "validation-and-evaluation",
+      "kind": "procedure",
+      "path": "sections/procedures/validation-and-evaluation.md",
+      "summary": "Test source integrity, routing and actual runtime.",
+      "read_when": [
+        "validate a generated instruction package"
+      ],
+      "requires": [
+        "lookup-first-generation",
+        "source-provenance"
+      ],
+      "reference_only": false,
+      "words": 279,
+      "sha256": "05a29af6190602afe68bdab4a9fd80aec775d018f0ad1a90f6d42628fc1e0cee"
+    },
+    {
+      "id": "self-heal",
+      "kind": "procedure",
+      "path": "sections/procedures/self-heal.md",
+      "summary": "Correct failed instructions with regression checks.",
+      "read_when": [
+        "correct a failed or misleading instruction system"
+      ],
+      "requires": [
+        "validation-and-evaluation"
+      ],
+      "reference_only": false,
+      "words": 200,
+      "sha256": "4a5cb28f278a973e861299282b7d86bf82103351960c475b99b64d3f00c9a6e6"
+    },
+    {
+      "id": "outputs-and-handoff",
+      "kind": "contract",
+      "path": "sections/contracts/outputs-and-handoff.md",
+      "summary": "Describe outputs, handoffs, provenance and revisions.",
+      "read_when": [
+        "define durable output or handoff fields"
+      ],
+      "requires": [],
+      "reference_only": false,
+      "words": 176,
+      "sha256": "78eb5c37bea6881c46d849a6a59bb3fa4f6eab2075f082ce0578cd0ca9d5a8ad"
+    },
+    {
+      "id": "generation-report",
+      "kind": "template",
+      "path": "sections/templates/generation-report.md",
+      "summary": "Format an evidence-backed generation/release report.",
+      "read_when": [
+        "prepare an agent generation review report"
+      ],
+      "requires": [],
+      "reference_only": false,
+      "words": 197,
+      "sha256": "7124046eca44fb379b41055291cc71a173fbd93c59f6ed5ee872a01871f7c670"
+    },
+    {
+      "id": "request-scenarios",
+      "kind": "example",
+      "path": "sections/examples/request-scenarios.md",
+      "summary": "Optional local, hosted and multiagent calibration examples.",
+      "read_when": [],
+      "requires": [],
+      "reference_only": true,
+      "words": 173,
+      "sha256": "e1d160abe58e85f2882f69cd314854671285d777e7898401171c2bf75d1688c5"
+    }
+  ],
+  "adapters": [
+    "adapters/local-codex.md",
+    "adapters/local-claude-code.md",
+    "adapters/hosted-chat.md",
+    "adapters/chatgpt-project.md",
+    "adapters/grok-bot.md",
+    "adapters/generic-portable.md"
+  ],
+  "sources": [
+    "README.md",
+    "SKILL.md",
+    "adapters/chatgpt-project.md",
+    "adapters/generic-portable.md",
+    "adapters/grok-bot.md",
+    "adapters/hosted-chat.md",
+    "adapters/local-claude-code.md",
+    "adapters/local-codex.md",
+    "agents/openai.yaml",
+    "manifest.json",
+    "sections/contracts/outputs-and-handoff.md",
+    "sections/examples/request-scenarios.md",
+    "sections/procedures/delegation-and-handoffs.md",
+    "sections/procedures/instruction-classification.md",
+    "sections/procedures/lookup-first-generation.md",
+    "sections/procedures/package-and-publish.md",
+    "sections/procedures/registry-reuse.md",
+    "sections/procedures/self-heal.md",
+    "sections/procedures/source-provenance.md",
+    "sections/procedures/target-intake.md",
+    "sections/procedures/validation-and-evaluation.md",
+    "sections/procedures/workspace-adaptation.md",
+    "sections/templates/generation-report.md",
+    "tools/build_lookup_package.py"
+  ],
+  "self_heal_required": true,
+  "archive_root": "meta-llm-orchestrator",
+  "knowledge_policy": "Consult external catalogs at pinned catalog@sha:entry-id; do not copy evolving domain knowledge into canonical instructions.",
+  "provenance": "v21 reorganized from v20 after merged lookup-first infrastructure PR #16, preserving original v18/v19/v20 archives."
+}

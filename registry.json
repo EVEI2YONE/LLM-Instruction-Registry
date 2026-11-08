@@ -534,7 +534,7 @@
       "id": "devsecops-release-specialist",
       "name": "DevSecOps and Release Specialist",
       "description": "Govern security, CI/CD, deployment approvals, staging verification and rollback readiness.",
-      "version": "v1",
+      "version": "v1.1",
       "role": "expert",
       "tags": [
         "workflow-aware",
@@ -542,7 +542,7 @@
       ],
       "status": "available",
       "readme": "specialists/security/devsecops-release-specialist/README.md",
-      "archive": "specialists/security/devsecops-release-specialist/devsecops-release-specialist_v1.zip",
+      "archive": "specialists/security/devsecops-release-specialist/devsecops-release-specialist_v1.1.zip",
       "sources": "specialists/security/devsecops-release-specialist/sources/",
       "capabilities": [
         "ci-cd",

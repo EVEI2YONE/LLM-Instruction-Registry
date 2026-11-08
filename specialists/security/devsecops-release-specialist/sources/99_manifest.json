@@ -1,6 +1,6 @@
 {
   "id": "devsecops-release-specialist",
-  "version": "v1",
+  "version": "v1.1",
   "role": "expert",
   "capabilities": [
     "ci-cd",
@@ -23,5 +23,7 @@
     "agents/openai.yaml",
     "99_manifest.json"
   ],
-  "zip_root": "devsecops-release-specialist"
+  "zip_root": "devsecops-release-specialist",
+  "workflow_integration": "04_workflow_integration.md",
+  "self_heal_present": true
 }

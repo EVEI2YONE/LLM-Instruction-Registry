@@ -661,7 +661,7 @@
     {
       "id": "frontend-engineering-specialist",
       "name": "Frontend Engineering Specialist",
-      "version": "v1",
+      "version": "v1.1",
       "role": "expert",
       "description": "Build accessible, responsive frontend interactions against approved UX and API contracts.",
       "tags": [
@@ -671,7 +671,7 @@
       ],
       "status": "available",
       "readme": "specialists/engineering/frontend-engineering-specialist/README.md",
-      "archive": "specialists/engineering/frontend-engineering-specialist/frontend-engineering-specialist_v1.zip",
+      "archive": "specialists/engineering/frontend-engineering-specialist/frontend-engineering-specialist_v1.1.zip",
       "sources": "specialists/engineering/frontend-engineering-specialist/sources/",
       "capabilities": [
         "frontend-implementation"

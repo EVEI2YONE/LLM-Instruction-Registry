@@ -17,7 +17,7 @@ class MetaWorkspaceTests(unittest.TestCase):
         self.assertEqual("lookup-first-v1", m["source_contract"])
         self.assertEqual("unapproved-not-runtime-injected", m["common_rules_status"])
         self.assertTrue(m["self_heal_required"])
-        self.assertEqual(13, len(m["sections"]))
+        self.assertEqual(15, len(m["sections"]))
         for x in ("local-codex.md", "local-claude-code.md", "hosted-chat.md",
                   "chatgpt-project.md", "grok-bot.md", "generic-portable.md"):
             self.assertTrue((SOURCE / "adapters" / x).is_file())

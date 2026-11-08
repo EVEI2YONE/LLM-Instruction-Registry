@@ -12,7 +12,8 @@ assert package["package_id"] == task["package_id"]
 print(json.dumps({
     "protocol": "local-agent-result-v1", "task_id": task["task_id"],
     "status": "complete",
-    "evidence": ["verified-fixture-process"],
+    "evidence": ["verified-fixture-process",
+                 "inherited-artifacts:" + str(len(ctx.get("resolved_artifacts", [])))],
     "artifacts": [{"artifact_id": "output-" + task["task_id"], "kind": "text",
                    "content": "completed " + task["objective"],
                    "visibility": "run", "status": "draft"}]

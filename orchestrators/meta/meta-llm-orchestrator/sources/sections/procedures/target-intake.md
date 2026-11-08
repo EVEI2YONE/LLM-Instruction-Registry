@@ -1,6 +1,6 @@
 # Target runtime and generation intake
 
-Use when about to create or upgrade an instruction package and the intended runtime, deployment surface, or permissions matter.
+Resolve source locations and required access using `source-bootstrap`; use when about to create or upgrade an instruction package and the intended runtime, deployment surface, or permissions matter.
 
 ## Determine the assignment
 Capture the user's desired agent outcome and representative user requests; expected inputs, outputs, boundaries, and success criteria; whether a new package, new version, correction, workflow profile, or deployment adapter is being requested. Distinguish **authoring environment** (where you are generating instructions) from **execution environment** (where the agent will run). Do not equate a provider name or subscription with tool access.

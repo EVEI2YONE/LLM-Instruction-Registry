@@ -1,6 +1,6 @@
 # Hosted chat website or API application
 
-Determine the real hosting interface: system/developer instructions, repository/file lookup, tool calls, hosted native subagents, identity, persistence and quotas. A repository URL alone cannot spawn agents or share session memory.
+Resolve source IDs before building an instruction payload. In prompt-only or sequential model sessions, deliver bounded instructions plus a visible file/inline handoff; do not require a runtime lockfile or Python. Determine the real hosting interface: system/developer instructions, repository/file lookup, tool calls, hosted native subagents, identity, persistence and quotas. A repository URL alone cannot spawn agents or share session memory.
 
 If a native child-agent API is confirmed, generate a precise adapter. Otherwise require an operator-deployed, authenticated HTTPS tool/gateway compatible with runtime/gateway.openapi.json, scoped task/run IDs, audited artifacts, approval and cancellation gates. The checked-in gateway is a localhost reference, not an Internet deployment.
 

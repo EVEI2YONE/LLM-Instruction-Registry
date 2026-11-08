@@ -1,6 +1,6 @@
 {
   "id": "meta-llm-orchestrator",
-  "version": "v21",
+  "version": "v22",
   "role": "progenitor",
   "kind": "meta-orchestrator",
   "source_contract": "lookup-first-v1",
@@ -8,8 +8,8 @@
   "common_rules_status": "unapproved-not-runtime-injected",
   "entrypoint": {
     "path": "SKILL.md",
-    "words": 579,
-    "sha256": "ddaccb7d19255f111c338aa8ee29b4448395925cd567413fdac91a709dcc79da"
+    "words": 692,
+    "sha256": "240226849c9f853f55534beabc5aac51a33872d8ca8aed3475ac072e2432f4b2"
   },
   "modes": [
     {
@@ -219,6 +219,38 @@
       "reference_only": true,
       "words": 173,
       "sha256": "e1d160abe58e85f2882f69cd314854671285d777e7898401171c2bf75d1688c5"
+    },
+    {
+      "id": "source-bootstrap",
+      "kind": "procedure",
+      "path": "sections/procedures/source-bootstrap.md",
+      "summary": "Resolve host-neutral registry references and probe actual tools before generation.",
+      "read_when": [
+        "bootstrap registry sources before generating an instruction package",
+        "locate and verify agent registry retrieval or script access"
+      ],
+      "requires": [
+        "source-provenance"
+      ],
+      "reference_only": false,
+      "words": 303,
+      "sha256": "e92ef0d4cc3094bbc48a2f45f2a98fa867d6d1303019a5edde50ae3edeeb4949"
+    },
+    {
+      "id": "conversation-handoff",
+      "kind": "procedure",
+      "path": "sections/procedures/conversation-handoff.md",
+      "summary": "Transfer bounded state between sequential hosted LLM turns with file or inline fallback.",
+      "read_when": [
+        "continue work across hosted chat model switches or turns",
+        "prepare a versioned conversation state handoff"
+      ],
+      "requires": [
+        "outputs-and-handoff"
+      ],
+      "reference_only": false,
+      "words": 269,
+      "sha256": "acfe4e986f6c267072f0a3f4fb8f9222e3b949142d879f8263cdeb35cfdc348a"
     }
   ],
   "adapters": [
@@ -240,14 +272,17 @@
     "adapters/local-codex.md",
     "agents/openai.yaml",
     "manifest.json",
+    "references/source-locations.json",
     "sections/contracts/outputs-and-handoff.md",
     "sections/examples/request-scenarios.md",
+    "sections/procedures/conversation-handoff.md",
     "sections/procedures/delegation-and-handoffs.md",
     "sections/procedures/instruction-classification.md",
     "sections/procedures/lookup-first-generation.md",
     "sections/procedures/package-and-publish.md",
     "sections/procedures/registry-reuse.md",
     "sections/procedures/self-heal.md",
+    "sections/procedures/source-bootstrap.md",
     "sections/procedures/source-provenance.md",
     "sections/procedures/target-intake.md",
     "sections/procedures/validation-and-evaluation.md",
@@ -258,5 +293,6 @@
   "self_heal_required": true,
   "archive_root": "meta-llm-orchestrator",
   "knowledge_policy": "Consult external catalogs at pinned catalog@sha:entry-id; do not copy evolving domain knowledge into canonical instructions.",
-  "provenance": "v21 reorganized from v20 after merged lookup-first infrastructure PR #16, preserving original v18/v19/v20 archives."
+  "provenance": "v22 upgrades v21 with source bootstrap and sequential hosted handoff; v18-v21 archives retained.",
+  "source_catalog": "references/source-locations.json"
 }

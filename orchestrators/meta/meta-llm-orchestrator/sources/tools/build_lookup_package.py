@@ -126,7 +126,7 @@ def check(root, manifest):
         raise ValueError("entrypoint word budget exceeded")
     if sorted(manifest["sources"]) != files(root):
         raise ValueError("source inventory drift")
-    if manifest["id"] == "meta-llm-orchestrator" and manifest["version"] != "v21":
+    if manifest["id"] == "meta-llm-orchestrator" and manifest["version"] != "v22":
         raise ValueError("meta version mismatch")
 
 

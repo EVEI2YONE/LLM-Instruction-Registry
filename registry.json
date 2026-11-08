@@ -1487,7 +1487,7 @@
       "id": "ui-ux-design-system-architect",
       "name": "UI/UX Design System Architect",
       "description": "Catalog-first UI/UX knowledge and component audits and prioritized migration guidance.",
-      "version": "v1.1",
+      "version": "v1.2",
       "role": "curator",
       "tags": [
         "ux",
@@ -1496,11 +1496,12 @@
         "catalog",
         "a11y",
         "i18n",
-        "migration"
+        "migration",
+        "workflow-aware"
       ],
       "status": "available",
       "readme": "specialists/design/ui-ux-design-system-architect/README.md",
-      "archive": "specialists/design/ui-ux-design-system-architect/ui-ux-design-system-architect_v1.1.zip",
+      "archive": "specialists/design/ui-ux-design-system-architect/ui-ux-design-system-architect_v1.2.zip",
       "sources": "specialists/design/ui-ux-design-system-architect/sources/",
       "capabilities": [
         "design-catalog-curation",

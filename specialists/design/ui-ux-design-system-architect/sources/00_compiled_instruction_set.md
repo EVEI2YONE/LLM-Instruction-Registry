@@ -11,3 +11,7 @@ Define behavioral task completion, time on task, error rate, abandonment and con
 P0 severe accessibility, security/privacy or broken key journeys. P1 core high-frequency/high-value workflows. P2 IA/navigation. P3 component/design-system standardization. P4 onboarding and change management. P5 high-friction quick wins. P6 low-traffic secondary features. P7 purely aesthetic polish. Business priority may differ from implementation dependency order.
 ## Quality and GitHub
 Read repo contribution rules; branch and PR, never surprise-modify main. Catalog PR must document standards and indexes. Target report must cite paths and distinguish facts from speculation. Validate accessibility, localization, themes, responsive behavior, usability and rollback. A PR isn't published until required files are committed. Follow source self-heal when mistakes surface.
+
+
+## Workflow-aware extension (v1.2)
+Read `90_workflow_integration.md` when this package participates in a workflow. Preserve the original domain boundaries and direct-assistance mode. Do not infer human approval or actual tool permissions from the workflow assignment.

@@ -31,9 +31,9 @@ class GatewayIntegrationTests(unittest.TestCase):
         self.temp = tempfile.TemporaryDirectory()
         self.db = Path(self.temp.name) / "state.sqlite3"
         tokens = {
-            "token-alpha": {"projects": ["project-alpha"], "scopes": ["read", "write", "delegate"]},
-            "token-beta": {"projects": ["project-beta"], "scopes": ["read", "write", "delegate"]},
-            "token-read": {"projects": ["project-alpha"], "scopes": ["read"]},
+            "token-alpha": {"projects": ["project-alpha"], "run_ids": ["run-1"], "scopes": ["read", "write", "delegate"]},
+            "token-beta": {"projects": ["project-beta"], "run_ids": ["run-1"], "scopes": ["read", "write", "delegate"]},
+            "token-read": {"projects": ["project-alpha"], "run_ids": ["run-1"], "scopes": ["read"]},
         }
         self.gateway = Gateway(
             ROOT, self.db, tokens,
@@ -191,7 +191,7 @@ class GatewayIntegrationTests(unittest.TestCase):
         task2 = self.task("bad-budget", "ctx-cancel")
         task2["limits"]["max_parallel"] = 100
         status, _ = self.post_task(task2)
-        self.assertEqual(status, 403 if status == 403 else 400)
+        self.assertIn(status, (400, 403))
 
 
 class ResolverUnitTests(unittest.TestCase):

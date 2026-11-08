@@ -1290,16 +1290,17 @@
       "id": "solid-visual-architecture",
       "name": "SOLID Visual Architecture",
       "description": "Architecture visualization and SOLID-oriented design instruction system.",
-      "version": "v1",
+      "version": "v1.1",
       "role": "expert",
       "tags": [
         "solid",
         "visual",
-        "architecture"
+        "architecture",
+        "workflow-aware"
       ],
       "status": "available",
       "readme": "specialists/architecture/solid-visual-architecture/README.md",
-      "archive": "specialists/architecture/solid-visual-architecture/solid-visual-architecture_v1.zip",
+      "archive": "specialists/architecture/solid-visual-architecture/solid-visual-architecture_v1.1.zip",
       "sources": "specialists/architecture/solid-visual-architecture/sources/",
       "capabilities": [
         "software-architecture",

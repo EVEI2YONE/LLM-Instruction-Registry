@@ -1,0 +1,19 @@
+{
+  "id": "product-lifecycle-orchestrator",
+  "status": "scaffold",
+  "decisions": [
+    "direct-specialist",
+    "workflow",
+    "compose-workflows",
+    "human-escalation"
+  ],
+  "direct_resolution": "registry.capabilities",
+  "workflow_resolution": "workflow.triggers",
+  "human_approval": [
+    "investment",
+    "merge",
+    "production",
+    "irreversible"
+  ],
+  "rework_limit": 2
+}

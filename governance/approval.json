@@ -1,0 +1,13 @@
+{
+  "human_required_for": [
+    "investment",
+    "merge",
+    "production-deployment",
+    "irreversible-change"
+  ],
+  "rules": [
+    "No agent self-approval",
+    "Approvals reference exact revisions",
+    "No approval means action blocked"
+  ]
+}

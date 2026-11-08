@@ -1,0 +1,58 @@
+{
+  "type": "object",
+  "required": [
+    "workflow_id",
+    "stage_id",
+    "producer_version",
+    "project_revision",
+    "authoritative_inputs",
+    "outputs",
+    "evidence",
+    "status",
+    "next_owner"
+  ],
+  "properties": {
+    "workflow_id": {
+      "type": "string"
+    },
+    "stage_id": {
+      "type": "string"
+    },
+    "producer_version": {
+      "type": "string"
+    },
+    "project_revision": {
+      "type": "string"
+    },
+    "authoritative_inputs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "outputs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "status": {
+      "enum": [
+        "complete",
+        "blocked",
+        "failed",
+        "provisional",
+        "needs-approval"
+      ]
+    },
+    "next_owner": {
+      "type": "string"
+    }
+  }
+}

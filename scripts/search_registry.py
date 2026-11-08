@@ -33,8 +33,8 @@ def load(path=REGISTRY):
 
 def validate(data, root=ROOT):
     errors = []
-    if data.get("schema_version") != 2:
-        errors.append("schema_version must be 2")
+    if data.get("schema_version") != 3:
+        errors.append("schema_version must be 3")
     seen = set()
     for i, item in enumerate(data["instruction_sets"]):
         at = f"instruction_sets[{i}]"
@@ -64,7 +64,12 @@ def validate(data, root=ROOT):
                 errors.append(at + ": invalid " + key)
             elif len(set(x.casefold() for x in values)) != len(values):
                 errors.append(at + ": duplicate " + key)
-        prefix = f"instruction-sets/{DIRS[role]}/{ident}/"
+        prefix = item["readme"].removesuffix("README.md")
+        expected_kind = "meta-orchestrator" if role == "progenitor" else "workflow-orchestrator" if role == "orchestrator" else "specialist"
+        if item.get("kind") != expected_kind:
+            errors.append(at + ": invalid kind")
+        if not prefix.startswith(("orchestrators/" if role in ("progenitor", "orchestrator") else "specialists/")) or not prefix.endswith(f"/{ident}/"):
+            errors.append(at + ": invalid canonical location")
         for key in ("readme", "archive", "sources"):
             p = item[key]
             if not isinstance(p, str) or not p.startswith(prefix) or ".." in Path(p).parts:

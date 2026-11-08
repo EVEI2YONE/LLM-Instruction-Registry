@@ -1,0 +1,44 @@
+{
+  "id": "pragmatic-pr-review",
+  "version": "v0-scaffold",
+  "status": "scaffold",
+  "triggers": [
+    "pr-review",
+    "code-review"
+  ],
+  "stages": [
+    {
+      "id": "baseline",
+      "pattern": "sequential",
+      "requires": [
+        "code-review"
+      ]
+    },
+    {
+      "id": "assessment",
+      "pattern": "parallel",
+      "depends_on": [
+        "baseline"
+      ],
+      "requires": [
+        "software-architecture",
+        "acceptance-verification"
+      ]
+    },
+    {
+      "id": "correction",
+      "pattern": "feedback",
+      "depends_on": [
+        "assessment"
+      ]
+    },
+    {
+      "id": "merge",
+      "pattern": "approval",
+      "depends_on": [
+        "correction"
+      ],
+      "approval_required": true
+    }
+  ]
+}

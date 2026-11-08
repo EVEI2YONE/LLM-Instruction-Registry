@@ -1,6 +1,6 @@
 {
   "id": "software-delivery-lifecycle",
-  "version": "v1",
+  "version": "v1.1",
   "role": "orchestrator",
   "capabilities": [
     "workflow-orchestration",
@@ -32,5 +32,7 @@
     "agents/openai.yaml",
     "99_manifest.json"
   ],
-  "zip_root": "software-delivery-lifecycle"
+  "zip_root": "software-delivery-lifecycle",
+  "workflow_integration": "04_workflow_integration.md",
+  "self_heal_present": true
 }

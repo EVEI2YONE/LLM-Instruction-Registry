@@ -1250,7 +1250,7 @@
       "id": "software-delivery-lifecycle",
       "name": "Software Delivery Lifecycle Orchestrator",
       "description": "Route specialist work from idea through operations with durable gate evidence and controlled handoffs.",
-      "version": "v1",
+      "version": "v1.1",
       "role": "orchestrator",
       "tags": [
         "workflow-aware",
@@ -1258,7 +1258,7 @@
       ],
       "status": "available",
       "readme": "orchestrators/workflow/software-delivery-lifecycle/README.md",
-      "archive": "orchestrators/workflow/software-delivery-lifecycle/software-delivery-lifecycle_v1.zip",
+      "archive": "orchestrators/workflow/software-delivery-lifecycle/software-delivery-lifecycle_v1.1.zip",
       "sources": "orchestrators/workflow/software-delivery-lifecycle/sources/",
       "capabilities": [
         "workflow-orchestration",

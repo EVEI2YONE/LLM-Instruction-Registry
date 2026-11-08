@@ -101,6 +101,30 @@ class TaskQueue:
         return {"task": json.loads(row[0]), "status": row[1],
                 "result": json.loads(row[2]) if row[2] else None, "attempts": row[3]}
 
+    def readiness(self, project: str) -> bool:
+        """Non-claiming hint for dispatcher. claim_ready remains authoritative."""
+        with self.connect() as db:
+            rows = db.execute(
+                "SELECT run_id,spec FROM tasks WHERE project=? AND status='queued' ORDER BY created,task_id",
+                (project,)).fetchall()
+            for run_id, spec in rows:
+                task = json.loads(spec)
+                deps = task.get("dependencies", [])
+                if deps:
+                    placeholders = ",".join("?" for _ in deps)
+                    found = db.execute(
+                        "SELECT task_id,status FROM tasks WHERE project=? AND task_id IN (" + placeholders + ")",
+                        (project, *deps)).fetchall()
+                    completed = {id_: status for id_, status in found}
+                    if any(completed.get(dep) != "complete" for dep in deps):
+                        continue
+                running = db.execute(
+                    "SELECT COUNT(*) FROM tasks WHERE project=? AND run_id=? AND status='running'",
+                    (project, run_id)).fetchone()[0]
+                if running < task["limits"]["max_parallel"]:
+                    return True
+        return False
+
     def claim_ready(self, project: str) -> dict | None:
         with self.connect() as db:
             db.execute("BEGIN IMMEDIATE")

@@ -20,3 +20,6 @@ governance/  schemas/  templates/  knowledge/  docs/  scripts/
 The primary orchestrator chooses a direct specialist for bounded tasks or a workflow (possibly composed with other workflows) for multi-stage work. Workflow profiles define sequential, parallel, council, conditional, feedback and approval stages, resolving specialist packages by capability. Published package IDs, versions and ZIP blobs are preserved by this relocation.
 
 **Scaffold status:** The new primary entry point and composable example profiles are not published agent releases. [Migration notes](docs/MIGRATION_MAP.md).
+
+## Lifecycle instruction sets (v1)
+The primary lifecycle router, specialist councils and 20 bounded domain specialists are indexed in [the lifecycle catalog](docs/LIFECYCLE_INSTRUCTION_CATALOG.md) and [registry.json](registry.json). ZIP archives and browsable sources are published together. Actual tool permissions are discovered at execution time.

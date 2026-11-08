@@ -39,3 +39,7 @@ Publishing should update registry metadata, category/root navigation, and alias/
 ### Agent handoff
 
 Provide the selected `id`, exact `readme` and `sources` paths, reason for the match, evidence boundary (metadata only versus source-inspected), and what permissions or tool capabilities still need verification. Tool interfaces and external facts are never guaranteed by an instruction-set description.
+
+
+## Primary router selection
+For cross-workflow product lifecycle requests search for `product-lifecycle-orchestrator` (kind `primary-orchestrator`). For instruction-set generation use `meta-llm-orchestrator`; it is not the user-facing product dispatcher. For bounded tasks prefer a matching specialist. Workflow coordinators remain independently discoverable.

@@ -44,8 +44,8 @@
       ],
       "requires": [],
       "reference_only": false,
-      "words": 289,
-      "sha256": "22dde87f9bff17cab97f459cfce0f554d7eed71f2e59a96eea04a80f236b04d4"
+      "words": 297,
+      "sha256": "3a725d86db3f7dcc86b0c0ebeeb9b300db0b482cb05df8f2745c731e2518d1df"
     },
     {
       "id": "registry-reuse",
@@ -57,8 +57,8 @@
       ],
       "requires": [],
       "reference_only": false,
-      "words": 244,
-      "sha256": "3f15227d005200baa371adbd6931260da9db429b7452bd89b53c552e1d23493b"
+      "words": 255,
+      "sha256": "4048fc22acb819a97f454ad371aca836e2a0ee4ccb20b349485e5973f8462cb6"
     },
     {
       "id": "instruction-classification",

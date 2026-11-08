@@ -335,9 +335,9 @@
       "baseline_version": "v20",
       "baseline_archive": "orchestrators/meta/meta-llm-orchestrator/meta-llm-orchestrator_v20.zip",
       "baseline_sources": "orchestrators/meta/meta-llm-orchestrator/sources/",
-      "migration_status": "pending",
+      "migration_status": "completed",
       "target_source_contract": "lookup-first-v1",
-      "new_version": null,
+      "new_version": "v21",
       "validation": "NOT_RUN"
     },
     {

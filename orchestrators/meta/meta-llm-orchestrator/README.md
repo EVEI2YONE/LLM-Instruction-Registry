@@ -1,7 +1,7 @@
-# Meta-LLM Orchestrator (v20)
+# Meta-LLM Orchestrator (v21)
 
-Repository-first, workspace-aware generator of standalone specialists, workflow coordinators and primary orchestrators. It probes target capabilities before generating an agent-specific entrypoint and delivery package.
+Lookup-first, workspace-aware **instruction generator**. Generates reusable specialists, workflow coordinators and primary router instructions with manifest-indexed procedures, local/hosted adapters and explicit delegation handoffs.
 
-[Skill](sources/SKILL.md) · [Compiled instructions](sources/00_compiled_instruction_set.md) · [Workspace adapters](sources/05_target_adapters.md) · [Source guide](sources/README.md) · [ZIP](meta-llm-orchestrator_v20.zip).
+[Skill](sources/SKILL.md) · [Manifest](sources/manifest.json) · [Source guide](sources/README.md) · [Package builder](sources/tools/build_lookup_package.py) · [v21 ZIP](meta-llm-orchestrator_v21.zip).
 
-Preserved: [v19](meta-llm-orchestrator_v19.zip) and [v18](meta-llm-orchestrator_v18.zip) archives. This generator does not replace the [user-facing Product Lifecycle Orchestrator](../../primary/product-lifecycle-orchestrator/README.md).
+Previous archives retained: [v20](meta-llm-orchestrator_v20.zip), [v19](meta-llm-orchestrator_v19.zip), [v18](meta-llm-orchestrator_v18.zip). This does not replace the [Product Lifecycle Orchestrator](../../primary/product-lifecycle-orchestrator/README.md), deploy external tools or create hosted child agents without verified runtime integration.

@@ -319,3 +319,6 @@ Before package delivery, verify:
 - Manifest records self-heal presence.
 - Expected instruction table lists self-heal artifacts.
 - Validation table includes package and delivery checks.
+
+## Workflow-aware extension (v2.1)
+Read `90_workflow_integration.md` when this package participates in a workflow. Preserve the original domain boundaries and direct-assistance mode. Do not infer human approval or actual tool permissions from the workflow assignment.

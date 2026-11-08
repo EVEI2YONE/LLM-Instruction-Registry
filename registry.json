@@ -697,7 +697,7 @@
       "id": "general-purpose-chatgpt-conversations",
       "name": "General-Purpose ChatGPT Conversations",
       "description": "Efficient, friendly general-purpose ChatGPT conversations with mode-sensitive pacing, credible research, source filtering, and self-heal guidance.",
-      "version": "v2",
+      "version": "v2.1",
       "role": "generalist",
       "tags": [
         "general-purpose",
@@ -705,11 +705,12 @@
         "conversation",
         "research",
         "source-filtering",
-        "self-heal"
+        "self-heal",
+        "workflow-aware"
       ],
       "status": "available",
       "readme": "specialists/general/general-purpose-chatgpt-conversations/README.md",
-      "archive": "specialists/general/general-purpose-chatgpt-conversations/general-purpose-chatgpt-conversations_v2.zip",
+      "archive": "specialists/general/general-purpose-chatgpt-conversations/general-purpose-chatgpt-conversations_v2.1.zip",
       "sources": "specialists/general/general-purpose-chatgpt-conversations/sources/",
       "capabilities": [
         "general-conversation",

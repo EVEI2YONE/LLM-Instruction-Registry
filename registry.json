@@ -173,7 +173,7 @@
       "id": "architecture-delivery-specialist",
       "name": "Architecture Delivery Specialist",
       "description": "Own architecture proposals, reviewed ADRs, interface contracts and dependency-aware technical handoffs.",
-      "version": "v1",
+      "version": "v1.1",
       "role": "expert",
       "tags": [
         "workflow-aware",
@@ -181,7 +181,7 @@
       ],
       "status": "available",
       "readme": "specialists/architecture/architecture-delivery-specialist/README.md",
-      "archive": "specialists/architecture/architecture-delivery-specialist/architecture-delivery-specialist_v1.zip",
+      "archive": "specialists/architecture/architecture-delivery-specialist/architecture-delivery-specialist_v1.1.zip",
       "sources": "specialists/architecture/architecture-delivery-specialist/sources/",
       "capabilities": [
         "software-architecture",

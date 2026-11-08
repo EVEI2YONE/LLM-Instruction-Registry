@@ -1,0 +1,62 @@
+{
+  "id": "catalog-consultation",
+  "version": "v1",
+  "orchestrator": "catalog-grounded-consultant",
+  "entry_modes": [
+    "read-only-assessment",
+    "catalog-curation",
+    "full-consultation"
+  ],
+  "phases": [
+    {
+      "id": "intake",
+      "gate": "target_and_catalog_context_scoped"
+    },
+    {
+      "id": "initial-assessment",
+      "gate": "inspected_target_and_catalog_evidence"
+    },
+    {
+      "id": "gap-analysis",
+      "gate": "atomic_dispositions_and_no_duplicate"
+    },
+    {
+      "id": "catalog-batch-pr",
+      "conditional": true,
+      "gate": "trusted_write_approval_and_reviewable_changes"
+    },
+    {
+      "id": "refresh",
+      "gate": "catalog_approved_vs_proposed_and_target_revisions_reloaded"
+    },
+    {
+      "id": "final-assessment",
+      "gate": "evidence_based_recommendation_with_residual_gaps"
+    },
+    {
+      "id": "implementation-handoff",
+      "gate": "separate_target_owner_and_authorization"
+    }
+  ],
+  "adapters": [
+    "ai-knowledge-atlas",
+    "ui-ux-design-system"
+  ],
+  "persistent_refs": [
+    "target_repository",
+    "target_revision",
+    "catalog_repository",
+    "catalog_base_revision",
+    "catalog_proposed_pr",
+    "consultation_record"
+  ],
+  "privacy": "no_publication_of_unapproved_private_content",
+  "status_values": [
+    "not_started",
+    "in_progress",
+    "blocked",
+    "provisional",
+    "verified"
+  ],
+  "reusability": "any compatible workflow"
+}

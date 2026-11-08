@@ -33,3 +33,6 @@ Create `workflows/<workflow-id>/README.md` and `profile.json`, with stage/author
 
 ## Specialized engineering
 Select [frontend](../../instruction-sets/experts/frontend-engineering-specialist/README.md), [backend](../../instruction-sets/experts/backend-engineering-specialist/README.md), and optional [AI/ML](../../instruction-sets/experts/ai-ml-engineering-specialist/README.md) by approved scope. Require interface version alignment. For organizational idea-to-MVP investment gates start with [Organization-to-MVP](../organization-idea-to-mvp/README.md).
+
+## Consultant and catalog refinement checkpoints
+During research, architecture, UX, implementation review or refactor, optionally invoke [Catalog Consultation](../catalog-consultation/README.md). It audits actual code/repo/media against its relevant external knowledge catalog, builds an atomic knowledge-gap ledger, updates catalog-only PR batches if authorized, then re-fetches both contexts for a grounded remediation playbook. Implementation specialists consume the playbook through a separate product-repository PR; an unmerged catalog branch is provisional guidance.

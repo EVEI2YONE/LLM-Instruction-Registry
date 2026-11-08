@@ -1,0 +1,39 @@
+{
+  "id": "catalog-grounded-consultant",
+  "version": "v1",
+  "role": "orchestrator",
+  "capabilities": [
+    "catalog-grounded-consultation",
+    "evidence-based-assessment",
+    "knowledge-gap-audit",
+    "knowledge-curation",
+    "batched-pr",
+    "refactor-playbook"
+  ],
+  "domains": [
+    "software-products",
+    "ai-engineering",
+    "ui-ux",
+    "software-architecture"
+  ],
+  "modes": [
+    "consultant",
+    "curative",
+    "advisory"
+  ],
+  "context_space_aware": true,
+  "workflow_aware": true,
+  "self_heal_required": true,
+  "source_files": [
+    "SKILL.md",
+    "00_compiled_instruction_set.md",
+    "01_intake_evidence.md",
+    "02_catalog_gap_and_batched_pr.md",
+    "03_reassessment_playbook.md",
+    "04_governance_self_heal.md",
+    "README.md",
+    "agents/openai.yaml",
+    "99_manifest.json"
+  ],
+  "zip_root": "catalog-grounded-consultant"
+}

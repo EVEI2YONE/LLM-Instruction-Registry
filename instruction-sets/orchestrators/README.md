@@ -13,3 +13,5 @@ These are primary responsibilities, not exclusive capabilities. Search [registry
 
 ## Organization-to-MVP additions
 - [Organization-to-MVP Orchestrator](idea-to-mvp-orchestrator/README.md) — Coordinate top-down strategy, portfolio choices, ideation, validation, MVP investment approval, design, build and learning.
+
+- [Catalog-Grounded Consultant](catalog-grounded-consultant/README.md) — cross-workflow evidence audit, knowledge-gap batch PR, refreshed recommendations and implementation handoff.

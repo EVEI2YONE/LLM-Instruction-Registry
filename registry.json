@@ -743,6 +743,49 @@
       "use_cases": [
         "Implement and evaluate AI models, RAG, agent workflows and inference with safety, latency and cost evidence."
       ]
+    },
+    {
+      "id": "catalog-grounded-consultant",
+      "name": "Catalog-Grounded Consultant",
+      "description": "Consultative, curative and advisory workflow using external knowledge catalogs: assess target repositories/code/media, identify and batch generalizable gaps, update authorized catalog PRs, re-gather context and deliver grounded refactor playbooks.",
+      "version": "v1",
+      "role": "orchestrator",
+      "tags": [
+        "catalog-consultation",
+        "knowledge-gaps",
+        "cross-workflow",
+        "research",
+        "code-review",
+        "ux-audit",
+        "agentic-search"
+      ],
+      "status": "available",
+      "readme": "instruction-sets/orchestrators/catalog-grounded-consultant/README.md",
+      "archive": "instruction-sets/orchestrators/catalog-grounded-consultant/catalog-grounded-consultant_v1.zip",
+      "sources": "instruction-sets/orchestrators/catalog-grounded-consultant/sources/",
+      "capabilities": [
+        "catalog-grounded-consultation",
+        "knowledge-gap-analysis",
+        "batched-research",
+        "catalog-pr-coordination",
+        "refactor-playbook",
+        "reassessment"
+      ],
+      "domains": [
+        "software-architecture",
+        "ai-systems",
+        "ui-ux",
+        "software-delivery"
+      ],
+      "aliases": [
+        "catalog consultant",
+        "catalog-grounded consultant",
+        "research consultant",
+        "knowledge gap consultant"
+      ],
+      "use_cases": [
+        "Assess target repo/media with AI Knowledge Atlas or UI/UX catalog; fill verified reusable knowledge gaps via authorized batches; refresh catalog and target before recommending changes"
+      ]
     }
   ]
 }

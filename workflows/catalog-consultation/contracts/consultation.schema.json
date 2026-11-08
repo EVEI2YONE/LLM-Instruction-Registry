@@ -1,0 +1,149 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Catalog Consultation Record",
+  "type": "object",
+  "required": [
+    "consultation_id",
+    "target",
+    "catalog",
+    "mode",
+    "assessment_status"
+  ],
+  "properties": {
+    "consultation_id": {
+      "type": "string"
+    },
+    "workflow_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "stage_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "mode": {
+      "enum": [
+        "consultant",
+        "curative",
+        "advisory"
+      ]
+    },
+    "target": {
+      "type": "object",
+      "required": [
+        "repository_or_media_reference",
+        "revision"
+      ],
+      "properties": {
+        "repository_or_media_reference": {
+          "type": "string"
+        },
+        "revision": {
+          "type": "string"
+        }
+      }
+    },
+    "catalog": {
+      "type": "object",
+      "required": [
+        "repository",
+        "baseline_revision"
+      ],
+      "properties": {
+        "repository": {
+          "type": "string"
+        },
+        "baseline_revision": {
+          "type": "string"
+        },
+        "proposed_head_revision": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "pr_url": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "approval_state": {
+          "enum": [
+            "approved",
+            "provisional",
+            "unknown"
+          ]
+        }
+      }
+    },
+    "gap_report_ref": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "batches": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "status"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "status": {
+            "enum": [
+              "planned",
+              "in_progress",
+              "committed",
+              "validated",
+              "blocked"
+            ]
+          },
+          "commit_sha": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "assessment_status": {
+      "enum": [
+        "initial",
+        "refresh_required",
+        "refreshed",
+        "blocked",
+        "complete"
+      ]
+    },
+    "assessment_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "next_owner": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "refactor_playbook_ref": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "additionalProperties": true
+}

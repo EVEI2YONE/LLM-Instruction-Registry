@@ -68,3 +68,6 @@ Read [CONTRIBUTING.md](CONTRIBUTING.md), [docs/PUBLISHING.md](docs/PUBLISHING.md
 
 ## Top-down organizational workflow
 [Organization-to-MVP](workflows/organization-idea-to-mvp/README.md) coordinates strategy through MVP. Dedicated [frontend](instruction-sets/experts/frontend-engineering-specialist/README.md), [backend](instruction-sets/experts/backend-engineering-specialist/README.md) and [AI/ML](instruction-sets/experts/ai-ml-engineering-specialist/README.md) specialists support implementation.
+
+## Catalog-grounded consultation
+[Catalog-Grounded Consultant](instruction-sets/orchestrators/catalog-grounded-consultant/README.md) and its [workflow guide](workflows/catalog-consultation/README.md) provide a reusable target-audit → catalog knowledge gaps → authorized batched catalog PR → context refresh → recommendation/refactor playbook loop. Initial adapters reuse the AI Knowledge Atlas and UI/UX Design System Architect curators.

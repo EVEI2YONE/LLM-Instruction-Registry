@@ -4,3 +4,4 @@ Profiles connect independent specialist instruction packages by capabilities, ga
 
 - [Software Delivery Lifecycle](software-delivery-lifecycle/README.md)
 - [Organization-to-MVP](organization-idea-to-mvp/README.md) — strategy, portfolio, ideation, MVP funding and validation.
+- [Catalog Consultation](catalog-consultation/README.md) — optional cross-cutting assessment, knowledge-gap batches, catalog PR and refreshed playbook.

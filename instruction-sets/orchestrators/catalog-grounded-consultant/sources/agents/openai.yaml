@@ -1,0 +1,3 @@
+interface:
+  display_name: "Catalog-Grounded Consultant"
+  short_description: "Assess a target against reusable knowledge, curate gap batches, then reassess and recommend changes."

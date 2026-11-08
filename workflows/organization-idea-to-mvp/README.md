@@ -14,3 +14,6 @@ This is a workflow-specific guide distinct from the technical SDLC. Start with o
 | MVP acceptance | qa-verification-specialist; product-delivery-specialist | product/QA evidence, learn/iterate/stop decision |
 
 Each stage checks current artifact ID/revision, owner, exit evidence and next downstream consumer. Independent work may run concurrently but shared interfaces require approved version. Context moves across threads through durable handoffs, not assumed memory. Existing PRDs/strategy/ADRs win over new duplicated documents; resolve conflicting drafts with owners. Use SDLC for release/operations and reference the same canonical artifacts. Other future workflows add a sibling directory/profile.
+
+## Catalog consultation checkpoints
+For ideation feasibility, MVP design or AI/UX decisions, optionally invoke [Catalog-Grounded Consultation](../catalog-consultation/README.md) with the actual target and AI/UX catalog references. Consultant identifies verified reusable gaps, batches authorized **catalog-only** PR changes, re-reads catalog/target context, then returns a provisional-or-approved assessment and scoped MVP playbook. An unmerged catalog PR never counts as approved product/MVP authority. If catalog coverage is sufficient, do not create a PR.

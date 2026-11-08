@@ -30,3 +30,6 @@ Create `workflows/<workflow-id>/README.md` and `profile.json`, with stage/author
 - Concurrent sibling edits -> owner review and source SHA check.
 - No CI or deployment access -> mark unverified, no false claim.
 - Workflow-independent specialist -> no forced SDLC stage.
+
+## Specialized engineering
+Select [frontend](../../instruction-sets/experts/frontend-engineering-specialist/README.md), [backend](../../instruction-sets/experts/backend-engineering-specialist/README.md), and optional [AI/ML](../../instruction-sets/experts/ai-ml-engineering-specialist/README.md) by approved scope. Require interface version alignment. For organizational idea-to-MVP investment gates start with [Organization-to-MVP](../organization-idea-to-mvp/README.md).

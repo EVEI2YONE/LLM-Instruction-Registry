@@ -79,5 +79,10 @@
     "production",
     "irreversible-changes",
     "merge"
+  ],
+  "specialized_implementation": [
+    "frontend-engineering-specialist",
+    "backend-engineering-specialist",
+    "ai-ml-engineering-specialist"
   ]
 }

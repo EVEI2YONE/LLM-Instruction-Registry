@@ -1,0 +1,59 @@
+{
+  "id": "organization-idea-to-mvp",
+  "version": "v1",
+  "coordinator": "idea-to-mvp-orchestrator",
+  "stages": [
+    {
+      "id": "organizational-intent",
+      "lead": "organizational-strategy-specialist"
+    },
+    {
+      "id": "portfolio-opportunity",
+      "lead": "organizational-strategy-specialist"
+    },
+    {
+      "id": "ideation",
+      "lead": "business-app-idea"
+    },
+    {
+      "id": "opportunity-validation",
+      "lead": "product-delivery-specialist"
+    },
+    {
+      "id": "product-definition",
+      "lead": "app-planning"
+    },
+    {
+      "id": "mvp-scope",
+      "lead": "idea-to-mvp-orchestrator"
+    },
+    {
+      "id": "mvp-design",
+      "lead": "architecture-delivery-specialist"
+    },
+    {
+      "id": "mvp-build",
+      "lead": "engineering-execution-specialist"
+    },
+    {
+      "id": "mvp-validation",
+      "lead": "qa-verification-specialist"
+    }
+  ],
+  "optional_specialists": [
+    "ai-ml-engineering-specialist",
+    "ui-ux-design-system-architect"
+  ],
+  "parallel_implementation": [
+    "frontend-engineering-specialist",
+    "backend-engineering-specialist",
+    "ai-ml-engineering-specialist"
+  ],
+  "gates": [
+    "source_authority",
+    "artifact_revision",
+    "acceptance_evidence",
+    "human_approval_for_investment"
+  ],
+  "technical_handoff": "software-delivery-lifecycle"
+}

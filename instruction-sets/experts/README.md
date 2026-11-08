@@ -17,3 +17,8 @@ These are primary responsibilities, not exclusive capabilities. Search [registry
 - [QA and Verification Specialist](qa-verification-specialist/README.md) — Independently verify acceptance, regression and change risk with pinned test evidence.
 - [DevSecOps and Release Specialist](devsecops-release-specialist/README.md) — Govern security, CI/CD, deployment approvals, staging verification and rollback readiness.
 - [Operations and Reliability Specialist](operations-reliability-specialist/README.md) — Own observable health, incident evidence, post-release verification and feedback handoffs.
+
+## Organization-to-MVP additions
+- [Frontend Engineering Specialist](frontend-engineering-specialist/README.md) — Build accessible, responsive frontend interactions against approved UX and API contracts.
+- [Backend Engineering Specialist](backend-engineering-specialist/README.md) — Implement APIs, persistence, authorization, integrations and safe migrations with testable contracts.
+- [AI/ML Engineering Specialist](ai-ml-engineering-specialist/README.md) — Implement and evaluate AI models, RAG, agent workflows and inference with safety, latency and cost evidence.

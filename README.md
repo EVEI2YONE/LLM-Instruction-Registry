@@ -65,3 +65,6 @@ Read [CONTRIBUTING.md](CONTRIBUTING.md), [docs/PUBLISHING.md](docs/PUBLISHING.md
 ## Workflow-aware collaboration
 
 [Meta-LLM Orchestrator v19](instruction-sets/progenitors/meta-llm-orchestrator/README.md) can generate standalone or workflow-aware specialists. [SDLC workflow-specific usage](workflows/software-delivery-lifecycle/README.md) explains coordinating them with existing project artifacts. [Workflow architecture](docs/WORKFLOW_ARCHITECTURE.md) supports future workflow profiles.
+
+## Top-down organizational workflow
+[Organization-to-MVP](workflows/organization-idea-to-mvp/README.md) coordinates strategy through MVP. Dedicated [frontend](instruction-sets/experts/frontend-engineering-specialist/README.md), [backend](instruction-sets/experts/backend-engineering-specialist/README.md) and [AI/ML](instruction-sets/experts/ai-ml-engineering-specialist/README.md) specialists support implementation.

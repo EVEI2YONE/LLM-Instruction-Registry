@@ -1,0 +1,2 @@
+# Sources for Frontend Engineering Specialist
+Read SKILL.md and compiled contract. Domain defines execution, context covers authoritative artifacts, self-heal covers durable corrections. Workflow-specific guidance lives in workflows/, not duplicated here.

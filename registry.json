@@ -598,6 +598,151 @@
       "use_cases": [
         "Own observable health, incident evidence, post-release verification and feedback handoffs."
       ]
+    },
+    {
+      "id": "organizational-strategy-specialist",
+      "name": "Organizational Strategy Specialist",
+      "version": "v1",
+      "role": "strategist",
+      "description": "Connect organization mission, portfolio priorities and investment constraints to product opportunity selection.",
+      "tags": [
+        "workflow-aware",
+        "context-space",
+        "mvp"
+      ],
+      "status": "available",
+      "readme": "instruction-sets/strategists/organizational-strategy-specialist/README.md",
+      "archive": "instruction-sets/strategists/organizational-strategy-specialist/organizational-strategy-specialist_v1.zip",
+      "sources": "instruction-sets/strategists/organizational-strategy-specialist/sources/",
+      "capabilities": [
+        "organizational-strategy"
+      ],
+      "domains": [
+        "software-products"
+      ],
+      "aliases": [
+        "organizational strategy specialist",
+        "organizational strategy specialist"
+      ],
+      "use_cases": [
+        "Connect organization mission, portfolio priorities and investment constraints to product opportunity selection."
+      ]
+    },
+    {
+      "id": "idea-to-mvp-orchestrator",
+      "name": "Organization-to-MVP Orchestrator",
+      "version": "v1",
+      "role": "orchestrator",
+      "description": "Coordinate top-down strategy, portfolio choices, ideation, validation, MVP investment approval, design, build and learning.",
+      "tags": [
+        "workflow-aware",
+        "context-space",
+        "mvp"
+      ],
+      "status": "available",
+      "readme": "instruction-sets/orchestrators/idea-to-mvp-orchestrator/README.md",
+      "archive": "instruction-sets/orchestrators/idea-to-mvp-orchestrator/idea-to-mvp-orchestrator_v1.zip",
+      "sources": "instruction-sets/orchestrators/idea-to-mvp-orchestrator/sources/",
+      "capabilities": [
+        "organization-to-mvp"
+      ],
+      "domains": [
+        "software-products"
+      ],
+      "aliases": [
+        "organization-to-mvp orchestrator",
+        "idea to mvp orchestrator"
+      ],
+      "use_cases": [
+        "Coordinate top-down strategy, portfolio choices, ideation, validation, MVP investment approval, design, build and learning."
+      ]
+    },
+    {
+      "id": "frontend-engineering-specialist",
+      "name": "Frontend Engineering Specialist",
+      "version": "v1",
+      "role": "expert",
+      "description": "Build accessible, responsive frontend interactions against approved UX and API contracts.",
+      "tags": [
+        "workflow-aware",
+        "context-space",
+        "mvp"
+      ],
+      "status": "available",
+      "readme": "instruction-sets/experts/frontend-engineering-specialist/README.md",
+      "archive": "instruction-sets/experts/frontend-engineering-specialist/frontend-engineering-specialist_v1.zip",
+      "sources": "instruction-sets/experts/frontend-engineering-specialist/sources/",
+      "capabilities": [
+        "frontend-implementation"
+      ],
+      "domains": [
+        "software-products"
+      ],
+      "aliases": [
+        "frontend engineering specialist",
+        "frontend engineering specialist"
+      ],
+      "use_cases": [
+        "Build accessible, responsive frontend interactions against approved UX and API contracts."
+      ]
+    },
+    {
+      "id": "backend-engineering-specialist",
+      "name": "Backend Engineering Specialist",
+      "version": "v1",
+      "role": "expert",
+      "description": "Implement APIs, persistence, authorization, integrations and safe migrations with testable contracts.",
+      "tags": [
+        "workflow-aware",
+        "context-space",
+        "mvp"
+      ],
+      "status": "available",
+      "readme": "instruction-sets/experts/backend-engineering-specialist/README.md",
+      "archive": "instruction-sets/experts/backend-engineering-specialist/backend-engineering-specialist_v1.zip",
+      "sources": "instruction-sets/experts/backend-engineering-specialist/sources/",
+      "capabilities": [
+        "backend-implementation"
+      ],
+      "domains": [
+        "software-products"
+      ],
+      "aliases": [
+        "backend engineering specialist",
+        "backend engineering specialist"
+      ],
+      "use_cases": [
+        "Implement APIs, persistence, authorization, integrations and safe migrations with testable contracts."
+      ]
+    },
+    {
+      "id": "ai-ml-engineering-specialist",
+      "name": "AI/ML Engineering Specialist",
+      "version": "v1",
+      "role": "expert",
+      "description": "Implement and evaluate AI models, RAG, agent workflows and inference with safety, latency and cost evidence.",
+      "tags": [
+        "workflow-aware",
+        "context-space",
+        "mvp"
+      ],
+      "status": "available",
+      "readme": "instruction-sets/experts/ai-ml-engineering-specialist/README.md",
+      "archive": "instruction-sets/experts/ai-ml-engineering-specialist/ai-ml-engineering-specialist_v1.zip",
+      "sources": "instruction-sets/experts/ai-ml-engineering-specialist/sources/",
+      "capabilities": [
+        "ai-engineering"
+      ],
+      "domains": [
+        "software-products"
+      ],
+      "aliases": [
+        "ai/ml engineering specialist",
+        "ai ml engineering specialist"
+      ],
+      "use_cases": [
+        "Implement and evaluate AI models, RAG, agent workflows and inference with safety, latency and cost evidence."
+      ]
     }
   ]
 }

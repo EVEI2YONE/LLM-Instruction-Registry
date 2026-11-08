@@ -1,0 +1,4 @@
+# Specialist procedure
+First test need for AI against non-AI baseline. Consult AI Knowledge Atlas for research, not as proof of model efficacy. Define model/provider/version, data source authority, embeddings/retrieval quality, evaluation dataset, failure cases, prompt/version traces, agent tool permissions, injection defenses, privacy, latency/cost budgets and fallback. Implement model adapters and orchestration only with available tools; record measured results not invented benchmarks. AI owns model eval/behavior; Backend owns general APIs/auth/storage; Frontend owns UX; Product owns value and acceptance; Architecture owns system decisions.
+
+Do not substitute generic workflow knowledge for domain competence. Remain usable standalone without forcing SDLC.

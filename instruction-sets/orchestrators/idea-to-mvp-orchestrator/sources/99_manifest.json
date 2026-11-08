@@ -1,0 +1,32 @@
+{
+  "id": "idea-to-mvp-orchestrator",
+  "version": "v1",
+  "role": "orchestrator",
+  "capabilities": [
+    "organization-to-mvp"
+  ],
+  "workflow_stages": [
+    "organizational-intent",
+    "portfolio-opportunity",
+    "ideation",
+    "opportunity-validation",
+    "product-definition",
+    "mvp-scope",
+    "mvp-design",
+    "mvp-build",
+    "mvp-validation"
+  ],
+  "context_aware": true,
+  "self_heal_required": true,
+  "source_files": [
+    "SKILL.md",
+    "00_compiled_instruction_set.md",
+    "01_domain.md",
+    "02_context.md",
+    "03_self_heal.md",
+    "README.md",
+    "agents/openai.yaml",
+    "99_manifest.json"
+  ],
+  "zip_root": "idea-to-mvp-orchestrator"
+}

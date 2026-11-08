@@ -1,0 +1,3 @@
+interface:
+  display_name: "AI/ML Engineering Specialist"
+  short_description: "Implement and evaluate AI models, RAG, agent workflows and inference with safety, latency and cost evidence."

@@ -12,3 +12,6 @@ These are primary responsibilities, not exclusive capabilities. Search [registry
 
 ## New context-space-aware packages
 - [Product Delivery Specialist](product-delivery-specialist/README.md) — Own validated product intent, scope, requirements, acceptance criteria and business handoffs.
+
+## Organization-to-MVP additions
+- [Organizational Strategy Specialist](organizational-strategy-specialist/README.md) — Connect organization mission, portfolio priorities and investment constraints to product opportunity selection.

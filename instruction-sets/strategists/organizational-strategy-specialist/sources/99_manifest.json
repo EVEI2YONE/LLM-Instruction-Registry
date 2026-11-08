@@ -1,0 +1,25 @@
+{
+  "id": "organizational-strategy-specialist",
+  "version": "v1",
+  "role": "strategist",
+  "capabilities": [
+    "organizational-strategy"
+  ],
+  "workflow_stages": [
+    "organizational-intent",
+    "portfolio-opportunity"
+  ],
+  "context_aware": true,
+  "self_heal_required": true,
+  "source_files": [
+    "SKILL.md",
+    "00_compiled_instruction_set.md",
+    "01_domain.md",
+    "02_context.md",
+    "03_self_heal.md",
+    "README.md",
+    "agents/openai.yaml",
+    "99_manifest.json"
+  ],
+  "zip_root": "organizational-strategy-specialist"
+}

@@ -11,6 +11,7 @@ from runtime.policy import check_permissions
 from runtime.process_adapter import ProcessAgentAdapter
 from runtime.state_store import StateStore, digest
 from runtime.task_queue import TaskQueue
+from runtime.refs import parse_ref
 
 
 class Worker:
@@ -32,7 +33,8 @@ class Worker:
                 raise PermissionError("required adapter capabilities not verified")
             store = StateStore(self.db_path)
             try:
-                ctx = store.get_context(project, task["context_ref"], 1)
+                ctx_id, ctx_revision = parse_ref(task["context_ref"], 1)
+                ctx = store.get_context(project, ctx_id, ctx_revision)
                 if ctx["task_id"] != task["task_id"] or ctx["run_id"] != task["run_id"]:
                     raise PermissionError("wrong task or run context")
                 package = self.resolver.resolve(task["package_id"], task["package_version"], task["objective"])
@@ -40,8 +42,7 @@ class Worker:
                 # been explicitly granted. Never mutate the immutable envelope.
                 materialized = []
                 for artifact_ref in ctx.get("artifact_refs", []):
-                    artifact_id, sep, rev_str = artifact_ref.partition("@")
-                    revision = int(rev_str) if sep else None
+                    artifact_id, revision = parse_ref(artifact_ref)
                     meta, raw = store.get_artifact(project, artifact_id, revision)
                     if (meta["visibility"] == "private-task" and
                             meta["producer_task_id"] != task["task_id"]):

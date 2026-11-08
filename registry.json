@@ -411,17 +411,18 @@
       "id": "coding-partner-mentor-teacher",
       "name": "Coding Partner / Mentor / Teacher",
       "description": "Engineering assistance, debugging, code review, and practical mentorship.",
-      "version": "v1",
+      "version": "v1.1",
       "role": "expert",
       "tags": [
         "coding",
         "partner",
         "mentor",
-        "teacher"
+        "teacher",
+        "workflow-aware"
       ],
       "status": "available",
       "readme": "specialists/engineering/coding-partner-mentor-teacher/README.md",
-      "archive": "specialists/engineering/coding-partner-mentor-teacher/coding-partner-mentor-teacher_v1.zip",
+      "archive": "specialists/engineering/coding-partner-mentor-teacher/coding-partner-mentor-teacher_v1.1.zip",
       "sources": "specialists/engineering/coding-partner-mentor-teacher/sources/",
       "capabilities": [
         "debugging",

@@ -8,8 +8,8 @@
   "common_rules_status": "unapproved-not-runtime-injected",
   "entrypoint": {
     "path": "SKILL.md",
-    "words": 692,
-    "sha256": "240226849c9f853f55534beabc5aac51a33872d8ca8aed3475ac072e2432f4b2"
+    "words": 782,
+    "sha256": "539cf27c12c8b51463d0c45f5e2b87823a3885f6dba930a4d1495ba2b9072ccc"
   },
   "modes": [
     {
@@ -288,11 +288,24 @@
     "sections/procedures/validation-and-evaluation.md",
     "sections/procedures/workspace-adaptation.md",
     "sections/templates/generation-report.md",
+    "tools/build_distributions.py",
     "tools/build_lookup_package.py"
   ],
   "self_heal_required": true,
   "archive_root": "meta-llm-orchestrator",
   "knowledge_policy": "Consult external catalogs at pinned catalog@sha:entry-id; do not copy evolving domain knowledge into canonical instructions.",
   "provenance": "v22 upgrades v21 with source bootstrap and sequential hosted handoff; v18-v21 archives retained.",
-  "source_catalog": "references/source-locations.json"
+  "source_catalog": "references/source-locations.json",
+  "distribution_profiles": {
+    "hosted": {
+      "delivery": "assembled-instruction-injection",
+      "instructions": "HOSTED_INSTRUCTIONS.md",
+      "external_catalogs": "references-only"
+    },
+    "local": {
+      "delivery": "manifest-indexed-lookup",
+      "tools": "tools/build_lookup_package.py",
+      "capability_policy": "least-privilege"
+    }
+  }
 }

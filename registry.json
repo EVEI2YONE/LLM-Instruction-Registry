@@ -894,7 +894,7 @@
       ],
       "status": "available",
       "readme": "orchestrators/meta/meta-llm-orchestrator/README.md",
-      "archive": "orchestrators/meta/meta-llm-orchestrator/meta-llm-orchestrator_v22.zip",
+      "archive": "orchestrators/meta/meta-llm-orchestrator/meta-llm-orchestrator_v22_hosted.zip",
       "sources": "orchestrators/meta/meta-llm-orchestrator/sources/",
       "capabilities": [
         "instruction-generation",
@@ -908,7 +908,9 @@
         "section-manifest-authoring",
         "subagent-context-handoff-design",
         "portable-source-bootstrap",
-        "conversation-state-handoff"
+        "conversation-state-handoff",
+        "hosted-full-instruction-distribution",
+        "local-indexed-instruction-distribution"
       ],
       "domains": [
         "meta-instructions",
@@ -925,7 +927,11 @@
         "Regenerate instruction systems into modular manifest-indexed packages",
         "Produce scoped subagent and artifact handoff contracts for verified local or hosted runtimes"
       ],
-      "kind": "meta-orchestrator"
+      "kind": "meta-orchestrator",
+      "distribution_archives": {
+        "hosted": "orchestrators/meta/meta-llm-orchestrator/meta-llm-orchestrator_v22_hosted.zip",
+        "local": "orchestrators/meta/meta-llm-orchestrator/meta-llm-orchestrator_v22_local.zip"
+      }
     },
     {
       "id": "operations-reliability-specialist",

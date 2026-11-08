@@ -2,40 +2,6 @@
   "schema_version": 2,
   "instruction_sets": [
     {
-      "id": "meta-llm-orchestrator",
-      "name": "Meta-LLM Orchestrator",
-      "description": "Foundational progenitor for composing and coordinating specialized LLM instruction sets.",
-      "version": "v18",
-      "role": "progenitor",
-      "tags": [
-        "meta",
-        "llm",
-        "orchestrator"
-      ],
-      "status": "available",
-      "readme": "instruction-sets/progenitors/meta-llm-orchestrator/README.md",
-      "archive": "instruction-sets/progenitors/meta-llm-orchestrator/meta-llm-orchestrator_v18.zip",
-      "sources": "instruction-sets/progenitors/meta-llm-orchestrator/sources/",
-      "capabilities": [
-        "instruction-generation",
-        "agent-orchestration",
-        "instruction-architecture"
-      ],
-      "domains": [
-        "meta-instructions",
-        "llm-systems"
-      ],
-      "aliases": [
-        "meta orchestrator",
-        "instruction set generator",
-        "agent instruction architect"
-      ],
-      "use_cases": [
-        "design reusable instruction sets",
-        "coordinate specialist instruction roles"
-      ]
-    },
-    {
       "id": "ai-knowledge-atlas",
       "name": "AI Knowledge Atlas",
       "description": "Living evidence-backed AI research catalog; source freshness, relevance, knowledge-gap curation, agent-friendly search and technical architecture reference.",
@@ -383,6 +349,254 @@
       "use_cases": [
         "answer everyday questions",
         "brainstorm and offer general advice"
+      ]
+    },
+    {
+      "id": "meta-llm-orchestrator",
+      "name": "Meta-LLM Orchestrator",
+      "description": "Generate standalone specialists, workflow-aware specialists and orchestrators with existing-repository context governance.",
+      "version": "v19",
+      "role": "progenitor",
+      "tags": [
+        "workflow-aware",
+        "context-space"
+      ],
+      "status": "available",
+      "readme": "instruction-sets/progenitors/meta-llm-orchestrator/README.md",
+      "archive": "instruction-sets/progenitors/meta-llm-orchestrator/meta-llm-orchestrator_v19.zip",
+      "sources": "instruction-sets/progenitors/meta-llm-orchestrator/sources/",
+      "capabilities": [
+        "instruction-generation",
+        "workflow-aware-generation",
+        "context-space-governance"
+      ],
+      "domains": [
+        "meta-instructions",
+        "llm-systems"
+      ],
+      "aliases": [
+        "meta llm orchestrator",
+        "meta-llm orchestrator"
+      ],
+      "use_cases": [
+        "Generate standalone specialists, workflow-aware specialists and orchestrators with existing-repository context governance."
+      ]
+    },
+    {
+      "id": "software-delivery-lifecycle",
+      "name": "Software Delivery Lifecycle Orchestrator",
+      "description": "Route specialist work from idea through operations with durable gate evidence and controlled handoffs.",
+      "version": "v1",
+      "role": "orchestrator",
+      "tags": [
+        "workflow-aware",
+        "context-space"
+      ],
+      "status": "available",
+      "readme": "instruction-sets/orchestrators/software-delivery-lifecycle/README.md",
+      "archive": "instruction-sets/orchestrators/software-delivery-lifecycle/software-delivery-lifecycle_v1.zip",
+      "sources": "instruction-sets/orchestrators/software-delivery-lifecycle/sources/",
+      "capabilities": [
+        "workflow-orchestration",
+        "stage-routing",
+        "release-coordination"
+      ],
+      "domains": [
+        "software-products",
+        "software-delivery"
+      ],
+      "aliases": [
+        "software delivery lifecycle",
+        "software delivery lifecycle orchestrator"
+      ],
+      "use_cases": [
+        "Route specialist work from idea through operations with durable gate evidence and controlled handoffs."
+      ]
+    },
+    {
+      "id": "product-delivery-specialist",
+      "name": "Product Delivery Specialist",
+      "description": "Own validated product intent, scope, requirements, acceptance criteria and business handoffs.",
+      "version": "v1",
+      "role": "strategist",
+      "tags": [
+        "workflow-aware",
+        "context-space"
+      ],
+      "status": "available",
+      "readme": "instruction-sets/strategists/product-delivery-specialist/README.md",
+      "archive": "instruction-sets/strategists/product-delivery-specialist/product-delivery-specialist_v1.zip",
+      "sources": "instruction-sets/strategists/product-delivery-specialist/sources/",
+      "capabilities": [
+        "product-discovery",
+        "requirements-management",
+        "acceptance-criteria"
+      ],
+      "domains": [
+        "software-products",
+        "software-delivery"
+      ],
+      "aliases": [
+        "product delivery specialist",
+        "product delivery specialist"
+      ],
+      "use_cases": [
+        "Own validated product intent, scope, requirements, acceptance criteria and business handoffs."
+      ]
+    },
+    {
+      "id": "architecture-delivery-specialist",
+      "name": "Architecture Delivery Specialist",
+      "description": "Own architecture proposals, reviewed ADRs, interface contracts and dependency-aware technical handoffs.",
+      "version": "v1",
+      "role": "expert",
+      "tags": [
+        "workflow-aware",
+        "context-space"
+      ],
+      "status": "available",
+      "readme": "instruction-sets/experts/architecture-delivery-specialist/README.md",
+      "archive": "instruction-sets/experts/architecture-delivery-specialist/architecture-delivery-specialist_v1.zip",
+      "sources": "instruction-sets/experts/architecture-delivery-specialist/sources/",
+      "capabilities": [
+        "software-architecture",
+        "api-design",
+        "architecture-decisions"
+      ],
+      "domains": [
+        "software-products",
+        "software-delivery"
+      ],
+      "aliases": [
+        "architecture delivery specialist",
+        "architecture delivery specialist"
+      ],
+      "use_cases": [
+        "Own architecture proposals, reviewed ADRs, interface contracts and dependency-aware technical handoffs."
+      ]
+    },
+    {
+      "id": "engineering-execution-specialist",
+      "name": "Engineering Execution Specialist",
+      "description": "Implement bounded changes through repository-native branches, tests and PR evidence.",
+      "version": "v1",
+      "role": "expert",
+      "tags": [
+        "workflow-aware",
+        "context-space"
+      ],
+      "status": "available",
+      "readme": "instruction-sets/experts/engineering-execution-specialist/README.md",
+      "archive": "instruction-sets/experts/engineering-execution-specialist/engineering-execution-specialist_v1.zip",
+      "sources": "instruction-sets/experts/engineering-execution-specialist/sources/",
+      "capabilities": [
+        "implementation",
+        "debugging",
+        "code-review"
+      ],
+      "domains": [
+        "software-products",
+        "software-delivery"
+      ],
+      "aliases": [
+        "engineering execution specialist",
+        "engineering execution specialist"
+      ],
+      "use_cases": [
+        "Implement bounded changes through repository-native branches, tests and PR evidence."
+      ]
+    },
+    {
+      "id": "qa-verification-specialist",
+      "name": "QA and Verification Specialist",
+      "description": "Independently verify acceptance, regression and change risk with pinned test evidence.",
+      "version": "v1",
+      "role": "expert",
+      "tags": [
+        "workflow-aware",
+        "context-space"
+      ],
+      "status": "available",
+      "readme": "instruction-sets/experts/qa-verification-specialist/README.md",
+      "archive": "instruction-sets/experts/qa-verification-specialist/qa-verification-specialist_v1.zip",
+      "sources": "instruction-sets/experts/qa-verification-specialist/sources/",
+      "capabilities": [
+        "acceptance-verification",
+        "regression-testing",
+        "quality-gates"
+      ],
+      "domains": [
+        "software-products",
+        "software-delivery"
+      ],
+      "aliases": [
+        "qa verification specialist",
+        "qa and verification specialist"
+      ],
+      "use_cases": [
+        "Independently verify acceptance, regression and change risk with pinned test evidence."
+      ]
+    },
+    {
+      "id": "devsecops-release-specialist",
+      "name": "DevSecOps and Release Specialist",
+      "description": "Govern security, CI/CD, deployment approvals, staging verification and rollback readiness.",
+      "version": "v1",
+      "role": "expert",
+      "tags": [
+        "workflow-aware",
+        "context-space"
+      ],
+      "status": "available",
+      "readme": "instruction-sets/experts/devsecops-release-specialist/README.md",
+      "archive": "instruction-sets/experts/devsecops-release-specialist/devsecops-release-specialist_v1.zip",
+      "sources": "instruction-sets/experts/devsecops-release-specialist/sources/",
+      "capabilities": [
+        "ci-cd",
+        "release-readiness",
+        "security-gates"
+      ],
+      "domains": [
+        "software-products",
+        "software-delivery"
+      ],
+      "aliases": [
+        "devsecops release specialist",
+        "devsecops and release specialist"
+      ],
+      "use_cases": [
+        "Govern security, CI/CD, deployment approvals, staging verification and rollback readiness."
+      ]
+    },
+    {
+      "id": "operations-reliability-specialist",
+      "name": "Operations and Reliability Specialist",
+      "description": "Own observable health, incident evidence, post-release verification and feedback handoffs.",
+      "version": "v1",
+      "role": "expert",
+      "tags": [
+        "workflow-aware",
+        "context-space"
+      ],
+      "status": "available",
+      "readme": "instruction-sets/experts/operations-reliability-specialist/README.md",
+      "archive": "instruction-sets/experts/operations-reliability-specialist/operations-reliability-specialist_v1.zip",
+      "sources": "instruction-sets/experts/operations-reliability-specialist/sources/",
+      "capabilities": [
+        "observability",
+        "incident-triage",
+        "postmortem"
+      ],
+      "domains": [
+        "software-products",
+        "software-delivery"
+      ],
+      "aliases": [
+        "operations reliability specialist",
+        "operations and reliability specialist"
+      ],
+      "use_cases": [
+        "Own observable health, incident evidence, post-release verification and feedback handoffs."
       ]
     }
   ]

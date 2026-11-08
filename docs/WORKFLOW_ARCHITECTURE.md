@@ -1,0 +1,3 @@
+# Workflow architecture
+
+Reusable instruction sets reside under instruction-sets/; workflow profiles live under workflows/. Specialization, workflow awareness, context-space awareness and execution permissions are independent. The Meta-LLM v19 generator chooses standalone vs workflow-aware vs orchestrator, discovers existing project sources and produces scoped instructions. The SDLC profile is the first example, not a mandatory default. Scope durable artifacts to project owners; do not duplicate project source of truth in this registry. [SDLC guide](../workflows/software-delivery-lifecycle/README.md).

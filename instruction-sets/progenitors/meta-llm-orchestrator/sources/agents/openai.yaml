@@ -1,0 +1,3 @@
+interface:
+  display_name: "Meta-LLM Orchestrator"
+  short_description: "Generate standalone specialists, workflow-aware specialists and orchestrators with existing-repository context governance."

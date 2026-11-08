@@ -1,0 +1,3 @@
+interface:
+  display_name: "DevSecOps and Release Specialist"
+  short_description: "Govern security, CI/CD, deployment approvals, staging verification and rollback readiness."

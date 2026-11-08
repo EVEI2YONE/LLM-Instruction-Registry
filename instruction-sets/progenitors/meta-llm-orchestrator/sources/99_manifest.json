@@ -1,0 +1,27 @@
+{
+  "id": "meta-llm-orchestrator",
+  "version": "v19",
+  "role": "progenitor",
+  "capabilities": [
+    "instruction-generation",
+    "workflow-aware-generation",
+    "context-space-governance"
+  ],
+  "workflow_stages": [
+    "generation"
+  ],
+  "context_space_aware": true,
+  "self_heal_required": true,
+  "provenance": "new v19 authored from v18 project references; v18 remains as independent archive",
+  "sources": [
+    "SKILL.md",
+    "00_compiled_instruction_set.md",
+    "01_domain.md",
+    "02_context_space.md",
+    "03_self_heal.md",
+    "README.md",
+    "agents/openai.yaml",
+    "99_manifest.json"
+  ],
+  "zip_root": "meta-llm-orchestrator"
+}

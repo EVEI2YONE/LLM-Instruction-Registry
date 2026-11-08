@@ -9,3 +9,6 @@ Product and business direction, prioritization and long-term roadmaps.
 | [Executive Product Repository Review](./executive-product-repo-review/README.md) | Pending | Source-only package; not registered as available. |
 
 These are primary responsibilities, not exclusive capabilities. Search [registry.json](../../registry.json) using `role`, `capabilities`, `domains` and `tags`.
+
+## New context-space-aware packages
+- [Product Delivery Specialist](product-delivery-specialist/README.md) — Own validated product intent, scope, requirements, acceptance criteria and business handoffs.

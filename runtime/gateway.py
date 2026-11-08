@@ -22,6 +22,7 @@ from runtime.process_adapter import ProcessAgentAdapter
 from runtime.state_store import StateStore, ConflictError, digest
 from runtime.task_queue import TaskQueue, TaskConflict
 from runtime.worker import Worker, WorkerPool
+from runtime.refs import parse_ref
 
 MAX_REQUEST = 1024 * 1024
 
@@ -193,7 +194,8 @@ class Gateway:
                         gateway.resolver.pin(task["package_id"], task["package_version"])
                         store = StateStore(gateway.db_path)
                         try:
-                            ctx = store.get_context(project, task["context_ref"], 1)
+                            ctx_id, ctx_rev = parse_ref(task["context_ref"], 1)
+                            ctx = store.get_context(project, ctx_id, ctx_rev)
                         finally:
                             store.close()
                         if (ctx.get("task_id"), ctx.get("run_id")) != (task.get("task_id"), task.get("run_id")):

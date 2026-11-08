@@ -1,0 +1,23 @@
+{
+  "workflow_id": "incident-response",
+  "version": "v1",
+  "assignments": [
+    {
+      "artifact": "incident-remediation",
+      "owner": "root-cause-investigation",
+      "consultants": [
+        "debugging",
+        "observability"
+      ],
+      "reviewers": [
+        "regression-testing"
+      ],
+      "approver": {
+        "authority": "incident-commander",
+        "required_when": [
+          "production-fix"
+        ]
+      }
+    }
+  ]
+}

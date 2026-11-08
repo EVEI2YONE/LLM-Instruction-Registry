@@ -1,0 +1,39 @@
+{
+  "workflow_id": "pragmatic-pr-review",
+  "version": "v1",
+  "assignments": [
+    {
+      "artifact": "pull-request",
+      "owner": "implementation",
+      "consultants": [
+        "software-architecture"
+      ],
+      "reviewers": [
+        "code-review",
+        "acceptance-verification"
+      ],
+      "approver": {
+        "authority": "code-owner",
+        "required_when": [
+          "merge"
+        ]
+      }
+    },
+    {
+      "artifact": "architectural-exception",
+      "owner": "architecture-decisions",
+      "consultants": [
+        "backend-architecture-review"
+      ],
+      "reviewers": [
+        "code-review"
+      ],
+      "approver": {
+        "authority": "architecture-authority",
+        "required_when": [
+          "departure-from-approved-adr"
+        ]
+      }
+    }
+  ]
+}

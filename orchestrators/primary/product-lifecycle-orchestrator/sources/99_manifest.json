@@ -1,0 +1,22 @@
+{
+  "id": "product-lifecycle-orchestrator",
+  "name": "Product Lifecycle Orchestrator",
+  "version": "v1",
+  "kind": "primary-orchestrator",
+  "role": "orchestrator",
+  "capabilities": [
+    "intent-routing",
+    "workflow-composition",
+    "specialist-selection",
+    "lifecycle-governance"
+  ],
+  "workflows": [
+    "organization-idea-to-mvp",
+    "software-delivery-lifecycle",
+    "catalog-consultation",
+    "backlog-refinement"
+  ],
+  "source_count": 8,
+  "self_heal_present": true,
+  "requires_human_approval_for_consequential_actions": true
+}

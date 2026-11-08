@@ -565,3 +565,6 @@ When adding a durable rule, write it as:
 ```text
 When [trigger/context], always [required behavior], because [reason].
 ```
+
+## Workflow-aware extension (v1.1)
+Read `90_workflow_integration.md` when this package participates in a workflow. Preserve the original domain boundaries and direct-assistance mode. Do not infer human approval or actual tool permissions from the workflow assignment.

@@ -1,0 +1,24 @@
+{
+  "workflow_id": "specialist-consultation",
+  "version": "v1",
+  "assignments": [
+    {
+      "artifact": "consultation-recommendation",
+      "owner": "specialist-coordination",
+      "consultants": [
+        "technical-research",
+        "requirements-management",
+        "software-architecture"
+      ],
+      "reviewers": [
+        "evidence-verification"
+      ],
+      "approver": {
+        "authority": "requester",
+        "required_when": [
+          "consequential-decision"
+        ]
+      }
+    }
+  ]
+}

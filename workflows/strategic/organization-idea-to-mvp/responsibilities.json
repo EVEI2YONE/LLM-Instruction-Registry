@@ -1,0 +1,41 @@
+{
+  "workflow_id": "organization-idea-to-mvp",
+  "version": "v1",
+  "assignments": [
+    {
+      "artifact": "opportunity-and-mvp-scope",
+      "owner": "organizational-strategy",
+      "consultants": [
+        "business-ideation",
+        "product-discovery"
+      ],
+      "reviewers": [
+        "technical-research"
+      ],
+      "approver": {
+        "authority": "product-sponsor",
+        "required_when": [
+          "investment",
+          "scope-change"
+        ]
+      }
+    },
+    {
+      "artifact": "mvp-acceptance",
+      "owner": "requirements-management",
+      "consultants": [
+        "frontend-implementation",
+        "backend-implementation"
+      ],
+      "reviewers": [
+        "acceptance-verification"
+      ],
+      "approver": {
+        "authority": "product-owner",
+        "required_when": [
+          "mvp-acceptance"
+        ]
+      }
+    }
+  ]
+}

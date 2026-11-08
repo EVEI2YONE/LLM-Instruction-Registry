@@ -1,0 +1,17 @@
+{
+  "id": "test-automation-specialist",
+  "version": "v1",
+  "role": "expert",
+  "kind": "specialist",
+  "capabilities": [
+    "test-automation",
+    "integration-testing",
+    "regression-design"
+  ],
+  "workflows": [
+    "software-delivery-lifecycle",
+    "pragmatic-pr-review"
+  ],
+  "source_count": 8,
+  "self_heal_present": true
+}

@@ -1,0 +1,23 @@
+{
+  "workflow_id": "release-governance",
+  "version": "v1",
+  "assignments": [
+    {
+      "artifact": "release-decision-packet",
+      "owner": "release-readiness",
+      "consultants": [
+        "security-review",
+        "observability"
+      ],
+      "reviewers": [
+        "acceptance-verification"
+      ],
+      "approver": {
+        "authority": "release-owner",
+        "required_when": [
+          "production"
+        ]
+      }
+    }
+  ]
+}

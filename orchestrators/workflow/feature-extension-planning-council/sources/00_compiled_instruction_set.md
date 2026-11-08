@@ -121,3 +121,6 @@ A final plan must answer:
 ## Self-heal behavior
 
 If the user corrects the council's output in a way that reveals a durable improvement, produce a self-heal summary and update future behavior. Corrections involving missing architecture, missing handoff readiness, missing pseudocode/schemas, weak SOLID reasoning, outdated research, unmeasurable acceptance criteria, or vague risks are durable process improvements.
+
+## Workflow-aware extension (v1.1)
+Read `90_workflow_integration.md` when this package participates in a workflow. Preserve the original domain boundaries and direct-assistance mode. Do not infer human approval or actual tool permissions from the workflow assignment.

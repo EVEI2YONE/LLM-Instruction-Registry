@@ -1,2 +1,2 @@
-# Sources for Meta-LLM Orchestrator
-Start with SKILL.md and compiled contract. Read domain, context, and self-heal references as needed. This package is reusable independently; workflow stage descriptions apply only when profile is active. Existing product repository artifacts remain canonical; instruction registry stores behavior only.
+# Meta-LLM Orchestrator v20 sources
+Start with `SKILL.md` and `00_compiled_instruction_set.md`. Read `04_workspace_detection.md` to distinguish the author's workspace from the target execution environment, then the target profile under `workspaces/`. `05_target_adapters.md` maps deliverables, `06_registry_first_generation.md` enforces canonical repository source/ZIP publication, `07_validation_and_test_cases.md` defines acceptance tests, and `03_self_heal.md` governs correction behavior. This progenitor generates agent instructions; it is not the Product Lifecycle Orchestrator.

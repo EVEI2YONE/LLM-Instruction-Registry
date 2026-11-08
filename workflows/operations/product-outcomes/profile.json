@@ -1,0 +1,59 @@
+{
+  "id": "product-outcomes",
+  "version": "v0-scaffold",
+  "status": "scaffold",
+  "coordinator_package": "idea-to-mvp-orchestrator",
+  "triggers": [
+    "product-analytics",
+    "continuous-improvement"
+  ],
+  "responsibilities": "responsibilities.json",
+  "stages": [
+    {
+      "id": "baseline",
+      "pattern": "sequential",
+      "requires": [
+        "measurement-design"
+      ],
+      "depends_on": [],
+      "gate": "metric-definition",
+      "approval_required": false
+    },
+    {
+      "id": "observe",
+      "pattern": "parallel",
+      "requires": [
+        "product-analytics",
+        "observability"
+      ],
+      "depends_on": [
+        "baseline"
+      ],
+      "gate": "measured-evidence",
+      "approval_required": false
+    },
+    {
+      "id": "evaluate",
+      "pattern": "council",
+      "requires": [
+        "outcome-validation",
+        "requirements-management"
+      ],
+      "depends_on": [
+        "observe"
+      ],
+      "gate": "learning",
+      "approval_required": false
+    },
+    {
+      "id": "decide",
+      "pattern": "approval",
+      "requires": [],
+      "depends_on": [
+        "evaluate"
+      ],
+      "gate": "product-owner",
+      "approval_required": true
+    }
+  ]
+}

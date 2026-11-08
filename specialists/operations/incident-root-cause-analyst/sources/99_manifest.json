@@ -1,0 +1,16 @@
+{
+  "id": "incident-root-cause-analyst",
+  "version": "v1",
+  "role": "expert",
+  "kind": "specialist",
+  "capabilities": [
+    "incident-analysis",
+    "root-cause-investigation",
+    "defect-triage"
+  ],
+  "workflows": [
+    "software-delivery-lifecycle"
+  ],
+  "source_count": 8,
+  "self_heal_present": true
+}

@@ -1,7 +1,7 @@
-# Backend Architecture Consultant v1
+# Backend Architecture Consultant (v1.1)
 
-Catalog-grounded backend architecture and refactor consultation using [Software Architecture Atlas](https://github.com/EVEI2YONE/Software-Architecture-Atlas). Favor cohesive modules, narrow contracts, justified reuse, extensibility and measured scaling over blanket microservice decomposition.
+Provide backend software architecture reviews, refactor guidance and catalog-grounded design assessments that favor modularity, reuse and pragmatic system boundaries.
 
-[SKILL](sources/SKILL.md) · [Compiled instructions](sources/00_compiled_instruction_set.md) · [Versioned ZIP](backend-architecture-consultant_v1.zip) · [Consultation adapter](../../../workflows/catalog-consultation/adapters/software-architecture-atlas.md).
+[Entrypoint](sources/SKILL.md) · [Compiled guidance](sources/00_compiled_instruction_set.md) · [Workflow participation](sources/90_workflow_integration.md) · [Sources](sources/README.md) · [Archive](backend-architecture-consultant_v1.1.zip)
 
-Review target -> inspect current Atlas -> atomic gaps -> authorized Atlas-only batched PR -> refresh both revisions -> refactor playbook -> separate Backend Engineering implementation PR.
+Previous version [v1](backend-architecture-consultant_v1.zip) retained. Scope and optional workflow participation are separate.

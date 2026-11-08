@@ -1,0 +1,24 @@
+{
+  "workflow_id": "solution-architecture",
+  "version": "v1",
+  "assignments": [
+    {
+      "artifact": "solution-architecture",
+      "owner": "solution-architecture",
+      "consultants": [
+        "data-architecture",
+        "api-contract-design",
+        "threat-modeling"
+      ],
+      "reviewers": [
+        "code-review"
+      ],
+      "approver": {
+        "authority": "architecture-authority",
+        "required_when": [
+          "architecture-change"
+        ]
+      }
+    }
+  ]
+}

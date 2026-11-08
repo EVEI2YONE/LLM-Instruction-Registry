@@ -1,0 +1,17 @@
+{
+  "id": "solution-cloud-resource-architect",
+  "version": "v1",
+  "role": "expert",
+  "kind": "specialist",
+  "capabilities": [
+    "solution-architecture",
+    "cloud-resource-design",
+    "technical-feasibility"
+  ],
+  "workflows": [
+    "organization-idea-to-mvp",
+    "software-delivery-lifecycle"
+  ],
+  "source_count": 8,
+  "self_heal_present": true
+}

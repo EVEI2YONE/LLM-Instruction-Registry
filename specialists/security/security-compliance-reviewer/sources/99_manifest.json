@@ -1,0 +1,17 @@
+{
+  "id": "security-compliance-reviewer",
+  "version": "v1",
+  "role": "expert",
+  "kind": "specialist",
+  "capabilities": [
+    "security-review",
+    "compliance-verification",
+    "vulnerability-triage"
+  ],
+  "workflows": [
+    "pragmatic-pr-review",
+    "software-delivery-lifecycle"
+  ],
+  "source_count": 8,
+  "self_heal_present": true
+}

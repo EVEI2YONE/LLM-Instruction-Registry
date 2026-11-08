@@ -1,0 +1,18 @@
+{
+  "id": "knowledge-context-steward",
+  "version": "v1",
+  "role": "curator",
+  "kind": "specialist",
+  "capabilities": [
+    "context-reconciliation",
+    "source-authority",
+    "knowledge-provenance"
+  ],
+  "workflows": [
+    "catalog-consultation",
+    "backlog-refinement",
+    "software-delivery-lifecycle"
+  ],
+  "source_count": 8,
+  "self_heal_present": true
+}

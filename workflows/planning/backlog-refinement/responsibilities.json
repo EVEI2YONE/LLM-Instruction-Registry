@@ -1,0 +1,43 @@
+{
+  "workflow_id": "backlog-refinement",
+  "version": "v1",
+  "assignments": [
+    {
+      "artifact": "story-and-acceptance-criteria",
+      "owner": "requirements-management",
+      "consultants": [
+        "backend-implementation",
+        "frontend-implementation",
+        "software-architecture"
+      ],
+      "reviewers": [
+        "acceptance-verification"
+      ],
+      "approver": {
+        "authority": "product-owner",
+        "required_when": [
+          "scope-change",
+          "priority-change"
+        ]
+      }
+    },
+    {
+      "artifact": "technical-readiness",
+      "owner": "software-architecture",
+      "consultants": [
+        "backend-implementation",
+        "frontend-implementation",
+        "ai-engineering"
+      ],
+      "reviewers": [
+        "acceptance-verification"
+      ],
+      "approver": {
+        "authority": "technical-authority",
+        "required_when": [
+          "breaking-contract"
+        ]
+      }
+    }
+  ]
+}

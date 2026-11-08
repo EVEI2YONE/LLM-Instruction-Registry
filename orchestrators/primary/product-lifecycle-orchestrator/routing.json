@@ -1,6 +1,6 @@
 {
   "id": "product-lifecycle-orchestrator",
-  "status": "scaffold",
+  "status": "available",
   "decisions": [
     "direct-specialist",
     "workflow",
@@ -8,12 +8,50 @@
     "human-escalation"
   ],
   "direct_resolution": "registry.capabilities",
-  "workflow_resolution": "workflow.triggers",
+  "workflow_resolution": "workflow.triggers and capability availability",
   "human_approval": [
     "investment",
     "merge",
     "production",
     "irreversible"
   ],
-  "rework_limit": 2
+  "rework_limit": 2,
+  "routes": [
+    {
+      "intent": "new-product",
+      "workflow": "organization-idea-to-mvp"
+    },
+    {
+      "intent": "product-discovery",
+      "workflow": "product-discovery"
+    },
+    {
+      "intent": "technical-feasibility",
+      "workflow": "technical-feasibility"
+    },
+    {
+      "intent": "architecture",
+      "workflow": "solution-architecture"
+    },
+    {
+      "intent": "story-refinement",
+      "workflow": "backlog-refinement"
+    },
+    {
+      "intent": "pr-review",
+      "workflow": "pragmatic-pr-review"
+    },
+    {
+      "intent": "release",
+      "workflow": "release-governance"
+    },
+    {
+      "intent": "production-defect",
+      "workflow": "incident-response"
+    },
+    {
+      "intent": "product-feedback",
+      "workflow": "product-outcomes"
+    }
+  ]
 }

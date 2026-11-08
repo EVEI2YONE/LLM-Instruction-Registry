@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "roles": {
+    "owner": {
+      "count": "exactly-one",
+      "purpose": "Responsible for producing and maintaining the authoritative artifact"
+    },
+    "contributor": {
+      "count": "zero-or-more",
+      "purpose": "Works on bounded subsections under the owner"
+    },
+    "consultant": {
+      "count": "zero-or-more",
+      "purpose": "Provides findings and recommendations only"
+    },
+    "reviewer": {
+      "count": "one-or-more-when-guarded",
+      "purpose": "Independently checks evidence and acceptance"
+    },
+    "approver": {
+      "count": "human-or-project-policy",
+      "purpose": "Explicitly authorizes consequential decisions; cannot be synthesized by an agent"
+    }
+  }
+}

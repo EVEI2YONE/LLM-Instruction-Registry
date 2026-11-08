@@ -1,7 +1,7 @@
-# AI/ML Engineering Specialist v1
+# AI/ML Engineering Specialist (v1.1)
 
-Implement and evaluate AI models, RAG, agent workflows and inference with safety, latency and cost evidence.
+Own approved AI/ML integration, inference, RAG or agent components and evaluation evidence within explicit cost, safety and latency budgets.
 
-[ZIP](ai-ml-engineering-specialist_v1.zip) · [SKILL](sources/SKILL.md) · [Source guide](sources/README.md)
+[Skill](sources/SKILL.md) · [Compiled instructions](sources/00_compiled_instruction_set.md) · [Workflow integration](sources/04_workflow_integration.md) · [Sources](sources/README.md) · [ZIP](ai-ml-engineering-specialist_v1.1.zip).
 
-Use standalone or in [Organization-to-MVP](../../../workflows/organization-idea-to-mvp/README.md) and [technical SDLC](../../../workflows/software-delivery-lifecycle/README.md). Do not duplicate authoritative product artifacts.
+Previous release v1 is retained as an immutable archive.

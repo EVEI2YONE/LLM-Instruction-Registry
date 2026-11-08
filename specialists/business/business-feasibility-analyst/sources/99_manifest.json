@@ -1,0 +1,18 @@
+{
+  "id": "business-feasibility-analyst",
+  "name": "Business Feasibility Analyst",
+  "version": "v1",
+  "kind": "specialist",
+  "role": "strategist",
+  "capabilities": [
+    "business-feasibility",
+    "investment-analysis",
+    "cost-benefit-assessment"
+  ],
+  "workflows": [
+    "organization-idea-to-mvp"
+  ],
+  "source_count": 8,
+  "self_heal_present": true,
+  "requires_human_approval_for_consequential_actions": true
+}

@@ -1,0 +1,19 @@
+{
+  "id": "specialist-consultation-coordinator",
+  "name": "Specialist Consultation Coordinator",
+  "version": "v1",
+  "kind": "workflow-orchestrator",
+  "role": "orchestrator",
+  "capabilities": [
+    "specialist-coordination",
+    "council-arbitration",
+    "evidence-synthesis"
+  ],
+  "workflows": [
+    "specialist-consultation",
+    "backlog-refinement"
+  ],
+  "source_count": 8,
+  "self_heal_present": true,
+  "requires_human_approval_for_consequential_actions": true
+}

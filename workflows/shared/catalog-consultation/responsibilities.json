@@ -1,0 +1,23 @@
+{
+  "workflow_id": "catalog-consultation",
+  "version": "v1",
+  "assignments": [
+    {
+      "artifact": "knowledge-gap-ledger",
+      "owner": "catalog-grounded-consultation",
+      "consultants": [
+        "evidence-verification",
+        "backend-architecture-review"
+      ],
+      "reviewers": [
+        "knowledge-gap-analysis"
+      ],
+      "approver": {
+        "authority": "catalog-owner",
+        "required_when": [
+          "catalog-pr-merge"
+        ]
+      }
+    }
+  ]
+}

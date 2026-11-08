@@ -1,0 +1,21 @@
+{
+  "target_workspace": "unspecified",
+  "execution_surface": "unknown",
+  "evidence_ref": null,
+  "checked_at": null,
+  "tool_capabilities": {
+    "filesystem": "unknown",
+    "repository_read": "unknown",
+    "repository_write": "unknown",
+    "shell": "unknown",
+    "web": "unknown",
+    "persistent_state": "unknown",
+    "connectors": "unknown",
+    "scheduled_actions": "unknown"
+  },
+  "instruction_entrypoint": "unknown",
+  "approved_write_scope": [],
+  "human_approval_policy": [],
+  "artifact_format": "portable-zip",
+  "notes": []
+}

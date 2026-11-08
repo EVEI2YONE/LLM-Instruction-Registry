@@ -24,5 +24,7 @@
         "review"
       ]
     }
-  ]
+  ],
+  "coordinator_package": "specialist-consultation-coordinator",
+  "responsibilities": "responsibilities.json"
 }

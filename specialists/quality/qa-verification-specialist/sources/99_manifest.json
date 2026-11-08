@@ -1,6 +1,6 @@
 {
   "id": "qa-verification-specialist",
-  "version": "v1",
+  "version": "v1.1",
   "role": "expert",
   "capabilities": [
     "acceptance-verification",
@@ -21,7 +21,10 @@
     "03_self_heal.md",
     "README.md",
     "agents/openai.yaml",
-    "99_manifest.json"
+    "99_manifest.json",
+    "04_workflow_integration.md"
   ],
-  "zip_root": "qa-verification-specialist"
+  "zip_root": "qa-verification-specialist",
+  "workflow_integration": "04_workflow_integration.md",
+  "self_heal_present": true
 }

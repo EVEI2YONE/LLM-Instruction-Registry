@@ -1,0 +1,17 @@
+{
+  "id": "ui-ux-product-designer",
+  "version": "v1",
+  "role": "expert",
+  "kind": "specialist",
+  "capabilities": [
+    "product-ux-design",
+    "interaction-design",
+    "prototyping"
+  ],
+  "workflows": [
+    "organization-idea-to-mvp",
+    "software-delivery-lifecycle"
+  ],
+  "source_count": 8,
+  "self_heal_present": true
+}

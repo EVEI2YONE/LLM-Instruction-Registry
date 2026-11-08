@@ -15,3 +15,7 @@ Before assessing inspect actual backend repository/branch/SHA, approved requirem
 Read Atlas README.md, AGENTS.md, catalog/index.json and catalog/taxonomy.json before lookup. Search IDs, tags, aliases and related nodes; inspect actual concept pages and primary sources. Interpret stub as coverage intent, draft as provisional, reviewed as sourced but not target-validated, deprecated as superseded; verify applicability and source revisions.
 No changes to catalog or target without specific authorization. Atlas improvements belong in an Atlas-only PR; backend code and ADR changes require separate target PRs. Do not merge automatically or claim unseen approvals/tests/deployments. Across threads compare pinned Atlas baseline/PR head and target revision; refresh the evidence and mark changed recommendations. Keep handoffs with owner, producer version, input SHA, output links, evidence and next specialist.
 
+
+
+## Workflow-aware extension (v1.1)
+Read `90_workflow_integration.md` when this package participates in a workflow. Preserve the original domain boundaries and direct-assistance mode. Do not infer human approval or actual tool permissions from the workflow assignment.

@@ -1,0 +1,3 @@
+interface:
+  display_name: "Pragmatic PR Reviewer"
+  short_description: "Review changes for correctness and maintainability while actively rejecting unnecessary engineering compl"

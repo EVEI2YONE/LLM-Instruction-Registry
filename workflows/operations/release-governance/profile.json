@@ -1,0 +1,59 @@
+{
+  "id": "release-governance",
+  "version": "v0-scaffold",
+  "status": "scaffold",
+  "coordinator_package": "release-governance-coordinator",
+  "triggers": [
+    "release-approval",
+    "rollout"
+  ],
+  "responsibilities": "responsibilities.json",
+  "stages": [
+    {
+      "id": "evidence",
+      "pattern": "sequential",
+      "requires": [
+        "release-readiness",
+        "acceptance-verification"
+      ],
+      "depends_on": [],
+      "gate": "verified-build-and-tests",
+      "approval_required": false
+    },
+    {
+      "id": "risk",
+      "pattern": "parallel",
+      "requires": [
+        "security-review",
+        "observability"
+      ],
+      "depends_on": [
+        "evidence"
+      ],
+      "gate": "risk-and-rollback",
+      "approval_required": false
+    },
+    {
+      "id": "approve",
+      "pattern": "approval",
+      "requires": [],
+      "depends_on": [
+        "risk"
+      ],
+      "gate": "release-owner",
+      "approval_required": true
+    },
+    {
+      "id": "verify",
+      "pattern": "conditional",
+      "requires": [
+        "observability"
+      ],
+      "depends_on": [
+        "approve"
+      ],
+      "gate": "deployment-evidence",
+      "approval_required": false
+    }
+  ]
+}

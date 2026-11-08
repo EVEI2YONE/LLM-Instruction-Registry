@@ -1,26 +1,14 @@
-# Publishing instruction sets by role
+# Publishing instruction packages and workflows
 
-Follow [CONTRIBUTING](../CONTRIBUTING.md), [role taxonomy](ROLE_TAXONOMY.md), the current registry, root catalog and any existing package README.
+Read [CONTRIBUTING](../CONTRIBUTING.md), [taxonomy](ROLE_TAXONOMY.md), [workspace adapters](WORKSPACE_ADAPTERS.md) and the current [registry](../registry.json). Inspect current main, active PRs and source ownership before writing.
 
-1. Inspect current catalog and active PRs. Choose a stable package `id`, **one primary role** (`progenitor`, `curator`, `expert`, `strategist`, `orchestrator`, or `generalist`), capabilities and domains. Role classifies responsibility; capabilities describe search facets.
-2. Publish to `instruction-sets/<plural-role>/<id>/`; add explanatory package README, actual versioned ZIP, full browsable `sources/` and sources README. The ZIP's internal root remains `<id>/`.
-3. For a new ZIP, safely extract the original, reject unsafe paths and symlinks, normalize under `<id>/`, **repack** (not rename), test CRC and compare extracted content to the original. For a pure folder move, preserve the existing ZIP blob without unnecessary repackaging.
-4. Use real binary GitHub objects (e.g. `create_blob` with base64 bytes and Git Data tree commits) or an authenticated git push; text file APIs do not safely upload raw ZIPs. Validate actual blob and individual source file presence on the PR branch.
-5. Update exactly one canonical `registry.json` record per available package: `id`, `name`, `description`, `version`, `role`, `capabilities`, `domains`, `tags`, `status`, `readme`, `archive`, `sources`.
-6. Update category README, root catalog and crosslinks. Verify that registered paths exist and migration preserves moved blob SHAs. Document old→new locations; do not leave stale known links.
-7. Incomplete source-only packages may have pending documentation but must not have fabricated available releases.
-8. Open or update a reviewable PR based on current `main`; never merge without explicit authorization. State file count, verification scope and known limitations. No claim of post-upload ZIP integrity unless verified.
+1. Select kind: `primary-orchestrator`, `workflow-orchestrator`, `meta-orchestrator` or `specialist`; select one professional role, stable ID, version, capabilities, domains, aliases and intended use cases.
+2. Resolve existing equivalents by registry search; prefer reuse or a new version over duplicating a capability. If the target workspace differs from the authoring environment, classify actual available tools/permissions and choose a runtime adapter.
+3. Publish one canonical package in `orchestrators/primary/<id>/`, `orchestrators/workflow/<id>/`, `orchestrators/meta/<id>/` or `specialists/<domain>/<id>/`. Include `SKILL.md`, compiled instructions, domain/context modules, self-heal, manifest and source README.
+4. Create a real binary `<id>_vN.zip` with exactly one `<id>/` root and byte-identical browsable source files. Validate ZIP CRC and inventory. A README link is not an archive; do not register pending source-only entries as available.
+5. Preserve previous versioned ZIPs and Git blobs. Pure directory moves should reuse blob SHA; instruction changes create a new version. Disclose reconstruction provenance if original content is unavailable.
+6. Update `registry.json` (schema v3), category/root READMEs, workflow references, ownership matrices and search tests in the same PR. Changes to existing source manifests must include new modules in their listed source inventory.
+7. Run registry validation and the archive/workflow/ownership regression tests. For workspace-specific outputs, run relevant capability and installation checks only if the actual tools are available.
+8. Open/update one reviewable PR with source count, ZIP paths and verification evidence. Never claim deployment, merge or human approval without actual tool confirmation.
 
-## Search index maintenance gate
-
-Include informative `aliases` and `use_cases` for every available release, in addition to role, capabilities and domains. On additions, renames or role changes, validate the catalog and expected search results:
-
-```sh
-python3 scripts/search_registry.py validate
-python3 -m unittest discover -s scripts -p 'test_*.py'
-python3 scripts/search_registry.py search --query "coding mentor"
-```
-
-See [agent discovery protocol](AGENTIC_SEARCH.md). Document newly ambiguous aliases and add appropriate regressions. Do not claim local tests passed unless run; CI status is a separate verification gate.
-
-Do not rerun the legacy one-time `scripts/rebuild_registry.py` migration.
+Published instruction sets define behavior, not proof of a running workflow engine or external API access. Never run the legacy one-time `scripts/rebuild_registry.py` against the current layout.

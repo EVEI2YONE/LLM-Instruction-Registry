@@ -1,0 +1,19 @@
+{
+  "id": "release-governance-coordinator",
+  "name": "Release Governance Coordinator",
+  "version": "v1",
+  "kind": "workflow-orchestrator",
+  "role": "orchestrator",
+  "capabilities": [
+    "release-approval-coordination",
+    "deployment-risk-assessment",
+    "rollback-governance"
+  ],
+  "workflows": [
+    "software-delivery-lifecycle",
+    "approval-governance"
+  ],
+  "source_count": 8,
+  "self_heal_present": true,
+  "requires_human_approval_for_consequential_actions": true
+}

@@ -1,0 +1,23 @@
+{
+  "workflow_id": "approval-governance",
+  "version": "v1",
+  "assignments": [
+    {
+      "artifact": "approval-evidence-packet",
+      "owner": "workflow-orchestration",
+      "consultants": [
+        "quality-gates",
+        "architecture-decisions"
+      ],
+      "reviewers": [
+        "acceptance-verification"
+      ],
+      "approver": {
+        "authority": "authorized-human",
+        "required_when": [
+          "approval-required"
+        ]
+      }
+    }
+  ]
+}

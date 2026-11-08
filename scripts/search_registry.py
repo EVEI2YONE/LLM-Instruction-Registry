@@ -65,7 +65,9 @@ def validate(data, root=ROOT):
             elif len(set(x.casefold() for x in values)) != len(values):
                 errors.append(at + ": duplicate " + key)
         prefix = item["readme"].removesuffix("README.md")
-        expected_kind = "meta-orchestrator" if role == "progenitor" else "workflow-orchestrator" if role == "orchestrator" else "specialist"
+        expected_kind = ("meta-orchestrator" if role == "progenitor" else
+                         "primary-orchestrator" if prefix.startswith("orchestrators/primary/") else
+                         "workflow-orchestrator" if role == "orchestrator" else "specialist")
         if item.get("kind") != expected_kind:
             errors.append(at + ": invalid kind")
         if not prefix.startswith(("orchestrators/" if role in ("progenitor", "orchestrator") else "specialists/")) or not prefix.endswith(f"/{ident}/"):

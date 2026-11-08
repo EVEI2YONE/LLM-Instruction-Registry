@@ -1,0 +1,59 @@
+{
+  "id": "product-discovery",
+  "version": "v0-scaffold",
+  "status": "scaffold",
+  "coordinator_package": "idea-to-mvp-orchestrator",
+  "triggers": [
+    "product-discovery",
+    "user-research"
+  ],
+  "responsibilities": "responsibilities.json",
+  "stages": [
+    {
+      "id": "context",
+      "pattern": "sequential",
+      "requires": [
+        "product-discovery"
+      ],
+      "depends_on": [],
+      "gate": "source-authority",
+      "approval_required": false
+    },
+    {
+      "id": "research",
+      "pattern": "parallel",
+      "requires": [
+        "ux-research",
+        "market-research"
+      ],
+      "depends_on": [
+        "context"
+      ],
+      "gate": "research-evidence",
+      "approval_required": false
+    },
+    {
+      "id": "synthesis",
+      "pattern": "council",
+      "requires": [
+        "requirements-management",
+        "product-ux-design"
+      ],
+      "depends_on": [
+        "research"
+      ],
+      "gate": "product-hypotheses",
+      "approval_required": false
+    },
+    {
+      "id": "decision",
+      "pattern": "approval",
+      "requires": [],
+      "depends_on": [
+        "synthesis"
+      ],
+      "gate": "product-owner",
+      "approval_required": true
+    }
+  ]
+}

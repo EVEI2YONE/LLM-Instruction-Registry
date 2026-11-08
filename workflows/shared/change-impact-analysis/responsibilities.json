@@ -1,0 +1,23 @@
+{
+  "workflow_id": "change-impact-analysis",
+  "version": "v1",
+  "assignments": [
+    {
+      "artifact": "change-impact-report",
+      "owner": "requirements-traceability",
+      "consultants": [
+        "api-contract-design",
+        "software-architecture"
+      ],
+      "reviewers": [
+        "acceptance-verification"
+      ],
+      "approver": {
+        "authority": "change-owner",
+        "required_when": [
+          "breaking-change"
+        ]
+      }
+    }
+  ]
+}

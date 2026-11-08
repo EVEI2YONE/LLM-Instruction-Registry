@@ -1,0 +1,23 @@
+{
+  "workflow_id": "technical-feasibility",
+  "version": "v1",
+  "assignments": [
+    {
+      "artifact": "feasibility-assessment",
+      "owner": "technical-research",
+      "consultants": [
+        "cloud-resource-design",
+        "security-architecture"
+      ],
+      "reviewers": [
+        "architecture-decisions"
+      ],
+      "approver": {
+        "authority": "architecture-authority",
+        "required_when": [
+          "technology-commitment"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "technical-product-manager",
+  "name": "Technical Product Manager",
+  "version": "v1",
+  "kind": "specialist",
+  "role": "strategist",
+  "capabilities": [
+    "technical-product-management",
+    "backlog-management",
+    "roadmap-prioritization"
+  ],
+  "workflows": [
+    "backlog-refinement",
+    "organization-idea-to-mvp",
+    "software-delivery-lifecycle"
+  ],
+  "source_count": 8,
+  "self_heal_present": true,
+  "requires_human_approval_for_consequential_actions": true
+}

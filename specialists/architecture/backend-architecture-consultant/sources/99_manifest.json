@@ -1,6 +1,6 @@
 {
   "id": "backend-architecture-consultant",
-  "version": "v1",
+  "version": "v1.1",
   "role": "expert",
   "capabilities": [
     "backend-architecture-review",
@@ -13,17 +13,22 @@
   ],
   "catalog": "EVEI2YONE/Software-Architecture-Atlas",
   "sources": [
-    "SKILL.md",
     "00_compiled_instruction_set.md",
     "01_architecture_review.md",
     "02_atlas_gap_pr.md",
     "03_refactor_handoff.md",
+    "03_self_heal.md",
     "04_self_heal.md",
+    "90_workflow_integration.md",
+    "99_manifest.json",
     "README.md",
-    "agents/openai.yaml",
-    "99_manifest.json"
+    "SKILL.md",
+    "agents/openai.yaml"
   ],
   "zip_root": "backend-architecture-consultant",
   "context_space_aware": true,
-  "self_heal_required": true
+  "self_heal_required": true,
+  "kind": "specialist",
+  "workflow_integration": "90_workflow_integration.md",
+  "self_heal_present": true
 }

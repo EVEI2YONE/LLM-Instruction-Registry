@@ -1,0 +1,70 @@
+{
+  "id": "incident-response",
+  "version": "v0-scaffold",
+  "status": "scaffold",
+  "coordinator_package": "software-delivery-lifecycle",
+  "triggers": [
+    "incident",
+    "production-defect"
+  ],
+  "responsibilities": "responsibilities.json",
+  "stages": [
+    {
+      "id": "triage",
+      "pattern": "conditional",
+      "requires": [
+        "incident-triage"
+      ],
+      "depends_on": [],
+      "gate": "severity-and-impact",
+      "approval_required": false
+    },
+    {
+      "id": "investigate",
+      "pattern": "parallel",
+      "requires": [
+        "root-cause-investigation",
+        "debugging"
+      ],
+      "depends_on": [
+        "triage"
+      ],
+      "gate": "reproduction",
+      "approval_required": false
+    },
+    {
+      "id": "remediate",
+      "pattern": "sequential",
+      "requires": [
+        "implementation"
+      ],
+      "depends_on": [
+        "investigate"
+      ],
+      "gate": "targeted-fix",
+      "approval_required": false
+    },
+    {
+      "id": "verify",
+      "pattern": "sequential",
+      "requires": [
+        "regression-testing"
+      ],
+      "depends_on": [
+        "remediate"
+      ],
+      "gate": "regression-evidence",
+      "approval_required": false
+    },
+    {
+      "id": "release",
+      "pattern": "approval",
+      "requires": [],
+      "depends_on": [
+        "verify"
+      ],
+      "gate": "human-incident-lead",
+      "approval_required": true
+    }
+  ]
+}

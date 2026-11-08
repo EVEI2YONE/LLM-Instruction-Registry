@@ -1,0 +1,3 @@
+# ChatGPT conversation Project adapter
+
+Determine whether output is for Project instructions, uploaded project knowledge, a connected repository workflow or an independently installable Skill. Inspect the current maximum source-file count, upload formats, tool connections, ChatGPT Project access model and instruction precedence (limits vary). Keep modular instructions within verified limits, include source orientation and compiled contract, and avoid assuming context from unrelated conversations. Export durable handoff files when state across threads is not assured. User installs or adds files; no claim of automatic Project update.

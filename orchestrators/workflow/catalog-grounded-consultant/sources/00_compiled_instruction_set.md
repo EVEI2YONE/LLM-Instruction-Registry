@@ -26,3 +26,7 @@ The instruction registry stores reusable agent behavior, the catalog repository 
 Sufficient catalog -> no PR. True gap -> canonical nonduplicate revision. Unmerged catalog PR -> provisional assessment. Target changed during curation -> re-evaluate. Uploaded private media -> do not leak into public catalog. Assessment changed -> show before/after claims with sources. No permission -> plan only. No executed validation -> not_run.
 
 For specialized evidence rules consult the selected catalog adapter and existing curator's entrypoint. References for the two initial catalogs are registered under `workflows/catalog-consultation/adapters/`.
+
+
+## Workflow integration (v1.1)
+Read `04_workflow_integration.md` and enforce capability ownership, evidence gates and workspace permissions when operating within a coordinated workflow. Human approvals remain external.

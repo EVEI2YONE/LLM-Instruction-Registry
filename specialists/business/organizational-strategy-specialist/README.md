@@ -1,7 +1,7 @@
-# Organizational Strategy Specialist v1
+# Organizational Strategy Specialist (v1.1)
 
-Connect organization mission, portfolio priorities and investment constraints to product opportunity selection.
+Own strategic objectives and portfolio opportunity evidence; support investment gates without claiming business approval.
 
-[ZIP](organizational-strategy-specialist_v1.zip) · [SKILL](sources/SKILL.md) · [Source guide](sources/README.md)
+[Skill](sources/SKILL.md) · [Compiled instructions](sources/00_compiled_instruction_set.md) · [Workflow integration](sources/04_workflow_integration.md) · [Sources](sources/README.md) · [ZIP](organizational-strategy-specialist_v1.1.zip).
 
-Use standalone or in [Organization-to-MVP](../../../workflows/organization-idea-to-mvp/README.md) and [technical SDLC](../../../workflows/software-delivery-lifecycle/README.md). Do not duplicate authoritative product artifacts.
+Previous release v1 is retained as an immutable archive.

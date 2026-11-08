@@ -1,0 +1,17 @@
+{
+  "id": "accessibility-usability-reviewer",
+  "version": "v1",
+  "role": "expert",
+  "kind": "specialist",
+  "capabilities": [
+    "accessibility-review",
+    "usability-verification",
+    "wcag-assessment"
+  ],
+  "workflows": [
+    "pragmatic-pr-review",
+    "software-delivery-lifecycle"
+  ],
+  "source_count": 8,
+  "self_heal_present": true
+}

@@ -1,0 +1,19 @@
+{
+  "id": "engineering-review-coordinator",
+  "name": "Engineering Review Coordinator",
+  "version": "v1",
+  "kind": "workflow-orchestrator",
+  "role": "orchestrator",
+  "capabilities": [
+    "pr-review-coordination",
+    "architecture-governance",
+    "quality-gates"
+  ],
+  "workflows": [
+    "pragmatic-pr-review",
+    "software-delivery-lifecycle"
+  ],
+  "source_count": 8,
+  "self_heal_present": true,
+  "requires_human_approval_for_consequential_actions": true
+}

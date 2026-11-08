@@ -1,0 +1,17 @@
+{
+  "id": "api-integration-design-specialist",
+  "version": "v1",
+  "role": "expert",
+  "kind": "specialist",
+  "capabilities": [
+    "api-contract-design",
+    "integration-architecture",
+    "interface-versioning"
+  ],
+  "workflows": [
+    "software-delivery-lifecycle",
+    "backlog-refinement"
+  ],
+  "source_count": 8,
+  "self_heal_present": true
+}

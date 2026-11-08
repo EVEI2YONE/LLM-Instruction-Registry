@@ -1,0 +1,3 @@
+interface:
+  display_name: "Security Architecture Specialist"
+  short_description: "Design security controls and threat mitigations proportionate to the product's actual attack surface."

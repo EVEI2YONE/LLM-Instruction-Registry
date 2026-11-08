@@ -39,6 +39,7 @@ These packages preserve their original primary purpose; optional workflow integr
 | Package | Version change | Main update |
 |---|---|---|
 | ai-knowledge-atlas | v2.1 → updated | Optional workflow integration, pinned context, ownership and self-heal |
+| ui-ux-design-system-architect | v1.1 → v1.2 | Design-system ownership, accessibility review and workflow-aware coordination |
 | app-planning | v1 → updated | Optional workflow integration, pinned context, ownership and self-heal |
 | backend-architecture-consultant | v1 → updated | Optional workflow integration, pinned context, ownership and self-heal |
 | business-app-idea | v1 → updated | Optional workflow integration, pinned context, ownership and self-heal |

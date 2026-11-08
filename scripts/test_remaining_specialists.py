@@ -7,6 +7,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 ORIGINAL_VERSIONS = {
   "ai-knowledge-atlas": "v2.1",
+  "ui-ux-design-system-architect": "v1.1",
   "app-planning": "v1",
   "backend-architecture-consultant": "v1",
   "business-app-idea": "v1",

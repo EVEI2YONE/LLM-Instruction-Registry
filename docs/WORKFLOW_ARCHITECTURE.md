@@ -7,3 +7,6 @@ Organization-to-MVP covers strategy, portfolio and MVP decision gates, while SDL
 
 ## Cross-workflow catalog consultant
 [Catalog Consultation](../workflows/catalog-consultation/README.md) adds a reusable reflective/curative/advisory mode to both organization-to-MVP and SDLC. It uses separate **target** and **catalog** repository references, a knowledge-gap ledger, dependency-batched catalog PR, and explicit context refresh before final recommendations. It delegates catalog ownership to existing AI Knowledge Atlas/UI-UX Design System curators rather than duplicating their domain instructions. Additional catalog adapters may be registered without changing SDLC stages.
+
+## Software Architecture Atlas
+A third [catalog adapter](../workflows/catalog-consultation/adapters/software-architecture-atlas.md) enables architecture consultant research and refactor planning using Software-Architecture-Atlas; project sources, Atlas knowledge and instruction rules retain separate ownership.

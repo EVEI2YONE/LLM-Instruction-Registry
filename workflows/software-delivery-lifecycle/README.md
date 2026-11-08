@@ -36,3 +36,6 @@ Select [frontend](../../instruction-sets/experts/frontend-engineering-specialist
 
 ## Consultant and catalog refinement checkpoints
 During research, architecture, UX, implementation review or refactor, optionally invoke [Catalog Consultation](../catalog-consultation/README.md). It audits actual code/repo/media against its relevant external knowledge catalog, builds an atomic knowledge-gap ledger, updates catalog-only PR batches if authorized, then re-fetches both contexts for a grounded remediation playbook. Implementation specialists consume the playbook through a separate product-repository PR; an unmerged catalog branch is provisional guidance.
+
+## Backend architecture consultant
+Use [Backend Architecture Consultant](../../instruction-sets/experts/backend-architecture-consultant/README.md) for evidence-based architecture reviews and refactor playbooks using [Software Architecture Atlas](https://github.com/EVEI2YONE/Software-Architecture-Atlas). It can update generic Atlas knowledge via an authorized catalog-only PR, but backend implementation and ADR approvals remain separately owned.

@@ -17,3 +17,6 @@ Each stage checks current artifact ID/revision, owner, exit evidence and next do
 
 ## Catalog consultation checkpoints
 For ideation feasibility, MVP design or AI/UX decisions, optionally invoke [Catalog-Grounded Consultation](../catalog-consultation/README.md) with the actual target and AI/UX catalog references. Consultant identifies verified reusable gaps, batches authorized **catalog-only** PR changes, re-reads catalog/target context, then returns a provisional-or-approved assessment and scoped MVP playbook. An unmerged catalog PR never counts as approved product/MVP authority. If catalog coverage is sufficient, do not create a PR.
+
+## MVP backend architecture consult
+At feasibility/design, optionally invoke [Backend Architecture Consultant](../../instruction-sets/experts/backend-architecture-consultant/README.md). Compare incremental modules against multi-project/service designs based on MVP scope and actual constraints; do not overarchitect.

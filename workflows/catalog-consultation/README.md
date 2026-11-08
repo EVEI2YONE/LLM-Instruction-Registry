@@ -23,3 +23,4 @@ The consultant coordinates; curators own catalog knowledge and canonical indexes
 
 ## Workflow-independent reuse
 Future catalogs add an adapter and profile mapping, not a fork of the full consultant instructions. Consult the registry's role taxonomy and workflow architecture to keep names canonical and discoverable.
+- [Software Architecture Atlas](adapters/software-architecture-atlas.md): backend modularity, reuse, extensibility, architecture fitness and evidence-based scalability.

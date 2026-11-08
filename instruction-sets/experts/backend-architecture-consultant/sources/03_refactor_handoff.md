@@ -1,0 +1,4 @@
+# Refreshed recommendation and backend handoff
+After catalog batches or no-change determination, re-read relevant target SHA and Atlas baseline plus proposed PR head/status. Reclassify resolved/partially resolved/new gaps. Keep original observations but update evidence and explain changed conclusions.
+
+Final output: goal/constraints; scoped initial and refreshed findings; target evidence paths; Atlas concept path/status/revision; gap ledger and batch/PR status; options including no-change; incremental module/public contract and dependency design; data/API migration; measured scaling experiment; prioritized implementation batches; tests/architecture fitness checks; rollback; risks; accountable owners. Backend Engineering implements; Architecture approves ADR/interface changes; QA independently verifies; release reviews migrations.

@@ -786,6 +786,43 @@
       "use_cases": [
         "Assess target repo/media with AI Knowledge Atlas or UI/UX catalog; fill verified reusable knowledge gaps via authorized batches; refresh catalog and target before recommending changes"
       ]
+    },
+    {
+      "id": "backend-architecture-consultant",
+      "name": "Backend Architecture Consultant",
+      "role": "expert",
+      "version": "v1",
+      "description": "Catalog-grounded backend architecture consultant: modularity, reuse, extensibility, scalability, gap research and refactor playbooks using Software Architecture Atlas.",
+      "tags": [
+        "catalog-consultation",
+        "architecture",
+        "backend",
+        "modularity"
+      ],
+      "status": "available",
+      "readme": "instruction-sets/experts/backend-architecture-consultant/README.md",
+      "archive": "instruction-sets/experts/backend-architecture-consultant/backend-architecture-consultant_v1.zip",
+      "sources": "instruction-sets/experts/backend-architecture-consultant/sources/",
+      "capabilities": [
+        "backend-architecture-review",
+        "catalog-grounded-consultation",
+        "modularity",
+        "reusability",
+        "extensibility",
+        "scalability",
+        "knowledge-gap-curation"
+      ],
+      "domains": [
+        "software-architecture",
+        "backend-engineering"
+      ],
+      "aliases": [
+        "backend architecture consultant",
+        "software architecture atlas consultant"
+      ],
+      "use_cases": [
+        "Review backend architecture and optionally curate knowledge gaps in Software Architecture Atlas"
+      ]
     }
   ]
 }

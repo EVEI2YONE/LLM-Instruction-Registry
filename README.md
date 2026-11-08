@@ -71,3 +71,6 @@ Read [CONTRIBUTING.md](CONTRIBUTING.md), [docs/PUBLISHING.md](docs/PUBLISHING.md
 
 ## Catalog-grounded consultation
 [Catalog-Grounded Consultant](instruction-sets/orchestrators/catalog-grounded-consultant/README.md) and its [workflow guide](workflows/catalog-consultation/README.md) provide a reusable target-audit → catalog knowledge gaps → authorized batched catalog PR → context refresh → recommendation/refactor playbook loop. Initial adapters reuse the AI Knowledge Atlas and UI/UX Design System Architect curators.
+
+## Backend architecture consultant
+[Backend Architecture Consultant](instruction-sets/experts/backend-architecture-consultant/README.md) consults [Software Architecture Atlas](https://github.com/EVEI2YONE/Software-Architecture-Atlas) for modularity, reuse, extensibility and scaling.

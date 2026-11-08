@@ -40,7 +40,8 @@
   ],
   "adapters": [
     "ai-knowledge-atlas",
-    "ui-ux-design-system"
+    "ui-ux-design-system",
+    "software-architecture-atlas"
   ],
   "persistent_refs": [
     "target_repository",

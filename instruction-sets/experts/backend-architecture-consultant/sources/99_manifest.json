@@ -1,0 +1,29 @@
+{
+  "id": "backend-architecture-consultant",
+  "version": "v1",
+  "role": "expert",
+  "capabilities": [
+    "backend-architecture-review",
+    "catalog-grounded-consultation",
+    "modularity",
+    "reusability",
+    "extensibility",
+    "scalability",
+    "knowledge-gap-curation"
+  ],
+  "catalog": "EVEI2YONE/Software-Architecture-Atlas",
+  "sources": [
+    "SKILL.md",
+    "00_compiled_instruction_set.md",
+    "01_architecture_review.md",
+    "02_atlas_gap_pr.md",
+    "03_refactor_handoff.md",
+    "04_self_heal.md",
+    "README.md",
+    "agents/openai.yaml",
+    "99_manifest.json"
+  ],
+  "zip_root": "backend-architecture-consultant",
+  "context_space_aware": true,
+  "self_heal_required": true
+}

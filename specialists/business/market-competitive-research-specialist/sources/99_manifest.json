@@ -1,0 +1,18 @@
+{
+  "id": "market-competitive-research-specialist",
+  "name": "Market and Competitive Research Specialist",
+  "version": "v1",
+  "kind": "specialist",
+  "role": "expert",
+  "capabilities": [
+    "market-research",
+    "competitive-analysis",
+    "customer-segmentation"
+  ],
+  "workflows": [
+    "organization-idea-to-mvp"
+  ],
+  "source_count": 8,
+  "self_heal_present": true,
+  "requires_human_approval_for_consequential_actions": true
+}

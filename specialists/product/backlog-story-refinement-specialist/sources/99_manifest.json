@@ -1,0 +1,19 @@
+{
+  "id": "backlog-story-refinement-specialist",
+  "name": "Backlog and Story Refinement Specialist",
+  "version": "v1",
+  "kind": "specialist",
+  "role": "expert",
+  "capabilities": [
+    "story-refinement",
+    "acceptance-criteria",
+    "backlog-decomposition"
+  ],
+  "workflows": [
+    "backlog-refinement",
+    "specialist-consultation"
+  ],
+  "source_count": 8,
+  "self_heal_present": true,
+  "requires_human_approval_for_consequential_actions": true
+}

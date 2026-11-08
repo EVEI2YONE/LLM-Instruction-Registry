@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "priority": [
+    "project-approved-authority",
+    "workflow-responsibility",
+    "registry-capability-resolution"
+  ],
+  "single_owner_per_artifact": true,
+  "independent_reviewer_required_for": [
+    "architecture-decision",
+    "release-readiness",
+    "pull-request",
+    "security-exception"
+  ],
+  "human_only_approvals": [
+    "investment",
+    "scope-or-priority-policy-change",
+    "production",
+    "merge",
+    "irreversible-change"
+  ],
+  "conflicts": "escalate-with-reasons-and-suggested-options",
+  "absence_of_required_approver": "blocked",
+  "stale_revision": "refresh-and-rerun-affected-evidence",
+  "agents_cannot_mutate_approved_authority": true,
+  "contract": "capability-ownership.schema.json"
+}

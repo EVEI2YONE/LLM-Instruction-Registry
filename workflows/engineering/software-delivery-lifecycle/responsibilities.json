@@ -1,0 +1,58 @@
+{
+  "workflow_id": "software-delivery-lifecycle",
+  "version": "v1",
+  "assignments": [
+    {
+      "artifact": "architecture-decision",
+      "owner": "architecture-decisions",
+      "consultants": [
+        "implementation",
+        "api-design"
+      ],
+      "reviewers": [
+        "code-review"
+      ],
+      "approver": {
+        "authority": "architecture-authority",
+        "required_when": [
+          "breaking-change"
+        ]
+      }
+    },
+    {
+      "artifact": "implemented-change",
+      "owner": "implementation",
+      "consultants": [
+        "backend-implementation",
+        "frontend-implementation",
+        "ai-engineering"
+      ],
+      "reviewers": [
+        "acceptance-verification"
+      ],
+      "approver": {
+        "authority": "code-owner",
+        "required_when": [
+          "merge"
+        ]
+      }
+    },
+    {
+      "artifact": "release-evidence",
+      "owner": "release-readiness",
+      "consultants": [
+        "observability",
+        "ci-cd"
+      ],
+      "reviewers": [
+        "quality-gates"
+      ],
+      "approver": {
+        "authority": "release-authority",
+        "required_when": [
+          "production"
+        ]
+      }
+    }
+  ]
+}

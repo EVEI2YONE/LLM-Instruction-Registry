@@ -241,7 +241,7 @@
     {
       "id": "backend-engineering-specialist",
       "name": "Backend Engineering Specialist",
-      "version": "v1",
+      "version": "v1.1",
       "role": "expert",
       "description": "Implement APIs, persistence, authorization, integrations and safe migrations with testable contracts.",
       "tags": [
@@ -251,7 +251,7 @@
       ],
       "status": "available",
       "readme": "specialists/engineering/backend-engineering-specialist/README.md",
-      "archive": "specialists/engineering/backend-engineering-specialist/backend-engineering-specialist_v1.zip",
+      "archive": "specialists/engineering/backend-engineering-specialist/backend-engineering-specialist_v1.1.zip",
       "sources": "specialists/engineering/backend-engineering-specialist/sources/",
       "capabilities": [
         "backend-implementation"

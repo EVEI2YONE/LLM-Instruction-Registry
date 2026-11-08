@@ -1,7 +1,7 @@
-# Backend Engineering Specialist v1
+# Backend Engineering Specialist (v1.1)
 
-Implement APIs, persistence, authorization, integrations and safe migrations with testable contracts.
+Implement bounded backend API, persistence, authorization and integration tasks using approved interfaces.
 
-[ZIP](backend-engineering-specialist_v1.zip) · [SKILL](sources/SKILL.md) · [Source guide](sources/README.md)
+[Skill](sources/SKILL.md) · [Compiled instructions](sources/00_compiled_instruction_set.md) · [Workflow integration](sources/04_workflow_integration.md) · [Sources](sources/README.md) · [ZIP](backend-engineering-specialist_v1.1.zip).
 
-Use standalone or in [Organization-to-MVP](../../../workflows/organization-idea-to-mvp/README.md) and [technical SDLC](../../../workflows/software-delivery-lifecycle/README.md). Do not duplicate authoritative product artifacts.
+Previous release v1 is retained as an immutable archive.

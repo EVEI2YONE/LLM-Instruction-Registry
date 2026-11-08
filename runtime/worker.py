@@ -36,10 +36,33 @@ class Worker:
                 if ctx["task_id"] != task["task_id"] or ctx["run_id"] != task["run_id"]:
                     raise PermissionError("wrong task or run context")
                 package = self.resolver.resolve(task["package_id"], task["package_version"], task["objective"])
-                result = self.adapter.execute(task, ctx, package)
+                # Forward only authorized versioned artifacts that this child has
+                # been explicitly granted. Never mutate the immutable envelope.
+                materialized = []
+                for artifact_ref in ctx.get("artifact_refs", []):
+                    artifact_id, sep, rev_str = artifact_ref.partition("@")
+                    revision = int(rev_str) if sep else None
+                    meta, raw = store.get_artifact(project, artifact_id, revision)
+                    if (meta["visibility"] == "private-task" and
+                            meta["producer_task_id"] != task["task_id"]):
+                        raise PermissionError("private artifact not available to child")
+                    if len(raw) > 512 * 1024:
+                        raise ValueError("artifact exceeds shared-context limit")
+                    import base64
+                    materialized.append({
+                        "artifact_id": artifact_id, "revision": meta["revision"],
+                        "sha256": meta["sha256"], "status": meta["status"],
+                        "content_base64": base64.b64encode(raw).decode("ascii")
+                    })
+                runtime_context = dict(ctx, resolved_artifacts=materialized)
+                result = self.adapter.execute(task, runtime_context, package)
+                if self.queue.read(project, task["task_id"])["status"] == "cancelled":
+                    return True
                 if result["status"] == "complete":
                     artifact_refs = []
                     for item in result.get("artifacts", []):
+                        if self.queue.read(project, task["task_id"])["status"] == "cancelled":
+                            return True
                         if not isinstance(item, dict) or not isinstance(item.get("content"), str):
                             raise ValueError("invalid child artifact")
                         raw = item["content"].encode("utf8")

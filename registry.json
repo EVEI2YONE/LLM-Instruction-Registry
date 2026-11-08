@@ -302,16 +302,17 @@
       "id": "business-app-idea",
       "name": "Business App Idea",
       "description": "Instruction set for shaping business application concepts into actionable plans.",
-      "version": "v1",
+      "version": "v1.1",
       "role": "strategist",
       "tags": [
         "business",
         "app",
-        "idea"
+        "idea",
+        "workflow-aware"
       ],
       "status": "available",
       "readme": "specialists/business/business-app-idea/README.md",
-      "archive": "specialists/business/business-app-idea/business-app-idea_v1.zip",
+      "archive": "specialists/business/business-app-idea/business-app-idea_v1.1.zip",
       "sources": "specialists/business/business-app-idea/sources/",
       "capabilities": [
         "business-ideation",

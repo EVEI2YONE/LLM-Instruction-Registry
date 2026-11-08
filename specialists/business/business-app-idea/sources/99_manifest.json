@@ -1,0 +1,21 @@
+{
+  "id": "business-app-idea",
+  "version": "v1.1",
+  "role": "strategist",
+  "kind": "specialist",
+  "workflow_integration": "90_workflow_integration.md",
+  "self_heal_present": true,
+  "legacy_archive": "legacy_original_v1.zip",
+  "legacy_archive_note": "Original published instructional materials preserved as embedded archive because browsable source tree had only README.",
+  "sources": [
+    "00_compiled_instruction_set.md",
+    "01_original_package_reference.md",
+    "03_self_heal.md",
+    "90_workflow_integration.md",
+    "99_manifest.json",
+    "README.md",
+    "SKILL.md",
+    "agents/openai.yaml",
+    "legacy_original_v1.zip"
+  ]
+}

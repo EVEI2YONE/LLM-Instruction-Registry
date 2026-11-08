@@ -1,0 +1,3 @@
+interface:
+  display_name: "Engineering Execution Specialist"
+  short_description: "Implement bounded changes through repository-native branches, tests and PR evidence."

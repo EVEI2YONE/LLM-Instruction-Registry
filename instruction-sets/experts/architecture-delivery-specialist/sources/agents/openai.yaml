@@ -1,0 +1,3 @@
+interface:
+  display_name: "Architecture Delivery Specialist"
+  short_description: "Own architecture proposals, reviewed ADRs, interface contracts and dependency-aware technical handoffs."

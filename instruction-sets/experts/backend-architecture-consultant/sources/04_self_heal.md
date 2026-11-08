@@ -1,0 +1,2 @@
+# Self-heal
+When source coverage was overstated, a stub was trusted, unnecessary layers recommended, private data leaked, code was edited without authority, catalog PR represented as approved, or target context not refreshed, record actual/expected and evidence. Propose an owner-reviewed correction and regression test to the proper instruction or Atlas repo. Never silently rewrite an approved project source.

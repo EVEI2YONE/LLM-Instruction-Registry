@@ -1,0 +1,27 @@
+{
+  "id": "operations-reliability-specialist",
+  "version": "v1",
+  "role": "expert",
+  "capabilities": [
+    "observability",
+    "incident-triage",
+    "postmortem"
+  ],
+  "workflow_stages": [
+    "operations"
+  ],
+  "context_space_aware": true,
+  "self_heal_required": true,
+  "provenance": "new v1 generated for software delivery workflow",
+  "sources": [
+    "SKILL.md",
+    "00_compiled_instruction_set.md",
+    "01_domain.md",
+    "02_context_space.md",
+    "03_self_heal.md",
+    "README.md",
+    "agents/openai.yaml",
+    "99_manifest.json"
+  ],
+  "zip_root": "operations-reliability-specialist"
+}

@@ -1,0 +1,88 @@
+{
+  "id": "software-delivery-lifecycle",
+  "version": "v1",
+  "modes": [
+    "greenfield",
+    "feature-extension",
+    "refactor",
+    "incident"
+  ],
+  "stages": [
+    {
+      "stage": "discovery",
+      "package_id": "product-delivery-specialist",
+      "capabilities": [
+        "product-discovery",
+        "requirements-management",
+        "acceptance-criteria"
+      ]
+    },
+    {
+      "stage": "architecture",
+      "package_id": "architecture-delivery-specialist",
+      "capabilities": [
+        "software-architecture",
+        "api-design",
+        "architecture-decisions"
+      ]
+    },
+    {
+      "stage": "implementation",
+      "package_id": "engineering-execution-specialist",
+      "capabilities": [
+        "implementation",
+        "debugging",
+        "code-review"
+      ]
+    },
+    {
+      "stage": "verification",
+      "package_id": "qa-verification-specialist",
+      "capabilities": [
+        "acceptance-verification",
+        "regression-testing",
+        "quality-gates"
+      ]
+    },
+    {
+      "stage": "release",
+      "package_id": "devsecops-release-specialist",
+      "capabilities": [
+        "ci-cd",
+        "release-readiness",
+        "security-gates"
+      ]
+    },
+    {
+      "stage": "operations",
+      "package_id": "operations-reliability-specialist",
+      "capabilities": [
+        "observability",
+        "incident-triage",
+        "postmortem"
+      ]
+    }
+  ],
+  "coordinator": "software-delivery-lifecycle",
+  "handoff_required": [
+    "workflow_id",
+    "stage_id",
+    "producer_version",
+    "project_revision",
+    "authoritative_inputs",
+    "outputs",
+    "evidence",
+    "status",
+    "next_owner"
+  ],
+  "approval_gates": [
+    "production",
+    "irreversible-changes",
+    "merge"
+  ],
+  "specialized_implementation": [
+    "frontend-engineering-specialist",
+    "backend-engineering-specialist",
+    "ai-ml-engineering-specialist"
+  ]
+}

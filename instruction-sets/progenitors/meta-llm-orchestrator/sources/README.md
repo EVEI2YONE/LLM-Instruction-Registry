@@ -1,3 +1,2 @@
-# Meta-LLM Orchestrator — Sources
-
-This directory holds source materials and provenance for the **v18** package. For packages originating as an archive only, additional sources may not be separately available.
+# Sources for Meta-LLM Orchestrator
+Start with SKILL.md and compiled contract. Read domain, context, and self-heal references as needed. This package is reusable independently; workflow stage descriptions apply only when profile is active. Existing product repository artifacts remain canonical; instruction registry stores behavior only.

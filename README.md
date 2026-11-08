@@ -61,3 +61,16 @@ Every ZIP's internal root remains `<package-id>/`, regardless of role directory.
 ## Agent publishing instructions
 
 Read [CONTRIBUTING.md](CONTRIBUTING.md), [docs/PUBLISHING.md](docs/PUBLISHING.md) and [docs/ROLE_TAXONOMY.md](docs/ROLE_TAXONOMY.md) before adding or moving instruction sets. Preserve actual sources and binary ZIP files, maintain canonical metadata and verify paths in a PR. Do **not** rerun the legacy `scripts/rebuild_registry.py` script, which only supported an older `packages/` migration.
+
+## Workflow-aware collaboration
+
+[Meta-LLM Orchestrator v19](instruction-sets/progenitors/meta-llm-orchestrator/README.md) can generate standalone or workflow-aware specialists. [SDLC workflow-specific usage](workflows/software-delivery-lifecycle/README.md) explains coordinating them with existing project artifacts. [Workflow architecture](docs/WORKFLOW_ARCHITECTURE.md) supports future workflow profiles.
+
+## Top-down organizational workflow
+[Organization-to-MVP](workflows/organization-idea-to-mvp/README.md) coordinates strategy through MVP. Dedicated [frontend](instruction-sets/experts/frontend-engineering-specialist/README.md), [backend](instruction-sets/experts/backend-engineering-specialist/README.md) and [AI/ML](instruction-sets/experts/ai-ml-engineering-specialist/README.md) specialists support implementation.
+
+## Catalog-grounded consultation
+[Catalog-Grounded Consultant](instruction-sets/orchestrators/catalog-grounded-consultant/README.md) and its [workflow guide](workflows/catalog-consultation/README.md) provide a reusable target-audit → catalog knowledge gaps → authorized batched catalog PR → context refresh → recommendation/refactor playbook loop. Initial adapters reuse the AI Knowledge Atlas and UI/UX Design System Architect curators.
+
+## Backend architecture consultant
+[Backend Architecture Consultant](instruction-sets/experts/backend-architecture-consultant/README.md) consults [Software Architecture Atlas](https://github.com/EVEI2YONE/Software-Architecture-Atlas) for modularity, reuse, extensibility and scaling.

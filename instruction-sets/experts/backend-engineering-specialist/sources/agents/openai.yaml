@@ -1,0 +1,3 @@
+interface:
+  display_name: "Backend Engineering Specialist"
+  short_description: "Implement APIs, persistence, authorization, integrations and safe migrations with testable contracts."

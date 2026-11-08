@@ -10,3 +10,17 @@ Specialized expertise, evidence-based advice, teaching and technical judgment.
 | [SOLID Visual Architecture](./solid-visual-architecture/README.md) | v1 | Architecture visualization and SOLID-oriented design instruction system. |
 
 These are primary responsibilities, not exclusive capabilities. Search [registry.json](../../registry.json) using `role`, `capabilities`, `domains` and `tags`.
+
+## New context-space-aware packages
+- [Architecture Delivery Specialist](architecture-delivery-specialist/README.md) — Own architecture proposals, reviewed ADRs, interface contracts and dependency-aware technical handoffs.
+- [Engineering Execution Specialist](engineering-execution-specialist/README.md) — Implement bounded changes through repository-native branches, tests and PR evidence.
+- [QA and Verification Specialist](qa-verification-specialist/README.md) — Independently verify acceptance, regression and change risk with pinned test evidence.
+- [DevSecOps and Release Specialist](devsecops-release-specialist/README.md) — Govern security, CI/CD, deployment approvals, staging verification and rollback readiness.
+- [Operations and Reliability Specialist](operations-reliability-specialist/README.md) — Own observable health, incident evidence, post-release verification and feedback handoffs.
+
+## Organization-to-MVP additions
+- [Frontend Engineering Specialist](frontend-engineering-specialist/README.md) — Build accessible, responsive frontend interactions against approved UX and API contracts.
+- [Backend Engineering Specialist](backend-engineering-specialist/README.md) — Implement APIs, persistence, authorization, integrations and safe migrations with testable contracts.
+- [AI/ML Engineering Specialist](ai-ml-engineering-specialist/README.md) — Implement and evaluate AI models, RAG, agent workflows and inference with safety, latency and cost evidence.
+
+- [Backend Architecture Consultant](backend-architecture-consultant/README.md) — atlas-grounded modularity, reuse, extensibility and scaling guidance.

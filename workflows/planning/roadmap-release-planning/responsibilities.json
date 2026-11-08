@@ -1,0 +1,23 @@
+{
+  "workflow_id": "roadmap-release-planning",
+  "version": "v1",
+  "assignments": [
+    {
+      "artifact": "release-roadmap",
+      "owner": "roadmap-prioritization",
+      "consultants": [
+        "architecture-decisions",
+        "implementation"
+      ],
+      "reviewers": [
+        "requirements-management"
+      ],
+      "approver": {
+        "authority": "product-owner",
+        "required_when": [
+          "scope-or-priority-change"
+        ]
+      }
+    }
+  ]
+}

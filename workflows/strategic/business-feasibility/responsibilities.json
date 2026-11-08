@@ -1,0 +1,23 @@
+{
+  "workflow_id": "business-feasibility",
+  "version": "v1",
+  "assignments": [
+    {
+      "artifact": "investment-case",
+      "owner": "business-feasibility",
+      "consultants": [
+        "technical-research",
+        "organizational-strategy"
+      ],
+      "reviewers": [
+        "technical-feasibility"
+      ],
+      "approver": {
+        "authority": "product-sponsor",
+        "required_when": [
+          "investment"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "business-feasibility",
+  "version": "v0-scaffold",
+  "status": "scaffold",
+  "coordinator_package": "idea-to-mvp-orchestrator",
+  "triggers": [
+    "investment-evaluation",
+    "business-feasibility"
+  ],
+  "responsibilities": "responsibilities.json",
+  "stages": [
+    {
+      "id": "scope",
+      "pattern": "sequential",
+      "requires": [
+        "organizational-strategy"
+      ],
+      "depends_on": [],
+      "gate": "business-constraints",
+      "approval_required": false
+    },
+    {
+      "id": "assessment",
+      "pattern": "parallel",
+      "requires": [
+        "business-feasibility",
+        "technical-feasibility"
+      ],
+      "depends_on": [
+        "scope"
+      ],
+      "gate": "assumption-evidence",
+      "approval_required": false
+    },
+    {
+      "id": "review",
+      "pattern": "council",
+      "requires": [
+        "investment-analysis",
+        "product-planning"
+      ],
+      "depends_on": [
+        "assessment"
+      ],
+      "gate": "option-comparison",
+      "approval_required": false
+    },
+    {
+      "id": "approval",
+      "pattern": "approval",
+      "requires": [],
+      "depends_on": [
+        "review"
+      ],
+      "gate": "human-sponsor",
+      "approval_required": true
+    }
+  ]
+}

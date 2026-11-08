@@ -1,0 +1,60 @@
+{
+  "id": "solution-architecture",
+  "version": "v0-scaffold",
+  "status": "scaffold",
+  "coordinator_package": "software-delivery-lifecycle",
+  "triggers": [
+    "resource-architecture",
+    "system-design"
+  ],
+  "responsibilities": "responsibilities.json",
+  "stages": [
+    {
+      "id": "baseline",
+      "pattern": "sequential",
+      "requires": [
+        "solution-architecture"
+      ],
+      "depends_on": [],
+      "gate": "source-authority",
+      "approval_required": false
+    },
+    {
+      "id": "design",
+      "pattern": "parallel",
+      "requires": [
+        "cloud-resource-design",
+        "data-architecture",
+        "api-contract-design",
+        "threat-modeling"
+      ],
+      "depends_on": [
+        "baseline"
+      ],
+      "gate": "contract-alignment",
+      "approval_required": false
+    },
+    {
+      "id": "reconcile",
+      "pattern": "council",
+      "requires": [
+        "architecture-decisions"
+      ],
+      "depends_on": [
+        "design"
+      ],
+      "gate": "adr-proposal",
+      "approval_required": false
+    },
+    {
+      "id": "approve",
+      "pattern": "approval",
+      "requires": [],
+      "depends_on": [
+        "reconcile"
+      ],
+      "gate": "architecture-authority",
+      "approval_required": true
+    }
+  ]
+}

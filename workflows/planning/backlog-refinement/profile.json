@@ -34,5 +34,7 @@
       ],
       "approval_required": true
     }
-  ]
+  ],
+  "coordinator_package": "technical-product-manager",
+  "responsibilities": "responsibilities.json"
 }

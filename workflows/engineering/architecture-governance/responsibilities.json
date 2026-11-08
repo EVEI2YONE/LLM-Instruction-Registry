@@ -1,0 +1,23 @@
+{
+  "workflow_id": "architecture-governance",
+  "version": "v1",
+  "assignments": [
+    {
+      "artifact": "architecture-review",
+      "owner": "architecture-decisions",
+      "consultants": [
+        "backend-architecture-review",
+        "security-architecture"
+      ],
+      "reviewers": [
+        "pragmatic-code-review"
+      ],
+      "approver": {
+        "authority": "architecture-authority",
+        "required_when": [
+          "adr-exception"
+        ]
+      }
+    }
+  ]
+}

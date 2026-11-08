@@ -1,0 +1,46 @@
+{
+  "id": "architecture-governance",
+  "version": "v0-scaffold",
+  "status": "scaffold",
+  "coordinator_package": "engineering-review-coordinator",
+  "triggers": [
+    "architecture-review",
+    "design-exception"
+  ],
+  "responsibilities": "responsibilities.json",
+  "stages": [
+    {
+      "id": "baseline",
+      "pattern": "sequential",
+      "requires": [
+        "architecture-decisions"
+      ],
+      "depends_on": [],
+      "gate": "approved-adrs",
+      "approval_required": false
+    },
+    {
+      "id": "review",
+      "pattern": "parallel",
+      "requires": [
+        "software-architecture",
+        "pragmatic-code-review"
+      ],
+      "depends_on": [
+        "baseline"
+      ],
+      "gate": "review-evidence",
+      "approval_required": false
+    },
+    {
+      "id": "decision",
+      "pattern": "approval",
+      "requires": [],
+      "depends_on": [
+        "review"
+      ],
+      "gate": "architecture-authority",
+      "approval_required": true
+    }
+  ]
+}

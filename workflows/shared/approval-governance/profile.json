@@ -18,5 +18,7 @@
       ],
       "approval_required": true
     }
-  ]
+  ],
+  "coordinator_package": "product-lifecycle-orchestrator",
+  "responsibilities": "responsibilities.json"
 }

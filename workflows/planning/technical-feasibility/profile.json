@@ -1,0 +1,59 @@
+{
+  "id": "technical-feasibility",
+  "version": "v0-scaffold",
+  "status": "scaffold",
+  "coordinator_package": "software-delivery-lifecycle",
+  "triggers": [
+    "technical-feasibility",
+    "technology-selection"
+  ],
+  "responsibilities": "responsibilities.json",
+  "stages": [
+    {
+      "id": "constraints",
+      "pattern": "sequential",
+      "requires": [
+        "requirements-management"
+      ],
+      "depends_on": [],
+      "gate": "authorized-context",
+      "approval_required": false
+    },
+    {
+      "id": "investigations",
+      "pattern": "parallel",
+      "requires": [
+        "technical-research",
+        "solution-architecture",
+        "security-architecture"
+      ],
+      "depends_on": [
+        "constraints"
+      ],
+      "gate": "proof-evidence",
+      "approval_required": false
+    },
+    {
+      "id": "options",
+      "pattern": "council",
+      "requires": [
+        "architecture-decisions"
+      ],
+      "depends_on": [
+        "investigations"
+      ],
+      "gate": "feasibility-tradeoffs",
+      "approval_required": false
+    },
+    {
+      "id": "decision",
+      "pattern": "approval",
+      "requires": [],
+      "depends_on": [
+        "options"
+      ],
+      "gate": "architecture-authority",
+      "approval_required": true
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "workflow_id": "product-discovery",
+  "version": "v1",
+  "assignments": [
+    {
+      "artifact": "research-evidence",
+      "owner": "ux-research",
+      "consultants": [
+        "market-research",
+        "requirements-management"
+      ],
+      "reviewers": [
+        "acceptance-verification"
+      ],
+      "approver": {
+        "authority": "product-owner",
+        "required_when": [
+          "scope-change"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "workflow_id": "product-outcomes",
+  "version": "v1",
+  "assignments": [
+    {
+      "artifact": "outcome-assessment",
+      "owner": "outcome-validation",
+      "consultants": [
+        "observability",
+        "ux-research"
+      ],
+      "reviewers": [
+        "requirements-traceability"
+      ],
+      "approver": {
+        "authority": "product-owner",
+        "required_when": [
+          "pivot-or-stop"
+        ]
+      }
+    }
+  ]
+}

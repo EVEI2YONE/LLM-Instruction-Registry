@@ -1,0 +1,59 @@
+{
+  "id": "change-impact-analysis",
+  "version": "v0-scaffold",
+  "status": "scaffold",
+  "coordinator_package": "product-lifecycle-orchestrator",
+  "triggers": [
+    "change-impact",
+    "breaking-change"
+  ],
+  "responsibilities": "responsibilities.json",
+  "stages": [
+    {
+      "id": "baseline",
+      "pattern": "sequential",
+      "requires": [
+        "source-authority"
+      ],
+      "depends_on": [],
+      "gate": "pinned-revisions",
+      "approval_required": false
+    },
+    {
+      "id": "impact",
+      "pattern": "parallel",
+      "requires": [
+        "requirements-traceability",
+        "software-architecture",
+        "api-contract-design"
+      ],
+      "depends_on": [
+        "baseline"
+      ],
+      "gate": "impact-evidence",
+      "approval_required": false
+    },
+    {
+      "id": "resolution",
+      "pattern": "council",
+      "requires": [
+        "technical-product-management"
+      ],
+      "depends_on": [
+        "impact"
+      ],
+      "gate": "tradeoff-matrix",
+      "approval_required": false
+    },
+    {
+      "id": "approval",
+      "pattern": "conditional",
+      "requires": [],
+      "depends_on": [
+        "resolution"
+      ],
+      "gate": "owner-escalation",
+      "approval_required": false
+    }
+  ]
+}

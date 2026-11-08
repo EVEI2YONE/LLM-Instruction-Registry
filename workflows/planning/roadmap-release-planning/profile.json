@@ -1,0 +1,59 @@
+{
+  "id": "roadmap-release-planning",
+  "version": "v0-scaffold",
+  "status": "scaffold",
+  "coordinator_package": "idea-to-mvp-orchestrator",
+  "triggers": [
+    "roadmap-planning",
+    "release-scope"
+  ],
+  "responsibilities": "responsibilities.json",
+  "stages": [
+    {
+      "id": "priorities",
+      "pattern": "sequential",
+      "requires": [
+        "roadmap-prioritization"
+      ],
+      "depends_on": [],
+      "gate": "approved-goals",
+      "approval_required": false
+    },
+    {
+      "id": "dependencies",
+      "pattern": "parallel",
+      "requires": [
+        "architecture-decisions",
+        "backend-implementation",
+        "frontend-implementation"
+      ],
+      "depends_on": [
+        "priorities"
+      ],
+      "gate": "dependency-graph",
+      "approval_required": false
+    },
+    {
+      "id": "sequencing",
+      "pattern": "council",
+      "requires": [
+        "technical-product-management"
+      ],
+      "depends_on": [
+        "dependencies"
+      ],
+      "gate": "incremental-value",
+      "approval_required": false
+    },
+    {
+      "id": "approval",
+      "pattern": "approval",
+      "requires": [],
+      "depends_on": [
+        "sequencing"
+      ],
+      "gate": "product-owner",
+      "approval_required": true
+    }
+  ]
+}

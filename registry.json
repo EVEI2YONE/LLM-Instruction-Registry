@@ -35,7 +35,7 @@
       "id": "ai-knowledge-atlas",
       "name": "AI Knowledge Atlas",
       "description": "Living evidence-backed AI research catalog; source freshness, relevance, knowledge-gap curation, agent-friendly search and technical architecture reference.",
-      "version": "v2.1",
+      "version": "v2.2",
       "role": "curator",
       "tags": [
         "ai",
@@ -45,11 +45,12 @@
         "retrieval",
         "source-freshness",
         "architecture",
-        "gap-analysis"
+        "gap-analysis",
+        "workflow-aware"
       ],
       "status": "available",
       "readme": "specialists/knowledge/ai-knowledge-atlas/README.md",
-      "archive": "specialists/knowledge/ai-knowledge-atlas/ai-knowledge-atlas_v2.1.zip",
+      "archive": "specialists/knowledge/ai-knowledge-atlas/ai-knowledge-atlas_v2.2.zip",
       "sources": "specialists/knowledge/ai-knowledge-atlas/sources/",
       "capabilities": [
         "research-surveillance",

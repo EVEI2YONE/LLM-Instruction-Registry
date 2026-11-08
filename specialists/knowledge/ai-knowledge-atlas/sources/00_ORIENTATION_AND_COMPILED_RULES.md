@@ -806,3 +806,7 @@ Added: governing trust/evidence/federation contracts, gap scoring and dedup, cla
   ]
 }
 ```
+
+
+## Workflow-aware extension (v2.2)
+Read `90_workflow_integration.md` when this package participates in a workflow. Preserve the original domain boundaries and direct-assistance mode. Do not infer human approval or actual tool permissions from the workflow assignment.

@@ -1,6 +1,6 @@
 {
   "id": "catalog-grounded-consultant",
-  "version": "v1",
+  "version": "v1.1",
   "role": "orchestrator",
   "capabilities": [
     "catalog-grounded-consultation",
@@ -35,5 +35,7 @@
     "agents/openai.yaml",
     "99_manifest.json"
   ],
-  "zip_root": "catalog-grounded-consultant"
+  "zip_root": "catalog-grounded-consultant",
+  "workflow_integration": "04_workflow_integration.md",
+  "self_heal_present": true
 }

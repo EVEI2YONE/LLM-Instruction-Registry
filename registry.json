@@ -364,7 +364,7 @@
       "id": "catalog-grounded-consultant",
       "name": "Catalog-Grounded Consultant",
       "description": "Consultative, curative and advisory workflow using external knowledge catalogs: assess target repositories/code/media, identify and batch generalizable gaps, update authorized catalog PRs, re-gather context and deliver grounded refactor playbooks.",
-      "version": "v1",
+      "version": "v1.1",
       "role": "orchestrator",
       "tags": [
         "catalog-consultation",
@@ -377,7 +377,7 @@
       ],
       "status": "available",
       "readme": "orchestrators/workflow/catalog-grounded-consultant/README.md",
-      "archive": "orchestrators/workflow/catalog-grounded-consultant/catalog-grounded-consultant_v1.zip",
+      "archive": "orchestrators/workflow/catalog-grounded-consultant/catalog-grounded-consultant_v1.1.zip",
       "sources": "orchestrators/workflow/catalog-grounded-consultant/sources/",
       "capabilities": [
         "catalog-grounded-consultation",

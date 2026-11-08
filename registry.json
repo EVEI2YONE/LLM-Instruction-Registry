@@ -79,7 +79,7 @@
     {
       "id": "ai-ml-engineering-specialist",
       "name": "AI/ML Engineering Specialist",
-      "version": "v1",
+      "version": "v1.1",
       "role": "expert",
       "description": "Implement and evaluate AI models, RAG, agent workflows and inference with safety, latency and cost evidence.",
       "tags": [
@@ -89,7 +89,7 @@
       ],
       "status": "available",
       "readme": "specialists/engineering/ai-ml-engineering-specialist/README.md",
-      "archive": "specialists/engineering/ai-ml-engineering-specialist/ai-ml-engineering-specialist_v1.zip",
+      "archive": "specialists/engineering/ai-ml-engineering-specialist/ai-ml-engineering-specialist_v1.1.zip",
       "sources": "specialists/engineering/ai-ml-engineering-specialist/sources/",
       "capabilities": [
         "ai-engineering"

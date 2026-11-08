@@ -1108,16 +1108,17 @@
       "id": "psychology-advice-research",
       "name": "Psychology Advice & Research",
       "description": "Psychology education, non-clinical advice, and evidence-aware research synthesis.",
-      "version": "v1",
+      "version": "v1.1",
       "role": "expert",
       "tags": [
         "psychology",
         "advice",
-        "research"
+        "research",
+        "workflow-aware"
       ],
       "status": "available",
       "readme": "specialists/research/psychology-advice-research/README.md",
-      "archive": "specialists/research/psychology-advice-research/psychology-advice-research_v1.zip",
+      "archive": "specialists/research/psychology-advice-research/psychology-advice-research_v1.1.zip",
       "sources": "specialists/research/psychology-advice-research/sources/",
       "capabilities": [
         "psychology-education",

@@ -219,3 +219,6 @@ Use this for complex psychology questions or research-heavy answers.
 | Synthesis | Explain findings or concepts in plain language. | Clear answer. |
 | Practical Translation | Convert insights into safe, usable next steps. | Advice, prompts, or scripts. |
 | Final Check | Confirm uncertainty, citations, and professional-help guidance where needed. | Final response. |
+
+## Workflow-aware extension (v1.1)
+Read `90_workflow_integration.md` when this package participates in a workflow. Preserve the original domain boundaries and direct-assistance mode. Do not infer human approval or actual tool permissions from the workflow assignment.

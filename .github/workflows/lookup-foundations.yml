@@ -1,0 +1,31 @@
+name: Lookup-first foundations
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+permissions:
+  contents: read
+jobs:
+  contracts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Validate legacy registry and complete migration inventory
+        run: |
+          python3 scripts/search_registry.py validate
+          python3 scripts/migration_inventory.py --verify migration/inventory.json
+      - name: Test lookup-first resolver and durable reference store
+        run: python3 -m unittest discover -s scripts -p 'test_lookup_foundations.py' -v
+      - name: Parse new JSON schemas
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          for f in Path("schemas").glob("*.schema.json"):
+              json.loads(f.read_text(encoding="utf8"))
+          print("Schema JSON parsed")
+          PY

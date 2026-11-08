@@ -13,6 +13,8 @@ import sys
 import time
 from pathlib import Path
 
+from runtime.refs import parse_ref
+
 MAX_RESULT_BYTES = 1024 * 1024
 
 
@@ -46,7 +48,7 @@ class ProcessAgentAdapter:
     def execute(self, task: dict, context: dict, package: dict) -> dict:
         if self.probe()["spawn_mode"] == "unavailable":
             raise RuntimeError("configured local worker executable unavailable")
-        if task.get("context_ref") != context.get("context_id"):
+        if parse_ref(task.get("context_ref"), 1)[0] != context.get("context_id"):
             raise ValueError("task context_ref mismatch")
         if task.get("run_id") != context.get("run_id"):
             raise ValueError("task/context run mismatch")

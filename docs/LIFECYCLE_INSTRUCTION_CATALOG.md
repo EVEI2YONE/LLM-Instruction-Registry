@@ -31,3 +31,22 @@ This catalog lists authored additions, not a claim that external runtimes expose
 All packages contain `SKILL.md`, compiled guidance, domain-specific playbook, context/authority module, self-heal, manifest, sources README and their own archive. [Registry](../registry.json) indexes capability names.
 
 Coordinate based on [capability ownership](../governance/capability-ownership/README.md); for authoritative product policies use target project governance. The primary orchestrator is not the Meta-LLM progenitor.
+
+## Remaining existing packages — workflow-ready revisions
+
+These packages preserve their original primary purpose; optional workflow integration is additive. The historical ZIP archives remain accessible.
+
+| Package | Version change | Main update |
+|---|---|---|
+| ai-knowledge-atlas | v2.1 → updated | Optional workflow integration, pinned context, ownership and self-heal |
+| app-planning | v1 → updated | Optional workflow integration, pinned context, ownership and self-heal |
+| backend-architecture-consultant | v1 → updated | Optional workflow integration, pinned context, ownership and self-heal |
+| business-app-idea | v1 → updated | Optional workflow integration, pinned context, ownership and self-heal |
+| coding-partner-mentor-teacher | v1 → updated | Optional workflow integration, pinned context, ownership and self-heal |
+| feature-extension-planning-council | v1 → updated | Optional workflow integration, pinned context, ownership and self-heal |
+| general-purpose-chatgpt-conversations | v2 → updated | Optional workflow integration, pinned context, ownership and self-heal |
+| psychology-advice-research | v1 → updated | Optional workflow integration, pinned context, ownership and self-heal |
+| solid-visual-architecture | v1 → updated | Optional workflow integration, pinned context, ownership and self-heal |
+| technical-research-project-instructions | v2 → updated | Optional workflow integration, pinned context, ownership and self-heal |
+
+**Provenance note:** Business App Idea and SOLID Visual Architecture previously exposed only a source README in their browsable source tree. Their new versioned packages include the historical ZIP as a nested, byte-preserved legacy artifact alongside newly browsable entrypoint, compiled, self-heal and workflow modules. Other packages have their full browsable source tree included directly in the new ZIP.

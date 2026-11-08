@@ -47,3 +47,6 @@ python3 -m unittest discover -s scripts -p 'test_*.py'
 Published packages are ZIP archives plus complete browsable sources, with stable package IDs and version history. Workflow profiles are declarative and do not imply a live deployed scheduler. Actual runtime tool permissions must be verified. **Human approval** is required for merges, investments, production deployments and irreversible actions.
 
 [Contribution guide](CONTRIBUTING.md) · [Publishing](docs/PUBLISHING.md) · [Role taxonomy](docs/ROLE_TAXONOMY.md) · [Migration map](docs/MIGRATION_MAP.md)
+
+## Existing package upgrades
+All previously uncovered original specialists and the Feature Extension Planning Council now have new versioned archives with optional workflow integration. Research, psychology, teaching and general conversation remain independently invocable; they are not automatically routed through the product lifecycle. See [the complete upgrade inventory](docs/LIFECYCLE_INSTRUCTION_CATALOG.md).

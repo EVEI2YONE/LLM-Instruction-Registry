@@ -141,15 +141,16 @@
       "id": "app-planning",
       "name": "App Planning",
       "description": "Business, product, architecture, stack, research, and engineering handoff planning.",
-      "version": "v1",
+      "version": "v1.1",
       "role": "strategist",
       "tags": [
         "app",
-        "planning"
+        "planning",
+        "workflow-aware"
       ],
       "status": "available",
       "readme": "specialists/product/app-planning/README.md",
-      "archive": "specialists/product/app-planning/app-planning_v1.zip",
+      "archive": "specialists/product/app-planning/app-planning_v1.1.zip",
       "sources": "specialists/product/app-planning/sources/",
       "capabilities": [
         "product-planning",

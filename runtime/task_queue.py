@@ -116,6 +116,8 @@ class TaskQueue:
                         "SELECT task_id,status FROM tasks WHERE project=? AND task_id IN (" + placeholders + ")",
                         (project, *deps)).fetchall()
                     completed = {id_: status for id_, status in found}
+                    if any(completed.get(dep) in ("failed", "blocked", "cancelled") for dep in deps):
+                        return True  # let claim_ready mark blocked dependents
                     if any(completed.get(dep) != "complete" for dep in deps):
                         continue
                 running = db.execute(

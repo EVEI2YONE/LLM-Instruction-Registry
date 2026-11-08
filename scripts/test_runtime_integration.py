@@ -34,6 +34,7 @@ class GatewayIntegrationTests(unittest.TestCase):
             "token-alpha": {"projects": ["project-alpha"], "run_ids": ["run-1"], "scopes": ["read", "write", "delegate"]},
             "token-beta": {"projects": ["project-beta"], "run_ids": ["run-1"], "scopes": ["read", "write", "delegate"]},
             "token-read": {"projects": ["project-alpha"], "run_ids": ["run-1"], "scopes": ["read"]},
+            "token-other-run": {"projects": ["project-alpha"], "run_ids": ["run-2"], "scopes": ["read", "write", "delegate"]},
         }
         self.gateway = Gateway(
             ROOT, self.db, tokens,
@@ -142,6 +143,48 @@ class GatewayIntegrationTests(unittest.TestCase):
         third = self.wait_status("child-3")
         self.assertIn("inherited-artifacts:1", third["result"]["evidence"])
         self.assertEqual(len(third["result"]["artifact_refs"]), 1)
+
+    def test_run_scoping_and_immutable_context_revision(self):
+        self.post_context("versioned", "ctx-versioned")
+        status, _ = self.request("GET", "/v1/contexts/ctx-versioned", token="token-other-run")
+        self.assertEqual(status, 403)
+        second = self.context("versioned", "ctx-versioned")
+        second["revision"] = 2
+        second["objective"] = "revised but immutable version"
+        status, resp = self.request("POST", "/v1/contexts",
+                                    {"project_id": "project-alpha", "envelope": second})
+        self.assertEqual(status, 201, resp)
+        self.assertEqual(resp["context_ref"], "ctx-versioned@2")
+        status, latest = self.request("GET", "/v1/contexts/ctx-versioned?revision=2")
+        self.assertEqual(status, 200)
+        self.assertEqual(latest["objective"], second["objective"])
+        status, previous = self.request("GET", "/v1/contexts/ctx-versioned?revision=1")
+        self.assertEqual(status, 200)
+        self.assertNotEqual(previous["objective"], second["objective"])
+        status, _ = self.request("POST", "/v1/contexts",
+                                 {"project_id": "project-alpha", "envelope": second})
+        self.assertEqual(status, 409)
+
+    def test_private_artifact_read_blocked_without_task_grant(self):
+        self.post_context("owner-task", "ctx-owner")
+        status, _ = self.post_task(self.task("owner-task", "ctx-owner"))
+        self.assertEqual(status, 202)
+        self.wait_status("owner-task")
+        from runtime.state_store import digest
+        raw = b"private evidence"
+        record = {
+            "artifact_id": "private-1", "owner": "pragmatic-pr-reviewer", "kind": "text",
+            "storage_ref": "sha256:" + digest(raw), "sha256": digest(raw),
+            "status": "draft", "visibility": "private-task",
+            "producer_task_id": "owner-task",
+        }
+        store = StateStore(self.db)
+        try:
+            store.put_artifact("project-alpha", record, raw, 0)
+        finally:
+            store.close()
+        status, _ = self.request("GET", "/v1/artifacts/private-1")
+        self.assertEqual(status, 403)
 
     def test_auth_and_project_isolation(self):
         self.post_context("isolated", "ctx-isolated")

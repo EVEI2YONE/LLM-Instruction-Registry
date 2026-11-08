@@ -337,7 +337,7 @@
       "baseline_sources": "orchestrators/meta/meta-llm-orchestrator/sources/",
       "migration_status": "completed",
       "target_source_contract": "lookup-first-v1",
-      "new_version": "v21",
+      "new_version": "v22",
       "validation": "STATIC_PASS_RUNTIME_NOT_RUN"
     },
     {

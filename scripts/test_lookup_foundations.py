@@ -148,7 +148,7 @@ class InventoryTests(unittest.TestCase):
         expected = json.loads((ROOT / "migration" / "inventory.json").read_text(encoding="utf8"))
         self.assertEqual([], verify_snapshot(ROOT, expected))
         meta = next(x for x in expected["packages"] if x["id"] == "meta-llm-orchestrator")
-        self.assertEqual(("v20", "v21", "completed"),
+        self.assertEqual(("v20", "v22", "completed"),
                          (meta["baseline_version"], meta["new_version"], meta["migration_status"]))
 
 

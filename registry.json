@@ -885,8 +885,8 @@
     {
       "id": "meta-llm-orchestrator",
       "name": "Meta-LLM Orchestrator",
-      "description": "Generate and publish lookup-first versioned agent instruction packages with modular sections, manifest-driven retrieval and local/hosted runtime contracts.",
-      "version": "v21",
+      "description": "Generate and publish lookup-first versioned agent instruction packages with portable source bootstrap, verified runtime access, and sequential hosted conversation handoffs.",
+      "version": "v22",
       "role": "progenitor",
       "tags": [
         "workflow-aware",
@@ -894,7 +894,7 @@
       ],
       "status": "available",
       "readme": "orchestrators/meta/meta-llm-orchestrator/README.md",
-      "archive": "orchestrators/meta/meta-llm-orchestrator/meta-llm-orchestrator_v21.zip",
+      "archive": "orchestrators/meta/meta-llm-orchestrator/meta-llm-orchestrator_v22.zip",
       "sources": "orchestrators/meta/meta-llm-orchestrator/sources/",
       "capabilities": [
         "instruction-generation",
@@ -906,7 +906,9 @@
         "ownership-aware-generation",
         "lookup-first-generation",
         "section-manifest-authoring",
-        "subagent-context-handoff-design"
+        "subagent-context-handoff-design",
+        "portable-source-bootstrap",
+        "conversation-state-handoff"
       ],
       "domains": [
         "meta-instructions",

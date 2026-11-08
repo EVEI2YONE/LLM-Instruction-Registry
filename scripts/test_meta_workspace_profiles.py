@@ -1,4 +1,4 @@
-"""Meta v21 lookup-first package, adapters and historical archive verification."""
+"""Meta v22 lookup-first package, adapters and historical archive verification."""
 import json
 import subprocess
 import sys
@@ -11,9 +11,9 @@ META = ROOT / "orchestrators/meta/meta-llm-orchestrator"
 SOURCE = META / "sources"
 
 class MetaWorkspaceTests(unittest.TestCase):
-    def test_v21_contract(self):
+    def test_v22_contract(self):
         m = json.loads((SOURCE / "manifest.json").read_text(encoding="utf8"))
-        self.assertEqual("v21", m["version"])
+        self.assertEqual("v22", m["version"])
         self.assertEqual("lookup-first-v1", m["source_contract"])
         self.assertEqual("unapproved-not-runtime-injected", m["common_rules_status"])
         self.assertTrue(m["self_heal_required"])
@@ -23,12 +23,12 @@ class MetaWorkspaceTests(unittest.TestCase):
             self.assertTrue((SOURCE / "adapters" / x).is_file())
         self.assertFalse((SOURCE / "00_compiled_instruction_set.md").exists())
         reg = json.loads((ROOT / "registry.json").read_text())
-        self.assertEqual("v21", next(x["version"] for x in reg["instruction_sets"]
+        self.assertEqual("v22", next(x["version"] for x in reg["instruction_sets"]
                                      if x["id"] == "meta-llm-orchestrator"))
 
     def test_entrypoint_manifest_and_zip(self):
         script = SOURCE / "tools/build_lookup_package.py"
-        archive = META / "meta-llm-orchestrator_v21.zip"
+        archive = META / "meta-llm-orchestrator_v22.zip"
         done = subprocess.run([sys.executable, str(script), "--check", "--archive",
                                str(archive)], cwd=ROOT, text=True, capture_output=True)
         self.assertEqual(0, done.returncode, done.stdout + done.stderr)
@@ -51,7 +51,7 @@ class MetaWorkspaceTests(unittest.TestCase):
         self.assertIn("source-provenance", ids)
 
     def test_historical_archives_preserved(self):
-        for version in ("v18", "v19", "v20"):
+        for version in ("v18", "v19", "v20", "v21"):
             path = META / ("meta-llm-orchestrator_" + version + ".zip")
             self.assertTrue(path.is_file())
             with zipfile.ZipFile(path) as z:

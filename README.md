@@ -50,3 +50,15 @@ Published packages are ZIP archives plus complete browsable sources, with stable
 
 ## Existing package upgrades
 All previously uncovered original specialists and the Feature Extension Planning Council now have new versioned archives with optional workflow integration. Research, psychology, teaching and general conversation remain independently invocable; they are not automatically routed through the product lifecycle. See [the complete upgrade inventory](docs/LIFECYCLE_INSTRUCTION_CATALOG.md).
+
+## Lookup-first rebuild foundations (draft)
+
+The [full-registry migration plan](docs/LOOKUP_FIRST_REBUILD_PLAN.md) covers **all 49 published packages**, without a pilot subset. During the infrastructure phase, existing package sources, versioned ZIPs and `registry.json` remain unchanged.
+
+- [Local and hosted agent runtime architecture](docs/LOCAL_AND_HOSTED_AGENT_RUNTIME.md)
+- [Provider adapter and gateway setup](runtime/EXECUTION_SETUP.md) · [Gateway API contract](runtime/gateway.openapi.json)
+- [Portable adapter profiles](adapters/README.md) · [Shared context and artifact contracts](runtime/CONTEXT_AND_ARTIFACT_CONTRACT.md)
+- [Complete package migration inventory](migration/inventory.json)
+- [Pending approval-policy reconciliation](docs/APPROVAL_POLICY_RECONCILIATION.md)
+
+The new section-lookup CLI supports **lookup-first packages once migrated**; current packages continue to use `scripts/search_registry.py`. Local child-agent SDK integrations and hosted gateway deployment are separate runtime integration work, not implied by the presence of this repository.

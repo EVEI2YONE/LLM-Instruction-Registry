@@ -1,0 +1,79 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Versioned artifact metadata",
+  "type": "object",
+  "required": [
+    "artifact_id",
+    "revision",
+    "owner",
+    "kind",
+    "storage_ref",
+    "sha256",
+    "status",
+    "visibility",
+    "producer_task_id"
+  ],
+  "properties": {
+    "artifact_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "revision": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "owner": {
+      "type": "string",
+      "minLength": 1
+    },
+    "kind": {
+      "type": "string",
+      "minLength": 1
+    },
+    "storage_ref": {
+      "type": "string",
+      "minLength": 1
+    },
+    "sha256": {
+      "type": "string",
+      "pattern": "^[a-f0-9]{64}$"
+    },
+    "status": {
+      "enum": [
+        "draft",
+        "provisional",
+        "approved",
+        "superseded",
+        "rejected"
+      ]
+    },
+    "visibility": {
+      "enum": [
+        "private-task",
+        "run",
+        "project",
+        "public"
+      ]
+    },
+    "producer_task_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "input_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "approval_refs": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "schema_ref": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}

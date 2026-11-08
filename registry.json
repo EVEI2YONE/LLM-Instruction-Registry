@@ -1419,17 +1419,18 @@
       "id": "technical-research-project-instructions",
       "name": "Technical Research Project Instructions",
       "description": "Evidence-backed technical research, architecture consulting, and teaching.",
-      "version": "v2",
+      "version": "v2.1",
       "role": "expert",
       "tags": [
         "technical",
         "research",
         "project",
-        "instructions"
+        "instructions",
+        "workflow-aware"
       ],
       "status": "available",
       "readme": "specialists/research/technical-research-project-instructions/README.md",
-      "archive": "specialists/research/technical-research-project-instructions/technical-research-project-instructions_v2.zip",
+      "archive": "specialists/research/technical-research-project-instructions/technical-research-project-instructions_v2.1.zip",
       "sources": "specialists/research/technical-research-project-instructions/sources/",
       "capabilities": [
         "technical-research",

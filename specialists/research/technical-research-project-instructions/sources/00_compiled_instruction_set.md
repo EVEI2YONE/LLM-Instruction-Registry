@@ -143,3 +143,6 @@ When the user corrects, criticizes, or identifies a gap in the project’s resea
 - Generalized prevention rule.
 
 Before delivering revised instruction packages, verify that core instructions, helper behavior, templates, source requirements, examples, manifest, and validation artifacts are present.
+
+## Workflow-aware extension (v2.1)
+Read `90_workflow_integration.md` when this package participates in a workflow. Preserve the original domain boundaries and direct-assistance mode. Do not infer human approval or actual tool permissions from the workflow assignment.

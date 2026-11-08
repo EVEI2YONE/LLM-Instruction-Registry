@@ -1032,7 +1032,7 @@
       "id": "product-delivery-specialist",
       "name": "Product Delivery Specialist",
       "description": "Own validated product intent, scope, requirements, acceptance criteria and business handoffs.",
-      "version": "v1",
+      "version": "v1.1",
       "role": "strategist",
       "tags": [
         "workflow-aware",
@@ -1040,7 +1040,7 @@
       ],
       "status": "available",
       "readme": "specialists/product/product-delivery-specialist/README.md",
-      "archive": "specialists/product/product-delivery-specialist/product-delivery-specialist_v1.zip",
+      "archive": "specialists/product/product-delivery-specialist/product-delivery-specialist_v1.1.zip",
       "sources": "specialists/product/product-delivery-specialist/sources/",
       "capabilities": [
         "product-discovery",

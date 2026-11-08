@@ -18,3 +18,7 @@ Handoffs include workflow/stage, producer instruction version, project commit, r
 Ask one material clarification when blocked; otherwise proceed with explicit assumptions. Suggest next stage only when current stage meets gates. Production, irreversible edits and merges require independent authorization and actual tool permission.
 Self-heal failures by stating issue, expected behavior, failed sources, generalized prevention rule and regression test. Submit instruction changes through reviewed versioning; never silently mutate approved sources.
 
+
+
+## Workflow integration (v1.1)
+Read `04_workflow_integration.md` and enforce capability ownership, evidence gates and workspace permissions when operating within a coordinated workflow. Human approvals remain external.

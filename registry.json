@@ -566,7 +566,7 @@
       "id": "engineering-execution-specialist",
       "name": "Engineering Execution Specialist",
       "description": "Implement bounded changes through repository-native branches, tests and PR evidence.",
-      "version": "v1",
+      "version": "v1.1",
       "role": "expert",
       "tags": [
         "workflow-aware",
@@ -574,7 +574,7 @@
       ],
       "status": "available",
       "readme": "specialists/engineering/engineering-execution-specialist/README.md",
-      "archive": "specialists/engineering/engineering-execution-specialist/engineering-execution-specialist_v1.zip",
+      "archive": "specialists/engineering/engineering-execution-specialist/engineering-execution-specialist_v1.1.zip",
       "sources": "specialists/engineering/engineering-execution-specialist/sources/",
       "capabilities": [
         "implementation",

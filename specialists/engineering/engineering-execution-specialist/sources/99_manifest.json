@@ -1,6 +1,6 @@
 {
   "id": "engineering-execution-specialist",
-  "version": "v1",
+  "version": "v1.1",
   "role": "expert",
   "capabilities": [
     "implementation",
@@ -23,5 +23,7 @@
     "agents/openai.yaml",
     "99_manifest.json"
   ],
-  "zip_root": "engineering-execution-specialist"
+  "zip_root": "engineering-execution-specialist",
+  "workflow_integration": "04_workflow_integration.md",
+  "self_heal_present": true
 }

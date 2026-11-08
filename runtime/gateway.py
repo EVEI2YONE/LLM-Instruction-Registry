@@ -111,7 +111,14 @@ class Gateway:
                 header = self.headers.get("Authorization", "")
                 if not header.startswith("Bearer "):
                     raise PermissionError("bearer token required")
-                return gateway.authenticate(header[7:], project, scope)[1]
+                binding, selected = gateway.authenticate(header[7:], project, scope)
+                self.binding = binding
+                return selected
+
+            def require_run(self, run_id):
+                allowed = self.binding.get("run_ids", [])
+                if run_id not in allowed and "*" not in allowed:
+                    raise PermissionError("run scope denied")
 
             def do_GET(self):
                 try:
@@ -137,13 +144,17 @@ class Gateway:
                         self.send_json(200, {"results": gateway.resolver.search(q, 5)})
                     elif path.startswith("/v1/tasks/") and path.count("/") == 3:
                         task_id = path.split("/")[-1]
-                        self.send_json(200, gateway.queue.read(project, task_id))
+                        task_record = gateway.queue.read(project, task_id)
+                        self.require_run(task_record["task"]["run_id"])
+                        self.send_json(200, task_record)
                     elif path.startswith("/v1/contexts/") and path.count("/") == 3:
                         context_id = path.split("/")[-1]
                         revision = int(args.get("revision", ["1"])[0])
                         store = StateStore(gateway.db_path)
                         try:
-                            self.send_json(200, store.get_context(project, context_id, revision))
+                            context = store.get_context(project, context_id, revision)
+                            self.require_run(context["run_id"])
+                            self.send_json(200, context)
                         finally:
                             store.close()
                     elif path.startswith("/v1/artifacts/") and path.count("/") == 3:
@@ -152,6 +163,12 @@ class Gateway:
                         store = StateStore(gateway.db_path)
                         try:
                             meta, raw = store.get_artifact(project, aid, int(rev) if rev else None)
+                            if meta["visibility"] in ("run", "private-task"):
+                                task_record = gateway.queue.read(project, meta["producer_task_id"])
+                                self.require_run(task_record["task"]["run_id"])
+                            if meta["visibility"] == "private-task" and (
+                                    meta["producer_task_id"] not in self.binding.get("task_ids", [])):
+                                raise PermissionError("private task artifact")
                         finally:
                             store.close()
                         self.send_json(200, {"record": meta, "content_base64": base64.b64encode(raw).decode("ascii")})
@@ -176,10 +193,11 @@ class Gateway:
                             raise ValueError("envelope required")
                         store = StateStore(gateway.db_path)
                         try:
+                            self.require_run(envelope["run_id"])
                             hashval = store.put_context(project, envelope)
                         finally:
                             store.close()
-                        self.send_json(201, {"context_ref": envelope["context_id"], "sha256": hashval})
+                        self.send_json(201, {"context_ref": envelope["context_id"] + "@" + str(envelope["revision"]), "sha256": hashval})
                     elif path == "/v1/tasks":
                         project = self.authorize("delegate", project)
                         if gateway.pool is None:
@@ -190,6 +208,7 @@ class Gateway:
                             raise ValueError("task required")
                         if self.headers.get("Idempotency-Key") != task.get("idempotency_key"):
                             raise ValueError("idempotency header mismatch")
+                        self.require_run(task["run_id"])
                         check_permissions(gateway.root, task.get("permissions", []))
                         gateway.resolver.pin(task["package_id"], task["package_version"])
                         store = StateStore(gateway.db_path)
@@ -207,6 +226,7 @@ class Gateway:
                     elif path.startswith("/v1/tasks/") and path.endswith("/cancel"):
                         project = self.authorize("delegate", project)
                         task_id = path.split("/")[-2]
+                        self.require_run(gateway.queue.read(project, task_id)["task"]["run_id"])
                         changed = gateway.queue.cancel(project, task_id)
                         if not changed and not gateway.queue.read(project, task_id):
                             raise KeyError()

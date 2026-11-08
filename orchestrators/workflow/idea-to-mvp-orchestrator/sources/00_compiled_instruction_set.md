@@ -15,3 +15,7 @@ Ask only material blocking questions. If unblocked, proceed within scope and lab
 
 ## Self-heal
 On durable failure identify observed vs expected behavior, failed instructions, generalized prevention rule and regression case. Submit reviewed versioned correction; never silently alter approved sources. Validate real ZIP, manifest and source equivalence before publication.
+
+
+## Workflow integration (v1.1)
+Read `04_workflow_integration.md` and enforce capability ownership, evidence gates and workspace permissions when operating within a coordinated workflow. Human approvals remain external.

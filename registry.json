@@ -727,7 +727,7 @@
     {
       "id": "idea-to-mvp-orchestrator",
       "name": "Organization-to-MVP Orchestrator",
-      "version": "v1",
+      "version": "v1.1",
       "role": "orchestrator",
       "description": "Coordinate top-down strategy, portfolio choices, ideation, validation, MVP investment approval, design, build and learning.",
       "tags": [
@@ -737,7 +737,7 @@
       ],
       "status": "available",
       "readme": "orchestrators/workflow/idea-to-mvp-orchestrator/README.md",
-      "archive": "orchestrators/workflow/idea-to-mvp-orchestrator/idea-to-mvp-orchestrator_v1.zip",
+      "archive": "orchestrators/workflow/idea-to-mvp-orchestrator/idea-to-mvp-orchestrator_v1.1.zip",
       "sources": "orchestrators/workflow/idea-to-mvp-orchestrator/sources/",
       "capabilities": [
         "organization-to-mvp"

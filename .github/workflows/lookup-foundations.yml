@@ -27,5 +27,6 @@ jobs:
           from pathlib import Path
           for f in Path("schemas").glob("*.schema.json"):
               json.loads(f.read_text(encoding="utf8"))
-          print("Schema JSON parsed")
+          json.loads(Path("runtime/gateway.openapi.json").read_text(encoding="utf8"))
+          print("Schema and gateway JSON parsed")
           PY

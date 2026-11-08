@@ -5,6 +5,9 @@ This directory contains portable **contracts and reference implementation** for 
 Read:
 - [Architecture](../docs/LOCAL_AND_HOSTED_AGENT_RUNTIME.md)
 - [Adapter protocol](ADAPTER_CONTRACT.md)
+- [Execution setup](EXECUTION_SETUP.md)
+- [Gateway OpenAPI contract](gateway.openapi.json)
+- [Portable adapter profiles](../adapters/README.md)
 - [Context and artifacts](CONTEXT_AND_ARTIFACT_CONTRACT.md)
 - [Runtime capability schema](../schemas/runtime-capabilities.schema.json)
 - [Delegation schema](../schemas/subagent-task.schema.json)

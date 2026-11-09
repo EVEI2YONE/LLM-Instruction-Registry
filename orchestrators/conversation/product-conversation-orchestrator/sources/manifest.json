@@ -6,8 +6,8 @@
   "role": "orchestrator",
   "entrypoint": {
     "path": "SKILL.md",
-    "words": 929,
-    "sha256": "46eda605fc2a27b5a0bfbbe6b729d3fd2ca670c4eebcf4d46277d79ae4cb04cc"
+    "words": 981,
+    "sha256": "599159cbd3c5b1887b804985f1d72c0faf7acb87d164bc89c3324d37945fb5e3"
   },
   "sections": [
     {
@@ -93,8 +93,8 @@
       "requires": [
         "registry-and-delegation"
       ],
-      "sha256": "d3171479fc5920e71373e3eb8c1f106fa5a972e456f919d431b2931638611843",
-      "words": 476
+      "sha256": "81a433e350b17810c97f66f3819229c2f2e09c5ef20787fbeabf07d5ef42abe9",
+      "words": 568
     },
     {
       "id": "fail-closed-execution-gate",
@@ -110,8 +110,8 @@
         "registry-and-delegation",
         "instruction-propagation"
       ],
-      "sha256": "89d46bf38ff736febd8cbfc44931d4281f01aa4fa68af66a0e55a97f7e97cb55",
-      "words": 489
+      "sha256": "c073887f4f095976a28183faa839a61ab58e271fc15e05d80be374c4dc1a3141",
+      "words": 749
     }
   ],
   "sources": [

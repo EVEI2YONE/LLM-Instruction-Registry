@@ -1,0 +1,22 @@
+name: Readiness report completeness regression
+on:
+  push:
+    paths:
+      - 'runtime/readiness_report_gate.py'
+      - 'scripts/test_readiness_report_gate.py'
+      - '.github/workflows/readiness-report-completeness.yml'
+  pull_request:
+    paths:
+      - 'runtime/readiness_report_gate.py'
+      - 'scripts/test_readiness_report_gate.py'
+      - '.github/workflows/readiness-report-completeness.yml'
+jobs:
+  coverage:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run reporting integrity regression
+        run: python3 -m unittest scripts.test_readiness_report_gate

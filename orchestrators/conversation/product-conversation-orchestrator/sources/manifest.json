@@ -1,13 +1,13 @@
 {
   "id": "product-conversation-orchestrator",
-  "version": "v1.2",
+  "version": "v1.3",
   "source_contract": "lookup-first-v1",
   "kind": "conversation-orchestrator",
   "role": "orchestrator",
   "entrypoint": {
     "path": "SKILL.md",
-    "words": 981,
-    "sha256": "599159cbd3c5b1887b804985f1d72c0faf7acb87d164bc89c3324d37945fb5e3"
+    "words": 1088,
+    "sha256": "094705fa6940bd5e6c275a9bccb9e7ee549c12f2f8007abb4a7d508226eb4176"
   },
   "sections": [
     {
@@ -77,8 +77,8 @@
       "requires": [
         "conversation-control"
       ],
-      "words": 104,
-      "sha256": "d81210fdaeec6d4e895bd5fcc1c17ef273b37220ceca0014a0912f3962641da6"
+      "words": 155,
+      "sha256": "bac99422bd9d8ee4565bb4e34a104125e82ee0ed85b36d6e07d76364170ed3c8"
     },
     {
       "id": "instruction-propagation",
@@ -112,6 +112,20 @@
       ],
       "sha256": "c073887f4f095976a28183faa839a61ab58e271fc15e05d80be374c4dc1a3141",
       "words": 749
+    },
+    {
+      "id": "readiness-deliverable-acceptance",
+      "kind": "procedure",
+      "path": "sections/procedures/readiness-deliverable-acceptance.md",
+      "summary": "Retain material specialist findings and enforce substantive readiness report completeness",
+      "read_when": [
+        "before synthesizing product or release readiness findings",
+        "after collecting scope and QA specialist results",
+        "before declaring a readiness assessment complete"
+      ],
+      "requires": [],
+      "sha256": "3ac8eadce334c6fb1185df43109ba359432f10677e6cbc3faceff9be2445aa6f",
+      "words": 383
     }
   ],
   "sources": [
@@ -125,7 +139,8 @@
     "sections/procedures/state-and-handoffs.md",
     "sections/templates/status-update.md",
     "sections/procedures/instruction-propagation.md",
-    "sections/procedures/fail-closed-execution-gate.md"
+    "sections/procedures/fail-closed-execution-gate.md",
+    "sections/procedures/readiness-deliverable-acceptance.md"
   ],
   "behavioral_evaluation": "NOT_RUN",
   "release_status": "review-candidate"

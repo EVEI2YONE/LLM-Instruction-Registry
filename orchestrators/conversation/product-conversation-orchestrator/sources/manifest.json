@@ -1,13 +1,13 @@
 {
   "id": "product-conversation-orchestrator",
-  "version": "v1.1",
+  "version": "v1.2",
   "source_contract": "lookup-first-v1",
   "kind": "conversation-orchestrator",
   "role": "orchestrator",
   "entrypoint": {
     "path": "SKILL.md",
-    "words": 754,
-    "sha256": "d4521d98765ca792a36ff7165c9e8867c58e6daa12f2ff0180f4e733db87d5ae"
+    "words": 981,
+    "sha256": "599159cbd3c5b1887b804985f1d72c0faf7acb87d164bc89c3324d37945fb5e3"
   },
   "sections": [
     {
@@ -93,8 +93,25 @@
       "requires": [
         "registry-and-delegation"
       ],
-      "sha256": "d3171479fc5920e71373e3eb8c1f106fa5a972e456f919d431b2931638611843",
-      "words": 476
+      "sha256": "81a433e350b17810c97f66f3819229c2f2e09c5ef20787fbeabf07d5ef42abe9",
+      "words": 568
+    },
+    {
+      "id": "fail-closed-execution-gate",
+      "kind": "procedure",
+      "path": "sections/procedures/fail-closed-execution-gate.md",
+      "summary": "Block specialist execution until runtime mode and complete instruction closure are evidenced",
+      "read_when": [
+        "before any specialist-scoped assessment or implementation",
+        "before running a sequential specialist fallback",
+        "before issuing feature readiness conclusions"
+      ],
+      "requires": [
+        "registry-and-delegation",
+        "instruction-propagation"
+      ],
+      "sha256": "c073887f4f095976a28183faa839a61ab58e271fc15e05d80be374c4dc1a3141",
+      "words": 749
     }
   ],
   "sources": [
@@ -107,7 +124,8 @@
     "sections/procedures/knowledge-gap-pr-loop.md",
     "sections/procedures/state-and-handoffs.md",
     "sections/templates/status-update.md",
-    "sections/procedures/instruction-propagation.md"
+    "sections/procedures/instruction-propagation.md",
+    "sections/procedures/fail-closed-execution-gate.md"
   ],
   "behavioral_evaluation": "NOT_RUN",
   "release_status": "review-candidate"

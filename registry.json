@@ -1593,7 +1593,7 @@
       "id": "product-conversation-orchestrator",
       "name": "Product Conversation Orchestrator",
       "description": "ChatGPT-facing conversational control plane for intent tracking, specialist handoffs, workflow progress, knowledge-gap PR coordination and verified-merge resumption.",
-      "version": "v1.1",
+      "version": "v1.2",
       "role": "orchestrator",
       "kind": "conversation-orchestrator",
       "status": "available",
@@ -1609,7 +1609,8 @@
         "conversation-handoff",
         "proactive-authorized-subagent-delegation",
         "specialist-instruction-propagation",
-        "sequential-specialist-fallback"
+        "sequential-specialist-fallback",
+        "fail-closed-instruction-execution-gate"
       ],
       "domains": [
         "product-lifecycle",
@@ -1624,7 +1625,7 @@
       "use_cases": [
         "Coordinate product work across specialist agents while preserving visible conversation state and human review gates."
       ],
-      "archive": "orchestrators/conversation/product-conversation-orchestrator/product-conversation-orchestrator_v1.1.zip",
+      "archive": "orchestrators/conversation/product-conversation-orchestrator/product-conversation-orchestrator_v1.2.zip",
       "tags": [
         "conversation-orchestration",
         "chatgpt",

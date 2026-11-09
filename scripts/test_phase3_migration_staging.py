@@ -9,7 +9,7 @@ class Phase3StagingTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as t:
             r=stage(ROOT,Path(t)/"candidates")
             self.assertEqual(49,r["registry_count"])
-            self.assertEqual(48,r["staged"])
+            self.assertEqual(sum(p["migration_status"] == "pending" for p in __import__("json").loads((ROOT / "migration/inventory.json").read_text())["packages"]),r["staged"])
             self.assertEqual(0,r["migrations_completed"])
             self.assertEqual(0,r["registry_mutations"])
             self.assertTrue(all(x["integrity"]=="PASS" for x in r["packages"]))

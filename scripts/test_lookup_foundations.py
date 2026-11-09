@@ -138,8 +138,13 @@ class MockDelegationTests(unittest.TestCase):
 class InventoryTests(unittest.TestCase):
     def test_whole_registry_baseline(self):
         data = inventory(ROOT)
-        self.assertEqual(data["count"], 49)
-        self.assertEqual(len({p["id"] for p in data["packages"]}), 49)
+        baseline = json.loads((ROOT / "migration" / "inventory.json").read_text(encoding="utf8"))
+        baseline_ids = {p["id"] for p in baseline["packages"]}
+        current_ids = {p["id"] for p in data["packages"]}
+        self.assertEqual(baseline["count"], 49)  # Historical Phase 3B migration scope
+        self.assertTrue(baseline_ids.issubset(current_ids))
+        self.assertEqual(data["count"], len(current_ids))
+        self.assertIn("product-conversation-orchestrator", current_ids)
         self.assertTrue(all(p["migration_status"] == "pending" for p in data["packages"]))
         self.assertEqual(sum(p["kind"] == "specialist" for p in data["packages"]), 40)
 

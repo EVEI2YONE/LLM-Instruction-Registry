@@ -70,3 +70,58 @@ def assert_valid_claim(receipt: ExecutionReceipt, claim: str) -> None:
             raise GateError("false sequential specialist claim")
     else:
         raise GateError("unsupported completion claim")
+
+
+@dataclass(frozen=True)
+class InstructionEvidence:
+    """Evidence of delivery and requirements checked against the resulting artifact.
+
+    Recorded claims are not an independent observation of model behavior.
+    The caller must supply observable refs from actual runtime/tool traces.
+    """
+    execution_id: str
+    executor: str  # parent | child
+    package_id: str
+    package_version: str
+    registry_commit: str
+    delivered_section_ids: Tuple[str, ...]
+    delivered_entrypoint: bool
+    delivery_ref: str
+    artifact_ref: str
+    required_rule_ids: Tuple[str, ...]
+    checked_rule_ids: Tuple[str, ...]
+    rule_evidence_refs: Tuple[str, ...]
+
+
+def assert_propagation_and_application(receipt: ExecutionReceipt, claim: str,
+                                       evidence: InstructionEvidence) -> None:
+    """Require traceable instruction delivery and criterion-by-criterion application.
+
+    The caller must independently verify that refs are genuine, accessible and
+    actually substantiate the rule checks. This function does not read a model's
+    hidden reasoning or establish behavioral compliance by itself.
+    """
+    assert_valid_claim(receipt, claim)
+    if (evidence.package_id != receipt.package_id
+            or evidence.package_version != receipt.package_version
+            or evidence.registry_commit != receipt.registry_commit):
+        raise GateError("instruction propagation provenance mismatch")
+    if not evidence.delivered_entrypoint:
+        raise GateError("instruction propagation: missing entrypoint delivery")
+    if not set(receipt.required_sections).issubset(set(evidence.delivered_section_ids)):
+        raise GateError("instruction propagation: missing required section delivery")
+    if not evidence.execution_id or not evidence.delivery_ref or not evidence.artifact_ref:
+        raise GateError("instruction propagation: missing observable execution/delivery/artifact refs")
+    if claim == "CHILD_COMPLETE":
+        if evidence.executor != "child" or evidence.execution_id != receipt.child_handle:
+            raise GateError("instruction propagation: wrong child execution handle")
+    elif evidence.executor != "parent" or evidence.execution_id != "parent:" + receipt.package_id:
+        raise GateError("instruction propagation: sequential phase not attributable to parent")
+    if not evidence.required_rule_ids:
+        raise GateError("instruction application: no scoped acceptance rules selected")
+    if not set(evidence.required_rule_ids).issubset(set(evidence.checked_rule_ids)):
+        raise GateError("instruction application: mandatory acceptance rules unchecked")
+    if len(evidence.checked_rule_ids) != len(evidence.rule_evidence_refs):
+        raise GateError("instruction application: missing criterion-specific evidence")
+    if any(not x for x in evidence.rule_evidence_refs):
+        raise GateError("instruction application: empty criterion-specific evidence")

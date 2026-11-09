@@ -50,8 +50,9 @@ def verify_snapshot(root: Path, saved: dict) -> list[str]:
     current = {item["id"]: item for item in data["instruction_sets"]}
     baseline = {item["id"]: item for item in saved["packages"]}
     errors = []
-    if len(current) != saved["count"] or set(current) != set(baseline):
-        errors.append("registry package IDs or count changed")
+    if len(baseline) != saved["count"] or not set(baseline).issubset(current):
+        errors.append("frozen baseline package IDs or count changed")
+    # New packages do not retroactively change the frozen migration baseline.
     for ident, old in baseline.items():
         item = current.get(ident)
         if item is None:

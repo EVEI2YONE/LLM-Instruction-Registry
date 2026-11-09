@@ -4,6 +4,7 @@
 
 | Kind | Canonical root | Function |
 |---|---|---|
+| `conversation-orchestrator` | `orchestrators/conversation/<id>/` | Hosted user-conversation control plane: intent, state, registry dispatch, PR dependencies and resumption; does not supersede primary lifecycle routing |
 | `primary-orchestrator` | `orchestrators/primary/<id>/` | User intent routing and workflow composition |
 | `workflow-orchestrator` | `orchestrators/workflow/<id>/` | Specialist and stage coordination |
 | `meta-orchestrator` | `orchestrators/meta/<id>/` | Generate and evolve instruction systems |

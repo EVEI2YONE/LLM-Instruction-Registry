@@ -5,6 +5,8 @@ This directory contains portable **contracts and reference implementation** for 
 Read:
 - [Architecture](../docs/LOCAL_AND_HOSTED_AGENT_RUNTIME.md)
 - [Adapter protocol](ADAPTER_CONTRACT.md)
+- [Codex native subagent integration candidate](../adapters/codex-native-subagents.md)
+- [One-child instruction propagation acceptance test](tests/MULTI_AGENT_PROPAGATION_001.md)
 - [Execution setup](EXECUTION_SETUP.md)
 - [Gateway OpenAPI contract](gateway.openapi.json)
 - [Gateway security and reproducible verification](SECURITY_AND_DEPLOYMENT.md)

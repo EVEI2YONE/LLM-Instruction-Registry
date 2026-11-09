@@ -48,11 +48,11 @@ class ExecutionGateTests(unittest.TestCase):
 
     def test_missing_child_propagation_receipt_rejected(self):
         with self.assertRaisesRegex(GateError, "provider handle"):
-            require_ready(receipt(
+            assert_valid_claim(receipt(
                 native_spawn="verified-available", mode="NATIVE_CHILD",
                 child_handle="provider:123", output_owner="child",
                 child_instruction_receipt=False
-            ))
+            ), "CHILD_COMPLETE")
 
     def test_real_child_requires_handle_and_verified_receipt(self):
         r = receipt(native_spawn="verified-available", mode="NATIVE_CHILD",

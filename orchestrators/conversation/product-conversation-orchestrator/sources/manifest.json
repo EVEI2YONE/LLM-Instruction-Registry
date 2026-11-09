@@ -1,0 +1,96 @@
+{
+  "id": "product-conversation-orchestrator",
+  "version": "v1.0",
+  "source_contract": "lookup-first-v1",
+  "kind": "conversation-orchestrator",
+  "role": "orchestrator",
+  "entrypoint": {
+    "path": "SKILL.md",
+    "words": 615,
+    "sha256": "72cdc4175e6b752612ab1a929a82f5ee94f7377f30ada19cc205b2ef0d2eabe0"
+  },
+  "sections": [
+    {
+      "id": "conversation-control",
+      "kind": "procedure",
+      "path": "sections/procedures/conversation-control.md",
+      "summary": "Interpret conversation intent and coordinate workflow state",
+      "read_when": [
+        "about to intake a user request",
+        "about to update a user-facing work plan"
+      ],
+      "requires": [],
+      "words": 190,
+      "sha256": "673deeb0e4fd7b167dee52be054c9eb3cd08813a2ff7966af086dafd87c222ac"
+    },
+    {
+      "id": "registry-and-delegation",
+      "kind": "procedure",
+      "path": "sections/procedures/registry-and-delegation.md",
+      "summary": "Select existing packages and delegate with verified runtime capabilities",
+      "read_when": [
+        "about to select a specialist",
+        "about to delegate work to a child agent"
+      ],
+      "requires": [],
+      "words": 173,
+      "sha256": "8f7968560de16dce94ea05da61eda561c893d1b6efc5d9ce011510f35b918fc7"
+    },
+    {
+      "id": "knowledge-gap-pr-loop",
+      "kind": "procedure",
+      "path": "sections/procedures/knowledge-gap-pr-loop.md",
+      "summary": "Research and close catalog gaps using PR and verified merge gates",
+      "read_when": [
+        "about to manage a knowledge gap",
+        "about to submit a catalog PR",
+        "about to resume after a merge"
+      ],
+      "requires": [
+        "registry-and-delegation"
+      ],
+      "words": 242,
+      "sha256": "7cd6fae70ed4ecbb68b51e766391d2c7f403465641c67e8d131723201982cde6"
+    },
+    {
+      "id": "state-and-handoffs",
+      "kind": "procedure",
+      "path": "sections/procedures/state-and-handoffs.md",
+      "summary": "Persist bounded checkpoint state and reconcile conversation handoffs",
+      "read_when": [
+        "about to checkpoint work",
+        "about to resume from a different session"
+      ],
+      "requires": [],
+      "words": 179,
+      "sha256": "54e01a63ccbc1191a9ee60b13ce648fb6604b59ff3d73decf411ece06833bd4e"
+    },
+    {
+      "id": "status-update",
+      "kind": "template",
+      "path": "sections/templates/status-update.md",
+      "summary": "Concise progress report with evidence and next owner",
+      "read_when": [
+        "about to report workflow progress"
+      ],
+      "requires": [
+        "conversation-control"
+      ],
+      "words": 104,
+      "sha256": "d81210fdaeec6d4e895bd5fcc1c17ef273b37220ceca0014a0912f3962641da6"
+    }
+  ],
+  "sources": [
+    "SKILL.md",
+    "README.md",
+    "manifest.json",
+    "agents/openai.yaml",
+    "sections/procedures/conversation-control.md",
+    "sections/procedures/registry-and-delegation.md",
+    "sections/procedures/knowledge-gap-pr-loop.md",
+    "sections/procedures/state-and-handoffs.md",
+    "sections/templates/status-update.md"
+  ],
+  "behavioral_evaluation": "NOT_RUN",
+  "release_status": "review-candidate"
+}

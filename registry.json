@@ -1588,6 +1588,47 @@
       "use_cases": [
         "Use ux research and user journey specialist in a bounded specialist or workflow handoff."
       ]
+    },
+    {
+      "id": "product-conversation-orchestrator",
+      "name": "Product Conversation Orchestrator",
+      "description": "ChatGPT-facing conversational control plane for intent tracking, specialist handoffs, workflow progress, knowledge-gap PR coordination and verified-merge resumption.",
+      "version": "v1.0",
+      "role": "orchestrator",
+      "kind": "conversation-orchestrator",
+      "status": "available",
+      "readme": "orchestrators/conversation/product-conversation-orchestrator/README.md",
+      "sources": "orchestrators/conversation/product-conversation-orchestrator/sources/",
+      "capabilities": [
+        "conversation-intent-tracking",
+        "workflow-progress-ledger",
+        "registry-specialist-routing",
+        "delegation-coordination",
+        "knowledge-gap-pr-coordination",
+        "merge-gated-resumption",
+        "conversation-handoff"
+      ],
+      "domains": [
+        "product-lifecycle",
+        "agent-orchestration",
+        "workflow-management"
+      ],
+      "aliases": [
+        "conversation orchestration",
+        "product conversation orchestrator",
+        "chatgpt workflow control plane"
+      ],
+      "use_cases": [
+        "Coordinate product work across specialist agents while preserving visible conversation state and human review gates."
+      ],
+      "archive": "orchestrators/conversation/product-conversation-orchestrator/product-conversation-orchestrator_v1.0.zip",
+      "tags": [
+        "conversation-orchestration",
+        "chatgpt",
+        "workflow-progress",
+        "knowledge-gap-prs",
+        "human-gated"
+      ]
     }
   ]
 }

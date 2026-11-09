@@ -9,7 +9,8 @@ def stage(root, out):
     if root==out or root in out.parents: raise ValueError("output must be outside repository")
     inv=json.loads((root/"migration/inventory.json").read_text())
     reg={x["id"]:x for x in json.loads((root/"registry.json").read_text())["instruction_sets"]}
-    if inv["count"]!=len(inv["packages"]) or set(reg)!={x["id"] for x in inv["packages"]}:
+    # Stage only the frozen historical migration cohort; newer packages are not retroactive migrations.
+    if inv["count"]!=len(inv["packages"]) or not {x["id"] for x in inv["packages"]}.issubset(reg):
         raise ValueError("registry inventory mismatch")
     if out.exists() and list(out.iterdir()): raise ValueError("output not empty")
     out.mkdir(parents=True,exist_ok=True)

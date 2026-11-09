@@ -1,0 +1,3 @@
+interface:
+  display_name: "Product Conversation Orchestrator"
+  short_description: "Track product workflows, specialists, knowledge PRs, approvals and resumable conversation state."

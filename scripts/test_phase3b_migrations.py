@@ -11,8 +11,9 @@ class Phase3BStaticTests(unittest.TestCase):
         registry=json.loads((ROOT/"registry.json").read_text())["instruction_sets"]
         inventory=json.loads((ROOT/"migration/inventory.json").read_text())["packages"]
         rows={x["id"]:x for x in inventory}
-        self.assertEqual(49,len(registry))
-        self.assertEqual(set(rows),{x["id"] for x in registry})
+        self.assertEqual(49,len(rows), "Historical migration baseline must stay immutable")
+        self.assertTrue(set(rows) <= {x["id"] for x in registry})
+        self.assertEqual(len(registry),len({x["id"] for x in registry}))
         migrated=0
         for pkg in registry:
             with self.subTest(package=pkg["id"]):
@@ -33,6 +34,9 @@ class Phase3BStaticTests(unittest.TestCase):
                     self.assertEqual({pkg["id"]+"/"+name for name in names},set(z.namelist()))
                     for name in names:
                         self.assertEqual((src/name).read_bytes(),z.read(pkg["id"]+"/"+name))
+                if pkg["id"] not in rows:
+                    self.assertEqual("NOT_RUN",manifest.get("behavioral_evaluation"))
+                    continue  # Post-migration package: validate archive, not historical migration
                 record=rows[pkg["id"]]
                 if pkg["id"]=="meta-llm-orchestrator":continue
                 migrated+=1

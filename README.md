@@ -2,6 +2,14 @@
 
 A versioned registry of **orchestrators**, **composable workflows**, **independent specialists** and **shared governance contracts**.
 
+## Creating or updating agent instructions
+
+**Use the [Meta-LLM Orchestrator](orchestrators/meta/meta-llm-orchestrator/README.md) for new specialists, upgrades, repairs, and target-environment adaptations.** Start with registry-first reuse and verified canonical sources. **Do not inspect a similar ZIP archive and copy its instructions** as the starting point for another specialist. ZIPs represent immutable releases rather than authoring templates.
+
+The orchestrator's own host can vary, but generated agent instructions must be **tailored to the user's intended execution environment**. If the user has not already specified the destination, the orchestrator asks one concise destination question before generation; it must not assume that the new agent will run where the generator does.
+
+**Existing registered specialists remain directly usable** when no generation or revision is required. This foundation change does not migrate specialists or modify their versions, archives or registry records. See the [generation architecture and migration gates](docs/AGENT_INSTRUCTION_GENERATION.md).
+
 ## Entry points
 - [Product Lifecycle Orchestrator v1](orchestrators/primary/product-lifecycle-orchestrator/README.md) — user-facing intent routing, specialist selection and workflow composition.
 - [Meta-LLM Orchestrator v21](orchestrators/meta/meta-llm-orchestrator/README.md) — repository-first generation for verified chatbot, local agent, bot and ChatGPT Project workspaces.

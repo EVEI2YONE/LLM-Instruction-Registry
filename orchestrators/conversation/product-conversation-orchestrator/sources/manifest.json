@@ -1,13 +1,13 @@
 {
   "id": "product-conversation-orchestrator",
-  "version": "v1.0",
+  "version": "v1.1",
   "source_contract": "lookup-first-v1",
   "kind": "conversation-orchestrator",
   "role": "orchestrator",
   "entrypoint": {
     "path": "SKILL.md",
-    "words": 615,
-    "sha256": "72cdc4175e6b752612ab1a929a82f5ee94f7377f30ada19cc205b2ef0d2eabe0"
+    "words": 754,
+    "sha256": "d4521d98765ca792a36ff7165c9e8867c58e6daa12f2ff0180f4e733db87d5ae"
   },
   "sections": [
     {
@@ -30,11 +30,12 @@
       "summary": "Select existing packages and delegate with verified runtime capabilities",
       "read_when": [
         "about to select a specialist",
-        "about to delegate work to a child agent"
+        "about to delegate work to a child agent",
+        "about to execute a sequential specialist phase"
       ],
       "requires": [],
-      "words": 173,
-      "sha256": "8f7968560de16dce94ea05da61eda561c893d1b6efc5d9ce011510f35b918fc7"
+      "words": 371,
+      "sha256": "9f45efa32c3ba57795de9a48f66f17cef3f1155cba8012f386ee11568cb26ab7"
     },
     {
       "id": "knowledge-gap-pr-loop",
@@ -78,6 +79,22 @@
       ],
       "words": 104,
       "sha256": "d81210fdaeec6d4e895bd5fcc1c17ef273b37220ceca0014a0912f3962641da6"
+    },
+    {
+      "id": "instruction-propagation",
+      "kind": "procedure",
+      "path": "sections/procedures/instruction-propagation.md",
+      "summary": "Deliver pinned specialist instructions to a native child or a parent-run sequential specialist phase",
+      "read_when": [
+        "about to delegate a selected specialist",
+        "about to execute a sequential specialist phase",
+        "about to verify child instruction reception"
+      ],
+      "requires": [
+        "registry-and-delegation"
+      ],
+      "sha256": "d3171479fc5920e71373e3eb8c1f106fa5a972e456f919d431b2931638611843",
+      "words": 476
     }
   ],
   "sources": [
@@ -89,7 +106,8 @@
     "sections/procedures/registry-and-delegation.md",
     "sections/procedures/knowledge-gap-pr-loop.md",
     "sections/procedures/state-and-handoffs.md",
-    "sections/templates/status-update.md"
+    "sections/templates/status-update.md",
+    "sections/procedures/instruction-propagation.md"
   ],
   "behavioral_evaluation": "NOT_RUN",
   "release_status": "review-candidate"

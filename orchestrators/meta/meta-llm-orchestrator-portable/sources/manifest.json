@@ -1,0 +1,80 @@
+{
+  "id": "meta-llm-orchestrator-portable",
+  "version": "v1.0.0-candidate",
+  "source_contract": "lookup-first-v1",
+  "entrypoint": {
+    "path": "SKILL.md"
+  },
+  "sections": [
+    {
+      "id": "discovery-and-reuse",
+      "kind": "procedure",
+      "path": "sections/procedures/discovery-and-reuse.md",
+      "summary": "Verify registry evidence and reuse existing implementations first.",
+      "read_when": [
+        "before authoring a new or upgraded instruction package"
+      ],
+      "requires": []
+    },
+    {
+      "id": "capability-intake",
+      "kind": "procedure",
+      "path": "sections/procedures/capability-intake.md",
+      "summary": "Assess real runtime and source-loading capabilities.",
+      "read_when": [
+        "before deciding a package destination or execution capability"
+      ],
+      "requires": []
+    },
+    {
+      "id": "generation-and-adaptation",
+      "kind": "procedure",
+      "path": "sections/procedures/generation-and-adaptation.md",
+      "summary": "Create one canonical modular instruction source and derive runtime adaptations.",
+      "read_when": [
+        "after an evidenced decision to generate or adapt"
+      ],
+      "requires": [
+        "discovery-and-reuse",
+        "capability-intake"
+      ]
+    },
+    {
+      "id": "handoff",
+      "kind": "contract",
+      "path": "sections/contracts/handoff.md",
+      "summary": "Specify scoped context, artifact ownership, approvals and continuity.",
+      "read_when": [
+        "when producing delegation or cross-session handoffs"
+      ],
+      "requires": [
+        "capability-intake"
+      ]
+    },
+    {
+      "id": "validation-and-release",
+      "kind": "procedure",
+      "path": "sections/procedures/validation-and-release.md",
+      "summary": "Independently validate integrity, schema, release and runtime gates.",
+      "read_when": [
+        "before packaging, publishing or claiming execution success"
+      ],
+      "requires": [
+        "discovery-and-reuse",
+        "capability-intake"
+      ]
+    }
+  ],
+  "sources": [
+    "README.md",
+    "SKILL.md",
+    "manifest.json",
+    "references/source-locations.json",
+    "sections/procedures/discovery-and-reuse.md",
+    "sections/procedures/capability-intake.md",
+    "sections/procedures/generation-and-adaptation.md",
+    "sections/contracts/handoff.md",
+    "sections/procedures/validation-and-release.md"
+  ],
+  "reconstruction": "Adapted from user-supplied v26 review candidate; no assertion of registered v26 approval"
+}

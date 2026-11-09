@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "description": "Logical source identities and locator hints do not confer access or execution rights.",
+  "sources": [
+    {
+      "id": "llm-instruction-registry",
+      "identity": {
+        "namespace": "EVEI2YONE",
+        "name": "LLM-Instruction-Registry"
+      },
+      "locations": [
+        {
+          "provider": "git",
+          "url": "https://github.com/EVEI2YONE/LLM-Instruction-Registry"
+        }
+      ],
+      "revision_policy": "refresh-then-pin-immutable-commit",
+      "approval_policy": "verify-independent-approval-evidence",
+      "unavailable_behavior": "NOT_VERIFIED"
+    }
+  ]
+}

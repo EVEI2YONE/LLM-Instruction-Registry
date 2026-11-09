@@ -124,7 +124,7 @@ def migrate(root,source_ref):
   listed=sorted(p.relative_to(src).as_posix() for p in src.rglob("*") if p.is_file())
   manifest={"id":pid,"version":newversion,"source_contract":"lookup-first-v1",
     "kind":package["kind"],"role":package["role"],"entrypoint":{"path":"SKILL.md",
-    "words":words(entry),"sha256":sha(entry.encode())},"sections":entries,
+    "words":words(entry),"sha256":sha(entry.encode())},"sections":entries,"default_sections":[x["id"] for x in entries if x["path"] in core],
     "sources":sorted(listed+["manifest.json"]),"behavioral_evaluation":"NOT_RUN"}
   (src/"manifest.json").write_text(json.dumps(manifest,indent=2)+"\n")
   if set(manifest["sources"])!={p.relative_to(src).as_posix() for p in src.rglob("*") if p.is_file()}:

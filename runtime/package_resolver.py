@@ -49,7 +49,12 @@ class PackageResolver:
             if m["id"] != package_id or m["version"] != version:
                 raise ValueError("manifest identity mismatch")
             section_map = validate(folder, m)
-            for section in lookup(section_map, action, 6):
+            ordered = list(m.get("default_sections", []))
+            ordered += [x["id"] for x in lookup(section_map, action, 6)]
+            for sid in dict.fromkeys(ordered):
+                if sid not in section_map:
+                    raise ValueError("missing required default section " + sid)
+                section = section_map[sid]
                 source = safe_file(folder, section["path"])
                 sections.append({"id": section["id"], "content": source.read_text(encoding="utf8")})
         else:

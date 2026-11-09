@@ -73,7 +73,7 @@ class GatewayIntegrationTests(unittest.TestCase):
     def task(tid, context_id, *, permissions=None, dependencies=None, capability="child-process"):
         return {
             "run_id": "run-1", "task_id": tid, "package_id": "pragmatic-pr-reviewer",
-            "package_version": "v1", "objective": "review change " + tid,
+            "package_version": json.loads((ROOT / "registry.json").read_text())["instruction_sets"][next(i for i, p in enumerate(json.loads((ROOT / "registry.json").read_text())["instruction_sets"]) if p["id"] == "pragmatic-pr-reviewer")]["version"], "objective": "review change " + tid,
             "context_ref": context_id, "idempotency_key": tid + "-key",
             "permissions": permissions if permissions is not None else ["read"],
             "required_capabilities": [capability], "dependencies": dependencies or [],
@@ -240,8 +240,9 @@ class GatewayIntegrationTests(unittest.TestCase):
 class ResolverUnitTests(unittest.TestCase):
     def test_legacy_pinned_content_and_wrong_versions(self):
         r = PackageResolver(ROOT)
-        x = r.resolve("pragmatic-pr-reviewer", "v1", "review change")
-        self.assertTrue(x["legacy"])
+        version = r.by_id["pragmatic-pr-reviewer"]["version"]
+        x = r.resolve("pragmatic-pr-reviewer", version, "review change")
+        self.assertEqual(x["legacy"], not (ROOT / r.by_id["pragmatic-pr-reviewer"]["sources"] / "manifest.json").exists())
         self.assertTrue(x["sections"][0]["content"])
         with self.assertRaises(ValueError):
             r.resolve("pragmatic-pr-reviewer", "v999", "review change")

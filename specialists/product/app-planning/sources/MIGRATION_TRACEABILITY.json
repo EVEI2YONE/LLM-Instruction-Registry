@@ -1,0 +1,189 @@
+{
+  "id": "app-planning",
+  "old_version": "v1.1",
+  "proposed_version": "v1.2",
+  "source_commit": "f634daa1ad6b86de93806334b1195bda14313646",
+  "files": [
+    {
+      "source": "00_README.md",
+      "sha256": "73c6d51e73562689083b5fa4cc0003a6d2f684a9942261054029f2089f4b39a7",
+      "indexed_sections": [
+        "sections/references/source-00-readme-961d8bb.md"
+      ],
+      "reconstructed_sha256": "73c6d51e73562689083b5fa4cc0003a6d2f684a9942261054029f2089f4b39a7"
+    },
+    {
+      "source": "00_compiled_instruction_set.md",
+      "sha256": "22b41c0cbe3d0fe18e3ad06d8588160d99b31ba666763e5612697c2538cf1a96",
+      "indexed_sections": [
+        "sections/procedures/source-00-compiled-instruction-set-8a93b84-1.md",
+        "sections/procedures/source-00-compiled-instruction-set-8a93b84-2.md",
+        "sections/procedures/source-00-compiled-instruction-set-8a93b84-3.md"
+      ],
+      "reconstructed_sha256": "22b41c0cbe3d0fe18e3ad06d8588160d99b31ba666763e5612697c2538cf1a96"
+    },
+    {
+      "source": "01_core/01_core_role_instruction_set.md",
+      "sha256": "3da2e54a3b9e4380ed0f2b5993fa7cf9e8c6139fe3934533fb690031e2d33e16",
+      "indexed_sections": [
+        "sections/references/source-01-core-01-core-role-instruction-set-d2446c0.md"
+      ],
+      "reconstructed_sha256": "3da2e54a3b9e4380ed0f2b5993fa7cf9e8c6139fe3934533fb690031e2d33e16"
+    },
+    {
+      "source": "02_operating_modes/02_mode_command_registry.md",
+      "sha256": "9301bcce708a746f1c941559fe0228d12a8d9b67ec5f3294e9b0187bba89ca5d",
+      "indexed_sections": [
+        "sections/references/source-02-operating-modes-02-mode-command-registry-44d8d01.md"
+      ],
+      "reconstructed_sha256": "9301bcce708a746f1c941559fe0228d12a8d9b67ec5f3294e9b0187bba89ca5d"
+    },
+    {
+      "source": "03_planning_workflow/03_stage_workflow.md",
+      "sha256": "d7344fd5f89f9b191e1dc0db9e332527e04451a729218821eaeb17d963010ff4",
+      "indexed_sections": [
+        "sections/procedures/source-03-planning-workflow-03-stage-workflow-ea711b9.md"
+      ],
+      "reconstructed_sha256": "d7344fd5f89f9b191e1dc0db9e332527e04451a729218821eaeb17d963010ff4"
+    },
+    {
+      "source": "03_planning_workflow/04_required_output_structure.md",
+      "sha256": "c89861f535bb2ebf2a13a458325b2cf569770316534a4d1973923f557f0980fa",
+      "indexed_sections": [
+        "sections/procedures/source-03-planning-workflow-04-required-output-structure-24d3331.md"
+      ],
+      "reconstructed_sha256": "c89861f535bb2ebf2a13a458325b2cf569770316534a4d1973923f557f0980fa"
+    },
+    {
+      "source": "03_self_heal.md",
+      "sha256": "05d4b2e857eae6ad2be5e5a6d37849b5bf146d9668a68f646e7cb7934e6d8025",
+      "indexed_sections": [
+        "sections/procedures/source-03-self-heal-3106670.md"
+      ],
+      "reconstructed_sha256": "05d4b2e857eae6ad2be5e5a6d37849b5bf146d9668a68f646e7cb7934e6d8025"
+    },
+    {
+      "source": "04_stack_and_modularity/05_default_platform_strategy.md",
+      "sha256": "e54525e05719f8896c232163ecacbc0a809bee62420d8e6be36fb03c1624ebb3",
+      "indexed_sections": [
+        "sections/references/source-04-stack-and-modularity-05-default-platform-strategy-90a3647.md"
+      ],
+      "reconstructed_sha256": "e54525e05719f8896c232163ecacbc0a809bee62420d8e6be36fb03c1624ebb3"
+    },
+    {
+      "source": "04_stack_and_modularity/06_modular_design_rules.md",
+      "sha256": "7e003261f6f19c188deb023a006c7a971c2ff507e109c2888fc9fe8158c1a9e3",
+      "indexed_sections": [
+        "sections/references/source-04-stack-and-modularity-06-modular-design-rules-982dbf6.md"
+      ],
+      "reconstructed_sha256": "7e003261f6f19c188deb023a006c7a971c2ff507e109c2888fc9fe8158c1a9e3"
+    },
+    {
+      "source": "05_handoffs/07_research_agent_handoff.md",
+      "sha256": "34fa111bc07da9fcd2cf8ed85fcd00ff341bbd0bf76e4264ce82f794e405c688",
+      "indexed_sections": [
+        "sections/references/source-05-handoffs-07-research-agent-handoff-7a43461.md"
+      ],
+      "reconstructed_sha256": "34fa111bc07da9fcd2cf8ed85fcd00ff341bbd0bf76e4264ce82f794e405c688"
+    },
+    {
+      "source": "05_handoffs/08_antigravity_handoff.md",
+      "sha256": "77e414896ebd560b53f593906309cc43087e94b2f44a7b1573b8cf80ad3d4e3a",
+      "indexed_sections": [
+        "sections/references/source-05-handoffs-08-antigravity-handoff-0e6d3cd.md"
+      ],
+      "reconstructed_sha256": "77e414896ebd560b53f593906309cc43087e94b2f44a7b1573b8cf80ad3d4e3a"
+    },
+    {
+      "source": "05_handoffs/09_claude_handoff.md",
+      "sha256": "b8992c174bf356f92092fbab92052af328ff16960d940674493a363fa0e995b9",
+      "indexed_sections": [
+        "sections/references/source-05-handoffs-09-claude-handoff-12a916d.md"
+      ],
+      "reconstructed_sha256": "b8992c174bf356f92092fbab92052af328ff16960d940674493a363fa0e995b9"
+    },
+    {
+      "source": "06_templates/10_planning_package_template.md",
+      "sha256": "21ee7499c9e90ba74de095accb5657ddb570c26f210d83b4a3df8dc9a99dc524",
+      "indexed_sections": [
+        "sections/templates/source-06-templates-10-planning-package-template-3129315.md"
+      ],
+      "reconstructed_sha256": "21ee7499c9e90ba74de095accb5657ddb570c26f210d83b4a3df8dc9a99dc524"
+    },
+    {
+      "source": "06_templates/11_phase_plan_template.md",
+      "sha256": "e3bb94c5700a7b84ee7281ca768d72d839699e3cedb1d40081322adb4fe35f6b",
+      "indexed_sections": [
+        "sections/templates/source-06-templates-11-phase-plan-template-78ccfb7.md"
+      ],
+      "reconstructed_sha256": "e3bb94c5700a7b84ee7281ca768d72d839699e3cedb1d40081322adb4fe35f6b"
+    },
+    {
+      "source": "07_validation/12_final_validation_checklist.md",
+      "sha256": "e2efabcd9e38760792ea7133cf5921b75f50448606cee9641279e6ee71586902",
+      "indexed_sections": [
+        "sections/procedures/source-07-validation-12-final-validation-checklist-6edfa2f.md"
+      ],
+      "reconstructed_sha256": "e2efabcd9e38760792ea7133cf5921b75f50448606cee9641279e6ee71586902"
+    },
+    {
+      "source": "07_validation/13_artifact_completion_guard.md",
+      "sha256": "80382fab01f7526a602f9db00babef4ec21b34fd01dac5e324184946c181fc92",
+      "indexed_sections": [
+        "sections/procedures/source-07-validation-13-artifact-completion-guard-68ae5e2.md"
+      ],
+      "reconstructed_sha256": "80382fab01f7526a602f9db00babef4ec21b34fd01dac5e324184946c181fc92"
+    },
+    {
+      "source": "08_sources/15_source_inventory.md",
+      "sha256": "2ed4ff6c5176fb0f6eb14b3f85898dcd4caf35333b86785604b5057e0f973a4a",
+      "indexed_sections": [
+        "sections/references/source-08-sources-15-source-inventory-065af51.md"
+      ],
+      "reconstructed_sha256": "2ed4ff6c5176fb0f6eb14b3f85898dcd4caf35333b86785604b5057e0f973a4a"
+    },
+    {
+      "source": "08_sources/16_revision_notes.md",
+      "sha256": "0b7ae88e6ae1f9a232f82ae1bd818ece327047809abb3167e7b457fbf8c647f7",
+      "indexed_sections": [
+        "sections/references/source-08-sources-16-revision-notes-7e5ef03.md"
+      ],
+      "reconstructed_sha256": "0b7ae88e6ae1f9a232f82ae1bd818ece327047809abb3167e7b457fbf8c647f7"
+    },
+    {
+      "source": "09_self_heal/14_self_heal_instruction_set.md",
+      "sha256": "40bdde0efb458b37e144fc2e0ad35131ecbf66c7fea756536839f76d6c348cdd",
+      "indexed_sections": [
+        "sections/procedures/source-09-self-heal-14-self-heal-instruction-set-13dca3f.md"
+      ],
+      "reconstructed_sha256": "40bdde0efb458b37e144fc2e0ad35131ecbf66c7fea756536839f76d6c348cdd"
+    },
+    {
+      "source": "90_workflow_integration.md",
+      "sha256": "0830aceed081f31813c69db85ece7edaf4bc4c645e4c4afbd1fea6ab5447e094",
+      "indexed_sections": [
+        "sections/procedures/source-90-workflow-integration-cdaf867.md"
+      ],
+      "reconstructed_sha256": "0830aceed081f31813c69db85ece7edaf4bc4c645e4c4afbd1fea6ab5447e094"
+    },
+    {
+      "source": "ORIGINAL_PACKAGE_README.md",
+      "sha256": "ba42c1746c32c5355c92101fe3e702c19fef1bae2b73b4248b77018d9c49a6ce",
+      "indexed_sections": [
+        "sections/references/source-original-package-readme-0c8012f.md"
+      ],
+      "reconstructed_sha256": "ba42c1746c32c5355c92101fe3e702c19fef1bae2b73b4248b77018d9c49a6ce"
+    },
+    {
+      "source": "SKILL.md",
+      "sha256": "f6294dac41a0967b07d5c2de0f87263ae9da576895957f753044bea3c298673f",
+      "indexed_sections": [
+        "sections/references/original-skill.md"
+      ],
+      "reconstructed_sha256": "f6294dac41a0967b07d5c2de0f87263ae9da576895957f753044bea3c298673f"
+    }
+  ],
+  "semantic_equivalence": "NOT_RUN",
+  "owner_approval": "NOT_VERIFIED",
+  "original_archive_preserved": true
+}

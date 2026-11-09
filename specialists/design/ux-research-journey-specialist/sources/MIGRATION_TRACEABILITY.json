@@ -1,0 +1,51 @@
+{
+  "id": "ux-research-journey-specialist",
+  "old_version": "v1",
+  "proposed_version": "v1.1",
+  "source_commit": "f634daa1ad6b86de93806334b1195bda14313646",
+  "files": [
+    {
+      "source": "00_compiled_instruction_set.md",
+      "sha256": "dbd7708bf08a61aab33ad176b6380780e8dcbdda112b1ebf22fde4c56b994a2b",
+      "indexed_sections": [
+        "sections/procedures/source-00-compiled-instruction-set-8a93b84.md"
+      ],
+      "reconstructed_sha256": "dbd7708bf08a61aab33ad176b6380780e8dcbdda112b1ebf22fde4c56b994a2b"
+    },
+    {
+      "source": "01_domain.md",
+      "sha256": "c165a041968bcd59c1e92b8e5d15d9f54ab0bc345c1f1070b1efe52bb961a6fd",
+      "indexed_sections": [
+        "sections/procedures/source-01-domain-9c0aca2.md"
+      ],
+      "reconstructed_sha256": "c165a041968bcd59c1e92b8e5d15d9f54ab0bc345c1f1070b1efe52bb961a6fd"
+    },
+    {
+      "source": "02_context_space.md",
+      "sha256": "04123a04efad4c575d277a0db82728f3255cff650c5176d42ec2f753a78351d6",
+      "indexed_sections": [
+        "sections/references/source-02-context-space-da68579.md"
+      ],
+      "reconstructed_sha256": "04123a04efad4c575d277a0db82728f3255cff650c5176d42ec2f753a78351d6"
+    },
+    {
+      "source": "03_self_heal.md",
+      "sha256": "276d0b9f8a554dd673822cb57995b255e95b3a91ef2a031dd4849f7db675aefa",
+      "indexed_sections": [
+        "sections/procedures/source-03-self-heal-3106670.md"
+      ],
+      "reconstructed_sha256": "276d0b9f8a554dd673822cb57995b255e95b3a91ef2a031dd4849f7db675aefa"
+    },
+    {
+      "source": "SKILL.md",
+      "sha256": "b59fda0325a0ded33a3f5478629e7d55af3bfec5469886e06ecbbb6bd685bcd7",
+      "indexed_sections": [
+        "sections/references/original-skill.md"
+      ],
+      "reconstructed_sha256": "b59fda0325a0ded33a3f5478629e7d55af3bfec5469886e06ecbbb6bd685bcd7"
+    }
+  ],
+  "semantic_equivalence": "NOT_RUN",
+  "owner_approval": "NOT_VERIFIED",
+  "original_archive_preserved": true
+}

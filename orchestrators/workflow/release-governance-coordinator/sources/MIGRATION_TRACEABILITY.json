@@ -1,0 +1,51 @@
+{
+  "id": "release-governance-coordinator",
+  "old_version": "v1",
+  "proposed_version": "v1.1",
+  "source_commit": "f634daa1ad6b86de93806334b1195bda14313646",
+  "files": [
+    {
+      "source": "00_compiled_instruction_set.md",
+      "sha256": "05018017e5c26cfa90742e4afc7c701ed54b024e4fb0e553c0228c63c50115a7",
+      "indexed_sections": [
+        "sections/procedures/source-00-compiled-instruction-set-8a93b84.md"
+      ],
+      "reconstructed_sha256": "05018017e5c26cfa90742e4afc7c701ed54b024e4fb0e553c0228c63c50115a7"
+    },
+    {
+      "source": "01_domain.md",
+      "sha256": "c393aa51e975085475e0cfc8f5e22ba99cb674733db7fc18132a8d1253419a70",
+      "indexed_sections": [
+        "sections/procedures/source-01-domain-9c0aca2.md"
+      ],
+      "reconstructed_sha256": "c393aa51e975085475e0cfc8f5e22ba99cb674733db7fc18132a8d1253419a70"
+    },
+    {
+      "source": "02_context_space.md",
+      "sha256": "269a25a7ed0d2123f572d332bcb02d6832bc6665e2f41070eec040ed038f9853",
+      "indexed_sections": [
+        "sections/references/source-02-context-space-da68579.md"
+      ],
+      "reconstructed_sha256": "269a25a7ed0d2123f572d332bcb02d6832bc6665e2f41070eec040ed038f9853"
+    },
+    {
+      "source": "03_self_heal.md",
+      "sha256": "e62b4f11dcfc412d7acf775da13abcfa64ad130b03bf139099b3d067fe1e64fb",
+      "indexed_sections": [
+        "sections/procedures/source-03-self-heal-3106670.md"
+      ],
+      "reconstructed_sha256": "e62b4f11dcfc412d7acf775da13abcfa64ad130b03bf139099b3d067fe1e64fb"
+    },
+    {
+      "source": "SKILL.md",
+      "sha256": "9a40648f51e1500b22f1b59b7ef8a67ad18a5c5d022f4660e759394d8741f1b0",
+      "indexed_sections": [
+        "sections/references/original-skill.md"
+      ],
+      "reconstructed_sha256": "9a40648f51e1500b22f1b59b7ef8a67ad18a5c5d022f4660e759394d8741f1b0"
+    }
+  ],
+  "semantic_equivalence": "NOT_RUN",
+  "owner_approval": "NOT_VERIFIED",
+  "original_archive_preserved": true
+}

@@ -1,0 +1,51 @@
+{
+  "id": "database-migration-specialist",
+  "old_version": "v1",
+  "proposed_version": "v1.1",
+  "source_commit": "f634daa1ad6b86de93806334b1195bda14313646",
+  "files": [
+    {
+      "source": "00_compiled_instruction_set.md",
+      "sha256": "81c6484d8981aebd3e2b0e3a482c8ee551de8fd38866f81ac0184b4c514f871c",
+      "indexed_sections": [
+        "sections/procedures/source-00-compiled-instruction-set-8a93b84.md"
+      ],
+      "reconstructed_sha256": "81c6484d8981aebd3e2b0e3a482c8ee551de8fd38866f81ac0184b4c514f871c"
+    },
+    {
+      "source": "01_domain.md",
+      "sha256": "f8519b088dea87f906ede76dcb12ebc42733ff5fb07e78b52d0b3f84b5a27e1d",
+      "indexed_sections": [
+        "sections/procedures/source-01-domain-9c0aca2.md"
+      ],
+      "reconstructed_sha256": "f8519b088dea87f906ede76dcb12ebc42733ff5fb07e78b52d0b3f84b5a27e1d"
+    },
+    {
+      "source": "02_context_space.md",
+      "sha256": "e8f6281e694dc56cfeb4b2fad9713d3a4f0bae02a6c97c9f9b5eec77edee3f1c",
+      "indexed_sections": [
+        "sections/references/source-02-context-space-da68579.md"
+      ],
+      "reconstructed_sha256": "e8f6281e694dc56cfeb4b2fad9713d3a4f0bae02a6c97c9f9b5eec77edee3f1c"
+    },
+    {
+      "source": "03_self_heal.md",
+      "sha256": "276d0b9f8a554dd673822cb57995b255e95b3a91ef2a031dd4849f7db675aefa",
+      "indexed_sections": [
+        "sections/procedures/source-03-self-heal-3106670.md"
+      ],
+      "reconstructed_sha256": "276d0b9f8a554dd673822cb57995b255e95b3a91ef2a031dd4849f7db675aefa"
+    },
+    {
+      "source": "SKILL.md",
+      "sha256": "5138b6bcf121e8dca4a0983935fd3e287ce6bb8380b1ac080fadca247a22bfd9",
+      "indexed_sections": [
+        "sections/references/original-skill.md"
+      ],
+      "reconstructed_sha256": "5138b6bcf121e8dca4a0983935fd3e287ce6bb8380b1ac080fadca247a22bfd9"
+    }
+  ],
+  "semantic_equivalence": "NOT_RUN",
+  "owner_approval": "NOT_VERIFIED",
+  "original_archive_preserved": true
+}

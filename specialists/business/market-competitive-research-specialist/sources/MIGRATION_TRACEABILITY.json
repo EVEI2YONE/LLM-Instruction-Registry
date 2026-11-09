@@ -1,0 +1,51 @@
+{
+  "id": "market-competitive-research-specialist",
+  "old_version": "v1",
+  "proposed_version": "v1.1",
+  "source_commit": "f634daa1ad6b86de93806334b1195bda14313646",
+  "files": [
+    {
+      "source": "00_compiled_instruction_set.md",
+      "sha256": "7821f729a585b23f32fde20d2ac5ad84fea80badfe027e7c730f7a0994e314d3",
+      "indexed_sections": [
+        "sections/procedures/source-00-compiled-instruction-set-8a93b84.md"
+      ],
+      "reconstructed_sha256": "7821f729a585b23f32fde20d2ac5ad84fea80badfe027e7c730f7a0994e314d3"
+    },
+    {
+      "source": "01_domain.md",
+      "sha256": "c3964e9325cfab3904da477401a24192b776699f19b1aae02a503b67878fae04",
+      "indexed_sections": [
+        "sections/procedures/source-01-domain-9c0aca2.md"
+      ],
+      "reconstructed_sha256": "c3964e9325cfab3904da477401a24192b776699f19b1aae02a503b67878fae04"
+    },
+    {
+      "source": "02_context_space.md",
+      "sha256": "41575fc30e3753b2909039dd6b4563ed9da07ddc78fc383906586553ec68ae93",
+      "indexed_sections": [
+        "sections/references/source-02-context-space-da68579.md"
+      ],
+      "reconstructed_sha256": "41575fc30e3753b2909039dd6b4563ed9da07ddc78fc383906586553ec68ae93"
+    },
+    {
+      "source": "03_self_heal.md",
+      "sha256": "e62b4f11dcfc412d7acf775da13abcfa64ad130b03bf139099b3d067fe1e64fb",
+      "indexed_sections": [
+        "sections/procedures/source-03-self-heal-3106670.md"
+      ],
+      "reconstructed_sha256": "e62b4f11dcfc412d7acf775da13abcfa64ad130b03bf139099b3d067fe1e64fb"
+    },
+    {
+      "source": "SKILL.md",
+      "sha256": "74b948999309855453f7b81157deb1928a96efe389148bcc9dd55ad1c9bdf3bb",
+      "indexed_sections": [
+        "sections/references/original-skill.md"
+      ],
+      "reconstructed_sha256": "74b948999309855453f7b81157deb1928a96efe389148bcc9dd55ad1c9bdf3bb"
+    }
+  ],
+  "semantic_equivalence": "NOT_RUN",
+  "owner_approval": "NOT_VERIFIED",
+  "original_archive_preserved": true
+}

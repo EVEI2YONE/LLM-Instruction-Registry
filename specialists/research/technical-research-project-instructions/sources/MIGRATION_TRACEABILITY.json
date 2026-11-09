@@ -1,0 +1,251 @@
+{
+  "id": "technical-research-project-instructions",
+  "old_version": "v2.1",
+  "proposed_version": "v2.2",
+  "source_commit": "f634daa1ad6b86de93806334b1195bda14313646",
+  "files": [
+    {
+      "source": "00_README.md",
+      "sha256": "cf70f3ab1227e31f24208c80942e6b206df4a7d71c428e4211a035e15aae2466",
+      "indexed_sections": [
+        "sections/references/source-00-readme-961d8bb.md"
+      ],
+      "reconstructed_sha256": "cf70f3ab1227e31f24208c80942e6b206df4a7d71c428e4211a035e15aae2466"
+    },
+    {
+      "source": "00_compiled_instruction_set.md",
+      "sha256": "f3570d4d7660f334404878dc627802dfd9eefd7731de79e782434c5bf89b096c",
+      "indexed_sections": [
+        "sections/procedures/source-00-compiled-instruction-set-8a93b84.md"
+      ],
+      "reconstructed_sha256": "f3570d4d7660f334404878dc627802dfd9eefd7731de79e782434c5bf89b096c"
+    },
+    {
+      "source": "01_core/01_core_role_instruction_set.md",
+      "sha256": "51475e28259553fa557f1bfba40401873aadf557fcc1964b601f8364e19ca691",
+      "indexed_sections": [
+        "sections/references/source-01-core-01-core-role-instruction-set-d2446c0.md"
+      ],
+      "reconstructed_sha256": "51475e28259553fa557f1bfba40401873aadf557fcc1964b601f8364e19ca691"
+    },
+    {
+      "source": "02_helpers/01_source_and_citation_helper.md",
+      "sha256": "9b6e6ae6530c2fcb1d828a70462813bde2c32aae30952a5bae9cbbee1dec781f",
+      "indexed_sections": [
+        "sections/references/source-02-helpers-01-source-and-citation-helper-40160ea.md"
+      ],
+      "reconstructed_sha256": "9b6e6ae6530c2fcb1d828a70462813bde2c32aae30952a5bae9cbbee1dec781f"
+    },
+    {
+      "source": "02_helpers/02_truthfulness_and_uncertainty_helper.md",
+      "sha256": "7cdfb7300208c02613061eaa17cd990bf913cbb37676c18e282c9339dd11f40e",
+      "indexed_sections": [
+        "sections/references/source-02-helpers-02-truthfulness-and-uncertainty-helper-76b885a.md"
+      ],
+      "reconstructed_sha256": "7cdfb7300208c02613061eaa17cd990bf913cbb37676c18e282c9339dd11f40e"
+    },
+    {
+      "source": "02_helpers/03_consulting_decision_helper.md",
+      "sha256": "9d7ec5779931a6c9343730c90d2089df4df301f2856db3de47e3b5945b7d818b",
+      "indexed_sections": [
+        "sections/references/source-02-helpers-03-consulting-decision-helper-8941a07.md"
+      ],
+      "reconstructed_sha256": "9d7ec5779931a6c9343730c90d2089df4df301f2856db3de47e3b5945b7d818b"
+    },
+    {
+      "source": "02_helpers/04_teaching_helper.md",
+      "sha256": "4ac98af22fff5ffcdeee12a0aa50184e7bfd45607e80686feeaa545915f092ae",
+      "indexed_sections": [
+        "sections/references/source-02-helpers-04-teaching-helper-b5dcb84.md"
+      ],
+      "reconstructed_sha256": "4ac98af22fff5ffcdeee12a0aa50184e7bfd45607e80686feeaa545915f092ae"
+    },
+    {
+      "source": "02_helpers/05_request_classifier.md",
+      "sha256": "a4791b3f789f4618ebc74c0053b96b8fb7b44580c47e4cb6f679eaab7a94323f",
+      "indexed_sections": [
+        "sections/references/source-02-helpers-05-request-classifier-2af7e53.md"
+      ],
+      "reconstructed_sha256": "a4791b3f789f4618ebc74c0053b96b8fb7b44580c47e4cb6f679eaab7a94323f"
+    },
+    {
+      "source": "03_self_heal.md",
+      "sha256": "05d4b2e857eae6ad2be5e5a6d37849b5bf146d9668a68f646e7cb7934e6d8025",
+      "indexed_sections": [
+        "sections/procedures/source-03-self-heal-3106670.md"
+      ],
+      "reconstructed_sha256": "05d4b2e857eae6ad2be5e5a6d37849b5bf146d9668a68f646e7cb7934e6d8025"
+    },
+    {
+      "source": "03_sub_roles/01_research_synthesizer.md",
+      "sha256": "cac102b758bd2d53f8752131010f277744e147b4c8b364e898bae0bd0f5bd462",
+      "indexed_sections": [
+        "sections/roles/source-03-sub-roles-01-research-synthesizer-5f667ff.md"
+      ],
+      "reconstructed_sha256": "cac102b758bd2d53f8752131010f277744e147b4c8b364e898bae0bd0f5bd462"
+    },
+    {
+      "source": "03_sub_roles/02_architecture_consultant.md",
+      "sha256": "425745ef1b6e3d49ef573ae5b2b7bb0b09682e8706dbc45d3c24d9abefcbc1e5",
+      "indexed_sections": [
+        "sections/roles/source-03-sub-roles-02-architecture-consultant-f8dcb01.md"
+      ],
+      "reconstructed_sha256": "425745ef1b6e3d49ef573ae5b2b7bb0b09682e8706dbc45d3c24d9abefcbc1e5"
+    },
+    {
+      "source": "03_sub_roles/03_technical_teacher.md",
+      "sha256": "3f25299a57e6ccb2ab0a95e32087e9638a5d87e4dafa59f44dc4457c4ddcbf44",
+      "indexed_sections": [
+        "sections/roles/source-03-sub-roles-03-technical-teacher-87f520f.md"
+      ],
+      "reconstructed_sha256": "3f25299a57e6ccb2ab0a95e32087e9638a5d87e4dafa59f44dc4457c4ddcbf44"
+    },
+    {
+      "source": "03_sub_roles/04_design_reviewer.md",
+      "sha256": "c555c93216aecb24ab0dd69501d5aae4269e5397952e2f98bd0572d00d8adcca",
+      "indexed_sections": [
+        "sections/roles/source-03-sub-roles-04-design-reviewer-10993d6.md"
+      ],
+      "reconstructed_sha256": "c555c93216aecb24ab0dd69501d5aae4269e5397952e2f98bd0572d00d8adcca"
+    },
+    {
+      "source": "03_sub_roles/05_self_heal_reporter.md",
+      "sha256": "cecef1c0e40d5bf523ff8c58f98b58c9192d6e9b1e5f0719074ec3c41c03606c",
+      "indexed_sections": [
+        "sections/roles/source-03-sub-roles-05-self-heal-reporter-06dce49.md"
+      ],
+      "reconstructed_sha256": "cecef1c0e40d5bf523ff8c58f98b58c9192d6e9b1e5f0719074ec3c41c03606c"
+    },
+    {
+      "source": "04_templates/01_default_response_template.md",
+      "sha256": "fc58b7c8c84a55ae431ee722575370501d31206e00061d93171df1c0a94681fa",
+      "indexed_sections": [
+        "sections/templates/source-04-templates-01-default-response-template-318c0fa.md"
+      ],
+      "reconstructed_sha256": "fc58b7c8c84a55ae431ee722575370501d31206e00061d93171df1c0a94681fa"
+    },
+    {
+      "source": "04_templates/02_comparison_template.md",
+      "sha256": "ec4711ce31c010c975252c3dd9e492a5d0b6934198e6f2e28d13babfd9009f51",
+      "indexed_sections": [
+        "sections/templates/source-04-templates-02-comparison-template-47681d6.md"
+      ],
+      "reconstructed_sha256": "ec4711ce31c010c975252c3dd9e492a5d0b6934198e6f2e28d13babfd9009f51"
+    },
+    {
+      "source": "04_templates/03_design_review_template.md",
+      "sha256": "9d2584775b245fa21ffbfeea3f5576e8743c301ae911f88bbd6b02d99c9003d8",
+      "indexed_sections": [
+        "sections/templates/source-04-templates-03-design-review-template-18bac24.md"
+      ],
+      "reconstructed_sha256": "9d2584775b245fa21ffbfeea3f5576e8743c301ae911f88bbd6b02d99c9003d8"
+    },
+    {
+      "source": "04_templates/04_citation_quality_checklist.md",
+      "sha256": "4e3f3715dc32e02a46a5f97e367961e7c77808ba9242778b4b89e8bba3b9942f",
+      "indexed_sections": [
+        "sections/templates/source-04-templates-04-citation-quality-checklist-8195cd0.md"
+      ],
+      "reconstructed_sha256": "4e3f3715dc32e02a46a5f97e367961e7c77808ba9242778b4b89e8bba3b9942f"
+    },
+    {
+      "source": "05_sources_to_update/01_preference_registry.md",
+      "sha256": "59240cba563f97c052044114f8bed55995972c0decbc6481d43e1224f56f1afa",
+      "indexed_sections": [
+        "sections/references/source-05-sources-to-update-01-preference-registry-f4a4371.md"
+      ],
+      "reconstructed_sha256": "59240cba563f97c052044114f8bed55995972c0decbc6481d43e1224f56f1afa"
+    },
+    {
+      "source": "05_sources_to_update/02_correction_log.md",
+      "sha256": "ddafe542ad568ddf5aac4322abeb38fc99f161f5ff976b1496def9a5b678d35f",
+      "indexed_sections": [
+        "sections/references/source-05-sources-to-update-02-correction-log-01f20af.md"
+      ],
+      "reconstructed_sha256": "ddafe542ad568ddf5aac4322abeb38fc99f161f5ff976b1496def9a5b678d35f"
+    },
+    {
+      "source": "05_sources_to_update/03_instruction_taxonomy.md",
+      "sha256": "f5609448f95166222be8391754b48000daf981771c74eac2c76422a3ba8364eb",
+      "indexed_sections": [
+        "sections/references/source-05-sources-to-update-03-instruction-taxonomy-4ba3335.md"
+      ],
+      "reconstructed_sha256": "f5609448f95166222be8391754b48000daf981771c74eac2c76422a3ba8364eb"
+    },
+    {
+      "source": "05_sources_to_update/04_source_inventory.md",
+      "sha256": "937a7a56ca6b77a6d211d7e04214853837c8462fde711bf3285df91347e36bde",
+      "indexed_sections": [
+        "sections/references/source-05-sources-to-update-04-source-inventory-ad5610a.md"
+      ],
+      "reconstructed_sha256": "937a7a56ca6b77a6d211d7e04214853837c8462fde711bf3285df91347e36bde"
+    },
+    {
+      "source": "05_sources_to_update/05_unresolved_questions.md",
+      "sha256": "965bca659aaa9a573b60537241e2b09027a100125b52270c8e6ed6d87661084f",
+      "indexed_sections": [
+        "sections/references/source-05-sources-to-update-05-unresolved-questions-995774a.md"
+      ],
+      "reconstructed_sha256": "965bca659aaa9a573b60537241e2b09027a100125b52270c8e6ed6d87661084f"
+    },
+    {
+      "source": "06_validation/01_expected_artifacts_table.md",
+      "sha256": "33ea2da5fe9c04855399a2b53348bfd6c92db24847a13fbc7575908fac2efa80",
+      "indexed_sections": [
+        "sections/procedures/source-06-validation-01-expected-artifacts-table-74dfd6b.md"
+      ],
+      "reconstructed_sha256": "33ea2da5fe9c04855399a2b53348bfd6c92db24847a13fbc7575908fac2efa80"
+    },
+    {
+      "source": "06_validation/02_behavior_validation_table.md",
+      "sha256": "828f33235d8bdd5b06d667719874c5889891a2d8c7b2f81a2050c23e5ebc689d",
+      "indexed_sections": [
+        "sections/procedures/source-06-validation-02-behavior-validation-table-3608d75.md"
+      ],
+      "reconstructed_sha256": "828f33235d8bdd5b06d667719874c5889891a2d8c7b2f81a2050c23e5ebc689d"
+    },
+    {
+      "source": "06_validation/03_delivery_validation_table.md",
+      "sha256": "3996e146b390354a9fb96f6eb68c296eeea6ccd5c83b308b4124c345258f406d",
+      "indexed_sections": [
+        "sections/procedures/source-06-validation-03-delivery-validation-table-61d0f58.md"
+      ],
+      "reconstructed_sha256": "3996e146b390354a9fb96f6eb68c296eeea6ccd5c83b308b4124c345258f406d"
+    },
+    {
+      "source": "07_examples/01_example_requests.md",
+      "sha256": "1f68fdabe2720af815ef1b768e5a5f0d5f7318b6770b2b58306369b91c631982",
+      "indexed_sections": [
+        "sections/references/source-07-examples-01-example-requests-b6eb432.md"
+      ],
+      "reconstructed_sha256": "1f68fdabe2720af815ef1b768e5a5f0d5f7318b6770b2b58306369b91c631982"
+    },
+    {
+      "source": "90_workflow_integration.md",
+      "sha256": "66e0edc1c1d35cecfb6029601dfb8863e92ac9dd60c71c8ae38bfba0b890e9cd",
+      "indexed_sections": [
+        "sections/procedures/source-90-workflow-integration-cdaf867.md"
+      ],
+      "reconstructed_sha256": "66e0edc1c1d35cecfb6029601dfb8863e92ac9dd60c71c8ae38bfba0b890e9cd"
+    },
+    {
+      "source": "ORIGINAL_PACKAGE_README.md",
+      "sha256": "0263c1554d8937d5d98c6fe512e9cc88d1bab6da1f0a8200a89dfc9cc1b98636",
+      "indexed_sections": [
+        "sections/references/source-original-package-readme-0c8012f.md"
+      ],
+      "reconstructed_sha256": "0263c1554d8937d5d98c6fe512e9cc88d1bab6da1f0a8200a89dfc9cc1b98636"
+    },
+    {
+      "source": "SKILL.md",
+      "sha256": "874979b9b78655ada3cf11c06922f0d343ee7a9cd64b202c0201fee1a58b97f1",
+      "indexed_sections": [
+        "sections/references/original-skill.md"
+      ],
+      "reconstructed_sha256": "874979b9b78655ada3cf11c06922f0d343ee7a9cd64b202c0201fee1a58b97f1"
+    }
+  ],
+  "semantic_equivalence": "NOT_RUN",
+  "owner_approval": "NOT_VERIFIED",
+  "original_archive_preserved": true
+}

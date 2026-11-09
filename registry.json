@@ -5,7 +5,7 @@
       "id": "accessibility-usability-reviewer",
       "name": "Accessibility and Usability Reviewer",
       "description": "Accessibility and Usability Reviewer: accessibility review, usability verification, wcag assessment for coordinated product delivery.",
-      "version": "v1",
+      "version": "v1.1",
       "role": "expert",
       "kind": "specialist",
       "tags": [
@@ -14,7 +14,7 @@
       ],
       "status": "available",
       "readme": "specialists/design/accessibility-usability-reviewer/README.md",
-      "archive": "specialists/design/accessibility-usability-reviewer/accessibility-usability-reviewer_v1.zip",
+      "archive": "specialists/design/accessibility-usability-reviewer/accessibility-usability-reviewer_v1.1.zip",
       "sources": "specialists/design/accessibility-usability-reviewer/sources/",
       "capabilities": [
         "accessibility-review",
@@ -35,7 +35,7 @@
       "id": "ai-knowledge-atlas",
       "name": "AI Knowledge Atlas",
       "description": "Living evidence-backed AI research catalog; source freshness, relevance, knowledge-gap curation, agent-friendly search and technical architecture reference.",
-      "version": "v2.2",
+      "version": "v2.3",
       "role": "curator",
       "tags": [
         "ai",
@@ -50,7 +50,7 @@
       ],
       "status": "available",
       "readme": "specialists/knowledge/ai-knowledge-atlas/README.md",
-      "archive": "specialists/knowledge/ai-knowledge-atlas/ai-knowledge-atlas_v2.2.zip",
+      "archive": "specialists/knowledge/ai-knowledge-atlas/ai-knowledge-atlas_v2.3.zip",
       "sources": "specialists/knowledge/ai-knowledge-atlas/sources/",
       "capabilities": [
         "research-surveillance",
@@ -80,7 +80,7 @@
     {
       "id": "ai-ml-engineering-specialist",
       "name": "AI/ML Engineering Specialist",
-      "version": "v1.1",
+      "version": "v1.2",
       "role": "expert",
       "description": "Implement and evaluate AI models, RAG, agent workflows and inference with safety, latency and cost evidence.",
       "tags": [
@@ -90,7 +90,7 @@
       ],
       "status": "available",
       "readme": "specialists/engineering/ai-ml-engineering-specialist/README.md",
-      "archive": "specialists/engineering/ai-ml-engineering-specialist/ai-ml-engineering-specialist_v1.1.zip",
+      "archive": "specialists/engineering/ai-ml-engineering-specialist/ai-ml-engineering-specialist_v1.2.zip",
       "sources": "specialists/engineering/ai-ml-engineering-specialist/sources/",
       "capabilities": [
         "ai-engineering"
@@ -111,7 +111,7 @@
       "id": "api-integration-design-specialist",
       "name": "API and Integration Design Specialist",
       "description": "API and Integration Design Specialist: api contract design, integration architecture, interface versioning for coordinated product delivery.",
-      "version": "v1",
+      "version": "v1.1",
       "role": "expert",
       "kind": "specialist",
       "tags": [
@@ -120,7 +120,7 @@
       ],
       "status": "available",
       "readme": "specialists/architecture/api-integration-design-specialist/README.md",
-      "archive": "specialists/architecture/api-integration-design-specialist/api-integration-design-specialist_v1.zip",
+      "archive": "specialists/architecture/api-integration-design-specialist/api-integration-design-specialist_v1.1.zip",
       "sources": "specialists/architecture/api-integration-design-specialist/sources/",
       "capabilities": [
         "api-contract-design",
@@ -141,7 +141,7 @@
       "id": "app-planning",
       "name": "App Planning",
       "description": "Business, product, architecture, stack, research, and engineering handoff planning.",
-      "version": "v1.1",
+      "version": "v1.2",
       "role": "strategist",
       "tags": [
         "app",
@@ -150,7 +150,7 @@
       ],
       "status": "available",
       "readme": "specialists/product/app-planning/README.md",
-      "archive": "specialists/product/app-planning/app-planning_v1.1.zip",
+      "archive": "specialists/product/app-planning/app-planning_v1.2.zip",
       "sources": "specialists/product/app-planning/sources/",
       "capabilities": [
         "product-planning",
@@ -175,7 +175,7 @@
       "id": "architecture-delivery-specialist",
       "name": "Architecture Delivery Specialist",
       "description": "Own architecture proposals, reviewed ADRs, interface contracts and dependency-aware technical handoffs.",
-      "version": "v1.1",
+      "version": "v1.2",
       "role": "expert",
       "tags": [
         "workflow-aware",
@@ -183,7 +183,7 @@
       ],
       "status": "available",
       "readme": "specialists/architecture/architecture-delivery-specialist/README.md",
-      "archive": "specialists/architecture/architecture-delivery-specialist/architecture-delivery-specialist_v1.1.zip",
+      "archive": "specialists/architecture/architecture-delivery-specialist/architecture-delivery-specialist_v1.2.zip",
       "sources": "specialists/architecture/architecture-delivery-specialist/sources/",
       "capabilities": [
         "software-architecture",
@@ -206,7 +206,7 @@
       "id": "backend-architecture-consultant",
       "name": "Backend Architecture Consultant",
       "role": "expert",
-      "version": "v1.1",
+      "version": "v1.2",
       "description": "Catalog-grounded backend architecture consultant: modularity, reuse, extensibility, scalability, gap research and refactor playbooks using Software Architecture Atlas.",
       "tags": [
         "catalog-consultation",
@@ -217,7 +217,7 @@
       ],
       "status": "available",
       "readme": "specialists/architecture/backend-architecture-consultant/README.md",
-      "archive": "specialists/architecture/backend-architecture-consultant/backend-architecture-consultant_v1.1.zip",
+      "archive": "specialists/architecture/backend-architecture-consultant/backend-architecture-consultant_v1.2.zip",
       "sources": "specialists/architecture/backend-architecture-consultant/sources/",
       "capabilities": [
         "backend-architecture-review",
@@ -244,7 +244,7 @@
     {
       "id": "backend-engineering-specialist",
       "name": "Backend Engineering Specialist",
-      "version": "v1.1",
+      "version": "v1.2",
       "role": "expert",
       "description": "Implement APIs, persistence, authorization, integrations and safe migrations with testable contracts.",
       "tags": [
@@ -254,7 +254,7 @@
       ],
       "status": "available",
       "readme": "specialists/engineering/backend-engineering-specialist/README.md",
-      "archive": "specialists/engineering/backend-engineering-specialist/backend-engineering-specialist_v1.1.zip",
+      "archive": "specialists/engineering/backend-engineering-specialist/backend-engineering-specialist_v1.2.zip",
       "sources": "specialists/engineering/backend-engineering-specialist/sources/",
       "capabilities": [
         "backend-implementation"
@@ -274,7 +274,7 @@
       "id": "backlog-story-refinement-specialist",
       "name": "Backlog and Story Refinement Specialist",
       "description": "Backlog and Story Refinement Specialist: story refinement, acceptance criteria, backlog decomposition for coordinated product delivery.",
-      "version": "v1",
+      "version": "v1.1",
       "role": "expert",
       "kind": "specialist",
       "tags": [
@@ -283,7 +283,7 @@
       ],
       "status": "available",
       "readme": "specialists/product/backlog-story-refinement-specialist/README.md",
-      "archive": "specialists/product/backlog-story-refinement-specialist/backlog-story-refinement-specialist_v1.zip",
+      "archive": "specialists/product/backlog-story-refinement-specialist/backlog-story-refinement-specialist_v1.1.zip",
       "sources": "specialists/product/backlog-story-refinement-specialist/sources/",
       "capabilities": [
         "story-refinement",
@@ -304,7 +304,7 @@
       "id": "business-app-idea",
       "name": "Business App Idea",
       "description": "Instruction set for shaping business application concepts into actionable plans.",
-      "version": "v1.1",
+      "version": "v1.2",
       "role": "strategist",
       "tags": [
         "business",
@@ -314,7 +314,7 @@
       ],
       "status": "available",
       "readme": "specialists/business/business-app-idea/README.md",
-      "archive": "specialists/business/business-app-idea/business-app-idea_v1.1.zip",
+      "archive": "specialists/business/business-app-idea/business-app-idea_v1.2.zip",
       "sources": "specialists/business/business-app-idea/sources/",
       "capabilities": [
         "business-ideation",
@@ -337,7 +337,7 @@
       "id": "business-feasibility-analyst",
       "name": "Business Feasibility Analyst",
       "description": "Business Feasibility Analyst: business feasibility, investment analysis, cost benefit assessment for coordinated product delivery.",
-      "version": "v1",
+      "version": "v1.1",
       "role": "strategist",
       "kind": "specialist",
       "tags": [
@@ -346,7 +346,7 @@
       ],
       "status": "available",
       "readme": "specialists/business/business-feasibility-analyst/README.md",
-      "archive": "specialists/business/business-feasibility-analyst/business-feasibility-analyst_v1.zip",
+      "archive": "specialists/business/business-feasibility-analyst/business-feasibility-analyst_v1.1.zip",
       "sources": "specialists/business/business-feasibility-analyst/sources/",
       "capabilities": [
         "business-feasibility",
@@ -368,7 +368,7 @@
       "id": "catalog-grounded-consultant",
       "name": "Catalog-Grounded Consultant",
       "description": "Consultative, curative and advisory workflow using external knowledge catalogs: assess target repositories/code/media, identify and batch generalizable gaps, update authorized catalog PRs, re-gather context and deliver grounded refactor playbooks.",
-      "version": "v1.1",
+      "version": "v1.2",
       "role": "orchestrator",
       "tags": [
         "catalog-consultation",
@@ -381,7 +381,7 @@
       ],
       "status": "available",
       "readme": "orchestrators/workflow/catalog-grounded-consultant/README.md",
-      "archive": "orchestrators/workflow/catalog-grounded-consultant/catalog-grounded-consultant_v1.1.zip",
+      "archive": "orchestrators/workflow/catalog-grounded-consultant/catalog-grounded-consultant_v1.2.zip",
       "sources": "orchestrators/workflow/catalog-grounded-consultant/sources/",
       "capabilities": [
         "catalog-grounded-consultation",
@@ -412,7 +412,7 @@
       "id": "coding-partner-mentor-teacher",
       "name": "Coding Partner / Mentor / Teacher",
       "description": "Engineering assistance, debugging, code review, and practical mentorship.",
-      "version": "v1.1",
+      "version": "v1.2",
       "role": "expert",
       "tags": [
         "coding",
@@ -423,7 +423,7 @@
       ],
       "status": "available",
       "readme": "specialists/engineering/coding-partner-mentor-teacher/README.md",
-      "archive": "specialists/engineering/coding-partner-mentor-teacher/coding-partner-mentor-teacher_v1.1.zip",
+      "archive": "specialists/engineering/coding-partner-mentor-teacher/coding-partner-mentor-teacher_v1.2.zip",
       "sources": "specialists/engineering/coding-partner-mentor-teacher/sources/",
       "capabilities": [
         "debugging",
@@ -449,7 +449,7 @@
       "id": "data-architecture-specialist",
       "name": "Data Architecture Specialist",
       "description": "Data Architecture Specialist: data architecture, data modeling, data governance for coordinated product delivery.",
-      "version": "v1",
+      "version": "v1.1",
       "role": "expert",
       "kind": "specialist",
       "tags": [
@@ -458,7 +458,7 @@
       ],
       "status": "available",
       "readme": "specialists/architecture/data-architecture-specialist/README.md",
-      "archive": "specialists/architecture/data-architecture-specialist/data-architecture-specialist_v1.zip",
+      "archive": "specialists/architecture/data-architecture-specialist/data-architecture-specialist_v1.1.zip",
       "sources": "specialists/architecture/data-architecture-specialist/sources/",
       "capabilities": [
         "data-architecture",
@@ -479,7 +479,7 @@
       "id": "database-migration-specialist",
       "name": "Database and Migration Specialist",
       "description": "Database and Migration Specialist: database migration, schema evolution, data integrity for coordinated product delivery.",
-      "version": "v1",
+      "version": "v1.1",
       "role": "expert",
       "kind": "specialist",
       "tags": [
@@ -488,7 +488,7 @@
       ],
       "status": "available",
       "readme": "specialists/engineering/database-migration-specialist/README.md",
-      "archive": "specialists/engineering/database-migration-specialist/database-migration-specialist_v1.zip",
+      "archive": "specialists/engineering/database-migration-specialist/database-migration-specialist_v1.1.zip",
       "sources": "specialists/engineering/database-migration-specialist/sources/",
       "capabilities": [
         "database-migration",
@@ -509,7 +509,7 @@
       "id": "decision-traceability-auditor",
       "name": "Decision and Traceability Auditor",
       "description": "Decision and Traceability Auditor: requirements traceability, decision audit, artifact consistency for coordinated product delivery.",
-      "version": "v1",
+      "version": "v1.1",
       "role": "expert",
       "kind": "specialist",
       "tags": [
@@ -518,7 +518,7 @@
       ],
       "status": "available",
       "readme": "specialists/quality/decision-traceability-auditor/README.md",
-      "archive": "specialists/quality/decision-traceability-auditor/decision-traceability-auditor_v1.zip",
+      "archive": "specialists/quality/decision-traceability-auditor/decision-traceability-auditor_v1.1.zip",
       "sources": "specialists/quality/decision-traceability-auditor/sources/",
       "capabilities": [
         "requirements-traceability",
@@ -539,7 +539,7 @@
       "id": "devsecops-release-specialist",
       "name": "DevSecOps and Release Specialist",
       "description": "Govern security, CI/CD, deployment approvals, staging verification and rollback readiness.",
-      "version": "v1.1",
+      "version": "v1.2",
       "role": "expert",
       "tags": [
         "workflow-aware",
@@ -547,7 +547,7 @@
       ],
       "status": "available",
       "readme": "specialists/security/devsecops-release-specialist/README.md",
-      "archive": "specialists/security/devsecops-release-specialist/devsecops-release-specialist_v1.1.zip",
+      "archive": "specialists/security/devsecops-release-specialist/devsecops-release-specialist_v1.2.zip",
       "sources": "specialists/security/devsecops-release-specialist/sources/",
       "capabilities": [
         "ci-cd",
@@ -571,7 +571,7 @@
       "id": "engineering-execution-specialist",
       "name": "Engineering Execution Specialist",
       "description": "Implement bounded changes through repository-native branches, tests and PR evidence.",
-      "version": "v1.1",
+      "version": "v1.2",
       "role": "expert",
       "tags": [
         "workflow-aware",
@@ -579,7 +579,7 @@
       ],
       "status": "available",
       "readme": "specialists/engineering/engineering-execution-specialist/README.md",
-      "archive": "specialists/engineering/engineering-execution-specialist/engineering-execution-specialist_v1.1.zip",
+      "archive": "specialists/engineering/engineering-execution-specialist/engineering-execution-specialist_v1.2.zip",
       "sources": "specialists/engineering/engineering-execution-specialist/sources/",
       "capabilities": [
         "implementation",
@@ -602,7 +602,7 @@
       "id": "engineering-review-coordinator",
       "name": "Engineering Review Coordinator",
       "description": "Engineering Review Coordinator: pr review coordination, architecture governance, quality gates for coordinated product delivery.",
-      "version": "v1",
+      "version": "v1.1",
       "role": "orchestrator",
       "kind": "workflow-orchestrator",
       "tags": [
@@ -611,7 +611,7 @@
       ],
       "status": "available",
       "readme": "orchestrators/workflow/engineering-review-coordinator/README.md",
-      "archive": "orchestrators/workflow/engineering-review-coordinator/engineering-review-coordinator_v1.zip",
+      "archive": "orchestrators/workflow/engineering-review-coordinator/engineering-review-coordinator_v1.1.zip",
       "sources": "orchestrators/workflow/engineering-review-coordinator/sources/",
       "capabilities": [
         "pr-review-coordination",
@@ -632,7 +632,7 @@
       "id": "feature-extension-planning-council",
       "name": "Feature Extension Planning Council",
       "description": "Council-based feature planning, scope, architecture, risk, and implementation handoffs.",
-      "version": "v1.1",
+      "version": "v1.2",
       "role": "orchestrator",
       "tags": [
         "feature",
@@ -643,7 +643,7 @@
       ],
       "status": "available",
       "readme": "orchestrators/workflow/feature-extension-planning-council/README.md",
-      "archive": "orchestrators/workflow/feature-extension-planning-council/feature-extension-planning-council_v1.1.zip",
+      "archive": "orchestrators/workflow/feature-extension-planning-council/feature-extension-planning-council_v1.2.zip",
       "sources": "orchestrators/workflow/feature-extension-planning-council/sources/",
       "capabilities": [
         "specialist-coordination",
@@ -667,7 +667,7 @@
     {
       "id": "frontend-engineering-specialist",
       "name": "Frontend Engineering Specialist",
-      "version": "v1.1",
+      "version": "v1.2",
       "role": "expert",
       "description": "Build accessible, responsive frontend interactions against approved UX and API contracts.",
       "tags": [
@@ -677,7 +677,7 @@
       ],
       "status": "available",
       "readme": "specialists/engineering/frontend-engineering-specialist/README.md",
-      "archive": "specialists/engineering/frontend-engineering-specialist/frontend-engineering-specialist_v1.1.zip",
+      "archive": "specialists/engineering/frontend-engineering-specialist/frontend-engineering-specialist_v1.2.zip",
       "sources": "specialists/engineering/frontend-engineering-specialist/sources/",
       "capabilities": [
         "frontend-implementation"
@@ -697,7 +697,7 @@
       "id": "general-purpose-chatgpt-conversations",
       "name": "General-Purpose ChatGPT Conversations",
       "description": "Efficient, friendly general-purpose ChatGPT conversations with mode-sensitive pacing, credible research, source filtering, and self-heal guidance.",
-      "version": "v2.1",
+      "version": "v2.2",
       "role": "generalist",
       "tags": [
         "general-purpose",
@@ -710,7 +710,7 @@
       ],
       "status": "available",
       "readme": "specialists/general/general-purpose-chatgpt-conversations/README.md",
-      "archive": "specialists/general/general-purpose-chatgpt-conversations/general-purpose-chatgpt-conversations_v2.1.zip",
+      "archive": "specialists/general/general-purpose-chatgpt-conversations/general-purpose-chatgpt-conversations_v2.2.zip",
       "sources": "specialists/general/general-purpose-chatgpt-conversations/sources/",
       "capabilities": [
         "general-conversation",
@@ -734,7 +734,7 @@
     {
       "id": "idea-to-mvp-orchestrator",
       "name": "Organization-to-MVP Orchestrator",
-      "version": "v1.1",
+      "version": "v1.2",
       "role": "orchestrator",
       "description": "Coordinate top-down strategy, portfolio choices, ideation, validation, MVP investment approval, design, build and learning.",
       "tags": [
@@ -744,7 +744,7 @@
       ],
       "status": "available",
       "readme": "orchestrators/workflow/idea-to-mvp-orchestrator/README.md",
-      "archive": "orchestrators/workflow/idea-to-mvp-orchestrator/idea-to-mvp-orchestrator_v1.1.zip",
+      "archive": "orchestrators/workflow/idea-to-mvp-orchestrator/idea-to-mvp-orchestrator_v1.2.zip",
       "sources": "orchestrators/workflow/idea-to-mvp-orchestrator/sources/",
       "capabilities": [
         "organization-to-mvp"
@@ -765,7 +765,7 @@
       "id": "incident-root-cause-analyst",
       "name": "Incident and Root Cause Analyst",
       "description": "Incident and Root Cause Analyst: incident analysis, root cause investigation, defect triage for coordinated product delivery.",
-      "version": "v1",
+      "version": "v1.1",
       "role": "expert",
       "kind": "specialist",
       "tags": [
@@ -774,7 +774,7 @@
       ],
       "status": "available",
       "readme": "specialists/operations/incident-root-cause-analyst/README.md",
-      "archive": "specialists/operations/incident-root-cause-analyst/incident-root-cause-analyst_v1.zip",
+      "archive": "specialists/operations/incident-root-cause-analyst/incident-root-cause-analyst_v1.1.zip",
       "sources": "specialists/operations/incident-root-cause-analyst/sources/",
       "capabilities": [
         "incident-analysis",
@@ -795,7 +795,7 @@
       "id": "integration-engineering-specialist",
       "name": "Integration Engineering Specialist",
       "description": "Integration Engineering Specialist: integration implementation, contract testing, resilience engineering for coordinated product delivery.",
-      "version": "v1",
+      "version": "v1.1",
       "role": "expert",
       "kind": "specialist",
       "tags": [
@@ -804,7 +804,7 @@
       ],
       "status": "available",
       "readme": "specialists/engineering/integration-engineering-specialist/README.md",
-      "archive": "specialists/engineering/integration-engineering-specialist/integration-engineering-specialist_v1.zip",
+      "archive": "specialists/engineering/integration-engineering-specialist/integration-engineering-specialist_v1.1.zip",
       "sources": "specialists/engineering/integration-engineering-specialist/sources/",
       "capabilities": [
         "integration-implementation",
@@ -825,7 +825,7 @@
       "id": "knowledge-context-steward",
       "name": "Knowledge and Context Steward",
       "description": "Knowledge and Context Steward: context reconciliation, source authority, knowledge provenance for coordinated product delivery.",
-      "version": "v1",
+      "version": "v1.1",
       "role": "curator",
       "kind": "specialist",
       "tags": [
@@ -834,7 +834,7 @@
       ],
       "status": "available",
       "readme": "specialists/knowledge/knowledge-context-steward/README.md",
-      "archive": "specialists/knowledge/knowledge-context-steward/knowledge-context-steward_v1.zip",
+      "archive": "specialists/knowledge/knowledge-context-steward/knowledge-context-steward_v1.1.zip",
       "sources": "specialists/knowledge/knowledge-context-steward/sources/",
       "capabilities": [
         "context-reconciliation",
@@ -855,7 +855,7 @@
       "id": "market-competitive-research-specialist",
       "name": "Market and Competitive Research Specialist",
       "description": "Market and Competitive Research Specialist: market research, competitive analysis, customer segmentation for coordinated product delivery.",
-      "version": "v1",
+      "version": "v1.1",
       "role": "expert",
       "kind": "specialist",
       "tags": [
@@ -864,7 +864,7 @@
       ],
       "status": "available",
       "readme": "specialists/business/market-competitive-research-specialist/README.md",
-      "archive": "specialists/business/market-competitive-research-specialist/market-competitive-research-specialist_v1.zip",
+      "archive": "specialists/business/market-competitive-research-specialist/market-competitive-research-specialist_v1.1.zip",
       "sources": "specialists/business/market-competitive-research-specialist/sources/",
       "capabilities": [
         "market-research",
@@ -929,7 +929,7 @@
       "id": "operations-reliability-specialist",
       "name": "Operations and Reliability Specialist",
       "description": "Own observable health, incident evidence, post-release verification and feedback handoffs.",
-      "version": "v1.1",
+      "version": "v1.2",
       "role": "expert",
       "tags": [
         "workflow-aware",
@@ -937,7 +937,7 @@
       ],
       "status": "available",
       "readme": "specialists/operations/operations-reliability-specialist/README.md",
-      "archive": "specialists/operations/operations-reliability-specialist/operations-reliability-specialist_v1.1.zip",
+      "archive": "specialists/operations/operations-reliability-specialist/operations-reliability-specialist_v1.2.zip",
       "sources": "specialists/operations/operations-reliability-specialist/sources/",
       "capabilities": [
         "observability",
@@ -960,7 +960,7 @@
     {
       "id": "organizational-strategy-specialist",
       "name": "Organizational Strategy Specialist",
-      "version": "v1.1",
+      "version": "v1.2",
       "role": "strategist",
       "description": "Connect organization mission, portfolio priorities and investment constraints to product opportunity selection.",
       "tags": [
@@ -970,7 +970,7 @@
       ],
       "status": "available",
       "readme": "specialists/business/organizational-strategy-specialist/README.md",
-      "archive": "specialists/business/organizational-strategy-specialist/organizational-strategy-specialist_v1.1.zip",
+      "archive": "specialists/business/organizational-strategy-specialist/organizational-strategy-specialist_v1.2.zip",
       "sources": "specialists/business/organizational-strategy-specialist/sources/",
       "capabilities": [
         "organizational-strategy"
@@ -990,7 +990,7 @@
       "id": "pragmatic-pr-reviewer",
       "name": "Pragmatic PR Reviewer",
       "description": "Pragmatic PR Reviewer: pragmatic code review, code review, complexity governance for coordinated product delivery.",
-      "version": "v1",
+      "version": "v1.1",
       "role": "expert",
       "kind": "specialist",
       "tags": [
@@ -999,7 +999,7 @@
       ],
       "status": "available",
       "readme": "specialists/quality/pragmatic-pr-reviewer/README.md",
-      "archive": "specialists/quality/pragmatic-pr-reviewer/pragmatic-pr-reviewer_v1.zip",
+      "archive": "specialists/quality/pragmatic-pr-reviewer/pragmatic-pr-reviewer_v1.1.zip",
       "sources": "specialists/quality/pragmatic-pr-reviewer/sources/",
       "capabilities": [
         "pragmatic-code-review",
@@ -1020,7 +1020,7 @@
       "id": "product-analytics-specialist",
       "name": "Product Analytics and Outcome Specialist",
       "description": "Product Analytics and Outcome Specialist: product analytics, outcome validation, measurement design for coordinated product delivery.",
-      "version": "v1",
+      "version": "v1.1",
       "role": "strategist",
       "kind": "specialist",
       "tags": [
@@ -1029,7 +1029,7 @@
       ],
       "status": "available",
       "readme": "specialists/product/product-analytics-specialist/README.md",
-      "archive": "specialists/product/product-analytics-specialist/product-analytics-specialist_v1.zip",
+      "archive": "specialists/product/product-analytics-specialist/product-analytics-specialist_v1.1.zip",
       "sources": "specialists/product/product-analytics-specialist/sources/",
       "capabilities": [
         "product-analytics",
@@ -1050,7 +1050,7 @@
       "id": "product-delivery-specialist",
       "name": "Product Delivery Specialist",
       "description": "Own validated product intent, scope, requirements, acceptance criteria and business handoffs.",
-      "version": "v1.1",
+      "version": "v1.2",
       "role": "strategist",
       "tags": [
         "workflow-aware",
@@ -1058,7 +1058,7 @@
       ],
       "status": "available",
       "readme": "specialists/product/product-delivery-specialist/README.md",
-      "archive": "specialists/product/product-delivery-specialist/product-delivery-specialist_v1.1.zip",
+      "archive": "specialists/product/product-delivery-specialist/product-delivery-specialist_v1.2.zip",
       "sources": "specialists/product/product-delivery-specialist/sources/",
       "capabilities": [
         "product-discovery",
@@ -1081,7 +1081,7 @@
       "id": "product-lifecycle-orchestrator",
       "name": "Product Lifecycle Orchestrator",
       "description": "Product Lifecycle Orchestrator: intent routing, workflow composition, specialist selection, lifecycle governance for coordinated product delivery.",
-      "version": "v1",
+      "version": "v1.1",
       "role": "orchestrator",
       "kind": "primary-orchestrator",
       "tags": [
@@ -1090,7 +1090,7 @@
       ],
       "status": "available",
       "readme": "orchestrators/primary/product-lifecycle-orchestrator/README.md",
-      "archive": "orchestrators/primary/product-lifecycle-orchestrator/product-lifecycle-orchestrator_v1.zip",
+      "archive": "orchestrators/primary/product-lifecycle-orchestrator/product-lifecycle-orchestrator_v1.1.zip",
       "sources": "orchestrators/primary/product-lifecycle-orchestrator/sources/",
       "capabilities": [
         "intent-routing",
@@ -1113,7 +1113,7 @@
       "id": "psychology-advice-research",
       "name": "Psychology Advice & Research",
       "description": "Psychology education, non-clinical advice, and evidence-aware research synthesis.",
-      "version": "v1.1",
+      "version": "v1.2",
       "role": "expert",
       "tags": [
         "psychology",
@@ -1123,7 +1123,7 @@
       ],
       "status": "available",
       "readme": "specialists/research/psychology-advice-research/README.md",
-      "archive": "specialists/research/psychology-advice-research/psychology-advice-research_v1.1.zip",
+      "archive": "specialists/research/psychology-advice-research/psychology-advice-research_v1.2.zip",
       "sources": "specialists/research/psychology-advice-research/sources/",
       "capabilities": [
         "psychology-education",
@@ -1147,7 +1147,7 @@
       "id": "qa-verification-specialist",
       "name": "QA and Verification Specialist",
       "description": "Independently verify acceptance, regression and change risk with pinned test evidence.",
-      "version": "v1.1",
+      "version": "v1.2",
       "role": "expert",
       "tags": [
         "workflow-aware",
@@ -1155,7 +1155,7 @@
       ],
       "status": "available",
       "readme": "specialists/quality/qa-verification-specialist/README.md",
-      "archive": "specialists/quality/qa-verification-specialist/qa-verification-specialist_v1.1.zip",
+      "archive": "specialists/quality/qa-verification-specialist/qa-verification-specialist_v1.2.zip",
       "sources": "specialists/quality/qa-verification-specialist/sources/",
       "capabilities": [
         "acceptance-verification",
@@ -1179,7 +1179,7 @@
       "id": "release-governance-coordinator",
       "name": "Release Governance Coordinator",
       "description": "Release Governance Coordinator: release approval coordination, deployment risk assessment, rollback governance for coordinated product delivery.",
-      "version": "v1",
+      "version": "v1.1",
       "role": "orchestrator",
       "kind": "workflow-orchestrator",
       "tags": [
@@ -1188,7 +1188,7 @@
       ],
       "status": "available",
       "readme": "orchestrators/workflow/release-governance-coordinator/README.md",
-      "archive": "orchestrators/workflow/release-governance-coordinator/release-governance-coordinator_v1.zip",
+      "archive": "orchestrators/workflow/release-governance-coordinator/release-governance-coordinator_v1.1.zip",
       "sources": "orchestrators/workflow/release-governance-coordinator/sources/",
       "capabilities": [
         "release-approval-coordination",
@@ -1209,7 +1209,7 @@
       "id": "security-architecture-specialist",
       "name": "Security Architecture Specialist",
       "description": "Security Architecture Specialist: threat modeling, security architecture, trust boundary design for coordinated product delivery.",
-      "version": "v1",
+      "version": "v1.1",
       "role": "expert",
       "kind": "specialist",
       "tags": [
@@ -1218,7 +1218,7 @@
       ],
       "status": "available",
       "readme": "specialists/architecture/security-architecture-specialist/README.md",
-      "archive": "specialists/architecture/security-architecture-specialist/security-architecture-specialist_v1.zip",
+      "archive": "specialists/architecture/security-architecture-specialist/security-architecture-specialist_v1.1.zip",
       "sources": "specialists/architecture/security-architecture-specialist/sources/",
       "capabilities": [
         "threat-modeling",
@@ -1239,7 +1239,7 @@
       "id": "security-compliance-reviewer",
       "name": "Security and Compliance Reviewer",
       "description": "Security and Compliance Reviewer: security review, compliance verification, vulnerability triage for coordinated product delivery.",
-      "version": "v1",
+      "version": "v1.1",
       "role": "expert",
       "kind": "specialist",
       "tags": [
@@ -1248,7 +1248,7 @@
       ],
       "status": "available",
       "readme": "specialists/security/security-compliance-reviewer/README.md",
-      "archive": "specialists/security/security-compliance-reviewer/security-compliance-reviewer_v1.zip",
+      "archive": "specialists/security/security-compliance-reviewer/security-compliance-reviewer_v1.1.zip",
       "sources": "specialists/security/security-compliance-reviewer/sources/",
       "capabilities": [
         "security-review",
@@ -1269,7 +1269,7 @@
       "id": "software-delivery-lifecycle",
       "name": "Software Delivery Lifecycle Orchestrator",
       "description": "Route specialist work from idea through operations with durable gate evidence and controlled handoffs.",
-      "version": "v1.1",
+      "version": "v1.2",
       "role": "orchestrator",
       "tags": [
         "workflow-aware",
@@ -1277,7 +1277,7 @@
       ],
       "status": "available",
       "readme": "orchestrators/workflow/software-delivery-lifecycle/README.md",
-      "archive": "orchestrators/workflow/software-delivery-lifecycle/software-delivery-lifecycle_v1.1.zip",
+      "archive": "orchestrators/workflow/software-delivery-lifecycle/software-delivery-lifecycle_v1.2.zip",
       "sources": "orchestrators/workflow/software-delivery-lifecycle/sources/",
       "capabilities": [
         "workflow-orchestration",
@@ -1301,7 +1301,7 @@
       "id": "solid-visual-architecture",
       "name": "SOLID Visual Architecture",
       "description": "Architecture visualization and SOLID-oriented design instruction system.",
-      "version": "v1.1",
+      "version": "v1.2",
       "role": "expert",
       "tags": [
         "solid",
@@ -1311,7 +1311,7 @@
       ],
       "status": "available",
       "readme": "specialists/architecture/solid-visual-architecture/README.md",
-      "archive": "specialists/architecture/solid-visual-architecture/solid-visual-architecture_v1.1.zip",
+      "archive": "specialists/architecture/solid-visual-architecture/solid-visual-architecture_v1.2.zip",
       "sources": "specialists/architecture/solid-visual-architecture/sources/",
       "capabilities": [
         "software-architecture",
@@ -1334,7 +1334,7 @@
       "id": "solution-cloud-resource-architect",
       "name": "Solution and Cloud Resource Architect",
       "description": "Solution and Cloud Resource Architect: solution architecture, cloud resource design, technical feasibility for coordinated product delivery.",
-      "version": "v1",
+      "version": "v1.1",
       "role": "expert",
       "kind": "specialist",
       "tags": [
@@ -1343,7 +1343,7 @@
       ],
       "status": "available",
       "readme": "specialists/architecture/solution-cloud-resource-architect/README.md",
-      "archive": "specialists/architecture/solution-cloud-resource-architect/solution-cloud-resource-architect_v1.zip",
+      "archive": "specialists/architecture/solution-cloud-resource-architect/solution-cloud-resource-architect_v1.1.zip",
       "sources": "specialists/architecture/solution-cloud-resource-architect/sources/",
       "capabilities": [
         "solution-architecture",
@@ -1364,7 +1364,7 @@
       "id": "specialist-consultation-coordinator",
       "name": "Specialist Consultation Coordinator",
       "description": "Specialist Consultation Coordinator: specialist coordination, council arbitration, evidence synthesis for coordinated product delivery.",
-      "version": "v1",
+      "version": "v1.1",
       "role": "orchestrator",
       "kind": "workflow-orchestrator",
       "tags": [
@@ -1373,7 +1373,7 @@
       ],
       "status": "available",
       "readme": "orchestrators/workflow/specialist-consultation-coordinator/README.md",
-      "archive": "orchestrators/workflow/specialist-consultation-coordinator/specialist-consultation-coordinator_v1.zip",
+      "archive": "orchestrators/workflow/specialist-consultation-coordinator/specialist-consultation-coordinator_v1.1.zip",
       "sources": "orchestrators/workflow/specialist-consultation-coordinator/sources/",
       "capabilities": [
         "specialist-coordination",
@@ -1394,7 +1394,7 @@
       "id": "technical-product-manager",
       "name": "Technical Product Manager",
       "description": "Technical Product Manager: technical product management, backlog management, roadmap prioritization for coordinated product delivery.",
-      "version": "v1",
+      "version": "v1.1",
       "role": "strategist",
       "kind": "specialist",
       "tags": [
@@ -1403,7 +1403,7 @@
       ],
       "status": "available",
       "readme": "specialists/product/technical-product-manager/README.md",
-      "archive": "specialists/product/technical-product-manager/technical-product-manager_v1.zip",
+      "archive": "specialists/product/technical-product-manager/technical-product-manager_v1.1.zip",
       "sources": "specialists/product/technical-product-manager/sources/",
       "capabilities": [
         "technical-product-management",
@@ -1424,7 +1424,7 @@
       "id": "technical-research-project-instructions",
       "name": "Technical Research Project Instructions",
       "description": "Evidence-backed technical research, architecture consulting, and teaching.",
-      "version": "v2.1",
+      "version": "v2.2",
       "role": "expert",
       "tags": [
         "technical",
@@ -1435,7 +1435,7 @@
       ],
       "status": "available",
       "readme": "specialists/research/technical-research-project-instructions/README.md",
-      "archive": "specialists/research/technical-research-project-instructions/technical-research-project-instructions_v2.1.zip",
+      "archive": "specialists/research/technical-research-project-instructions/technical-research-project-instructions_v2.2.zip",
       "sources": "specialists/research/technical-research-project-instructions/sources/",
       "capabilities": [
         "technical-research",
@@ -1462,7 +1462,7 @@
       "id": "test-automation-specialist",
       "name": "Test Automation Specialist",
       "description": "Test Automation Specialist: test automation, integration testing, regression design for coordinated product delivery.",
-      "version": "v1",
+      "version": "v1.1",
       "role": "expert",
       "kind": "specialist",
       "tags": [
@@ -1471,7 +1471,7 @@
       ],
       "status": "available",
       "readme": "specialists/quality/test-automation-specialist/README.md",
-      "archive": "specialists/quality/test-automation-specialist/test-automation-specialist_v1.zip",
+      "archive": "specialists/quality/test-automation-specialist/test-automation-specialist_v1.1.zip",
       "sources": "specialists/quality/test-automation-specialist/sources/",
       "capabilities": [
         "test-automation",
@@ -1492,7 +1492,7 @@
       "id": "ui-ux-design-system-architect",
       "name": "UI/UX Design System Architect",
       "description": "Catalog-first UI/UX knowledge and component audits and prioritized migration guidance.",
-      "version": "v1.2",
+      "version": "v1.3",
       "role": "curator",
       "tags": [
         "ux",
@@ -1506,7 +1506,7 @@
       ],
       "status": "available",
       "readme": "specialists/design/ui-ux-design-system-architect/README.md",
-      "archive": "specialists/design/ui-ux-design-system-architect/ui-ux-design-system-architect_v1.2.zip",
+      "archive": "specialists/design/ui-ux-design-system-architect/ui-ux-design-system-architect_v1.3.zip",
       "sources": "specialists/design/ui-ux-design-system-architect/sources/",
       "capabilities": [
         "design-catalog-curation",
@@ -1533,7 +1533,7 @@
       "id": "ui-ux-product-designer",
       "name": "UI/UX Product Designer",
       "description": "UI/UX Product Designer: product ux design, interaction design, prototyping for coordinated product delivery.",
-      "version": "v1",
+      "version": "v1.1",
       "role": "expert",
       "kind": "specialist",
       "tags": [
@@ -1542,7 +1542,7 @@
       ],
       "status": "available",
       "readme": "specialists/design/ui-ux-product-designer/README.md",
-      "archive": "specialists/design/ui-ux-product-designer/ui-ux-product-designer_v1.zip",
+      "archive": "specialists/design/ui-ux-product-designer/ui-ux-product-designer_v1.1.zip",
       "sources": "specialists/design/ui-ux-product-designer/sources/",
       "capabilities": [
         "product-ux-design",
@@ -1563,7 +1563,7 @@
       "id": "ux-research-journey-specialist",
       "name": "UX Research and User Journey Specialist",
       "description": "UX Research and User Journey Specialist: ux research, user journey mapping, scenario discovery for coordinated product delivery.",
-      "version": "v1",
+      "version": "v1.1",
       "role": "expert",
       "kind": "specialist",
       "tags": [
@@ -1572,7 +1572,7 @@
       ],
       "status": "available",
       "readme": "specialists/design/ux-research-journey-specialist/README.md",
-      "archive": "specialists/design/ux-research-journey-specialist/ux-research-journey-specialist_v1.zip",
+      "archive": "specialists/design/ux-research-journey-specialist/ux-research-journey-specialist_v1.1.zip",
       "sources": "specialists/design/ux-research-journey-specialist/sources/",
       "capabilities": [
         "ux-research",

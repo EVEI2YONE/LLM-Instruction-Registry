@@ -1,0 +1,148 @@
+{
+  "id": "psychology-advice-research",
+  "old_version": "v1.1",
+  "proposed_version": "v1.2",
+  "source_commit": "f634daa1ad6b86de93806334b1195bda14313646",
+  "files": [
+    {
+      "source": "00_README.md",
+      "sha256": "ce25aebdfd0d275b285b1373cb07422688be83311a74d38816837895068a2662",
+      "indexed_sections": [
+        "sections/references/source-00-readme-961d8bb.md"
+      ],
+      "reconstructed_sha256": "ce25aebdfd0d275b285b1373cb07422688be83311a74d38816837895068a2662"
+    },
+    {
+      "source": "00_compiled_instruction_set.md",
+      "sha256": "da823468269e6abe1c691e7e9603022f90c2e5c9be5d2464fdc459205ceddbee",
+      "indexed_sections": [
+        "sections/procedures/source-00-compiled-instruction-set-8a93b84-1.md",
+        "sections/procedures/source-00-compiled-instruction-set-8a93b84-2.md"
+      ],
+      "reconstructed_sha256": "da823468269e6abe1c691e7e9603022f90c2e5c9be5d2464fdc459205ceddbee"
+    },
+    {
+      "source": "01_core/01_core_role_instruction_set.md",
+      "sha256": "e7816eba8b2cd69a9dd3a3926dbb87dda0f84cdb8d1bf56eab3d163de3232c94",
+      "indexed_sections": [
+        "sections/references/source-01-core-01-core-role-instruction-set-d2446c0.md"
+      ],
+      "reconstructed_sha256": "e7816eba8b2cd69a9dd3a3926dbb87dda0f84cdb8d1bf56eab3d163de3232c94"
+    },
+    {
+      "source": "02_helpers/02_general_helper_instruction_sets.md",
+      "sha256": "c2e2bf4f1ab34b1372aa75e28ed53f2280d773b3f0a4b842b30c6d8377888e7f",
+      "indexed_sections": [
+        "sections/references/source-02-helpers-02-general-helper-instruction-sets-bf2771c.md"
+      ],
+      "reconstructed_sha256": "c2e2bf4f1ab34b1372aa75e28ed53f2280d773b3f0a4b842b30c6d8377888e7f"
+    },
+    {
+      "source": "03_self_heal.md",
+      "sha256": "05d4b2e857eae6ad2be5e5a6d37849b5bf146d9668a68f646e7cb7934e6d8025",
+      "indexed_sections": [
+        "sections/procedures/source-03-self-heal-3106670.md"
+      ],
+      "reconstructed_sha256": "05d4b2e857eae6ad2be5e5a6d37849b5bf146d9668a68f646e7cb7934e6d8025"
+    },
+    {
+      "source": "03_sub_roles/03_specific_sub_role_instruction_sets.md",
+      "sha256": "55b9bf82d7f1fd7df1c47cf421452fa933c9bfcbd76e152f2b78b5c8b9feeaf1",
+      "indexed_sections": [
+        "sections/roles/source-03-sub-roles-03-specific-sub-role-instruction-sets-3aa55bb.md"
+      ],
+      "reconstructed_sha256": "55b9bf82d7f1fd7df1c47cf421452fa933c9bfcbd76e152f2b78b5c8b9feeaf1"
+    },
+    {
+      "source": "04_templates/04_response_templates.md",
+      "sha256": "4a6f7e4678d770df90452c30b7392fd0e4be34e0d031a51cd8ce8c10aaf2a1b2",
+      "indexed_sections": [
+        "sections/templates/source-04-templates-04-response-templates-4a25532.md"
+      ],
+      "reconstructed_sha256": "4a6f7e4678d770df90452c30b7392fd0e4be34e0d031a51cd8ce8c10aaf2a1b2"
+    },
+    {
+      "source": "05_handoffs/05_phased_response_handoff_template.md",
+      "sha256": "77e04eb83264290f5690dae63047cca0f85a830c22da5ead3fe8af7c8458a505",
+      "indexed_sections": [
+        "sections/templates/source-05-handoffs-05-phased-response-handoff-template-3f4c391.md"
+      ],
+      "reconstructed_sha256": "77e04eb83264290f5690dae63047cca0f85a830c22da5ead3fe8af7c8458a505"
+    },
+    {
+      "source": "06_sources_to_update/06_correction_log.md",
+      "sha256": "09caf1aa450ecb25b8a5960c251d3df6ebd05c3895d8409508191e660df8b0d3",
+      "indexed_sections": [
+        "sections/references/source-06-sources-to-update-06-correction-log-083a35a.md"
+      ],
+      "reconstructed_sha256": "09caf1aa450ecb25b8a5960c251d3df6ebd05c3895d8409508191e660df8b0d3"
+    },
+    {
+      "source": "06_sources_to_update/06_example_bank.md",
+      "sha256": "3ad31da415d52423b0c99a0acb2e4e2900ab234ebcf9b1b08ad79c8aa20525ca",
+      "indexed_sections": [
+        "sections/references/source-06-sources-to-update-06-example-bank-dd8a0a7.md"
+      ],
+      "reconstructed_sha256": "3ad31da415d52423b0c99a0acb2e4e2900ab234ebcf9b1b08ad79c8aa20525ca"
+    },
+    {
+      "source": "06_sources_to_update/06_preference_registry.md",
+      "sha256": "b3184fcee2ccec0ec035d36872813cec04b87c5ec420ec8013e5da3cb0131894",
+      "indexed_sections": [
+        "sections/references/source-06-sources-to-update-06-preference-registry-4c3b761.md"
+      ],
+      "reconstructed_sha256": "b3184fcee2ccec0ec035d36872813cec04b87c5ec420ec8013e5da3cb0131894"
+    },
+    {
+      "source": "06_sources_to_update/06_source_inventory.md",
+      "sha256": "2fa2ca70544db780bc905da11071679aa53b91f9860f155168d3b6ba8b1da8fb",
+      "indexed_sections": [
+        "sections/references/source-06-sources-to-update-06-source-inventory-a3589ed.md"
+      ],
+      "reconstructed_sha256": "2fa2ca70544db780bc905da11071679aa53b91f9860f155168d3b6ba8b1da8fb"
+    },
+    {
+      "source": "07_tables/07_expected_instruction_sets_table.md",
+      "sha256": "a516c85769c8100e9b82a87e29ca64701e66876ff7a4e0e0bf02dd4fe2bdbc52",
+      "indexed_sections": [
+        "sections/references/source-07-tables-07-expected-instruction-sets-table-fa675c8.md"
+      ],
+      "reconstructed_sha256": "a516c85769c8100e9b82a87e29ca64701e66876ff7a4e0e0bf02dd4fe2bdbc52"
+    },
+    {
+      "source": "07_tables/07_package_validation_table.md",
+      "sha256": "4e4fb3dcc3ba773042df6d2ca6d0b7483e7ab786cab7e390fb707e2e2c45eddc",
+      "indexed_sections": [
+        "sections/procedures/source-07-tables-07-package-validation-table-099d045.md"
+      ],
+      "reconstructed_sha256": "4e4fb3dcc3ba773042df6d2ca6d0b7483e7ab786cab7e390fb707e2e2c45eddc"
+    },
+    {
+      "source": "90_workflow_integration.md",
+      "sha256": "e08c0a5c0f93059d54b8a1cfa4036ae86bd5a82f04335ffa2b6be7bcddd6847f",
+      "indexed_sections": [
+        "sections/procedures/source-90-workflow-integration-cdaf867.md"
+      ],
+      "reconstructed_sha256": "e08c0a5c0f93059d54b8a1cfa4036ae86bd5a82f04335ffa2b6be7bcddd6847f"
+    },
+    {
+      "source": "ORIGINAL_PACKAGE_README.md",
+      "sha256": "73fcb77d6b5372d7d6c04b2da6d8370b6abd1e7311a52f35fe2bb67bf60ff15f",
+      "indexed_sections": [
+        "sections/references/source-original-package-readme-0c8012f.md"
+      ],
+      "reconstructed_sha256": "73fcb77d6b5372d7d6c04b2da6d8370b6abd1e7311a52f35fe2bb67bf60ff15f"
+    },
+    {
+      "source": "SKILL.md",
+      "sha256": "3f474491af0438224c0c04638831e2d164275886d502e1f7e56f0d5d30bc5f79",
+      "indexed_sections": [
+        "sections/references/original-skill.md"
+      ],
+      "reconstructed_sha256": "3f474491af0438224c0c04638831e2d164275886d502e1f7e56f0d5d30bc5f79"
+    }
+  ],
+  "semantic_equivalence": "NOT_RUN",
+  "owner_approval": "NOT_VERIFIED",
+  "original_archive_preserved": true
+}

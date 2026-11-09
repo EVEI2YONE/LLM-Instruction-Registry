@@ -1,0 +1,97 @@
+{
+  "id": "accessibility-usability-reviewer",
+  "version": "v1.1",
+  "source_contract": "lookup-first-v1",
+  "kind": "specialist",
+  "role": "expert",
+  "entrypoint": {
+    "path": "SKILL.md",
+    "words": 144,
+    "sha256": "dec4df8f1282a23dff2dfae085e385f3f76fcb9c0671c45172ebbae657f70031"
+  },
+  "sections": [
+    {
+      "id": "source-00-compiled-instruction-set-8a93b84",
+      "kind": "procedure",
+      "path": "sections/procedures/source-00-compiled-instruction-set-8a93b84.md",
+      "summary": "Preserved source 00_compiled_instruction_set.md",
+      "read_when": [
+        "about to consult source 00_compiled_instruction_set.md"
+      ],
+      "requires": [],
+      "words": 193,
+      "sha256": "87cbabe39532fdaf26791a8462b4c5c04f88954d41540f3bbfadca754e9a19ac"
+    },
+    {
+      "id": "source-01-domain-9c0aca2",
+      "kind": "procedure",
+      "path": "sections/procedures/source-01-domain-9c0aca2.md",
+      "summary": "Preserved source 01_domain.md",
+      "read_when": [
+        "about to perform specialist work"
+      ],
+      "requires": [],
+      "words": 90,
+      "sha256": "59e348a8415b44848f6f03564e4d03f3ab86ed6c7dc5c7b6696a26938923f14c"
+    },
+    {
+      "id": "source-02-context-space-da68579",
+      "kind": "reference",
+      "path": "sections/references/source-02-context-space-da68579.md",
+      "summary": "Preserved source 02_context_space.md",
+      "read_when": [
+        "about to consult source 02_context_space.md"
+      ],
+      "requires": [],
+      "words": 84,
+      "sha256": "005ee34eff1b0a465caafe57886170e6da987a988f26489b3446086b6cea6371"
+    },
+    {
+      "id": "source-03-self-heal-3106670",
+      "kind": "procedure",
+      "path": "sections/procedures/source-03-self-heal-3106670.md",
+      "summary": "Preserved source 03_self_heal.md",
+      "read_when": [
+        "about to correct a failure"
+      ],
+      "requires": [],
+      "words": 46,
+      "sha256": "276d0b9f8a554dd673822cb57995b255e95b3a91ef2a031dd4849f7db675aefa"
+    },
+    {
+      "id": "original-skill",
+      "kind": "reference",
+      "path": "sections/references/original-skill.md",
+      "summary": "Previous entrypoint retained for provenance",
+      "read_when": [
+        "about to audit legacy entrypoint"
+      ],
+      "requires": [],
+      "reference_only": true,
+      "words": 42,
+      "sha256": "ec68881da72d9e14ad5361e9d8914066354d406da5b800d7f156138096268b6c"
+    }
+  ],
+  "default_sections": [
+    "source-00-compiled-instruction-set-8a93b84",
+    "source-01-domain-9c0aca2"
+  ],
+  "sources": [
+    "00_compiled_instruction_set.md",
+    "01_domain.md",
+    "02_context_space.md",
+    "03_self_heal.md",
+    "99_manifest.json",
+    "MIGRATION_TRACEABILITY.json",
+    "README.md",
+    "SKILL.md",
+    "agents/openai.yaml",
+    "manifest.json",
+    "sections/procedures/source-00-compiled-instruction-set-8a93b84.md",
+    "sections/procedures/source-01-domain-9c0aca2.md",
+    "sections/procedures/source-03-self-heal-3106670.md",
+    "sections/references/original-skill.md",
+    "sections/references/source-02-context-space-da68579.md"
+  ],
+  "behavioral_evaluation": "NOT_RUN"
+}

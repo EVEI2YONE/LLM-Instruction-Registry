@@ -1,0 +1,111 @@
+{
+  "id": "operations-reliability-specialist",
+  "version": "v1.2",
+  "source_contract": "lookup-first-v1",
+  "kind": "specialist",
+  "role": "expert",
+  "entrypoint": {
+    "path": "SKILL.md",
+    "words": 144,
+    "sha256": "808e9d5fa6679a4baece295b0a06ad0cf684e5ab0590a4a5132a8a5720713bc8"
+  },
+  "sections": [
+    {
+      "id": "source-00-compiled-instruction-set-8a93b84",
+      "kind": "procedure",
+      "path": "sections/procedures/source-00-compiled-instruction-set-8a93b84.md",
+      "summary": "Preserved source 00_compiled_instruction_set.md",
+      "read_when": [
+        "about to consult source 00_compiled_instruction_set.md"
+      ],
+      "requires": [],
+      "words": 360,
+      "sha256": "3a0001d543458d0f34166a5da9e42770661c984ee4ebfd653e057f50461a6ddb"
+    },
+    {
+      "id": "source-01-domain-9c0aca2",
+      "kind": "procedure",
+      "path": "sections/procedures/source-01-domain-9c0aca2.md",
+      "summary": "Preserved source 01_domain.md",
+      "read_when": [
+        "about to perform specialist work"
+      ],
+      "requires": [],
+      "words": 80,
+      "sha256": "194666415975125ed8dc5053e2c35f1b66d68b452a61459103beb5f88c048489"
+    },
+    {
+      "id": "source-02-context-space-da68579",
+      "kind": "reference",
+      "path": "sections/references/source-02-context-space-da68579.md",
+      "summary": "Preserved source 02_context_space.md",
+      "read_when": [
+        "about to consult source 02_context_space.md"
+      ],
+      "requires": [],
+      "words": 253,
+      "sha256": "98ed21ef0e122a5db5b5a666ba123f4005372d5b6d482ad03bfe2efbf326a1e4"
+    },
+    {
+      "id": "source-03-self-heal-3106670",
+      "kind": "procedure",
+      "path": "sections/procedures/source-03-self-heal-3106670.md",
+      "summary": "Preserved source 03_self_heal.md",
+      "read_when": [
+        "about to correct a failure"
+      ],
+      "requires": [],
+      "words": 37,
+      "sha256": "4aaf0dad3ae50ffed37daf4f39d437aa489e92fb37af31fe4c032380d753fb4a"
+    },
+    {
+      "id": "source-04-workflow-integration-2ddf74d",
+      "kind": "procedure",
+      "path": "sections/procedures/source-04-workflow-integration-2ddf74d.md",
+      "summary": "Preserved source 04_workflow_integration.md",
+      "read_when": [
+        "about to participate in a workflow"
+      ],
+      "requires": [],
+      "words": 159,
+      "sha256": "c4c332fb79d9678d9fa8e9ebe6aab686e4e7858793b62793fa721cffe382469d"
+    },
+    {
+      "id": "original-skill",
+      "kind": "reference",
+      "path": "sections/references/original-skill.md",
+      "summary": "Previous entrypoint retained for provenance",
+      "read_when": [
+        "about to audit legacy entrypoint"
+      ],
+      "requires": [],
+      "reference_only": true,
+      "words": 50,
+      "sha256": "fd56b63b0d84fbb9bd3bd28eecb8d385cb743213911da2e14414ddefd8576368"
+    }
+  ],
+  "default_sections": [
+    "source-00-compiled-instruction-set-8a93b84",
+    "source-01-domain-9c0aca2"
+  ],
+  "sources": [
+    "00_compiled_instruction_set.md",
+    "01_domain.md",
+    "02_context_space.md",
+    "03_self_heal.md",
+    "04_workflow_integration.md",
+    "99_manifest.json",
+    "MIGRATION_TRACEABILITY.json",
+    "README.md",
+    "SKILL.md",
+    "agents/openai.yaml",
+    "manifest.json",
+    "sections/procedures/source-00-compiled-instruction-set-8a93b84.md",
+    "sections/procedures/source-01-domain-9c0aca2.md",
+    "sections/procedures/source-03-self-heal-3106670.md",
+    "sections/procedures/source-04-workflow-integration-2ddf74d.md",
+    "sections/references/original-skill.md",
+    "sections/references/source-02-context-space-da68579.md"
+  ],
+  "behavioral_evaluation": "NOT_RUN"
+}

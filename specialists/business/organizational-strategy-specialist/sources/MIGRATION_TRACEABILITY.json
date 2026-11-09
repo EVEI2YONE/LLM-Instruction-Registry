@@ -1,0 +1,59 @@
+{
+  "id": "organizational-strategy-specialist",
+  "old_version": "v1.1",
+  "proposed_version": "v1.2",
+  "source_commit": "f634daa1ad6b86de93806334b1195bda14313646",
+  "files": [
+    {
+      "source": "00_compiled_instruction_set.md",
+      "sha256": "cf8258cbfa4ac2e245e389ddf56cc5f3cab177a1e943082a3a23a828b1fc03f2",
+      "indexed_sections": [
+        "sections/procedures/source-00-compiled-instruction-set-8a93b84.md"
+      ],
+      "reconstructed_sha256": "cf8258cbfa4ac2e245e389ddf56cc5f3cab177a1e943082a3a23a828b1fc03f2"
+    },
+    {
+      "source": "01_domain.md",
+      "sha256": "3d0eb4d242aad411e3969cdb95828557d5b129736fe4ea3519a319ab211f284b",
+      "indexed_sections": [
+        "sections/procedures/source-01-domain-9c0aca2.md"
+      ],
+      "reconstructed_sha256": "3d0eb4d242aad411e3969cdb95828557d5b129736fe4ea3519a319ab211f284b"
+    },
+    {
+      "source": "02_context.md",
+      "sha256": "1ae63284fd05473f7258ec1558163bc5363eb441e0043dde34ce1ca3a78e20f8",
+      "indexed_sections": [
+        "sections/references/source-02-context-a984419.md"
+      ],
+      "reconstructed_sha256": "1ae63284fd05473f7258ec1558163bc5363eb441e0043dde34ce1ca3a78e20f8"
+    },
+    {
+      "source": "03_self_heal.md",
+      "sha256": "a33a8c59c51f9449b163303a88400c04187f5aa7c0ba0aca6d5d049f4212a778",
+      "indexed_sections": [
+        "sections/procedures/source-03-self-heal-3106670.md"
+      ],
+      "reconstructed_sha256": "a33a8c59c51f9449b163303a88400c04187f5aa7c0ba0aca6d5d049f4212a778"
+    },
+    {
+      "source": "04_workflow_integration.md",
+      "sha256": "c365db8abc468b3aea6e95b9909606f8f904a02ce90af715862eabedfc3d41a6",
+      "indexed_sections": [
+        "sections/procedures/source-04-workflow-integration-2ddf74d.md"
+      ],
+      "reconstructed_sha256": "c365db8abc468b3aea6e95b9909606f8f904a02ce90af715862eabedfc3d41a6"
+    },
+    {
+      "source": "SKILL.md",
+      "sha256": "53d7d4e6c553b717a1d12172f27e2c51e30ea4357f6e99cf2b134fff4065178c",
+      "indexed_sections": [
+        "sections/references/original-skill.md"
+      ],
+      "reconstructed_sha256": "53d7d4e6c553b717a1d12172f27e2c51e30ea4357f6e99cf2b134fff4065178c"
+    }
+  ],
+  "semantic_equivalence": "NOT_RUN",
+  "owner_approval": "NOT_VERIFIED",
+  "original_archive_preserved": true
+}

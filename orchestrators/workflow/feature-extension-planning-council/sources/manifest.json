@@ -1,0 +1,308 @@
+{
+  "id": "feature-extension-planning-council",
+  "version": "v1.2",
+  "source_contract": "lookup-first-v1",
+  "kind": "workflow-orchestrator",
+  "role": "orchestrator",
+  "entrypoint": {
+    "path": "SKILL.md",
+    "words": 153,
+    "sha256": "f856bf640b77c1dec0b5c62cb2b2f6a69a6eac5504d38485d8f96cd64c7c34b4"
+  },
+  "sections": [
+    {
+      "id": "source-00-readme-961d8bb",
+      "kind": "reference",
+      "path": "sections/references/source-00-readme-961d8bb.md",
+      "summary": "Preserved source 00_README.md",
+      "read_when": [
+        "about to consult source 00_README.md"
+      ],
+      "requires": [],
+      "words": 258,
+      "sha256": "4868a83c1dda96316cf982ba5fc542bc6d012dff4d78cc1bdf38ef5d01b03e96"
+    },
+    {
+      "id": "source-00-compiled-instruction-set-8a93b84",
+      "kind": "procedure",
+      "path": "sections/procedures/source-00-compiled-instruction-set-8a93b84.md",
+      "summary": "Preserved source 00_compiled_instruction_set.md",
+      "read_when": [
+        "about to consult source 00_compiled_instruction_set.md"
+      ],
+      "requires": [],
+      "words": 701,
+      "sha256": "c005d10b87e08d8f615eb82b5e0a83a5b7ed7ccc12653715b3399b312a873ced"
+    },
+    {
+      "id": "source-01-core-01-core-role-instruction-set-d2446c0",
+      "kind": "reference",
+      "path": "sections/references/source-01-core-01-core-role-instruction-set-d2446c0.md",
+      "summary": "Preserved source 01_core/01_core_role_instruction_set.md",
+      "read_when": [
+        "about to consult source 01_core/01_core_role_instruction_set.md"
+      ],
+      "requires": [],
+      "words": 357,
+      "sha256": "514fb1fab75ba82904f5b852453cfb4c7c6be1ce232f7bd61c203e5548fe91da"
+    },
+    {
+      "id": "source-02-general-helpers-02-general-helper-instruction-sets-8032d18",
+      "kind": "reference",
+      "path": "sections/references/source-02-general-helpers-02-general-helper-instruction-sets-8032d18.md",
+      "summary": "Preserved source 02_general_helpers/02_general_helper_instruction_sets.md",
+      "read_when": [
+        "about to consult source 02_general_helpers/02_general_helper_instruction_sets.md"
+      ],
+      "requires": [],
+      "words": 497,
+      "sha256": "5ba3a5f375ef34b8dc525959fe554ec186db061696069f40a67067543a25f4e1"
+    },
+    {
+      "id": "source-03-self-heal-3106670",
+      "kind": "procedure",
+      "path": "sections/procedures/source-03-self-heal-3106670.md",
+      "summary": "Preserved source 03_self_heal.md",
+      "read_when": [
+        "about to correct a failure"
+      ],
+      "requires": [],
+      "words": 38,
+      "sha256": "05d4b2e857eae6ad2be5e5a6d37849b5bf146d9668a68f646e7cb7934e6d8025"
+    },
+    {
+      "id": "source-03-sub-roles-03-specific-sub-role-instruction-sets-3aa55bb",
+      "kind": "role",
+      "path": "sections/roles/source-03-sub-roles-03-specific-sub-role-instruction-sets-3aa55bb.md",
+      "summary": "Preserved source 03_sub_roles/03_specific_sub_role_instruction_sets.md",
+      "read_when": [
+        "about to consult source 03_sub_roles/03_specific_sub_role_instruction_sets.md"
+      ],
+      "requires": [],
+      "words": 419,
+      "sha256": "2a74f5166eb7134fa9536b0ef6c097012128e983d6042da53e0d1f01cdb7dc07"
+    },
+    {
+      "id": "source-04-templates-04-development-plan-template-af7df0b",
+      "kind": "template",
+      "path": "sections/templates/source-04-templates-04-development-plan-template-af7df0b.md",
+      "summary": "Preserved source 04_templates/04_development_plan_template.md",
+      "read_when": [
+        "about to draft a reusable output"
+      ],
+      "requires": [],
+      "words": 440,
+      "sha256": "6183ca02dee908621330c399fd4f4b0c4fd31b5ff30e751c470de8946455c8e0"
+    },
+    {
+      "id": "source-04-templates-04-mandatory-self-heal-instruction-set-bb8916e",
+      "kind": "template",
+      "path": "sections/templates/source-04-templates-04-mandatory-self-heal-instruction-set-bb8916e.md",
+      "summary": "Preserved source 04_templates/04_mandatory_self_heal_instruction_set.md",
+      "read_when": [
+        "about to correct a failure"
+      ],
+      "requires": [],
+      "words": 174,
+      "sha256": "f6f112c22d0b713001ac4b8900b1786ca0f3fe7c2fafb186b77f808cd224354d"
+    },
+    {
+      "id": "source-04-templates-04-pseudocode-and-schema-template-f3567e9",
+      "kind": "template",
+      "path": "sections/templates/source-04-templates-04-pseudocode-and-schema-template-f3567e9.md",
+      "summary": "Preserved source 04_templates/04_pseudocode_and_schema_template.md",
+      "read_when": [
+        "about to draft a reusable output"
+      ],
+      "requires": [],
+      "words": 284,
+      "sha256": "a308f8c6b5553fad9e15d23807ccea3feca876ffbac9b84e1041408baf7013b2"
+    },
+    {
+      "id": "source-05-handoffs-05-tpm-development-team-handoff-template-290397f",
+      "kind": "template",
+      "path": "sections/templates/source-05-handoffs-05-tpm-development-team-handoff-template-290397f.md",
+      "summary": "Preserved source 05_handoffs/05_tpm_development_team_handoff_template.md",
+      "read_when": [
+        "about to draft a reusable output"
+      ],
+      "requires": [],
+      "words": 390,
+      "sha256": "bbd33460cb8472a4821386a400d179cffaf2ba38e5690f2c878b35d0a14c52eb"
+    },
+    {
+      "id": "source-06-sources-to-update-06-correction-log-083a35a",
+      "kind": "reference",
+      "path": "sections/references/source-06-sources-to-update-06-correction-log-083a35a.md",
+      "summary": "Preserved source 06_sources_to_update/06_correction_log.md",
+      "read_when": [
+        "about to consult source 06_sources_to_update/06_correction_log.md"
+      ],
+      "requires": [],
+      "words": 51,
+      "sha256": "232729b3687be3d27cf35e2f9d67146798f4c4b132d784ef7368baf3bed06c8d"
+    },
+    {
+      "id": "source-06-sources-to-update-06-decision-risk-question-registry-aeb7251",
+      "kind": "reference",
+      "path": "sections/references/source-06-sources-to-update-06-decision-risk-question-registry-aeb7251.md",
+      "summary": "Preserved source 06_sources_to_update/06_decision_risk_question_registry.md",
+      "read_when": [
+        "about to consult source 06_sources_to_update/06_decision_risk_question_registry.md"
+      ],
+      "requires": [],
+      "words": 125,
+      "sha256": "11b6f59c14b1b01ad021b21de0ed8d17d3dbf892125a917c901a134bbee4f6c6"
+    },
+    {
+      "id": "source-06-sources-to-update-06-preference-registry-4c3b761",
+      "kind": "reference",
+      "path": "sections/references/source-06-sources-to-update-06-preference-registry-4c3b761.md",
+      "summary": "Preserved source 06_sources_to_update/06_preference_registry.md",
+      "read_when": [
+        "about to consult source 06_sources_to_update/06_preference_registry.md"
+      ],
+      "requires": [],
+      "words": 103,
+      "sha256": "648080dbc605209d441e59831118d898b3407c0ff2cd7f94299fa5546a1d71a7"
+    },
+    {
+      "id": "source-07-tables-07-artifact-summary-table-adb9001",
+      "kind": "reference",
+      "path": "sections/references/source-07-tables-07-artifact-summary-table-adb9001.md",
+      "summary": "Preserved source 07_tables/07_artifact_summary_table.md",
+      "read_when": [
+        "about to consult source 07_tables/07_artifact_summary_table.md"
+      ],
+      "requires": [],
+      "words": 135,
+      "sha256": "1f9ab84828deede0394737decb03028131ee7b20a902d40285025f85895ba07b"
+    },
+    {
+      "id": "source-07-tables-07-expected-outputs-table-dd43166",
+      "kind": "reference",
+      "path": "sections/references/source-07-tables-07-expected-outputs-table-dd43166.md",
+      "summary": "Preserved source 07_tables/07_expected_outputs_table.md",
+      "read_when": [
+        "about to consult source 07_tables/07_expected_outputs_table.md"
+      ],
+      "requires": [],
+      "words": 171,
+      "sha256": "81f55cefe7639c1923da04e5a1bb6ee8e69e84b8c8954c973f431f02e5c0dbaf"
+    },
+    {
+      "id": "source-07-tables-07-validation-tables-0b246a5",
+      "kind": "procedure",
+      "path": "sections/procedures/source-07-tables-07-validation-tables-0b246a5.md",
+      "summary": "Preserved source 07_tables/07_validation_tables.md",
+      "read_when": [
+        "about to consult source 07_tables/07_validation_tables.md"
+      ],
+      "requires": [],
+      "words": 222,
+      "sha256": "4e88a7efc90bb69eb18ebe9bbcdfa866606162362c01110744ae140f95ae3e41"
+    },
+    {
+      "id": "source-08-examples-08-example-invocations-b48a12c",
+      "kind": "reference",
+      "path": "sections/references/source-08-examples-08-example-invocations-b48a12c.md",
+      "summary": "Preserved source 08_examples/08_example_invocations.md",
+      "read_when": [
+        "about to consult source 08_examples/08_example_invocations.md"
+      ],
+      "requires": [],
+      "words": 146,
+      "sha256": "06018a60aac91166ab125907ed19484ef46677432d5a1428142028f1f4afc918"
+    },
+    {
+      "id": "source-90-workflow-integration-cdaf867",
+      "kind": "procedure",
+      "path": "sections/procedures/source-90-workflow-integration-cdaf867.md",
+      "summary": "Preserved source 90_workflow_integration.md",
+      "read_when": [
+        "about to participate in a workflow"
+      ],
+      "requires": [],
+      "words": 289,
+      "sha256": "dd35e5d9c7125a16ea2085833200a4f78a751c19b9770a20522a3beea77d9998"
+    },
+    {
+      "id": "source-original-package-readme-0c8012f",
+      "kind": "reference",
+      "path": "sections/references/source-original-package-readme-0c8012f.md",
+      "summary": "Preserved source ORIGINAL_PACKAGE_README.md",
+      "read_when": [
+        "about to consult source ORIGINAL_PACKAGE_README.md"
+      ],
+      "requires": [],
+      "words": 163,
+      "sha256": "8edcf395427c30c721edaedb7774e0be9282fcee751b3b82c1e7106516bd633c"
+    },
+    {
+      "id": "original-skill",
+      "kind": "reference",
+      "path": "sections/references/original-skill.md",
+      "summary": "Previous entrypoint retained for provenance",
+      "read_when": [
+        "about to audit legacy entrypoint"
+      ],
+      "requires": [],
+      "reference_only": true,
+      "words": 55,
+      "sha256": "60b61603428caf9564cae0556088020ace0ab281bae1291a6c666406b6253f6c"
+    }
+  ],
+  "default_sections": [
+    "source-00-readme-961d8bb",
+    "source-00-compiled-instruction-set-8a93b84",
+    "source-01-core-01-core-role-instruction-set-d2446c0"
+  ],
+  "sources": [
+    "00_README.md",
+    "00_compiled_instruction_set.md",
+    "01_core/01_core_role_instruction_set.md",
+    "02_general_helpers/02_general_helper_instruction_sets.md",
+    "03_self_heal.md",
+    "03_sub_roles/03_specific_sub_role_instruction_sets.md",
+    "04_templates/04_development_plan_template.md",
+    "04_templates/04_mandatory_self_heal_instruction_set.md",
+    "04_templates/04_pseudocode_and_schema_template.md",
+    "05_handoffs/05_tpm_development_team_handoff_template.md",
+    "06_sources_to_update/06_correction_log.md",
+    "06_sources_to_update/06_decision_risk_question_registry.md",
+    "06_sources_to_update/06_preference_registry.md",
+    "07_tables/07_artifact_summary_table.md",
+    "07_tables/07_expected_outputs_table.md",
+    "07_tables/07_validation_tables.md",
+    "08_examples/08_example_invocations.md",
+    "90_workflow_integration.md",
+    "99_manifest.json",
+    "MIGRATION_TRACEABILITY.json",
+    "ORIGINAL_PACKAGE_README.md",
+    "README.md",
+    "SKILL.md",
+    "agents/openai.yaml",
+    "manifest.json",
+    "sections/procedures/source-00-compiled-instruction-set-8a93b84.md",
+    "sections/procedures/source-03-self-heal-3106670.md",
+    "sections/procedures/source-07-tables-07-validation-tables-0b246a5.md",
+    "sections/procedures/source-90-workflow-integration-cdaf867.md",
+    "sections/references/original-skill.md",
+    "sections/references/source-00-readme-961d8bb.md",
+    "sections/references/source-01-core-01-core-role-instruction-set-d2446c0.md",
+    "sections/references/source-02-general-helpers-02-general-helper-instruction-sets-8032d18.md",
+    "sections/references/source-06-sources-to-update-06-correction-log-083a35a.md",
+    "sections/references/source-06-sources-to-update-06-decision-risk-question-registry-aeb7251.md",
+    "sections/references/source-06-sources-to-update-06-preference-registry-4c3b761.md",
+    "sections/references/source-07-tables-07-artifact-summary-table-adb9001.md",
+    "sections/references/source-07-tables-07-expected-outputs-table-dd43166.md",
+    "sections/references/source-08-examples-08-example-invocations-b48a12c.md",
+    "sections/references/source-original-package-readme-0c8012f.md",
+    "sections/roles/source-03-sub-roles-03-specific-sub-role-instruction-sets-3aa55bb.md",
+    "sections/templates/source-04-templates-04-development-plan-template-af7df0b.md",
+    "sections/templates/source-04-templates-04-mandatory-self-heal-instruction-set-bb8916e.md",
+    "sections/templates/source-04-templates-04-pseudocode-and-schema-template-f3567e9.md",
+    "sections/templates/source-05-handoffs-05-tpm-development-team-handoff-template-290397f.md"
+  ],
+  "behavioral_evaluation": "NOT_RUN"
+}

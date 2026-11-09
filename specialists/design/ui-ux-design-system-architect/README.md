@@ -5,3 +5,6 @@ Govern the UI/UX design system and curated component catalog with evidence-backe
 [Entrypoint](sources/SKILL.md) · [Compiled guidance](sources/00_compiled_instruction_set.md) · [Workflow participation](sources/90_workflow_integration.md) · [Sources](sources/README.md) · [Archive](ui-ux-design-system-architect_v1.2.zip)
 
 Previous version [v1.1](ui-ux-design-system-architect_v1.1.zip) retained. Scope and optional workflow participation are separate.
+
+
+Lookup-first v1.3 candidate: [manifest](sources/manifest.json), [archive](ui-ux-design-system-architect_v1.3.zip). Original v1.2 archive preserved. Formal approval and behavior testing NOT_VERIFIED/NOT_RUN.

@@ -1,0 +1,51 @@
+{
+  "id": "technical-product-manager",
+  "old_version": "v1",
+  "proposed_version": "v1.1",
+  "source_commit": "f634daa1ad6b86de93806334b1195bda14313646",
+  "files": [
+    {
+      "source": "00_compiled_instruction_set.md",
+      "sha256": "94b133494ed5d281243b1d3b00c88fd95bd0bde90a3f60b62239bb43646338da",
+      "indexed_sections": [
+        "sections/procedures/source-00-compiled-instruction-set-8a93b84.md"
+      ],
+      "reconstructed_sha256": "94b133494ed5d281243b1d3b00c88fd95bd0bde90a3f60b62239bb43646338da"
+    },
+    {
+      "source": "01_domain.md",
+      "sha256": "349c3d1cacc9231beacf0844a78e0c3dd3a966e4eea16205e5fcafc41442d6e8",
+      "indexed_sections": [
+        "sections/procedures/source-01-domain-9c0aca2.md"
+      ],
+      "reconstructed_sha256": "349c3d1cacc9231beacf0844a78e0c3dd3a966e4eea16205e5fcafc41442d6e8"
+    },
+    {
+      "source": "02_context_space.md",
+      "sha256": "b9a749d3fc6a6379a3cc0cdd5881a0fd7b28a61d15735ab4045b03804f53b956",
+      "indexed_sections": [
+        "sections/references/source-02-context-space-da68579.md"
+      ],
+      "reconstructed_sha256": "b9a749d3fc6a6379a3cc0cdd5881a0fd7b28a61d15735ab4045b03804f53b956"
+    },
+    {
+      "source": "03_self_heal.md",
+      "sha256": "e62b4f11dcfc412d7acf775da13abcfa64ad130b03bf139099b3d067fe1e64fb",
+      "indexed_sections": [
+        "sections/procedures/source-03-self-heal-3106670.md"
+      ],
+      "reconstructed_sha256": "e62b4f11dcfc412d7acf775da13abcfa64ad130b03bf139099b3d067fe1e64fb"
+    },
+    {
+      "source": "SKILL.md",
+      "sha256": "d73cd7b16c73a26d60909b30d5e1a3b84d9b91c91263f483ab43476e7ef3ad67",
+      "indexed_sections": [
+        "sections/references/original-skill.md"
+      ],
+      "reconstructed_sha256": "d73cd7b16c73a26d60909b30d5e1a3b84d9b91c91263f483ab43476e7ef3ad67"
+    }
+  ],
+  "semantic_equivalence": "NOT_RUN",
+  "owner_approval": "NOT_VERIFIED",
+  "original_archive_preserved": true
+}

@@ -1,0 +1,51 @@
+{
+  "id": "api-integration-design-specialist",
+  "old_version": "v1",
+  "proposed_version": "v1.1",
+  "source_commit": "f634daa1ad6b86de93806334b1195bda14313646",
+  "files": [
+    {
+      "source": "00_compiled_instruction_set.md",
+      "sha256": "cbd29a173bee49209532aee5937e714baf22163fb667552b933c03fad72b0b1b",
+      "indexed_sections": [
+        "sections/procedures/source-00-compiled-instruction-set-8a93b84.md"
+      ],
+      "reconstructed_sha256": "cbd29a173bee49209532aee5937e714baf22163fb667552b933c03fad72b0b1b"
+    },
+    {
+      "source": "01_domain.md",
+      "sha256": "ea6cafe4ad39977c5a4854e31c52d7c9c0e6a9a861da4bf988a14d7270b2eb94",
+      "indexed_sections": [
+        "sections/procedures/source-01-domain-9c0aca2.md"
+      ],
+      "reconstructed_sha256": "ea6cafe4ad39977c5a4854e31c52d7c9c0e6a9a861da4bf988a14d7270b2eb94"
+    },
+    {
+      "source": "02_context_space.md",
+      "sha256": "74fb06dc96b2f81349ce5d4922ee0764a9d6e659fcb9615de821b923220d8447",
+      "indexed_sections": [
+        "sections/references/source-02-context-space-da68579.md"
+      ],
+      "reconstructed_sha256": "74fb06dc96b2f81349ce5d4922ee0764a9d6e659fcb9615de821b923220d8447"
+    },
+    {
+      "source": "03_self_heal.md",
+      "sha256": "276d0b9f8a554dd673822cb57995b255e95b3a91ef2a031dd4849f7db675aefa",
+      "indexed_sections": [
+        "sections/procedures/source-03-self-heal-3106670.md"
+      ],
+      "reconstructed_sha256": "276d0b9f8a554dd673822cb57995b255e95b3a91ef2a031dd4849f7db675aefa"
+    },
+    {
+      "source": "SKILL.md",
+      "sha256": "78cf823cd5ddeff38677dff5fa7237988ddd1efaccbaa4643bab176ea12f5e24",
+      "indexed_sections": [
+        "sections/references/original-skill.md"
+      ],
+      "reconstructed_sha256": "78cf823cd5ddeff38677dff5fa7237988ddd1efaccbaa4643bab176ea12f5e24"
+    }
+  ],
+  "semantic_equivalence": "NOT_RUN",
+  "owner_approval": "NOT_VERIFIED",
+  "original_archive_preserved": true
+}

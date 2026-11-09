@@ -1,0 +1,51 @@
+{
+  "id": "backlog-story-refinement-specialist",
+  "old_version": "v1",
+  "proposed_version": "v1.1",
+  "source_commit": "f634daa1ad6b86de93806334b1195bda14313646",
+  "files": [
+    {
+      "source": "00_compiled_instruction_set.md",
+      "sha256": "213860340dd3bf13e36d3530da36eb9463dc8f805ac9bb69921cf61acbd4fb56",
+      "indexed_sections": [
+        "sections/procedures/source-00-compiled-instruction-set-8a93b84.md"
+      ],
+      "reconstructed_sha256": "213860340dd3bf13e36d3530da36eb9463dc8f805ac9bb69921cf61acbd4fb56"
+    },
+    {
+      "source": "01_domain.md",
+      "sha256": "64c815cf5cb13098a15b5b469b244215368bab1489e0d88770975381b00bf890",
+      "indexed_sections": [
+        "sections/procedures/source-01-domain-9c0aca2.md"
+      ],
+      "reconstructed_sha256": "64c815cf5cb13098a15b5b469b244215368bab1489e0d88770975381b00bf890"
+    },
+    {
+      "source": "02_context_space.md",
+      "sha256": "1b3bd9b82026ad202978b10cdc261c7dfab420d2acefbd45e06f8882dd57b255",
+      "indexed_sections": [
+        "sections/references/source-02-context-space-da68579.md"
+      ],
+      "reconstructed_sha256": "1b3bd9b82026ad202978b10cdc261c7dfab420d2acefbd45e06f8882dd57b255"
+    },
+    {
+      "source": "03_self_heal.md",
+      "sha256": "e62b4f11dcfc412d7acf775da13abcfa64ad130b03bf139099b3d067fe1e64fb",
+      "indexed_sections": [
+        "sections/procedures/source-03-self-heal-3106670.md"
+      ],
+      "reconstructed_sha256": "e62b4f11dcfc412d7acf775da13abcfa64ad130b03bf139099b3d067fe1e64fb"
+    },
+    {
+      "source": "SKILL.md",
+      "sha256": "a1f9ff52f57358c9b194eb08049ecbb0dc51713a494540a0ab86d474811c247a",
+      "indexed_sections": [
+        "sections/references/original-skill.md"
+      ],
+      "reconstructed_sha256": "a1f9ff52f57358c9b194eb08049ecbb0dc51713a494540a0ab86d474811c247a"
+    }
+  ],
+  "semantic_equivalence": "NOT_RUN",
+  "owner_approval": "NOT_VERIFIED",
+  "original_archive_preserved": true
+}

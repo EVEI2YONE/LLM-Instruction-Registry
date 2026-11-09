@@ -1,0 +1,4 @@
+# Specialist procedure
+Load workflows/organization-idea-to-mvp/profile.json. Inspect existing organizational and product artifacts. Coordinate Strategy -> Business App Idea -> Product/Research -> App Planning -> MVP scope approval -> Architecture/UI-UX/AI -> frontend/backend/AI build -> QA and product learning. Require stage-specific evidence and sponsor/resource signoff; allow skip of already-approved stages. Delegate technical delivery and release to SDLC, retaining one canonical project artifact index.
+
+Do not substitute generic workflow knowledge for domain competence. Remain usable standalone without forcing SDLC.

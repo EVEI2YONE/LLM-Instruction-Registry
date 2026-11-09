@@ -1,0 +1,51 @@
+{
+  "id": "test-automation-specialist",
+  "old_version": "v1",
+  "proposed_version": "v1.1",
+  "source_commit": "f634daa1ad6b86de93806334b1195bda14313646",
+  "files": [
+    {
+      "source": "00_compiled_instruction_set.md",
+      "sha256": "c6950c06b51777d6c31547fca3a2dab2a32a985318bf8a2a848cdd119a7cb139",
+      "indexed_sections": [
+        "sections/procedures/source-00-compiled-instruction-set-8a93b84.md"
+      ],
+      "reconstructed_sha256": "c6950c06b51777d6c31547fca3a2dab2a32a985318bf8a2a848cdd119a7cb139"
+    },
+    {
+      "source": "01_domain.md",
+      "sha256": "9189151abb169b5d625e8f8a4a78c888270d0a317359fea7d86c7c50f67f8be3",
+      "indexed_sections": [
+        "sections/procedures/source-01-domain-9c0aca2.md"
+      ],
+      "reconstructed_sha256": "9189151abb169b5d625e8f8a4a78c888270d0a317359fea7d86c7c50f67f8be3"
+    },
+    {
+      "source": "02_context_space.md",
+      "sha256": "7d1965ad85c573b8df68078c3ba4d35e3d158e4e6d20a54d03019d1fe8ceb809",
+      "indexed_sections": [
+        "sections/references/source-02-context-space-da68579.md"
+      ],
+      "reconstructed_sha256": "7d1965ad85c573b8df68078c3ba4d35e3d158e4e6d20a54d03019d1fe8ceb809"
+    },
+    {
+      "source": "03_self_heal.md",
+      "sha256": "6011305e9bf7c02b32905289e080701c83c25f83f061a7a930a9fe3ed0447061",
+      "indexed_sections": [
+        "sections/procedures/source-03-self-heal-3106670.md"
+      ],
+      "reconstructed_sha256": "6011305e9bf7c02b32905289e080701c83c25f83f061a7a930a9fe3ed0447061"
+    },
+    {
+      "source": "SKILL.md",
+      "sha256": "a127a5153c5ef9bbb2a711bd6d027d631493c3f5f9dd0b2f634eecd3d37a26a4",
+      "indexed_sections": [
+        "sections/references/original-skill.md"
+      ],
+      "reconstructed_sha256": "a127a5153c5ef9bbb2a711bd6d027d631493c3f5f9dd0b2f634eecd3d37a26a4"
+    }
+  ],
+  "semantic_equivalence": "NOT_RUN",
+  "owner_approval": "NOT_VERIFIED",
+  "original_archive_preserved": true
+}

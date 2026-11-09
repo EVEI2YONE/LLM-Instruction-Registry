@@ -1,0 +1,59 @@
+{
+  "id": "operations-reliability-specialist",
+  "old_version": "v1.1",
+  "proposed_version": "v1.2",
+  "source_commit": "f634daa1ad6b86de93806334b1195bda14313646",
+  "files": [
+    {
+      "source": "00_compiled_instruction_set.md",
+      "sha256": "3a0001d543458d0f34166a5da9e42770661c984ee4ebfd653e057f50461a6ddb",
+      "indexed_sections": [
+        "sections/procedures/source-00-compiled-instruction-set-8a93b84.md"
+      ],
+      "reconstructed_sha256": "3a0001d543458d0f34166a5da9e42770661c984ee4ebfd653e057f50461a6ddb"
+    },
+    {
+      "source": "01_domain.md",
+      "sha256": "194666415975125ed8dc5053e2c35f1b66d68b452a61459103beb5f88c048489",
+      "indexed_sections": [
+        "sections/procedures/source-01-domain-9c0aca2.md"
+      ],
+      "reconstructed_sha256": "194666415975125ed8dc5053e2c35f1b66d68b452a61459103beb5f88c048489"
+    },
+    {
+      "source": "02_context_space.md",
+      "sha256": "98ed21ef0e122a5db5b5a666ba123f4005372d5b6d482ad03bfe2efbf326a1e4",
+      "indexed_sections": [
+        "sections/references/source-02-context-space-da68579.md"
+      ],
+      "reconstructed_sha256": "98ed21ef0e122a5db5b5a666ba123f4005372d5b6d482ad03bfe2efbf326a1e4"
+    },
+    {
+      "source": "03_self_heal.md",
+      "sha256": "4aaf0dad3ae50ffed37daf4f39d437aa489e92fb37af31fe4c032380d753fb4a",
+      "indexed_sections": [
+        "sections/procedures/source-03-self-heal-3106670.md"
+      ],
+      "reconstructed_sha256": "4aaf0dad3ae50ffed37daf4f39d437aa489e92fb37af31fe4c032380d753fb4a"
+    },
+    {
+      "source": "04_workflow_integration.md",
+      "sha256": "c4c332fb79d9678d9fa8e9ebe6aab686e4e7858793b62793fa721cffe382469d",
+      "indexed_sections": [
+        "sections/procedures/source-04-workflow-integration-2ddf74d.md"
+      ],
+      "reconstructed_sha256": "c4c332fb79d9678d9fa8e9ebe6aab686e4e7858793b62793fa721cffe382469d"
+    },
+    {
+      "source": "SKILL.md",
+      "sha256": "fd56b63b0d84fbb9bd3bd28eecb8d385cb743213911da2e14414ddefd8576368",
+      "indexed_sections": [
+        "sections/references/original-skill.md"
+      ],
+      "reconstructed_sha256": "fd56b63b0d84fbb9bd3bd28eecb8d385cb743213911da2e14414ddefd8576368"
+    }
+  ],
+  "semantic_equivalence": "NOT_RUN",
+  "owner_approval": "NOT_VERIFIED",
+  "original_archive_preserved": true
+}

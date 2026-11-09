@@ -1,0 +1,51 @@
+{
+  "id": "decision-traceability-auditor",
+  "old_version": "v1",
+  "proposed_version": "v1.1",
+  "source_commit": "f634daa1ad6b86de93806334b1195bda14313646",
+  "files": [
+    {
+      "source": "00_compiled_instruction_set.md",
+      "sha256": "beace8358e34957c9d7018ca3bddab042bdccc0476728a70ba42df6224868d4d",
+      "indexed_sections": [
+        "sections/procedures/source-00-compiled-instruction-set-8a93b84.md"
+      ],
+      "reconstructed_sha256": "beace8358e34957c9d7018ca3bddab042bdccc0476728a70ba42df6224868d4d"
+    },
+    {
+      "source": "01_domain.md",
+      "sha256": "3928c224fc6a6a9c16da62e036970a737414ff50b162051ee98e3186af63c900",
+      "indexed_sections": [
+        "sections/procedures/source-01-domain-9c0aca2.md"
+      ],
+      "reconstructed_sha256": "3928c224fc6a6a9c16da62e036970a737414ff50b162051ee98e3186af63c900"
+    },
+    {
+      "source": "02_context_space.md",
+      "sha256": "aba0a2b3891b5dc3607ef09bd4cf4e67a13fcbbbb60c8a520829f4ee0c271fc2",
+      "indexed_sections": [
+        "sections/references/source-02-context-space-da68579.md"
+      ],
+      "reconstructed_sha256": "aba0a2b3891b5dc3607ef09bd4cf4e67a13fcbbbb60c8a520829f4ee0c271fc2"
+    },
+    {
+      "source": "03_self_heal.md",
+      "sha256": "6011305e9bf7c02b32905289e080701c83c25f83f061a7a930a9fe3ed0447061",
+      "indexed_sections": [
+        "sections/procedures/source-03-self-heal-3106670.md"
+      ],
+      "reconstructed_sha256": "6011305e9bf7c02b32905289e080701c83c25f83f061a7a930a9fe3ed0447061"
+    },
+    {
+      "source": "SKILL.md",
+      "sha256": "ff849ab0256e3da24649fe8de1d69e924347281b445a5221c9872dfde8641e1e",
+      "indexed_sections": [
+        "sections/references/original-skill.md"
+      ],
+      "reconstructed_sha256": "ff849ab0256e3da24649fe8de1d69e924347281b445a5221c9872dfde8641e1e"
+    }
+  ],
+  "semantic_equivalence": "NOT_RUN",
+  "owner_approval": "NOT_VERIFIED",
+  "original_archive_preserved": true
+}

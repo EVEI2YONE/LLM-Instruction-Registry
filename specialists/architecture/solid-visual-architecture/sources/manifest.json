@@ -1,0 +1,98 @@
+{
+  "id": "solid-visual-architecture",
+  "version": "v1.2",
+  "source_contract": "lookup-first-v1",
+  "kind": "specialist",
+  "role": "expert",
+  "entrypoint": {
+    "path": "SKILL.md",
+    "words": 144,
+    "sha256": "f1bccfab131e9dfbd8ce05ca869cba5057c3f84deb3d83635f15926bf0c4b6bb"
+  },
+  "sections": [
+    {
+      "id": "source-00-compiled-instruction-set-8a93b84",
+      "kind": "procedure",
+      "path": "sections/procedures/source-00-compiled-instruction-set-8a93b84.md",
+      "summary": "Preserved source 00_compiled_instruction_set.md",
+      "read_when": [
+        "about to consult source 00_compiled_instruction_set.md"
+      ],
+      "requires": [],
+      "words": 94,
+      "sha256": "8986dbc07b74d60de5bd5983b786ce3f2803bd9706331bdf2d22be7c655fb161"
+    },
+    {
+      "id": "source-01-original-package-reference-8f1a5dc",
+      "kind": "reference",
+      "path": "sections/references/source-01-original-package-reference-8f1a5dc.md",
+      "summary": "Preserved source 01_original_package_reference.md",
+      "read_when": [
+        "about to consult source 01_original_package_reference.md"
+      ],
+      "requires": [],
+      "words": 60,
+      "sha256": "0996c322b91bfdee606e6315afb994ba3f0e987d79d2b9d562a943b0e816fd7f"
+    },
+    {
+      "id": "source-03-self-heal-3106670",
+      "kind": "procedure",
+      "path": "sections/procedures/source-03-self-heal-3106670.md",
+      "summary": "Preserved source 03_self_heal.md",
+      "read_when": [
+        "about to correct a failure"
+      ],
+      "requires": [],
+      "words": 38,
+      "sha256": "05d4b2e857eae6ad2be5e5a6d37849b5bf146d9668a68f646e7cb7934e6d8025"
+    },
+    {
+      "id": "source-90-workflow-integration-cdaf867",
+      "kind": "procedure",
+      "path": "sections/procedures/source-90-workflow-integration-cdaf867.md",
+      "summary": "Preserved source 90_workflow_integration.md",
+      "read_when": [
+        "about to participate in a workflow"
+      ],
+      "requires": [],
+      "words": 282,
+      "sha256": "28c79607d83235da73c31719bf345fde5bd9551a2f1d5b16ab27db51ab864315"
+    },
+    {
+      "id": "original-skill",
+      "kind": "reference",
+      "path": "sections/references/original-skill.md",
+      "summary": "Previous entrypoint retained for provenance",
+      "read_when": [
+        "about to audit legacy entrypoint"
+      ],
+      "requires": [],
+      "reference_only": true,
+      "words": 48,
+      "sha256": "f262a0a2d6e039f5ac825e7303a6b6c2d06b00fff1bdb8ac989eb5d451e44f6b"
+    }
+  ],
+  "default_sections": [
+    "source-00-compiled-instruction-set-8a93b84",
+    "source-01-original-package-reference-8f1a5dc"
+  ],
+  "sources": [
+    "00_compiled_instruction_set.md",
+    "01_original_package_reference.md",
+    "03_self_heal.md",
+    "90_workflow_integration.md",
+    "99_manifest.json",
+    "MIGRATION_TRACEABILITY.json",
+    "README.md",
+    "SKILL.md",
+    "agents/openai.yaml",
+    "legacy_original_v1.zip",
+    "manifest.json",
+    "sections/procedures/source-00-compiled-instruction-set-8a93b84.md",
+    "sections/procedures/source-03-self-heal-3106670.md",
+    "sections/procedures/source-90-workflow-integration-cdaf867.md",
+    "sections/references/original-skill.md",
+    "sections/references/source-01-original-package-reference-8f1a5dc.md"
+  ],
+  "behavioral_evaluation": "NOT_RUN"
+}

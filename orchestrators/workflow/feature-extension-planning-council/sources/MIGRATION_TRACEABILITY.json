@@ -1,0 +1,171 @@
+{
+  "id": "feature-extension-planning-council",
+  "old_version": "v1.1",
+  "proposed_version": "v1.2",
+  "source_commit": "f634daa1ad6b86de93806334b1195bda14313646",
+  "files": [
+    {
+      "source": "00_README.md",
+      "sha256": "4868a83c1dda96316cf982ba5fc542bc6d012dff4d78cc1bdf38ef5d01b03e96",
+      "indexed_sections": [
+        "sections/references/source-00-readme-961d8bb.md"
+      ],
+      "reconstructed_sha256": "4868a83c1dda96316cf982ba5fc542bc6d012dff4d78cc1bdf38ef5d01b03e96"
+    },
+    {
+      "source": "00_compiled_instruction_set.md",
+      "sha256": "c005d10b87e08d8f615eb82b5e0a83a5b7ed7ccc12653715b3399b312a873ced",
+      "indexed_sections": [
+        "sections/procedures/source-00-compiled-instruction-set-8a93b84.md"
+      ],
+      "reconstructed_sha256": "c005d10b87e08d8f615eb82b5e0a83a5b7ed7ccc12653715b3399b312a873ced"
+    },
+    {
+      "source": "01_core/01_core_role_instruction_set.md",
+      "sha256": "514fb1fab75ba82904f5b852453cfb4c7c6be1ce232f7bd61c203e5548fe91da",
+      "indexed_sections": [
+        "sections/references/source-01-core-01-core-role-instruction-set-d2446c0.md"
+      ],
+      "reconstructed_sha256": "514fb1fab75ba82904f5b852453cfb4c7c6be1ce232f7bd61c203e5548fe91da"
+    },
+    {
+      "source": "02_general_helpers/02_general_helper_instruction_sets.md",
+      "sha256": "5ba3a5f375ef34b8dc525959fe554ec186db061696069f40a67067543a25f4e1",
+      "indexed_sections": [
+        "sections/references/source-02-general-helpers-02-general-helper-instruction-sets-8032d18.md"
+      ],
+      "reconstructed_sha256": "5ba3a5f375ef34b8dc525959fe554ec186db061696069f40a67067543a25f4e1"
+    },
+    {
+      "source": "03_self_heal.md",
+      "sha256": "05d4b2e857eae6ad2be5e5a6d37849b5bf146d9668a68f646e7cb7934e6d8025",
+      "indexed_sections": [
+        "sections/procedures/source-03-self-heal-3106670.md"
+      ],
+      "reconstructed_sha256": "05d4b2e857eae6ad2be5e5a6d37849b5bf146d9668a68f646e7cb7934e6d8025"
+    },
+    {
+      "source": "03_sub_roles/03_specific_sub_role_instruction_sets.md",
+      "sha256": "2a74f5166eb7134fa9536b0ef6c097012128e983d6042da53e0d1f01cdb7dc07",
+      "indexed_sections": [
+        "sections/roles/source-03-sub-roles-03-specific-sub-role-instruction-sets-3aa55bb.md"
+      ],
+      "reconstructed_sha256": "2a74f5166eb7134fa9536b0ef6c097012128e983d6042da53e0d1f01cdb7dc07"
+    },
+    {
+      "source": "04_templates/04_development_plan_template.md",
+      "sha256": "6183ca02dee908621330c399fd4f4b0c4fd31b5ff30e751c470de8946455c8e0",
+      "indexed_sections": [
+        "sections/templates/source-04-templates-04-development-plan-template-af7df0b.md"
+      ],
+      "reconstructed_sha256": "6183ca02dee908621330c399fd4f4b0c4fd31b5ff30e751c470de8946455c8e0"
+    },
+    {
+      "source": "04_templates/04_mandatory_self_heal_instruction_set.md",
+      "sha256": "f6f112c22d0b713001ac4b8900b1786ca0f3fe7c2fafb186b77f808cd224354d",
+      "indexed_sections": [
+        "sections/templates/source-04-templates-04-mandatory-self-heal-instruction-set-bb8916e.md"
+      ],
+      "reconstructed_sha256": "f6f112c22d0b713001ac4b8900b1786ca0f3fe7c2fafb186b77f808cd224354d"
+    },
+    {
+      "source": "04_templates/04_pseudocode_and_schema_template.md",
+      "sha256": "a308f8c6b5553fad9e15d23807ccea3feca876ffbac9b84e1041408baf7013b2",
+      "indexed_sections": [
+        "sections/templates/source-04-templates-04-pseudocode-and-schema-template-f3567e9.md"
+      ],
+      "reconstructed_sha256": "a308f8c6b5553fad9e15d23807ccea3feca876ffbac9b84e1041408baf7013b2"
+    },
+    {
+      "source": "05_handoffs/05_tpm_development_team_handoff_template.md",
+      "sha256": "bbd33460cb8472a4821386a400d179cffaf2ba38e5690f2c878b35d0a14c52eb",
+      "indexed_sections": [
+        "sections/templates/source-05-handoffs-05-tpm-development-team-handoff-template-290397f.md"
+      ],
+      "reconstructed_sha256": "bbd33460cb8472a4821386a400d179cffaf2ba38e5690f2c878b35d0a14c52eb"
+    },
+    {
+      "source": "06_sources_to_update/06_correction_log.md",
+      "sha256": "232729b3687be3d27cf35e2f9d67146798f4c4b132d784ef7368baf3bed06c8d",
+      "indexed_sections": [
+        "sections/references/source-06-sources-to-update-06-correction-log-083a35a.md"
+      ],
+      "reconstructed_sha256": "232729b3687be3d27cf35e2f9d67146798f4c4b132d784ef7368baf3bed06c8d"
+    },
+    {
+      "source": "06_sources_to_update/06_decision_risk_question_registry.md",
+      "sha256": "11b6f59c14b1b01ad021b21de0ed8d17d3dbf892125a917c901a134bbee4f6c6",
+      "indexed_sections": [
+        "sections/references/source-06-sources-to-update-06-decision-risk-question-registry-aeb7251.md"
+      ],
+      "reconstructed_sha256": "11b6f59c14b1b01ad021b21de0ed8d17d3dbf892125a917c901a134bbee4f6c6"
+    },
+    {
+      "source": "06_sources_to_update/06_preference_registry.md",
+      "sha256": "648080dbc605209d441e59831118d898b3407c0ff2cd7f94299fa5546a1d71a7",
+      "indexed_sections": [
+        "sections/references/source-06-sources-to-update-06-preference-registry-4c3b761.md"
+      ],
+      "reconstructed_sha256": "648080dbc605209d441e59831118d898b3407c0ff2cd7f94299fa5546a1d71a7"
+    },
+    {
+      "source": "07_tables/07_artifact_summary_table.md",
+      "sha256": "1f9ab84828deede0394737decb03028131ee7b20a902d40285025f85895ba07b",
+      "indexed_sections": [
+        "sections/references/source-07-tables-07-artifact-summary-table-adb9001.md"
+      ],
+      "reconstructed_sha256": "1f9ab84828deede0394737decb03028131ee7b20a902d40285025f85895ba07b"
+    },
+    {
+      "source": "07_tables/07_expected_outputs_table.md",
+      "sha256": "81f55cefe7639c1923da04e5a1bb6ee8e69e84b8c8954c973f431f02e5c0dbaf",
+      "indexed_sections": [
+        "sections/references/source-07-tables-07-expected-outputs-table-dd43166.md"
+      ],
+      "reconstructed_sha256": "81f55cefe7639c1923da04e5a1bb6ee8e69e84b8c8954c973f431f02e5c0dbaf"
+    },
+    {
+      "source": "07_tables/07_validation_tables.md",
+      "sha256": "4e88a7efc90bb69eb18ebe9bbcdfa866606162362c01110744ae140f95ae3e41",
+      "indexed_sections": [
+        "sections/procedures/source-07-tables-07-validation-tables-0b246a5.md"
+      ],
+      "reconstructed_sha256": "4e88a7efc90bb69eb18ebe9bbcdfa866606162362c01110744ae140f95ae3e41"
+    },
+    {
+      "source": "08_examples/08_example_invocations.md",
+      "sha256": "06018a60aac91166ab125907ed19484ef46677432d5a1428142028f1f4afc918",
+      "indexed_sections": [
+        "sections/references/source-08-examples-08-example-invocations-b48a12c.md"
+      ],
+      "reconstructed_sha256": "06018a60aac91166ab125907ed19484ef46677432d5a1428142028f1f4afc918"
+    },
+    {
+      "source": "90_workflow_integration.md",
+      "sha256": "dd35e5d9c7125a16ea2085833200a4f78a751c19b9770a20522a3beea77d9998",
+      "indexed_sections": [
+        "sections/procedures/source-90-workflow-integration-cdaf867.md"
+      ],
+      "reconstructed_sha256": "dd35e5d9c7125a16ea2085833200a4f78a751c19b9770a20522a3beea77d9998"
+    },
+    {
+      "source": "ORIGINAL_PACKAGE_README.md",
+      "sha256": "8edcf395427c30c721edaedb7774e0be9282fcee751b3b82c1e7106516bd633c",
+      "indexed_sections": [
+        "sections/references/source-original-package-readme-0c8012f.md"
+      ],
+      "reconstructed_sha256": "8edcf395427c30c721edaedb7774e0be9282fcee751b3b82c1e7106516bd633c"
+    },
+    {
+      "source": "SKILL.md",
+      "sha256": "60b61603428caf9564cae0556088020ace0ab281bae1291a6c666406b6253f6c",
+      "indexed_sections": [
+        "sections/references/original-skill.md"
+      ],
+      "reconstructed_sha256": "60b61603428caf9564cae0556088020ace0ab281bae1291a6c666406b6253f6c"
+    }
+  ],
+  "semantic_equivalence": "NOT_RUN",
+  "owner_approval": "NOT_VERIFIED",
+  "original_archive_preserved": true
+}

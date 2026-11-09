@@ -1,0 +1,3 @@
+# Knowledge catalog audit
+
+First inspect reference catalog structure and existing concept entries. Classify each as complete, partial, missing, stale, contradictory, duplicate, undiscoverable or not applicable. Identify target relevance, source citations, existing coverage, owner and ideal destination. Update generalizable standards, token/component guidance, README navigation and examples on a catalog branch. Create a real catalog PR before detailed target migration recommendations; if write blocked, report blocker and proposed patch. Mark open PRs provisional. Reject app-specific catalog pollution.

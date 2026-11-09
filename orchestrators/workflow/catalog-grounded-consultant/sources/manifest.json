@@ -1,0 +1,125 @@
+{
+  "id": "catalog-grounded-consultant",
+  "version": "v1.2",
+  "source_contract": "lookup-first-v1",
+  "kind": "workflow-orchestrator",
+  "role": "orchestrator",
+  "entrypoint": {
+    "path": "SKILL.md",
+    "words": 173,
+    "sha256": "6e212868f957feca622fae7d22d0a773d2fe324691abfd15facdb5ba47f87ab2"
+  },
+  "sections": [
+    {
+      "id": "source-00-compiled-instruction-set-8a93b84",
+      "kind": "procedure",
+      "path": "sections/procedures/source-00-compiled-instruction-set-8a93b84.md",
+      "summary": "Preserved source 00_compiled_instruction_set.md",
+      "read_when": [
+        "about to consult source 00_compiled_instruction_set.md"
+      ],
+      "requires": [],
+      "words": 615,
+      "sha256": "635b883bba3052c515cd7e707329d92226d6066cf57506c4a01cdad94e62454b"
+    },
+    {
+      "id": "source-01-intake-evidence-04042ba",
+      "kind": "reference",
+      "path": "sections/references/source-01-intake-evidence-04042ba.md",
+      "summary": "Preserved source 01_intake_evidence.md",
+      "read_when": [
+        "about to consult source 01_intake_evidence.md"
+      ],
+      "requires": [],
+      "words": 127,
+      "sha256": "b07f7bb4027489a5290e7a3970916992426135d3c5a560a42ca59f45d296bf6f"
+    },
+    {
+      "id": "source-02-catalog-gap-and-batched-pr-d063a9c",
+      "kind": "reference",
+      "path": "sections/references/source-02-catalog-gap-and-batched-pr-d063a9c.md",
+      "summary": "Preserved source 02_catalog_gap_and_batched_pr.md",
+      "read_when": [
+        "about to consult source 02_catalog_gap_and_batched_pr.md"
+      ],
+      "requires": [],
+      "words": 195,
+      "sha256": "53356e8383a82928192ced484a0d85eee98f2d5c6fab7d42883f799a699adf46"
+    },
+    {
+      "id": "source-03-reassessment-playbook-8a3ab19",
+      "kind": "reference",
+      "path": "sections/references/source-03-reassessment-playbook-8a3ab19.md",
+      "summary": "Preserved source 03_reassessment_playbook.md",
+      "read_when": [
+        "about to consult source 03_reassessment_playbook.md"
+      ],
+      "requires": [],
+      "words": 141,
+      "sha256": "e1b924af4e77588d648303eb8bac32c3d9aa80f127171137e5c6a74d88373989"
+    },
+    {
+      "id": "source-04-governance-self-heal-1ec9a00",
+      "kind": "procedure",
+      "path": "sections/procedures/source-04-governance-self-heal-1ec9a00.md",
+      "summary": "Preserved source 04_governance_self_heal.md",
+      "read_when": [
+        "about to correct a failure"
+      ],
+      "requires": [],
+      "words": 155,
+      "sha256": "78ea8ed208ff92dc462c91d3b5d44662a27dc6f5918c762dc0dd1a19042b0e08"
+    },
+    {
+      "id": "source-04-workflow-integration-2ddf74d",
+      "kind": "procedure",
+      "path": "sections/procedures/source-04-workflow-integration-2ddf74d.md",
+      "summary": "Preserved source 04_workflow_integration.md",
+      "read_when": [
+        "about to participate in a workflow"
+      ],
+      "requires": [],
+      "words": 167,
+      "sha256": "9e8856a4fd7f3c9502eccda8cb053df7bc8ecc3e25e810e09641047914394398"
+    },
+    {
+      "id": "original-skill",
+      "kind": "reference",
+      "path": "sections/references/original-skill.md",
+      "summary": "Previous entrypoint retained for provenance",
+      "read_when": [
+        "about to audit legacy entrypoint"
+      ],
+      "requires": [],
+      "reference_only": true,
+      "words": 93,
+      "sha256": "3434bc238f252e67781a0db477f99b189a5e4cebd9b5b6703fb69fb6d52d28df"
+    }
+  ],
+  "default_sections": [
+    "source-00-compiled-instruction-set-8a93b84",
+    "source-01-intake-evidence-04042ba"
+  ],
+  "sources": [
+    "00_compiled_instruction_set.md",
+    "01_intake_evidence.md",
+    "02_catalog_gap_and_batched_pr.md",
+    "03_reassessment_playbook.md",
+    "04_governance_self_heal.md",
+    "04_workflow_integration.md",
+    "99_manifest.json",
+    "MIGRATION_TRACEABILITY.json",
+    "README.md",
+    "SKILL.md",
+    "agents/openai.yaml",
+    "manifest.json",
+    "sections/procedures/source-00-compiled-instruction-set-8a93b84.md",
+    "sections/procedures/source-04-governance-self-heal-1ec9a00.md",
+    "sections/procedures/source-04-workflow-integration-2ddf74d.md",
+    "sections/references/original-skill.md",
+    "sections/references/source-01-intake-evidence-04042ba.md",
+    "sections/references/source-02-catalog-gap-and-batched-pr-d063a9c.md",
+    "sections/references/source-03-reassessment-playbook-8a3ab19.md"
+  ],
+  "behavioral_evaluation": "NOT_RUN"
+}

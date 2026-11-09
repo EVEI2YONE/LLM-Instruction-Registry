@@ -1,0 +1,360 @@
+{
+  "id": "ai-knowledge-atlas",
+  "old_version": "v2.2",
+  "proposed_version": "v2.3",
+  "source_commit": "f634daa1ad6b86de93806334b1195bda14313646",
+  "files": [
+    {
+      "source": "00_ORIENTATION_AND_COMPILED_RULES.md",
+      "sha256": "ded7e0ef6fd8ec664a5c11d4be6e78de12a08d8024f28178f21befb47ae73503",
+      "indexed_sections": [
+        "sections/procedures/source-00-orientation-and-compiled-rules-19b77f9-1.md",
+        "sections/procedures/source-00-orientation-and-compiled-rules-19b77f9-2.md",
+        "sections/procedures/source-00-orientation-and-compiled-rules-19b77f9-3.md"
+      ],
+      "reconstructed_sha256": "ded7e0ef6fd8ec664a5c11d4be6e78de12a08d8024f28178f21befb47ae73503"
+    },
+    {
+      "source": "01_CORE_MISSION.md",
+      "sha256": "1bdef6657b5c48373be4d2068d4f93cf9924d1b9393b40d45640bc0877783d66",
+      "indexed_sections": [
+        "sections/references/source-01-core-mission-139f1a0.md"
+      ],
+      "reconstructed_sha256": "1bdef6657b5c48373be4d2068d4f93cf9924d1b9393b40d45640bc0877783d66"
+    },
+    {
+      "source": "02_CORE_AUTHORITY_AND_SCOPE.md",
+      "sha256": "9fc51562ca9d4bc612a7d085de6a4b647750981aae8ced4ee96d4b2b9d96fa7d",
+      "indexed_sections": [
+        "sections/references/source-02-core-authority-and-scope-035b18f.md"
+      ],
+      "reconstructed_sha256": "9fc51562ca9d4bc612a7d085de6a4b647750981aae8ced4ee96d4b2b9d96fa7d"
+    },
+    {
+      "source": "03_CORE_QUALITY_STANDARDS.md",
+      "sha256": "7101cb25a80d536467a534469733f61d9e48e1929e9a57d520195be778b3b90c",
+      "indexed_sections": [
+        "sections/references/source-03-core-quality-standards-56a2a15.md"
+      ],
+      "reconstructed_sha256": "7101cb25a80d536467a534469733f61d9e48e1929e9a57d520195be778b3b90c"
+    },
+    {
+      "source": "03_self_heal.md",
+      "sha256": "05d4b2e857eae6ad2be5e5a6d37849b5bf146d9668a68f646e7cb7934e6d8025",
+      "indexed_sections": [
+        "sections/procedures/source-03-self-heal-3106670.md"
+      ],
+      "reconstructed_sha256": "05d4b2e857eae6ad2be5e5a6d37849b5bf146d9668a68f646e7cb7934e6d8025"
+    },
+    {
+      "source": "04_CORE_AGENT_FEDERATION.md",
+      "sha256": "963ecdf50b471f0427bd768b85903dd818a30a1c7663a80848f66d51ec9ded29",
+      "indexed_sections": [
+        "sections/references/source-04-core-agent-federation-f749f88.md"
+      ],
+      "reconstructed_sha256": "963ecdf50b471f0427bd768b85903dd818a30a1c7663a80848f66d51ec9ded29"
+    },
+    {
+      "source": "05_HELPER_AGENT_INTAKE.md",
+      "sha256": "c3adcfe16dd58b5c77ce2d51a21069c9f6c0c8ab9fc7fff0e9acb4a33a818078",
+      "indexed_sections": [
+        "sections/references/source-05-helper-agent-intake-3780db6.md"
+      ],
+      "reconstructed_sha256": "c3adcfe16dd58b5c77ce2d51a21069c9f6c0c8ab9fc7fff0e9acb4a33a818078"
+    },
+    {
+      "source": "06_HELPER_COVERAGE_AND_GAP_SCORING.md",
+      "sha256": "20f7c0974858826b2fc61d5ae1591a0dd40f65342040644f5138a1eea914bd79",
+      "indexed_sections": [
+        "sections/references/source-06-helper-coverage-and-gap-scoring-1c7832d.md"
+      ],
+      "reconstructed_sha256": "20f7c0974858826b2fc61d5ae1591a0dd40f65342040644f5138a1eea914bd79"
+    },
+    {
+      "source": "07_HELPER_EVIDENCE_AND_CLAIMS.md",
+      "sha256": "9974de169498dacfdcd5eead908fb0e3de49de647574a2f8069a6fd3f223d4b3",
+      "indexed_sections": [
+        "sections/references/source-07-helper-evidence-and-claims-fbeedcd.md"
+      ],
+      "reconstructed_sha256": "9974de169498dacfdcd5eead908fb0e3de49de647574a2f8069a6fd3f223d4b3"
+    },
+    {
+      "source": "08_HELPER_ARCHITECTURE_AND_DEPENDENCIES.md",
+      "sha256": "b1663da8ade567ce4274b9db1004d74c3c9e2ff656421b2fcfd4c7ebef980ef8",
+      "indexed_sections": [
+        "sections/references/source-08-helper-architecture-and-dependencies-a1135e7.md"
+      ],
+      "reconstructed_sha256": "b1663da8ade567ce4274b9db1004d74c3c9e2ff656421b2fcfd4c7ebef980ef8"
+    },
+    {
+      "source": "09_HELPER_EDITING_AND_PR.md",
+      "sha256": "7f44f658771a8bcc5cf2b44473f115c116e99aeac2bf743b362c3e5f38b24124",
+      "indexed_sections": [
+        "sections/references/source-09-helper-editing-and-pr-5feda9d.md"
+      ],
+      "reconstructed_sha256": "7f44f658771a8bcc5cf2b44473f115c116e99aeac2bf743b362c3e5f38b24124"
+    },
+    {
+      "source": "10_HELPER_VALIDATION_AND_SELF_HEAL.md",
+      "sha256": "aeba52575a44d9e149d47727584c1fff96533fe6f3f9626c424ead66606364a8",
+      "indexed_sections": [
+        "sections/procedures/source-10-helper-validation-and-self-heal-91c0a1f.md"
+      ],
+      "reconstructed_sha256": "aeba52575a44d9e149d47727584c1fff96533fe6f3f9626c424ead66606364a8"
+    },
+    {
+      "source": "11_HELPER_RETRIEVAL_AND_CAPABILITIES.md",
+      "sha256": "bc0b14c3af71333e1219c0a1eb7c71b0d326e6d93e1716dec53a152678aca3fe",
+      "indexed_sections": [
+        "sections/references/source-11-helper-retrieval-and-capabilities-1615d7c.md"
+      ],
+      "reconstructed_sha256": "bc0b14c3af71333e1219c0a1eb7c71b0d326e6d93e1716dec53a152678aca3fe"
+    },
+    {
+      "source": "12_HELPER_IMPLEMENTATION_AND_PROGRESS.md",
+      "sha256": "a1618334eddd07f78170f30f284aa681d8a2be999650ac044037b649fc4a2402",
+      "indexed_sections": [
+        "sections/references/source-12-helper-implementation-and-progress-80c5ebd.md"
+      ],
+      "reconstructed_sha256": "a1618334eddd07f78170f30f284aa681d8a2be999650ac044037b649fc4a2402"
+    },
+    {
+      "source": "13_ROLES_INTAKE_AND_RESEARCH.md",
+      "sha256": "3cf8849f35e1868e4e11524208713754819d7549a0cf1c75199e93fc93a76ed4",
+      "indexed_sections": [
+        "sections/roles/source-13-roles-intake-and-research-cb66b28.md"
+      ],
+      "reconstructed_sha256": "3cf8849f35e1868e4e11524208713754819d7549a0cf1c75199e93fc93a76ed4"
+    },
+    {
+      "source": "14_ROLES_ARCHITECTURE_AND_IMPLEMENTATION.md",
+      "sha256": "6e1429a1c45259f50138822f9b7287410b7d84082faa253ad2cb9ad1af6398a6",
+      "indexed_sections": [
+        "sections/roles/source-14-roles-architecture-and-implementation-bd93543.md"
+      ],
+      "reconstructed_sha256": "6e1429a1c45259f50138822f9b7287410b7d84082faa253ad2cb9ad1af6398a6"
+    },
+    {
+      "source": "15_ROLES_REVIEW_AND_SELF_HEAL.md",
+      "sha256": "0e8b4149583ea186ec01507eca8cc8891c157e787f7f4dc403cd4d67b1ce5972",
+      "indexed_sections": [
+        "sections/roles/source-15-roles-review-and-self-heal-3337f58.md"
+      ],
+      "reconstructed_sha256": "0e8b4149583ea186ec01507eca8cc8891c157e787f7f4dc403cd4d67b1ce5972"
+    },
+    {
+      "source": "16_ROLES_RETRIEVAL_AND_EVIDENCE.md",
+      "sha256": "e4c75b02027d43cb5bab6b7ea4512729450d22b8bc32f299d319d852bf8d8f4c",
+      "indexed_sections": [
+        "sections/roles/source-16-roles-retrieval-and-evidence-8b8c63b.md"
+      ],
+      "reconstructed_sha256": "e4c75b02027d43cb5bab6b7ea4512729450d22b8bc32f299d319d852bf8d8f4c"
+    },
+    {
+      "source": "17_ROLES_TAXONOMY_AND_EVALUATION.md",
+      "sha256": "76bcafeb0ae41c9fdaf72ef038d22ae1ce12844226bfd5abcfe89bcb3a7d7f54",
+      "indexed_sections": [
+        "sections/roles/source-17-roles-taxonomy-and-evaluation-a9ff7b3.md"
+      ],
+      "reconstructed_sha256": "76bcafeb0ae41c9fdaf72ef038d22ae1ce12844226bfd5abcfe89bcb3a7d7f54"
+    },
+    {
+      "source": "18_ROLES_RELEASE_AND_FEDERATION.md",
+      "sha256": "b1c9b97446f2ee33b17bd000cc768534c84473eb5d0ee314ac0bd29d21a180ce",
+      "indexed_sections": [
+        "sections/roles/source-18-roles-release-and-federation-dcb143e.md"
+      ],
+      "reconstructed_sha256": "b1c9b97446f2ee33b17bd000cc768534c84473eb5d0ee314ac0bd29d21a180ce"
+    },
+    {
+      "source": "19_ROLES_MULTIMODAL_SPECIALISTS.md",
+      "sha256": "aeadbfcca34417463305fc8119b603c4a812e162325d0df9cd58bc99ecaf9da6",
+      "indexed_sections": [
+        "sections/roles/source-19-roles-multimodal-specialists-955c1c0.md"
+      ],
+      "reconstructed_sha256": "aeadbfcca34417463305fc8119b603c4a812e162325d0df9cd58bc99ecaf9da6"
+    },
+    {
+      "source": "20_CONTRACTS_REQUEST_AND_RESPONSE.md",
+      "sha256": "d6624746954b0071db91bbd444bb64bb8f4825c63ca1441872946006cabcdc47",
+      "indexed_sections": [
+        "sections/contracts/source-20-contracts-request-and-response-c82ac69-1.md",
+        "sections/contracts/source-20-contracts-request-and-response-c82ac69-2.md"
+      ],
+      "reconstructed_sha256": "d6624746954b0071db91bbd444bb64bb8f4825c63ca1441872946006cabcdc47"
+    },
+    {
+      "source": "21_CONTRACTS_GAPS_EVIDENCE_AND_BATCHES.md",
+      "sha256": "86c65d76e25182aac1f6a499fe7b993490b44cf3ab07641443cd13d14e5917d9",
+      "indexed_sections": [
+        "sections/contracts/source-21-contracts-gaps-evidence-and-batches-c02e2c6.md"
+      ],
+      "reconstructed_sha256": "86c65d76e25182aac1f6a499fe7b993490b44cf3ab07641443cd13d14e5917d9"
+    },
+    {
+      "source": "22_TEMPLATES_GAP_AND_RESEARCH.md",
+      "sha256": "4a5d5473130c1d7a3c8daa6e51adbf0da76872ed95bb1f269bbef6ee3f5230e9",
+      "indexed_sections": [
+        "sections/templates/source-22-templates-gap-and-research-bebe446.md"
+      ],
+      "reconstructed_sha256": "4a5d5473130c1d7a3c8daa6e51adbf0da76872ed95bb1f269bbef6ee3f5230e9"
+    },
+    {
+      "source": "23_TEMPLATES_DOCUMENTATION.md",
+      "sha256": "835087206b963008b71c668524948b0abb8aa41ec7345c49561e67f0faa49f97",
+      "indexed_sections": [
+        "sections/templates/source-23-templates-documentation-67104ec.md"
+      ],
+      "reconstructed_sha256": "835087206b963008b71c668524948b0abb8aa41ec7345c49561e67f0faa49f97"
+    },
+    {
+      "source": "24_TEMPLATES_IMPLEMENTATION_AND_EVALUATION.md",
+      "sha256": "805b072e9ae86e440f33447cd23e97bf66320e260d7b1215f25bb5ad71a1f872",
+      "indexed_sections": [
+        "sections/templates/source-24-templates-implementation-and-evaluation-1936d29.md"
+      ],
+      "reconstructed_sha256": "805b072e9ae86e440f33447cd23e97bf66320e260d7b1215f25bb5ad71a1f872"
+    },
+    {
+      "source": "25_TEMPLATES_EVIDENCE_AND_DEPENDENCIES.md",
+      "sha256": "55472df065552412f99a423c8feaf95bbce30249535f9ace0f3e59d19984a1e9",
+      "indexed_sections": [
+        "sections/templates/source-25-templates-evidence-and-dependencies-4ee8fae.md"
+      ],
+      "reconstructed_sha256": "55472df065552412f99a423c8feaf95bbce30249535f9ace0f3e59d19984a1e9"
+    },
+    {
+      "source": "26_TEMPLATES_REPORTING_AND_HANDOFF.md",
+      "sha256": "f7ce037306401e0a983be8a966c9cee06c72b3bb0416ea68c1cee27d76b62ae5",
+      "indexed_sections": [
+        "sections/templates/source-26-templates-reporting-and-handoff-d01ce58.md"
+      ],
+      "reconstructed_sha256": "f7ce037306401e0a983be8a966c9cee06c72b3bb0416ea68c1cee27d76b62ae5"
+    },
+    {
+      "source": "27_WORKFLOW_INTAKE_AND_RETRIEVAL.md",
+      "sha256": "ef272d631672f2a6a01bb92e223209ea68ca62ae81d2e66f2ead7c1eec09141c",
+      "indexed_sections": [
+        "sections/procedures/source-27-workflow-intake-and-retrieval-078fddd.md"
+      ],
+      "reconstructed_sha256": "ef272d631672f2a6a01bb92e223209ea68ca62ae81d2e66f2ead7c1eec09141c"
+    },
+    {
+      "source": "28_WORKFLOW_RESEARCH_AND_BATCHING.md",
+      "sha256": "fb33603488d6fc0fcbfee35c2b1922a5edc56168c99eeaea6c52fce3efe47500",
+      "indexed_sections": [
+        "sections/procedures/source-28-workflow-research-and-batching-d424b63.md"
+      ],
+      "reconstructed_sha256": "fb33603488d6fc0fcbfee35c2b1922a5edc56168c99eeaea6c52fce3efe47500"
+    },
+    {
+      "source": "29_WORKFLOW_IMPLEMENTATION_AND_PR.md",
+      "sha256": "4d71ff54f44f0bd921c8fead5911588319a142bd968e6a52e22ec581cf261337",
+      "indexed_sections": [
+        "sections/procedures/source-29-workflow-implementation-and-pr-1aa66c8.md"
+      ],
+      "reconstructed_sha256": "4d71ff54f44f0bd921c8fead5911588319a142bd968e6a52e22ec581cf261337"
+    },
+    {
+      "source": "30_WORKFLOW_FEDERATION_AND_HANDOFF.md",
+      "sha256": "002fce36e2e2a6dd11bffa31986f6a5b3042d063da52934ab60e1e945d98bb29",
+      "indexed_sections": [
+        "sections/procedures/source-30-workflow-federation-and-handoff-d565ba9.md"
+      ],
+      "reconstructed_sha256": "002fce36e2e2a6dd11bffa31986f6a5b3042d063da52934ab60e1e945d98bb29"
+    },
+    {
+      "source": "31_WORKFLOW_CORRECTION_AND_TAXONOMY.md",
+      "sha256": "c394fecf39cedc4dce9fa97fe32dd001694022dad8ee12ae62abfb29122e662b",
+      "indexed_sections": [
+        "sections/procedures/source-31-workflow-correction-and-taxonomy-1631a1f.md"
+      ],
+      "reconstructed_sha256": "c394fecf39cedc4dce9fa97fe32dd001694022dad8ee12ae62abfb29122e662b"
+    },
+    {
+      "source": "32_STATE_REQUESTS_GAPS_AND_BATCHES.md",
+      "sha256": "2a8cc30b4cf6821d6d00301c88a5570b9955478e0af641c84a3286f330adf155",
+      "indexed_sections": [
+        "sections/references/source-32-state-requests-gaps-and-batches-92ca17c.md"
+      ],
+      "reconstructed_sha256": "2a8cc30b4cf6821d6d00301c88a5570b9955478e0af641c84a3286f330adf155"
+    },
+    {
+      "source": "33_STATE_EVIDENCE_DECISIONS_AND_CORRECTIONS.md",
+      "sha256": "2d267284756e5bfc23fd5aa6dc608b604bf452cac4352237ec6c92f46e723650",
+      "indexed_sections": [
+        "sections/references/source-33-state-evidence-decisions-and-corrections-086807e.md"
+      ],
+      "reconstructed_sha256": "2d267284756e5bfc23fd5aa6dc608b604bf452cac4352237ec6c92f46e723650"
+    },
+    {
+      "source": "34_VALIDATION_QUALITY_GATES.md",
+      "sha256": "488e23c4f06effdb1f27fd106e69a8502f83547d58459dde2bbbc4da49c82a74",
+      "indexed_sections": [
+        "sections/procedures/source-34-validation-quality-gates-f22b4fa.md"
+      ],
+      "reconstructed_sha256": "488e23c4f06effdb1f27fd106e69a8502f83547d58459dde2bbbc4da49c82a74"
+    },
+    {
+      "source": "35_VALIDATION_REGRESSIONS_AND_SELF_HEAL.md",
+      "sha256": "e4e919bd1b903e91df3dfaaed04c0cccb3c649449c2cb36d32eae5c8f5846986",
+      "indexed_sections": [
+        "sections/procedures/source-35-validation-regressions-and-self-heal-314825d.md"
+      ],
+      "reconstructed_sha256": "e4e919bd1b903e91df3dfaaed04c0cccb3c649449c2cb36d32eae5c8f5846986"
+    },
+    {
+      "source": "36_DOMAIN_TASKS_ASSETS_AND_VISUAL_PERCEPTION.md",
+      "sha256": "0054f68b86985282704f0398b9f839d4aae520bcca42dbe8f9da883c97e1b6a2",
+      "indexed_sections": [
+        "sections/procedures/source-36-domain-tasks-assets-and-visual-perception-a0bbe68-1.md",
+        "sections/procedures/source-36-domain-tasks-assets-and-visual-perception-a0bbe68-2.md"
+      ],
+      "reconstructed_sha256": "0054f68b86985282704f0398b9f839d4aae520bcca42dbe8f9da883c97e1b6a2"
+    },
+    {
+      "source": "37_DOMAIN_GENERATION_AGENTS_AND_VALIDATION.md",
+      "sha256": "0e2720d7959881747ee7ed17d6be01efacabb7add4f724727fe075ee2a432380",
+      "indexed_sections": [
+        "sections/procedures/source-37-domain-generation-agents-and-validation-675c0d4.md"
+      ],
+      "reconstructed_sha256": "0e2720d7959881747ee7ed17d6be01efacabb7add4f724727fe075ee2a432380"
+    },
+    {
+      "source": "38_DOMAIN_CONTEXT_AND_KNOWLEDGE_ORGANIZATION.md",
+      "sha256": "3a200ba5b9068de855ec0d74e61dee1e65ffa49784d930131f49c43c567c4034",
+      "indexed_sections": [
+        "sections/procedures/source-38-domain-context-and-knowledge-organization-acc7fc8.md"
+      ],
+      "reconstructed_sha256": "3a200ba5b9068de855ec0d74e61dee1e65ffa49784d930131f49c43c567c4034"
+    },
+    {
+      "source": "39_EXAMPLES_AND_LOCAL_QUALITY_TOOLS.md",
+      "sha256": "3413e69bb9da5c7d87b8f39139697a64aca9049163d983d97fc77b367d134a35",
+      "indexed_sections": [
+        "sections/references/source-39-examples-and-local-quality-tools-9660f33-1.md",
+        "sections/references/source-39-examples-and-local-quality-tools-9660f33-2.md"
+      ],
+      "reconstructed_sha256": "3413e69bb9da5c7d87b8f39139697a64aca9049163d983d97fc77b367d134a35"
+    },
+    {
+      "source": "90_workflow_integration.md",
+      "sha256": "0bbac10aa06ad87f582836e55b3ba23ccfb0d6f7d14bbc627a016f35c775c479",
+      "indexed_sections": [
+        "sections/procedures/source-90-workflow-integration-cdaf867.md"
+      ],
+      "reconstructed_sha256": "0bbac10aa06ad87f582836e55b3ba23ccfb0d6f7d14bbc627a016f35c775c479"
+    },
+    {
+      "source": "SKILL.md",
+      "sha256": "8a7dcb7feafaaca47d66bb8f3401ca51803c3d3ae102c44daa8cf4e297356e28",
+      "indexed_sections": [
+        "sections/references/original-skill.md"
+      ],
+      "reconstructed_sha256": "8a7dcb7feafaaca47d66bb8f3401ca51803c3d3ae102c44daa8cf4e297356e28"
+    }
+  ],
+  "semantic_equivalence": "NOT_RUN",
+  "owner_approval": "NOT_VERIFIED",
+  "original_archive_preserved": true
+}

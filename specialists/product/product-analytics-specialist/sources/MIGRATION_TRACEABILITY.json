@@ -1,0 +1,51 @@
+{
+  "id": "product-analytics-specialist",
+  "old_version": "v1",
+  "proposed_version": "v1.1",
+  "source_commit": "f634daa1ad6b86de93806334b1195bda14313646",
+  "files": [
+    {
+      "source": "00_compiled_instruction_set.md",
+      "sha256": "7341be66890864b059405d023adeb827486e061872ed1b0b16c06dd86074cb24",
+      "indexed_sections": [
+        "sections/procedures/source-00-compiled-instruction-set-8a93b84.md"
+      ],
+      "reconstructed_sha256": "7341be66890864b059405d023adeb827486e061872ed1b0b16c06dd86074cb24"
+    },
+    {
+      "source": "01_domain.md",
+      "sha256": "aa0c6a65923787e7ea6f01fb2a56c7b111b76d564b4abaa03b71366ecb8a891e",
+      "indexed_sections": [
+        "sections/procedures/source-01-domain-9c0aca2.md"
+      ],
+      "reconstructed_sha256": "aa0c6a65923787e7ea6f01fb2a56c7b111b76d564b4abaa03b71366ecb8a891e"
+    },
+    {
+      "source": "02_context_space.md",
+      "sha256": "7a5475f190b6c3bd2634b17049c46a54bef97e7f3ef87493374f3e6000c733c5",
+      "indexed_sections": [
+        "sections/references/source-02-context-space-da68579.md"
+      ],
+      "reconstructed_sha256": "7a5475f190b6c3bd2634b17049c46a54bef97e7f3ef87493374f3e6000c733c5"
+    },
+    {
+      "source": "03_self_heal.md",
+      "sha256": "6011305e9bf7c02b32905289e080701c83c25f83f061a7a930a9fe3ed0447061",
+      "indexed_sections": [
+        "sections/procedures/source-03-self-heal-3106670.md"
+      ],
+      "reconstructed_sha256": "6011305e9bf7c02b32905289e080701c83c25f83f061a7a930a9fe3ed0447061"
+    },
+    {
+      "source": "SKILL.md",
+      "sha256": "1685960770b0a64ebbe9451bebf7f194e6393f633e2280a88a1d7c32ce0ae8c4",
+      "indexed_sections": [
+        "sections/references/original-skill.md"
+      ],
+      "reconstructed_sha256": "1685960770b0a64ebbe9451bebf7f194e6393f633e2280a88a1d7c32ce0ae8c4"
+    }
+  ],
+  "semantic_equivalence": "NOT_RUN",
+  "owner_approval": "NOT_VERIFIED",
+  "original_archive_preserved": true
+}

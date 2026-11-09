@@ -1,8 +1,441 @@
 {
   "phase": "3B",
   "registered": 49,
-  "migrated_now": 0,
+  "migrated_now": 48,
   "behavior": "NOT_RUN_BY_USER_REQUEST",
   "approval": "NOT_VERIFIED",
-  "packages": []
+  "packages": [
+    {
+      "id": "accessibility-usability-reviewer",
+      "old": "v1",
+      "new": "v1.1",
+      "sections": 5,
+      "archive_files": 15,
+      "source_coverage": "PASS",
+      "behavior": "NOT_RUN"
+    },
+    {
+      "id": "ai-knowledge-atlas",
+      "old": "v2.2",
+      "new": "v2.3",
+      "sections": 48,
+      "archive_files": 96,
+      "source_coverage": "PASS",
+      "behavior": "NOT_RUN"
+    },
+    {
+      "id": "ai-ml-engineering-specialist",
+      "old": "v1.1",
+      "new": "v1.2",
+      "sections": 6,
+      "archive_files": 17,
+      "source_coverage": "PASS",
+      "behavior": "NOT_RUN"
+    },
+    {
+      "id": "api-integration-design-specialist",
+      "old": "v1",
+      "new": "v1.1",
+      "sections": 5,
+      "archive_files": 15,
+      "source_coverage": "PASS",
+      "behavior": "NOT_RUN"
+    },
+    {
+      "id": "app-planning",
+      "old": "v1.1",
+      "new": "v1.2",
+      "sections": 24,
+      "archive_files": 55,
+      "source_coverage": "PASS",
+      "behavior": "NOT_RUN"
+    },
+    {
+      "id": "architecture-delivery-specialist",
+      "old": "v1.1",
+      "new": "v1.2",
+      "sections": 6,
+      "archive_files": 17,
+      "source_coverage": "PASS",
+      "behavior": "NOT_RUN"
+    },
+    {
+      "id": "backend-architecture-consultant",
+      "old": "v1.1",
+      "new": "v1.2",
+      "sections": 8,
+      "archive_files": 21,
+      "source_coverage": "PASS",
+      "behavior": "NOT_RUN"
+    },
+    {
+      "id": "backend-engineering-specialist",
+      "old": "v1.1",
+      "new": "v1.2",
+      "sections": 6,
+      "archive_files": 17,
+      "source_coverage": "PASS",
+      "behavior": "NOT_RUN"
+    },
+    {
+      "id": "backlog-story-refinement-specialist",
+      "old": "v1",
+      "new": "v1.1",
+      "sections": 5,
+      "archive_files": 15,
+      "source_coverage": "PASS",
+      "behavior": "NOT_RUN"
+    },
+    {
+      "id": "business-app-idea",
+      "old": "v1.1",
+      "new": "v1.2",
+      "sections": 5,
+      "archive_files": 16,
+      "source_coverage": "PASS",
+      "behavior": "NOT_RUN"
+    },
+    {
+      "id": "business-feasibility-analyst",
+      "old": "v1",
+      "new": "v1.1",
+      "sections": 5,
+      "archive_files": 15,
+      "source_coverage": "PASS",
+      "behavior": "NOT_RUN"
+    },
+    {
+      "id": "catalog-grounded-consultant",
+      "old": "v1.1",
+      "new": "v1.2",
+      "sections": 7,
+      "archive_files": 19,
+      "source_coverage": "PASS",
+      "behavior": "NOT_RUN"
+    },
+    {
+      "id": "coding-partner-mentor-teacher",
+      "old": "v1.1",
+      "new": "v1.2",
+      "sections": 11,
+      "archive_files": 27,
+      "source_coverage": "PASS",
+      "behavior": "NOT_RUN"
+    },
+    {
+      "id": "data-architecture-specialist",
+      "old": "v1",
+      "new": "v1.1",
+      "sections": 5,
+      "archive_files": 15,
+      "source_coverage": "PASS",
+      "behavior": "NOT_RUN"
+    },
+    {
+      "id": "database-migration-specialist",
+      "old": "v1",
+      "new": "v1.1",
+      "sections": 5,
+      "archive_files": 15,
+      "source_coverage": "PASS",
+      "behavior": "NOT_RUN"
+    },
+    {
+      "id": "decision-traceability-auditor",
+      "old": "v1",
+      "new": "v1.1",
+      "sections": 5,
+      "archive_files": 15,
+      "source_coverage": "PASS",
+      "behavior": "NOT_RUN"
+    },
+    {
+      "id": "devsecops-release-specialist",
+      "old": "v1.1",
+      "new": "v1.2",
+      "sections": 6,
+      "archive_files": 17,
+      "source_coverage": "PASS",
+      "behavior": "NOT_RUN"
+    },
+    {
+      "id": "engineering-execution-specialist",
+      "old": "v1.1",
+      "new": "v1.2",
+      "sections": 6,
+      "archive_files": 17,
+      "source_coverage": "PASS",
+      "behavior": "NOT_RUN"
+    },
+    {
+      "id": "engineering-review-coordinator",
+      "old": "v1",
+      "new": "v1.1",
+      "sections": 5,
+      "archive_files": 15,
+      "source_coverage": "PASS",
+      "behavior": "NOT_RUN"
+    },
+    {
+      "id": "feature-extension-planning-council",
+      "old": "v1.1",
+      "new": "v1.2",
+      "sections": 20,
+      "archive_files": 45,
+      "source_coverage": "PASS",
+      "behavior": "NOT_RUN"
+    },
+    {
+      "id": "frontend-engineering-specialist",
+      "old": "v1.1",
+      "new": "v1.2",
+      "sections": 6,
+      "archive_files": 17,
+      "source_coverage": "PASS",
+      "behavior": "NOT_RUN"
+    },
+    {
+      "id": "general-purpose-chatgpt-conversations",
+      "old": "v2.1",
+      "new": "v2.2",
+      "sections": 19,
+      "archive_files": 42,
+      "source_coverage": "PASS",
+      "behavior": "NOT_RUN"
+    },
+    {
+      "id": "idea-to-mvp-orchestrator",
+      "old": "v1.1",
+      "new": "v1.2",
+      "sections": 6,
+      "archive_files": 17,
+      "source_coverage": "PASS",
+      "behavior": "NOT_RUN"
+    },
+    {
+      "id": "incident-root-cause-analyst",
+      "old": "v1",
+      "new": "v1.1",
+      "sections": 5,
+      "archive_files": 15,
+      "source_coverage": "PASS",
+      "behavior": "NOT_RUN"
+    },
+    {
+      "id": "integration-engineering-specialist",
+      "old": "v1",
+      "new": "v1.1",
+      "sections": 5,
+      "archive_files": 15,
+      "source_coverage": "PASS",
+      "behavior": "NOT_RUN"
+    },
+    {
+      "id": "knowledge-context-steward",
+      "old": "v1",
+      "new": "v1.1",
+      "sections": 5,
+      "archive_files": 15,
+      "source_coverage": "PASS",
+      "behavior": "NOT_RUN"
+    },
+    {
+      "id": "market-competitive-research-specialist",
+      "old": "v1",
+      "new": "v1.1",
+      "sections": 5,
+      "archive_files": 15,
+      "source_coverage": "PASS",
+      "behavior": "NOT_RUN"
+    },
+    {
+      "id": "operations-reliability-specialist",
+      "old": "v1.1",
+      "new": "v1.2",
+      "sections": 6,
+      "archive_files": 17,
+      "source_coverage": "PASS",
+      "behavior": "NOT_RUN"
+    },
+    {
+      "id": "organizational-strategy-specialist",
+      "old": "v1.1",
+      "new": "v1.2",
+      "sections": 6,
+      "archive_files": 17,
+      "source_coverage": "PASS",
+      "behavior": "NOT_RUN"
+    },
+    {
+      "id": "pragmatic-pr-reviewer",
+      "old": "v1",
+      "new": "v1.1",
+      "sections": 5,
+      "archive_files": 15,
+      "source_coverage": "PASS",
+      "behavior": "NOT_RUN"
+    },
+    {
+      "id": "product-analytics-specialist",
+      "old": "v1",
+      "new": "v1.1",
+      "sections": 5,
+      "archive_files": 15,
+      "source_coverage": "PASS",
+      "behavior": "NOT_RUN"
+    },
+    {
+      "id": "product-delivery-specialist",
+      "old": "v1.1",
+      "new": "v1.2",
+      "sections": 6,
+      "archive_files": 17,
+      "source_coverage": "PASS",
+      "behavior": "NOT_RUN"
+    },
+    {
+      "id": "product-lifecycle-orchestrator",
+      "old": "v1",
+      "new": "v1.1",
+      "sections": 5,
+      "archive_files": 15,
+      "source_coverage": "PASS",
+      "behavior": "NOT_RUN"
+    },
+    {
+      "id": "psychology-advice-research",
+      "old": "v1.1",
+      "new": "v1.2",
+      "sections": 18,
+      "archive_files": 40,
+      "source_coverage": "PASS",
+      "behavior": "NOT_RUN"
+    },
+    {
+      "id": "qa-verification-specialist",
+      "old": "v1.1",
+      "new": "v1.2",
+      "sections": 6,
+      "archive_files": 17,
+      "source_coverage": "PASS",
+      "behavior": "NOT_RUN"
+    },
+    {
+      "id": "release-governance-coordinator",
+      "old": "v1",
+      "new": "v1.1",
+      "sections": 5,
+      "archive_files": 15,
+      "source_coverage": "PASS",
+      "behavior": "NOT_RUN"
+    },
+    {
+      "id": "security-architecture-specialist",
+      "old": "v1",
+      "new": "v1.1",
+      "sections": 5,
+      "archive_files": 15,
+      "source_coverage": "PASS",
+      "behavior": "NOT_RUN"
+    },
+    {
+      "id": "security-compliance-reviewer",
+      "old": "v1",
+      "new": "v1.1",
+      "sections": 5,
+      "archive_files": 15,
+      "source_coverage": "PASS",
+      "behavior": "NOT_RUN"
+    },
+    {
+      "id": "software-delivery-lifecycle",
+      "old": "v1.1",
+      "new": "v1.2",
+      "sections": 6,
+      "archive_files": 17,
+      "source_coverage": "PASS",
+      "behavior": "NOT_RUN"
+    },
+    {
+      "id": "solid-visual-architecture",
+      "old": "v1.1",
+      "new": "v1.2",
+      "sections": 5,
+      "archive_files": 16,
+      "source_coverage": "PASS",
+      "behavior": "NOT_RUN"
+    },
+    {
+      "id": "solution-cloud-resource-architect",
+      "old": "v1",
+      "new": "v1.1",
+      "sections": 5,
+      "archive_files": 15,
+      "source_coverage": "PASS",
+      "behavior": "NOT_RUN"
+    },
+    {
+      "id": "specialist-consultation-coordinator",
+      "old": "v1",
+      "new": "v1.1",
+      "sections": 5,
+      "archive_files": 15,
+      "source_coverage": "PASS",
+      "behavior": "NOT_RUN"
+    },
+    {
+      "id": "technical-product-manager",
+      "old": "v1",
+      "new": "v1.1",
+      "sections": 5,
+      "archive_files": 15,
+      "source_coverage": "PASS",
+      "behavior": "NOT_RUN"
+    },
+    {
+      "id": "technical-research-project-instructions",
+      "old": "v2.1",
+      "new": "v2.2",
+      "sections": 30,
+      "archive_files": 66,
+      "source_coverage": "PASS",
+      "behavior": "NOT_RUN"
+    },
+    {
+      "id": "test-automation-specialist",
+      "old": "v1",
+      "new": "v1.1",
+      "sections": 5,
+      "archive_files": 15,
+      "source_coverage": "PASS",
+      "behavior": "NOT_RUN"
+    },
+    {
+      "id": "ui-ux-design-system-architect",
+      "old": "v1.2",
+      "new": "v1.3",
+      "sections": 39,
+      "archive_files": 83,
+      "source_coverage": "PASS",
+      "behavior": "NOT_RUN"
+    },
+    {
+      "id": "ui-ux-product-designer",
+      "old": "v1",
+      "new": "v1.1",
+      "sections": 5,
+      "archive_files": 15,
+      "source_coverage": "PASS",
+      "behavior": "NOT_RUN"
+    },
+    {
+      "id": "ux-research-journey-specialist",
+      "old": "v1",
+      "new": "v1.1",
+      "sections": 5,
+      "archive_files": 15,
+      "source_coverage": "PASS",
+      "behavior": "NOT_RUN"
+    }
+  ]
 }

@@ -144,6 +144,10 @@ def migrate(root,source_ref):
       "Formal approval and behavior testing NOT_VERIFIED/NOT_RUN.\n")
   result.append({"id":pid,"old":oldversion,"new":newversion,"sections":len(entries),
                  "archive_files":count,"source_coverage":"PASS","behavior":"NOT_RUN"})
+ if not result and (root/"migration/PHASE3B_REPORT.json").is_file():
+  previous=json.loads((root/"migration/PHASE3B_REPORT.json").read_text())
+  if previous.get("migrated_now")==48 and len(previous.get("packages",[]))==48:
+   return previous
  regpath.write_text(json.dumps(reg,indent=2)+"\n")
  invpath.write_text(json.dumps(inv,indent=2)+"\n")
  report={"phase":"3B","registered":49,"migrated_now":len(result),

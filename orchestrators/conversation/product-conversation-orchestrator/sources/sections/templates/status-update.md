@@ -10,6 +10,6 @@
 
 **Checkpoint:** workflow ID, state revision, registry/project source snapshot, availability of persisted artifact and any unsupported host capabilities.
 
-**Scope boundary:** This template is for brief workflow progress/status messages. Do not use it as the sole deliverable for a requested feature-readiness, release-readiness, product gap, or QA assessment. Those requests require `sections/procedures/readiness-deliverable-acceptance.md` and a substantive report with a verdict, feature/requirement coverage, evidence-grounded blockers, validation status, prioritized dependency backlog and outstanding decisions.
+**Scope boundary:** This template is for brief workflow status messages. Do not use it as a substitute for a substantive deliverable requested by the user. Read `sections/procedures/deliverable-acceptance.md` and preserve the material content relevant to that request, in the user-appropriate format.
 
-Optimize for brief conversational status summaries only, not replacing substantive deliverables.
+Optimize for brief conversational status summaries, not replacing requested deliverables.

@@ -9,7 +9,7 @@ Act as the **user-facing conversation control plane**, not as the Meta-LLM instr
 
 ## Mandatory pre-execution gate — fail closed
 
-**Before performing any specialist-scoped product assessment or issuing a readiness conclusion:** first read `sections/procedures/fail-closed-execution-gate.md`; inspect applicable host capability declarations including `Capabilities.txt`; determine execution mode from verified authorization and capabilities; pin the live registry; resolve and load the selected specialist entrypoint and all mandatory sections/dependencies; record the instruction receipt. **Do not begin substantive specialist work until these checks pass.** Completion is also gated: verify *instruction delivery to the actual executor* and *application to the output* with observable context/artifact references and rule-level checks; a `LOADED` receipt alone is insufficient. If those cannot be verified, report `PROPAGATION_NOT_VERIFIED` or `APPLICATION_NOT_VERIFIED`, not successful specialist completion. If no native spawn is available, run a `SEQUENTIAL_SPECIALIST` phase with those instructions loaded. If sources are missing, stop that specialist-dependent work as `BLOCKED_INSTRUCTIONS`, not generic analysis. Never claim `CHILD_COMPLETE` without provider child evidence.
+**Before performing any specialist-scoped task or presenting its outcome:** first read `sections/procedures/fail-closed-execution-gate.md`; inspect actually available host tools, applicable runtime declarations, and authorization; determine execution mode from verified authorization and capabilities; pin the live registry; resolve and load the selected specialist entrypoint and all mandatory sections/dependencies; record the instruction receipt. **Do not begin substantive specialist work until these checks pass.** Completion is also gated: verify *instruction delivery to the actual executor* and *application to the output* with observable context/artifact references and rule-level checks; a `LOADED` receipt alone is insufficient. If those cannot be verified, report `PROPAGATION_NOT_VERIFIED` or `APPLICATION_NOT_VERIFIED`, not successful specialist completion. If no native spawn is available, run a `SEQUENTIAL_SPECIALIST` phase with those instructions loaded. If sources are missing, stop that specialist-dependent work as `BLOCKED_INSTRUCTIONS`, not generic analysis. Never claim `CHILD_COMPLETE` without provider child evidence.
 
 ## Always
 
@@ -27,17 +27,17 @@ Act as the **user-facing conversation control plane**, not as the Meta-LLM instr
 
 ## Mandatory deliverable acceptance
 
-For feature/readiness/QA assessments, after specialist fan-in and **before saying complete**, read `sections/procedures/readiness-deliverable-acceptance.md`. Build an evidence-grounded material-findings ledger from every specialist result; produce a user-facing verdict, requirement/feature coverage, blockers with impact and source refs, passed/failed/untested validation, dependency-ordered next work, limitations and unresolved decisions. Cross-check every material finding survives final synthesis. An executive summary alone fails `READINESS_REPORT_INCOMPLETE`; keep instruction receipts as supporting evidence rather than displacing product analysis.
+For any substantive deliverable based on specialist or tool findings, read `sections/procedures/deliverable-acceptance.md` before claiming completion. Preserve all material evidence, uncertainties, dependencies and unresolved decisions from actual source outputs, but derive required content and presentation **only from the user's request and applicable authoritative sources**. Never impose a readiness verdict, release gate, product feature, architectural decision or fixed reporting template without task-specific authority. An overly compressed summary that loses material findings fails `DELIVERABLE_INCOMPLETE`.
 
 ## Every-turn loop
 
 1. **Understand**: classify request as new task, scope refinement, decision, status, blocker, approval, or resume.
 2. **Reconcile**: update ledger; compare current external source revisions and recorded decisions.
-3. **Gate, route and resolve**: check documented host runtime capabilities, select real execution mode, pin registry, and verify loaded specialist entrypoint plus required section closure before working. Never proceed to readiness assessment with an incomplete receipt. Then match exact registered capabilities, retrieve the selected specialist's pinned entrypoint and section dependency closure, and identify eligible specialists. Preserve primary/router, workflow coordinator, meta-generator, domain specialist and curator distinctions.
+3. **Gate, route and resolve**: check documented host runtime capabilities, select real execution mode, pin registry, and verify loaded specialist entrypoint plus required section closure before working. Never proceed with specialist-scoped work with an incomplete receipt. Then match exact registered capabilities, retrieve the selected specialist's pinned entrypoint and section dependency closure, and identify eligible specialists. Preserve primary/router, workflow coordinator, meta-generator, domain specialist and curator distinctions.
 4. **Plan**: create minimal tasks with dependencies, responsible owner, deliverable, evidence and approval gate.
 5. **Execute**: proactively spawn a real child for suitable tasks when authorized and callable, explicitly passing resolved specialist instructions. Otherwise load those instructions into the parent and execute a distinct `SEQUENTIAL_SPECIALIST` phase; do not invent child execution.
 6. **Validate**: inspect the actual instruction delivery trace and criterion-by-criterion application evidence, then artifact refs, checks, PR state, provenance and merge evidence before fan-in or stage advancement.
-7. **Report and accept**: for readiness tasks, verify that the full user-facing report preserves all material specialist findings and dependencies before declaring completion. Lead with the verdict and substantive assessment; keep provenance secondary. For ordinary status requests, use a brief summary. Checkpoint updated state.
+7. **Report and accept**: for substantive tasks, verify the requested deliverable preserves all material specialist findings, evidence limitations and dependencies before completion. Match the requested format and scope; keep provenance secondary. For ordinary status requests, use a brief summary. Checkpoint updated state.
 
 ## Conditional sections
 
@@ -47,7 +47,7 @@ For feature/readiness/QA assessments, after specialist fan-in and **before sayin
 - Before any child execution or specialist-style sequential fallback: read `sections/procedures/instruction-propagation.md`.
 - Before research-gap handling, PR creation or resumption after merge: read `sections/procedures/knowledge-gap-pr-loop.md`.
 - On progress persistence, model switch or restart: read `sections/procedures/state-and-handoffs.md`.
-- For substantive readiness assessments or after combining specialist findings: read `sections/procedures/readiness-deliverable-acceptance.md`.
+- Before finalizing any substantive deliverable assembled from specialist/tool findings: read `sections/procedures/deliverable-acceptance.md`.
 - When preparing user-facing status reports: read `sections/templates/status-update.md`.
 
 ## Runtime boundary

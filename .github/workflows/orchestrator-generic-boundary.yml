@@ -1,0 +1,25 @@
+name: Generic conversation orchestrator boundary
+on:
+  pull_request:
+    paths:
+      - 'orchestrators/conversation/product-conversation-orchestrator/**'
+      - 'scripts/test_orchestrator_generic_boundary.py'
+      - 'scripts/test_deliverable_acceptance_gate.py'
+      - 'runtime/deliverable_acceptance_gate.py'
+      - '.github/workflows/orchestrator-generic-boundary.yml'
+  push:
+    paths:
+      - 'orchestrators/conversation/product-conversation-orchestrator/**'
+      - 'scripts/test_orchestrator_generic_boundary.py'
+      - 'scripts/test_deliverable_acceptance_gate.py'
+      - 'runtime/deliverable_acceptance_gate.py'
+      - '.github/workflows/orchestrator-generic-boundary.yml'
+jobs:
+  boundaries:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 -m unittest scripts.test_orchestrator_generic_boundary scripts.test_deliverable_acceptance_gate

@@ -1,13 +1,13 @@
 {
   "id": "product-conversation-orchestrator",
-  "version": "v1.3",
+  "version": "v1.4",
   "source_contract": "lookup-first-v1",
   "kind": "conversation-orchestrator",
   "role": "orchestrator",
   "entrypoint": {
     "path": "SKILL.md",
-    "words": 1088,
-    "sha256": "094705fa6940bd5e6c275a9bccb9e7ee549c12f2f8007abb4a7d508226eb4176"
+    "words": 1092,
+    "sha256": "9a90edb6175d405ea0cf8e23a909526ca991f67433ee78e76752a842384b1dc3"
   },
   "sections": [
     {
@@ -34,8 +34,8 @@
         "about to execute a sequential specialist phase"
       ],
       "requires": [],
-      "words": 371,
-      "sha256": "9f45efa32c3ba57795de9a48f66f17cef3f1155cba8012f386ee11568cb26ab7"
+      "words": 374,
+      "sha256": "f40a7590c6387018dc0503c5c1ad373fa065dc09add0b2f7b63367f85b049c09"
     },
     {
       "id": "knowledge-gap-pr-loop",
@@ -77,8 +77,8 @@
       "requires": [
         "conversation-control"
       ],
-      "words": 155,
-      "sha256": "bac99422bd9d8ee4565bb4e34a104125e82ee0ed85b36d6e07d76364170ed3c8"
+      "words": 143,
+      "sha256": "ca96c96e76a99636d93fdd4750b0a29818da6874d5dad63622b75ac9de1b261a"
     },
     {
       "id": "instruction-propagation",
@@ -102,30 +102,29 @@
       "path": "sections/procedures/fail-closed-execution-gate.md",
       "summary": "Block specialist execution until runtime mode and complete instruction closure are evidenced",
       "read_when": [
-        "before any specialist-scoped assessment or implementation",
-        "before running a sequential specialist fallback",
-        "before issuing feature readiness conclusions"
+        "before any specialist-scoped task execution",
+        "before sequential specialist fallback",
+        "before claiming specialist task completion"
       ],
       "requires": [
         "registry-and-delegation",
         "instruction-propagation"
       ],
-      "sha256": "c073887f4f095976a28183faa839a61ab58e271fc15e05d80be374c4dc1a3141",
-      "words": 749
+      "sha256": "96c9fd871745a165fa9ac92156559bec8f57e66a5b69951833ab0ea0cdd9feab",
+      "words": 744
     },
     {
-      "id": "readiness-deliverable-acceptance",
+      "id": "deliverable-acceptance",
       "kind": "procedure",
-      "path": "sections/procedures/readiness-deliverable-acceptance.md",
-      "summary": "Retain material specialist findings and enforce substantive readiness report completeness",
+      "path": "sections/procedures/deliverable-acceptance.md",
+      "summary": "Preserve task-relevant specialist findings and verify output against caller-derived acceptance criteria",
       "read_when": [
-        "before synthesizing product or release readiness findings",
-        "after collecting scope and QA specialist results",
-        "before declaring a readiness assessment complete"
+        "before synthesizing any substantive specialist/tool outputs",
+        "before declaring a substantive requested deliverable complete"
       ],
       "requires": [],
-      "sha256": "3ac8eadce334c6fb1185df43109ba359432f10677e6cbc3faceff9be2445aa6f",
-      "words": 383
+      "sha256": "0ce136ea055a229616accc1045202f9b7776f41f54c98805d616c51e89bc09a6",
+      "words": 362
     }
   ],
   "sources": [
@@ -140,7 +139,7 @@
     "sections/templates/status-update.md",
     "sections/procedures/instruction-propagation.md",
     "sections/procedures/fail-closed-execution-gate.md",
-    "sections/procedures/readiness-deliverable-acceptance.md"
+    "sections/procedures/deliverable-acceptance.md"
   ],
   "behavioral_evaluation": "NOT_RUN",
   "release_status": "review-candidate"

@@ -1,4 +1,4 @@
-# Product Conversation Orchestrator v1.3 (review candidate)
+# Product Conversation Orchestrator v1.4 (review candidate)
 
 **Category:** conversation orchestrators. **Kind:** `conversation-orchestrator`. **Role:** orchestrator.
 
@@ -17,8 +17,8 @@ The uploaded conversation Skill was adapted into a lookup-first canonical source
 See `sources/SKILL.md` for entrypoint and `sources/manifest.json` for selective sections. This PR is a candidate until source archive, semantic tests, approval and installation checks are observed.
 ## Fail-closed execution gate (v1.2)
 
-Specialist-dependent assessment cannot start before applicable capability declarations are reconciled, a runtime mode is selected, and the registered specialist entrypoint plus required section dependency closure have been loaded. If native spawning is explicitly unavailable (for example in Capabilities.txt), use a tailored `SEQUENTIAL_SPECIALIST` phase; if instructions cannot be loaded, report `BLOCKED_INSTRUCTIONS` and do not issue a specialist readiness verdict. Deterministic regression tests live in `scripts/test_instruction_execution_gate.py`; hosted end-to-end compliance remains NOT_RUN.
+Specialist-dependent assessment cannot start before applicable capability declarations are reconciled, a runtime mode is selected, and the registered specialist entrypoint plus required section dependency closure have been loaded. If native spawning is verified unavailable, use a tailored `SEQUENTIAL_SPECIALIST` phase; if instructions cannot be loaded, report `BLOCKED_INSTRUCTIONS` and do not claim specialist execution is complete. Deterministic regression tests live in `scripts/test_instruction_execution_gate.py`; hosted end-to-end compliance remains NOT_RUN.
 
-## Deliverable quality (v1.3)
+## Generic deliverable acceptance (v1.4)
 
-For readiness and QA assessments, child/subagent completion and instruction receipts are prerequisites, not the final user deliverable. Reconcile a material findings ledger against the final report, leading with the verdict, requirement-to-feature status, evidence-backed impact and gaps, passed/failed/untested validation, dependency-prioritized backlog, limitations and unresolved decisions. A short progress summary must not replace the requested assessment. See `sources/sections/procedures/readiness-deliverable-acceptance.md` and `scripts/test_readiness_report_gate.py`. Behavioral evaluation remains NOT_RUN.
+The parent must preserve material specialist findings, evidence limitations and unresolved decisions in whatever deliverable the user requested. Acceptance fields come from the task and authoritative sources rather than a fixed readiness or release template. No project-specific examples are included in the runtime Skill. See `sources/sections/procedures/deliverable-acceptance.md` and `runtime/deliverable_acceptance_gate.py`.

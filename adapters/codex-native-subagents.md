@@ -2,7 +2,7 @@
 
 **Status: documentation / integration candidate; not a deployed adapter or verified execution result.**
 
-Use this when the execution surface is an *actual Codex app, interactive CLI, or IDE session* that exposes native subagent tools. A ChatGPT conversation using GitHub connectors is **not** automatically a Codex runtime. The existence of a provider-neutral interface in `runtime/ADAPTER_CONTRACT.md` does not create a callable tool.
+Use this when the execution surface is an *actual Codex app, interactive CLI, or IDE session* that exposes native subagent tools. The same ChatGPT functionality can be accessed through the website or a Codex IDE integration, but the interface location alone neither proves nor denies that a native subagent tool is callable. Record the *actual tool surface and active policy* for each run independently. The existence of a provider-neutral interface in `runtime/ADAPTER_CONTRACT.md` does not create a callable tool.
 
 ## Evidence-backed provider capability
 
@@ -16,7 +16,7 @@ OpenAI's Codex subagent documentation describes project-scoped custom agents (`.
 1. Confirm the host/runtime identity (client, version, project checkout, sandbox, agent controls and authenticated user). A user saying "I'm in Codex" is not enough if the active tool surface remains unchanged.
 2. Check native subagent availability by **actual exposed tool or provider agent UI**, not text or configuration alone. Record `schemas/runtime-capabilities.schema.json` with truthful `features`, `spawn_mode`, evidence and constraints.
 3. Verify registry checkout/connector, source-read permissions, and a **single immutable registry commit**. Resolve registry candidate, selected `SKILL.md`, manifest `read_when`/dependencies, governance and project revision from the same pinned inputs.
-4. Verify the current session explicitly authorizes child delegation. Select a built-in agent (usually read-only discovery via `explorer`) or a reviewed project-specific custom agent; custom role files are configuration, **not** a bypass of parent sandbox or approval controls.
+4. Verify the current session explicitly authorizes child delegation, either by direct user request or applicable authorized instructions. If the request or installed Skill leaves delegation prohibited, record **POLICY_GATED_NOT_ATTEMPTED**, not **TOOL_UNAVAILABLE**. An evaluation of a product by itself is not necessarily authorization to spawn specialist subagents. Select a built-in agent (usually read-only discovery via `explorer`) or a reviewed project-specific custom agent; custom role files are configuration, **not** a bypass of parent sandbox or approval controls.
 5. If a callable native child mechanism exists, request **exactly one** bounded child task, with source text/paths actually readable by the child. Ask the child to echo verifiable provenance metadata (package ID/version, registry commit, consumed section IDs/hashes) **and** produce grounded task evidence. Do not assume the child inherits retrieved parent instructions, complete chat history, GitHub tokens, or access to a different provider.
 6. Capture the actual provider-generated child thread/handle and result. Reconcile assertions against the pinned source and task scope; an instruction echoed by a child is evidence of reception, not necessarily correct behavior.
 7. Run `runtime/tests/MULTI_AGENT_PROPAGATION_001.md` and record each gate as PASS / FAIL / BLOCKED / NOT_RUN. Do not infer successful propagation from static configs, citations, CLI version output, mock adapters, or parallel GitHub API calls.
@@ -27,7 +27,7 @@ OpenAI's Codex subagent documentation describes project-scoped custom agents (`.
 - If using custom agents, create reviewed project-scoped TOML files in `.codex/agents/` with required fields `name`, `description`, `developer_instructions`. Do not invent role filenames or assert that adding them spawns agents. Prefer built-in `explorer` for a first read-only acceptance test.
 - Use the project's applicable `AGENTS.md` or Skill to describe **when to delegate** and **how to resolve the registry**. Do not insert secrets or paste every specialist package into a global prompt.
 - In the active Codex session explicitly request: "Use one subagent to assess this bounded read-only scope. Resolve the specified package and mandatory sections at pinned registry commit [SHA], record those section refs in the child result, and return source-grounded evidence. Do not submit PRs or modify files."
-- Inspect the child thread/handle and the returned result. If no native child session appears, mark `spawn_mode: unavailable` for that session and use the documented sequential fallback.
+- Inspect the child thread/handle and the returned result. If no child appears, diagnose separately: **policy-gated (no attempt)**, **tool-unavailable (attempt impossible after authorization)**, **spawn failed (actual invocation failed)**, or **child completed (verify propagation)**. Only mark `spawn_mode: unavailable` when the tool interface was actually probed and unavailable. A policy gate does not establish runtime incapability.
 
 ## Adapter mapping and limits
 
@@ -46,5 +46,7 @@ For a hosted conversational control plane that lacks native delegation, a separa
 ## Governance and cross-agent evidence
 
 Follow `governance/approval.json`, `governance/capability-ownership/ownership-policies.json`, `schemas/subagent-task.schema.json`, and `runtime/CONTEXT_AND_ARTIFACT_CONTRACT.md`. Limit child context to task objective, package/version and verified section bytes/refs, project commit, approved permissions, relevant artifact refs and explicit acceptance criteria. Preserve source text integrity when transmitting instructions. Do not claim an independent reviewer unless the actual provider child was invoked and its trace is available.
+
+Two reported field runs must be treated separately: (A) ChatGPT-site run: registry specialist retrieval succeeded, but no native spawn interface was exposed; (B) Codex IDE/ChatGPT run: installed orchestrator entrypoint was loaded, but explicit delegation authorization was absent, so *no live registry specialist lookup and no spawn attempt occurred*. Both produced sequential assessments; neither proves propagation failure or successful independent evaluation. Codex-native support claims cannot be transferred into either specific run without observed tools.
 
 The parent still owns scope, orchestration and fan-in. Children cannot approve their own outputs, merges or production releases. Missing access or ambiguity blocks dependent work; an honest sequential fallback is not a passing multi-agent test.

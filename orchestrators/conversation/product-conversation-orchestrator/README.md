@@ -1,4 +1,4 @@
-# Product Conversation Orchestrator v1.0 (review candidate)
+# Product Conversation Orchestrator v1.1 (review candidate)
 
 **Category:** conversation orchestrators. **Kind:** `conversation-orchestrator`. **Role:** orchestrator.
 
@@ -6,7 +6,7 @@ User-facing ChatGPT control plane for maintaining workflow progress across user 
 
 ## Use
 
-Install a validated ChatGPT Skill/host adapter separately, with explicitly granted repository tools. Start with a product request; the assistant maintains a visible ledger and proposes scoped delegated work. Actual concurrent subagents and durable background work require a real configured runtime adapter. A GitHub link alone does not enable them.
+Install a validated ChatGPT Skill/host adapter separately, with explicitly granted repository tools. Start with a product request; the assistant maintains a visible ledger and proactively delegates suitable specialist tasks through verified, authorized child tools without requiring the user to say 'spawn'. If higher-priority policy requires explicit user permission, that gate still applies. The same pinned specialist instructions must be delivered to real child contexts (with reception evidence) or loaded into a separately attributed `SEQUENTIAL_SPECIALIST` parent phase when child tools are unavailable. Actual concurrent subagents and durable background work require a real configured runtime adapter. A GitHub link alone does not enable them.
 
 ## Governance
 

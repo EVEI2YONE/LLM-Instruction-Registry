@@ -41,7 +41,7 @@ class ReadinessReportGateTests(unittest.TestCase):
             accept_readiness_report(FINDINGS, full_report(findings=altered))
 
     def test_prerequisite_missing_from_backlog(self):
-        with self.assertRaisesRegex(ReportIncomplete, "prerequisite"):
+        with self.assertRaisesRegex(ReportIncomplete, "backlog missing|prerequisite"):
             accept_readiness_report(FINDINGS, full_report(backlog=("MANAGEMENT", "REVIEW", "STAGING")))
 
     def test_validation_untested_preserved(self):

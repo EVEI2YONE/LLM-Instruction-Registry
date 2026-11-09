@@ -38,8 +38,18 @@ Select registered specialist(s) by live registry lookup pinned to an immutable c
 - **Sequential specialist:** load the same fetched instructions into the parent's active context and apply them in a bounded `SEQUENTIAL_SPECIALIST` phase. Record the phase, package version, loaded sections, source revision and parent-owned output. Explicitly report no independent child.
 - **Gate not satisfied:** do not write an assessment conclusion or readiness verdict. Report blocked source/capability evidence and the precise next action.
 
-## Step 3: validate claims
+## Step 3: require proof of propagation and application
 
-Before the final response, check the receipt against the delivered output. `CHILD_COMPLETE` requires a real provider child handle plus attributable artifact and instruction receipt. `SEQUENTIAL_SPECIALIST` requires complete instruction closure and parent-owned evidence. A successful generic code/test run cannot substitute for this instruction gate.
+A `LOADED` receipt is a **pre-execution assertion**, not evidence of delivery into the actual execution context or application of instructions. Before accepting a specialist-dependent result, record a second, independently inspectable evidence record: runtime/parent phase ID, exact package/version and registry SHA, mandatory entrypoint and section IDs actually delivered, an observable delivery or context trace reference, the output artifact reference, and task-specific behavioral requirements derived from the specialist instructions. For every required behavioral rule, record a corresponding check and a concrete output/tool evidence reference that supports it.
 
-Static regression tests exercise the logical gate, **not** actual model compliance or hosted child execution. See `runtime/instruction_execution_gate.py` and `scripts/test_instruction_execution_gate.py`.
+- For native children: compare the child handle to the provider-issued handle, inspect actual child context/tool trace for instruction delivery, and validate outputs against the selected instructions. A child attestation by itself is insufficient.
+- For sequential fallback: inspect the parent execution/context trace showing the actual retrieved content was available at the start of the scoped phase, and map each relevant instruction requirement to the resulting deliverable. Merely naming the specialist, listing section IDs, or producing a generic readiness report does not pass.
+- If the host does not expose evidence needed to verify delivery/application, report `PROPAGATION_NOT_VERIFIED` or `APPLICATION_NOT_VERIFIED`; do not turn an unverifiable assertion into a passing specialist claim. A blocked specialist verdict can be reported without inventing evidence.
+
+Use `runtime/instruction_execution_gate.py` `assert_propagation_and_application` to check **structure and consistency** of supplied evidence before reporting a passing completion. This deterministic helper cannot authenticate provider traces or decide whether an artifact substantively satisfies the instructions; the orchestrator/reviewer must actually inspect those references.
+
+## Step 4: validate claims
+
+Before the final response, check both the pre-execution receipt **and** independent delivery/application evidence against the delivered output. `CHILD_COMPLETE` requires a real provider child handle plus attributable artifact and instruction receipt. `SEQUENTIAL_SPECIALIST` requires complete instruction closure and parent-owned evidence. A successful generic code/test run cannot substitute for this instruction gate.
+
+Static regression tests exercise logical and evidence-shape gates, **not** actual model compliance or hosted child execution. See `runtime/instruction_execution_gate.py` and `scripts/test_instruction_execution_gate.py`.

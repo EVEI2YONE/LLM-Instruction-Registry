@@ -1596,7 +1596,7 @@
       "version": "v1.0",
       "role": "orchestrator",
       "kind": "conversation-orchestrator",
-      "status": "proposed",
+      "status": "available",
       "readme": "orchestrators/conversation/product-conversation-orchestrator/README.md",
       "sources": "orchestrators/conversation/product-conversation-orchestrator/sources/",
       "capabilities": [
@@ -1621,7 +1621,14 @@
       "use_cases": [
         "Coordinate product work across specialist agents while preserving visible conversation state and human review gates."
       ],
-      "archive": "orchestrators/conversation/product-conversation-orchestrator/product-conversation-orchestrator_v1.0.zip"
+      "archive": "orchestrators/conversation/product-conversation-orchestrator/product-conversation-orchestrator_v1.0.zip",
+      "tags": [
+        "conversation-orchestration",
+        "chatgpt",
+        "workflow-progress",
+        "knowledge-gap-prs",
+        "human-gated"
+      ]
     }
   ]
 }

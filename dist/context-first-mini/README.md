@@ -18,3 +18,11 @@ This is a regenerated distribution snapshot based on the pinned registry and can
 ## Review guidance
 
 Review the source SHA, ZIP inventory, metadata parity and gate requirements. Do not merge without normal human approvals. This PR makes no changes to `registry.json`, canonical instruction sources, approvals or runtime adapters.
+
+## Uploaded archive replacement pending
+
+The user supplied a distinct, verified 40-file ZIP for this PR. **The binary archive currently committed here is an earlier regenerated substitute, not the supplied file. Do not merge this PR until the binary is replaced and its SHA-256 matches:**
+
+`cb01b52613658a16a2cffa8b1bf6e50a0883d4d8b9ce81d7306857a2fe1e0473`
+
+The supplied archive has 40 unique root-level entries, passes ZIP CRC validation, and has size 40,048 bytes. This GitHub connector has no file-byte upload interface for conversation attachments; replacing the binary remains outstanding. Remove this warning only after the repository copy has been independently downloaded and hashed.

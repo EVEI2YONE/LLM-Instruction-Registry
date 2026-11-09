@@ -16,4 +16,4 @@ Default to delegating bounded specialist work when independent expertise, review
 
 **Sequential specialist:** If spawn is disallowed, unavailable, or safely failed, *do not discard specialist behavior*. Load the same applicable instructions in the active parent context; execute one scoped phase labeled `SEQUENTIAL_SPECIALIST` with package/version, pinned registry SHA and loaded sections. Apply the specialist procedures subject to higher-priority controls. Cite project evidence and clearly report this was not an independent specialist review. Separate multiple specialist perspectives into bounded phases.
 
-The parent validates all child/parent artifacts, ownership and source revisions. It cannot self-approve mergers, releases or irreversible changes. Do not equate parallel GitHub reads, roleplay or sequential phases with spawned children.
+The parent validates all child/parent artifacts, ownership and source revisions. It cannot self-approve merges, actions requiring explicit approval, or irreversible changes. Do not equate parallel GitHub reads, roleplay or sequential phases with spawned children.

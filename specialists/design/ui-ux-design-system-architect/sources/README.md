@@ -4,3 +4,8 @@ The **40 source files** here match the internal `ui-ux-design-system-architect/`
 
 
 Optional coordinated use: `90_workflow_integration.md`. Direct specialist tasks do not need an orchestrator.
+
+
+## Lookup-first v1.3 review candidate
+
+Indexed sections: manifest.json and sections/. Original source content preserved (original SKILL moved into sections/references/original-skill.md). Behavioral evaluation NOT_RUN; formal owner approval NOT_VERIFIED.

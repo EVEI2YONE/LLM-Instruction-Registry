@@ -1,0 +1,51 @@
+{
+  "id": "specialist-consultation-coordinator",
+  "old_version": "v1",
+  "proposed_version": "v1.1",
+  "source_commit": "f634daa1ad6b86de93806334b1195bda14313646",
+  "files": [
+    {
+      "source": "00_compiled_instruction_set.md",
+      "sha256": "418d055d583ea3deb3091443933dee92049037619592d1f8040c778264d4d862",
+      "indexed_sections": [
+        "sections/procedures/source-00-compiled-instruction-set-8a93b84.md"
+      ],
+      "reconstructed_sha256": "418d055d583ea3deb3091443933dee92049037619592d1f8040c778264d4d862"
+    },
+    {
+      "source": "01_domain.md",
+      "sha256": "25dbcbed3ec8468255aa309d5c745434137744420666a04ce466a7d379bb8313",
+      "indexed_sections": [
+        "sections/procedures/source-01-domain-9c0aca2.md"
+      ],
+      "reconstructed_sha256": "25dbcbed3ec8468255aa309d5c745434137744420666a04ce466a7d379bb8313"
+    },
+    {
+      "source": "02_context_space.md",
+      "sha256": "b47eee295b54a3d37b03521e7178bc5a0e2a0a94e321e848ef2a44675bee82c3",
+      "indexed_sections": [
+        "sections/references/source-02-context-space-da68579.md"
+      ],
+      "reconstructed_sha256": "b47eee295b54a3d37b03521e7178bc5a0e2a0a94e321e848ef2a44675bee82c3"
+    },
+    {
+      "source": "03_self_heal.md",
+      "sha256": "e62b4f11dcfc412d7acf775da13abcfa64ad130b03bf139099b3d067fe1e64fb",
+      "indexed_sections": [
+        "sections/procedures/source-03-self-heal-3106670.md"
+      ],
+      "reconstructed_sha256": "e62b4f11dcfc412d7acf775da13abcfa64ad130b03bf139099b3d067fe1e64fb"
+    },
+    {
+      "source": "SKILL.md",
+      "sha256": "cc6d45eabcaa9ba481e888b4c8bb07d5f36b22763d45926414e89db1feb5cc50",
+      "indexed_sections": [
+        "sections/references/original-skill.md"
+      ],
+      "reconstructed_sha256": "cc6d45eabcaa9ba481e888b4c8bb07d5f36b22763d45926414e89db1feb5cc50"
+    }
+  ],
+  "semantic_equivalence": "NOT_RUN",
+  "owner_approval": "NOT_VERIFIED",
+  "original_archive_preserved": true
+}

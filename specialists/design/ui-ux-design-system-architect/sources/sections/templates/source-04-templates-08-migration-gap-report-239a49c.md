@@ -1,0 +1,3 @@
+# Migration report and ranked priorities
+
+Sections: executive summary; catalog knowledge gap table; catalog PR/status; target route/component/style gaps; prioritized remediation matrix; dependency roadmap; testing/metrics; rollout/rollback; unresolved questions. Priorities: P0 severe accessibility/security/core-task regression; P1 high-frequency high-value workflows; P2 IA/navigation; P3 minimal design system foundation; P4 onboarding/change management; P5 high-friction quick wins; P6 low-traffic secondary features; P7 aesthetic polish/micro-interactions. These are user-impact rankings, not strict code execution order. Record foundation prerequisites needed before a P1 workflow migration.

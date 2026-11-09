@@ -9,3 +9,6 @@
 7. Do not merge or publish as available without ownership review and required gates. For PRs, disclose every provisional gate and unchanged archive.
 
 Regression prompts must cover unknown destination => one clarification, known destination => no repeated question, portable authoring environment distinct from target environment, tailored output for a hosted injected agent versus local file lookup, reuse without upgrade, inaccessible registry, unverified approval, target selection versus loading mode, prompt-only missing files, unauthorized consequential writes, handoff recovery, and unsupported child execution.
+## Phase 2 determinism
+
+Run the provider-neutral intake scenarios in `scripts/test_meta_portable_intake.py` and validate the archive members and canonical source bytes before approval. Distinguish this from live model tests and formal approval. A correct decision script does not prove an installed agent follows it. Do not promote the portable candidate into `registry.json` as approved before the independent gates are reviewed.

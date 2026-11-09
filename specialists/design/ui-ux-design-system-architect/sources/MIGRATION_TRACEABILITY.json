@@ -1,0 +1,323 @@
+{
+  "id": "ui-ux-design-system-architect",
+  "old_version": "v1.2",
+  "proposed_version": "v1.3",
+  "source_commit": "f634daa1ad6b86de93806334b1195bda14313646",
+  "files": [
+    {
+      "source": "00_compiled_instruction_set.md",
+      "sha256": "de01ca0f0c1f81e4104c0b811ddbb89d3b4f2c9b3e81760657b784ddc1b810f1",
+      "indexed_sections": [
+        "sections/procedures/source-00-compiled-instruction-set-8a93b84.md"
+      ],
+      "reconstructed_sha256": "de01ca0f0c1f81e4104c0b811ddbb89d3b4f2c9b3e81760657b784ddc1b810f1"
+    },
+    {
+      "source": "01_core/01_mission.md",
+      "sha256": "e0bcfad82b3cc9eb0c0d751ed2151885eea0b573211c922fb1f8a4e7e99ef441",
+      "indexed_sections": [
+        "sections/references/source-01-core-01-mission-b52310e.md"
+      ],
+      "reconstructed_sha256": "e0bcfad82b3cc9eb0c0d751ed2151885eea0b573211c922fb1f8a4e7e99ef441"
+    },
+    {
+      "source": "01_core/02_decision_policy.md",
+      "sha256": "db71d667bc1fdb8482258202875eeac7404e43277f332838461610dcb27bc374",
+      "indexed_sections": [
+        "sections/references/source-01-core-02-decision-policy-1ee74aa.md"
+      ],
+      "reconstructed_sha256": "db71d667bc1fdb8482258202875eeac7404e43277f332838461610dcb27bc374"
+    },
+    {
+      "source": "02_helpers/01_repo_intake.md",
+      "sha256": "fd0c6211c727d56309eb8d977a39e3b918134b261e65083584ec012a0a1a607b",
+      "indexed_sections": [
+        "sections/references/source-02-helpers-01-repo-intake-1503878.md"
+      ],
+      "reconstructed_sha256": "fd0c6211c727d56309eb8d977a39e3b918134b261e65083584ec012a0a1a607b"
+    },
+    {
+      "source": "02_helpers/02_component_architecture.md",
+      "sha256": "063001d483f804734c9a8e006e24270726f1447367a61f3fc12435e665940979",
+      "indexed_sections": [
+        "sections/references/source-02-helpers-02-component-architecture-f5c01b8.md"
+      ],
+      "reconstructed_sha256": "063001d483f804734c9a8e006e24270726f1447367a61f3fc12435e665940979"
+    },
+    {
+      "source": "02_helpers/03_tokens_themes.md",
+      "sha256": "c191dca32c4b576d71c02158ebeabe0371d6eab85080f73708ff0a85e01b47bb",
+      "indexed_sections": [
+        "sections/references/source-02-helpers-03-tokens-themes-a4928c0.md"
+      ],
+      "reconstructed_sha256": "c191dca32c4b576d71c02158ebeabe0371d6eab85080f73708ff0a85e01b47bb"
+    },
+    {
+      "source": "02_helpers/04_styling_architecture.md",
+      "sha256": "575010867921ee92e1fbf344d90409e891d822bac2e156204337bbc257284ab2",
+      "indexed_sections": [
+        "sections/references/source-02-helpers-04-styling-architecture-535e13b.md"
+      ],
+      "reconstructed_sha256": "575010867921ee92e1fbf344d90409e891d822bac2e156204337bbc257284ab2"
+    },
+    {
+      "source": "02_helpers/05_ux_interaction.md",
+      "sha256": "e4d59cfa92556638fef4dfc88906ad9a9f799c1e0254aa3a0ad18fc95c4fd61c",
+      "indexed_sections": [
+        "sections/references/source-02-helpers-05-ux-interaction-f369773.md"
+      ],
+      "reconstructed_sha256": "e4d59cfa92556638fef4dfc88906ad9a9f799c1e0254aa3a0ad18fc95c4fd61c"
+    },
+    {
+      "source": "02_helpers/06_accessibility.md",
+      "sha256": "08df4e30838d1d1db62cf632a740d80726cd917c33eb8d98ddd39c524dab00c0",
+      "indexed_sections": [
+        "sections/references/source-02-helpers-06-accessibility-5e44d58.md"
+      ],
+      "reconstructed_sha256": "08df4e30838d1d1db62cf632a740d80726cd917c33eb8d98ddd39c524dab00c0"
+    },
+    {
+      "source": "02_helpers/07_internationalization.md",
+      "sha256": "b4dd274972b834e97dfba71b18fd20f31b3e33c087d17836d6f49b60f6aca88c",
+      "indexed_sections": [
+        "sections/references/source-02-helpers-07-internationalization-9a226a6.md"
+      ],
+      "reconstructed_sha256": "b4dd274972b834e97dfba71b18fd20f31b3e33c087d17836d6f49b60f6aca88c"
+    },
+    {
+      "source": "02_helpers/08_metrics.md",
+      "sha256": "edad7453abe320a8795fe2265ee1207499a6a7fb4a8819a3b22340b1e373ef71",
+      "indexed_sections": [
+        "sections/references/source-02-helpers-08-metrics-88547ce.md"
+      ],
+      "reconstructed_sha256": "edad7453abe320a8795fe2265ee1207499a6a7fb4a8819a3b22340b1e373ef71"
+    },
+    {
+      "source": "02_helpers/09_quality_gates.md",
+      "sha256": "769cf13f20a2c0b78dc50c22abbce20be6e7ebb1e2db64c2e50bd7274e2e347c",
+      "indexed_sections": [
+        "sections/references/source-02-helpers-09-quality-gates-edb3fe9.md"
+      ],
+      "reconstructed_sha256": "769cf13f20a2c0b78dc50c22abbce20be6e7ebb1e2db64c2e50bd7274e2e347c"
+    },
+    {
+      "source": "02_helpers/10_catalog_first_knowledge_audit.md",
+      "sha256": "988947ed9dda45a50f27aa234b849e0207eba2e865aee32dfebb630e946a770f",
+      "indexed_sections": [
+        "sections/references/source-02-helpers-10-catalog-first-knowledge-audit-b3b3a7c.md"
+      ],
+      "reconstructed_sha256": "988947ed9dda45a50f27aa234b849e0207eba2e865aee32dfebb630e946a770f"
+    },
+    {
+      "source": "03_self_heal.md",
+      "sha256": "05d4b2e857eae6ad2be5e5a6d37849b5bf146d9668a68f646e7cb7934e6d8025",
+      "indexed_sections": [
+        "sections/procedures/source-03-self-heal-3106670.md"
+      ],
+      "reconstructed_sha256": "05d4b2e857eae6ad2be5e5a6d37849b5bf146d9668a68f646e7cb7934e6d8025"
+    },
+    {
+      "source": "03_sub_roles/01_design_lead.md",
+      "sha256": "409e256a77687ec295cf6128df0d865596b34d3be77d89010106f38bfa793677",
+      "indexed_sections": [
+        "sections/roles/source-03-sub-roles-01-design-lead-d0f8b63.md"
+      ],
+      "reconstructed_sha256": "409e256a77687ec295cf6128df0d865596b34d3be77d89010106f38bfa793677"
+    },
+    {
+      "source": "03_sub_roles/02_catalog_curator.md",
+      "sha256": "6ad037f93abb43cc4447a8cba10f31f32997262be1f4acd162a19b6b80567678",
+      "indexed_sections": [
+        "sections/roles/source-03-sub-roles-02-catalog-curator-128fd12.md"
+      ],
+      "reconstructed_sha256": "6ad037f93abb43cc4447a8cba10f31f32997262be1f4acd162a19b6b80567678"
+    },
+    {
+      "source": "03_sub_roles/03_ux_research_analyst.md",
+      "sha256": "119890f6bbfbc64ab7429a1ec8de16c578adce369c74e50801060a54ffb791e5",
+      "indexed_sections": [
+        "sections/roles/source-03-sub-roles-03-ux-research-analyst-2ec78b3.md"
+      ],
+      "reconstructed_sha256": "119890f6bbfbc64ab7429a1ec8de16c578adce369c74e50801060a54ffb791e5"
+    },
+    {
+      "source": "03_sub_roles/04_accessibility_localization_reviewer.md",
+      "sha256": "c6dedd331e259cbde96852715f7fa690e0dbee96822fc9ade0d4080e2eb63fe1",
+      "indexed_sections": [
+        "sections/roles/source-03-sub-roles-04-accessibility-localization-reviewer-b36da24.md"
+      ],
+      "reconstructed_sha256": "c6dedd331e259cbde96852715f7fa690e0dbee96822fc9ade0d4080e2eb63fe1"
+    },
+    {
+      "source": "04_templates/01_component_spec.md",
+      "sha256": "73c9c97323a99f9fe12f2f0b54e73d3c0c2074f9a4826675c68d111ac20766f0",
+      "indexed_sections": [
+        "sections/templates/source-04-templates-01-component-spec-6a5f1ef.md"
+      ],
+      "reconstructed_sha256": "73c9c97323a99f9fe12f2f0b54e73d3c0c2074f9a4826675c68d111ac20766f0"
+    },
+    {
+      "source": "04_templates/02_feature_page_spec.md",
+      "sha256": "b318f953e1a3bd54e33134eb7a561da8fdd1bd4833e088f2f74a2fa58ecc8001",
+      "indexed_sections": [
+        "sections/templates/source-04-templates-02-feature-page-spec-ea98570.md"
+      ],
+      "reconstructed_sha256": "b318f953e1a3bd54e33134eb7a561da8fdd1bd4833e088f2f74a2fa58ecc8001"
+    },
+    {
+      "source": "04_templates/03_catalog_entry_schema.md",
+      "sha256": "fd4c13749ce2d393de859c42c44a753920bfac47d92af08b557adb6271b74d64",
+      "indexed_sections": [
+        "sections/templates/source-04-templates-03-catalog-entry-schema-babf2ba.md"
+      ],
+      "reconstructed_sha256": "fd4c13749ce2d393de859c42c44a753920bfac47d92af08b557adb6271b74d64"
+    },
+    {
+      "source": "04_templates/04_catalog_repo_layout.md",
+      "sha256": "3c7e66bfddbd3680c64cd311df9612929be75db33b5061bf56464fd9f9c4791e",
+      "indexed_sections": [
+        "sections/templates/source-04-templates-04-catalog-repo-layout-612ff31.md"
+      ],
+      "reconstructed_sha256": "3c7e66bfddbd3680c64cd311df9612929be75db33b5061bf56464fd9f9c4791e"
+    },
+    {
+      "source": "04_templates/05_pr_template.md",
+      "sha256": "23289e293d1197d8f50f86619a12e5d4064e72b808066bdc7fee147782b6a590",
+      "indexed_sections": [
+        "sections/templates/source-04-templates-05-pr-template-34631b9.md"
+      ],
+      "reconstructed_sha256": "23289e293d1197d8f50f86619a12e5d4064e72b808066bdc7fee147782b6a590"
+    },
+    {
+      "source": "04_templates/06_design_review.md",
+      "sha256": "bdfce4c298c45b781bd73ad1c3579a89179052533eccb48fe9b96fbbdd9f520a",
+      "indexed_sections": [
+        "sections/templates/source-04-templates-06-design-review-b6fb750.md"
+      ],
+      "reconstructed_sha256": "bdfce4c298c45b781bd73ad1c3579a89179052533eccb48fe9b96fbbdd9f520a"
+    },
+    {
+      "source": "04_templates/07_measurement_plan.md",
+      "sha256": "827e84110a57fa1a04776d184cc6ac7820265c3919b42aee804b44bf314057cd",
+      "indexed_sections": [
+        "sections/templates/source-04-templates-07-measurement-plan-e03cd19.md"
+      ],
+      "reconstructed_sha256": "827e84110a57fa1a04776d184cc6ac7820265c3919b42aee804b44bf314057cd"
+    },
+    {
+      "source": "04_templates/08_migration_gap_report.md",
+      "sha256": "e1bb7e5e6a96ac8cb8e2885811e0affa02428279571d3bb3cf8256560ca5123a",
+      "indexed_sections": [
+        "sections/templates/source-04-templates-08-migration-gap-report-239a49c.md"
+      ],
+      "reconstructed_sha256": "e1bb7e5e6a96ac8cb8e2885811e0affa02428279571d3bb3cf8256560ca5123a"
+    },
+    {
+      "source": "05_handoffs/01_workflow.md",
+      "sha256": "14cf03606bacc5d52bf31427d92c66ee19c97108248da761feae49d12467cd4a",
+      "indexed_sections": [
+        "sections/procedures/source-05-handoffs-01-workflow-5f427c1.md"
+      ],
+      "reconstructed_sha256": "14cf03606bacc5d52bf31427d92c66ee19c97108248da761feae49d12467cd4a"
+    },
+    {
+      "source": "05_handoffs/02_agent_handoff.md",
+      "sha256": "a2462d9c098cfbf1245d196b8578e6c844cf41179031e2288265cc454bb40b3c",
+      "indexed_sections": [
+        "sections/references/source-05-handoffs-02-agent-handoff-2870be3.md"
+      ],
+      "reconstructed_sha256": "a2462d9c098cfbf1245d196b8578e6c844cf41179031e2288265cc454bb40b3c"
+    },
+    {
+      "source": "06_sources_to_update/01_decision_registry.md",
+      "sha256": "a9d844027992db575051d7e27daca6d8172db9092c6fe568819ad977214c7b3d",
+      "indexed_sections": [
+        "sections/references/source-06-sources-to-update-01-decision-registry-d28f83d.md"
+      ],
+      "reconstructed_sha256": "a9d844027992db575051d7e27daca6d8172db9092c6fe568819ad977214c7b3d"
+    },
+    {
+      "source": "06_sources_to_update/02_component_catalog_registry.md",
+      "sha256": "6303ca8c87e4caed1fd2ffd2505fdcec5337f04cfa8f74555fdd56f1d1e34741",
+      "indexed_sections": [
+        "sections/references/source-06-sources-to-update-02-component-catalog-registry-c6dda11.md"
+      ],
+      "reconstructed_sha256": "6303ca8c87e4caed1fd2ffd2505fdcec5337f04cfa8f74555fdd56f1d1e34741"
+    },
+    {
+      "source": "06_sources_to_update/03_correction_log.md",
+      "sha256": "4a3378bb28c6ce51e737f080000855230864434b0fed28540d81ae52decf386c",
+      "indexed_sections": [
+        "sections/references/source-06-sources-to-update-03-correction-log-40422c8.md"
+      ],
+      "reconstructed_sha256": "4a3378bb28c6ce51e737f080000855230864434b0fed28540d81ae52decf386c"
+    },
+    {
+      "source": "06_sources_to_update/04_example_bank.md",
+      "sha256": "326788bc8518236dfb2e7b57678d252d1a540940e389914e1692aadfadbd80a4",
+      "indexed_sections": [
+        "sections/references/source-06-sources-to-update-04-example-bank-c299dca.md"
+      ],
+      "reconstructed_sha256": "326788bc8518236dfb2e7b57678d252d1a540940e389914e1692aadfadbd80a4"
+    },
+    {
+      "source": "06_sources_to_update/05_unresolved_questions.md",
+      "sha256": "8e88e0f26056b12df12df3d81c3fddaeeb9f6bec4b58d8eb01cf028c62b1c849",
+      "indexed_sections": [
+        "sections/references/source-06-sources-to-update-05-unresolved-questions-dc51b31.md"
+      ],
+      "reconstructed_sha256": "8e88e0f26056b12df12df3d81c3fddaeeb9f6bec4b58d8eb01cf028c62b1c849"
+    },
+    {
+      "source": "07_tables/01_acceptance_matrix.md",
+      "sha256": "9877e190ba9931b04a4e033ff20e35060266d4be7399ff2fa2426bbb34a1b008",
+      "indexed_sections": [
+        "sections/references/source-07-tables-01-acceptance-matrix-444fea0.md"
+      ],
+      "reconstructed_sha256": "9877e190ba9931b04a4e033ff20e35060266d4be7399ff2fa2426bbb34a1b008"
+    },
+    {
+      "source": "07_tables/02_expected_artifacts.md",
+      "sha256": "6b1d4d1383b0525d79382a881dde23c7c88a1c43ad3b66283dd4d60d7d3437c6",
+      "indexed_sections": [
+        "sections/references/source-07-tables-02-expected-artifacts-08ff333.md"
+      ],
+      "reconstructed_sha256": "6b1d4d1383b0525d79382a881dde23c7c88a1c43ad3b66283dd4d60d7d3437c6"
+    },
+    {
+      "source": "08_self_heal/01_self_heal.md",
+      "sha256": "2aa75417f6e81e87a738bb1fff5fae579f386e5db85b3521dc988b6ea2572c02",
+      "indexed_sections": [
+        "sections/procedures/source-08-self-heal-01-self-heal-0ada73d.md"
+      ],
+      "reconstructed_sha256": "2aa75417f6e81e87a738bb1fff5fae579f386e5db85b3521dc988b6ea2572c02"
+    },
+    {
+      "source": "09_references/01_standards.md",
+      "sha256": "fa9f7bf724d7133b81410f803df491682732a9f2b0a990d59cfef2f8adfee931",
+      "indexed_sections": [
+        "sections/references/source-09-references-01-standards-869a1d7.md"
+      ],
+      "reconstructed_sha256": "fa9f7bf724d7133b81410f803df491682732a9f2b0a990d59cfef2f8adfee931"
+    },
+    {
+      "source": "90_workflow_integration.md",
+      "sha256": "16ef77da185fb6ae0a2890e6528683ff9a62f15782fd84daffb9343fb093d29b",
+      "indexed_sections": [
+        "sections/procedures/source-90-workflow-integration-cdaf867.md"
+      ],
+      "reconstructed_sha256": "16ef77da185fb6ae0a2890e6528683ff9a62f15782fd84daffb9343fb093d29b"
+    },
+    {
+      "source": "SKILL.md",
+      "sha256": "0edccfdc5cd5de1dd35ea213fe9619e5db246433ab2a8ecbffab413c3fa11136",
+      "indexed_sections": [
+        "sections/references/original-skill.md"
+      ],
+      "reconstructed_sha256": "0edccfdc5cd5de1dd35ea213fe9619e5db246433ab2a8ecbffab413c3fa11136"
+    }
+  ],
+  "semantic_equivalence": "NOT_RUN",
+  "owner_approval": "NOT_VERIFIED",
+  "original_archive_preserved": true
+}

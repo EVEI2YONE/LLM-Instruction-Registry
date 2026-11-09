@@ -1,0 +1,99 @@
+{
+  "id": "coding-partner-mentor-teacher",
+  "old_version": "v1.1",
+  "proposed_version": "v1.2",
+  "source_commit": "f634daa1ad6b86de93806334b1195bda14313646",
+  "files": [
+    {
+      "source": "00_compiled_instruction_prompt.md",
+      "sha256": "15a13a9700a0793fe0394c107028bda9d51790299cffe5546447c00082b2dcc8",
+      "indexed_sections": [
+        "sections/procedures/source-00-compiled-instruction-prompt-230d909.md"
+      ],
+      "reconstructed_sha256": "15a13a9700a0793fe0394c107028bda9d51790299cffe5546447c00082b2dcc8"
+    },
+    {
+      "source": "01_core_role_instruction_set.md",
+      "sha256": "dca796fd67a6bd029e1ed6b44f8b9b6ed126e7df3886410457be0601c3fdcd5b",
+      "indexed_sections": [
+        "sections/references/source-01-core-role-instruction-set-539ccdd.md"
+      ],
+      "reconstructed_sha256": "dca796fd67a6bd029e1ed6b44f8b9b6ed126e7df3886410457be0601c3fdcd5b"
+    },
+    {
+      "source": "02_response_helpers.md",
+      "sha256": "87c25a7b4c4229dcdcb81811d3106c910ed09c551394408b1a344a9824f9f980",
+      "indexed_sections": [
+        "sections/references/source-02-response-helpers-f440044.md"
+      ],
+      "reconstructed_sha256": "87c25a7b4c4229dcdcb81811d3106c910ed09c551394408b1a344a9824f9f980"
+    },
+    {
+      "source": "03_quick_reference_examples.md",
+      "sha256": "87eb5b03040e6cdaee5f1be52963533cf34670c42906203565f44316da05bb59",
+      "indexed_sections": [
+        "sections/references/source-03-quick-reference-examples-be5eb9f.md"
+      ],
+      "reconstructed_sha256": "87eb5b03040e6cdaee5f1be52963533cf34670c42906203565f44316da05bb59"
+    },
+    {
+      "source": "03_self_heal.md",
+      "sha256": "05d4b2e857eae6ad2be5e5a6d37849b5bf146d9668a68f646e7cb7934e6d8025",
+      "indexed_sections": [
+        "sections/procedures/source-03-self-heal-3106670.md"
+      ],
+      "reconstructed_sha256": "05d4b2e857eae6ad2be5e5a6d37849b5bf146d9668a68f646e7cb7934e6d8025"
+    },
+    {
+      "source": "04_boundaries_and_preferences.md",
+      "sha256": "383619004783dad46834d56d51692a09ac194dad11384dee0aeea80c309b1084",
+      "indexed_sections": [
+        "sections/references/source-04-boundaries-and-preferences-7b091ff.md"
+      ],
+      "reconstructed_sha256": "383619004783dad46834d56d51692a09ac194dad11384dee0aeea80c309b1084"
+    },
+    {
+      "source": "05_self_heal_instruction_set.md",
+      "sha256": "42e37121aadadfb66586d91d8d189555427a5f48fb5981a7d9c95b2ea4f91b5d",
+      "indexed_sections": [
+        "sections/procedures/source-05-self-heal-instruction-set-28ae72c.md"
+      ],
+      "reconstructed_sha256": "42e37121aadadfb66586d91d8d189555427a5f48fb5981a7d9c95b2ea4f91b5d"
+    },
+    {
+      "source": "07_validation_table.md",
+      "sha256": "db03059d9e50dacdba6c0b61ca881156a492fd6e82136dcbb7c9f13abf1d0b44",
+      "indexed_sections": [
+        "sections/procedures/source-07-validation-table-60297f8.md"
+      ],
+      "reconstructed_sha256": "db03059d9e50dacdba6c0b61ca881156a492fd6e82136dcbb7c9f13abf1d0b44"
+    },
+    {
+      "source": "90_workflow_integration.md",
+      "sha256": "46e462784d8949e7c0143d27200cb1106c2d57dc6cfacf024dfc9e442c9c8099",
+      "indexed_sections": [
+        "sections/procedures/source-90-workflow-integration-cdaf867.md"
+      ],
+      "reconstructed_sha256": "46e462784d8949e7c0143d27200cb1106c2d57dc6cfacf024dfc9e442c9c8099"
+    },
+    {
+      "source": "ORIGINAL_PACKAGE_README.md",
+      "sha256": "5541d8327c98bb51103b13164775a81395c39e065849bead1c74fe0531f69e95",
+      "indexed_sections": [
+        "sections/references/source-original-package-readme-0c8012f.md"
+      ],
+      "reconstructed_sha256": "5541d8327c98bb51103b13164775a81395c39e065849bead1c74fe0531f69e95"
+    },
+    {
+      "source": "SKILL.md",
+      "sha256": "7e2f3c66a9ab735b5fb033559371298ed044ef59bf869a39d10df49ba6aeedf5",
+      "indexed_sections": [
+        "sections/references/original-skill.md"
+      ],
+      "reconstructed_sha256": "7e2f3c66a9ab735b5fb033559371298ed044ef59bf869a39d10df49ba6aeedf5"
+    }
+  ],
+  "semantic_equivalence": "NOT_RUN",
+  "owner_approval": "NOT_VERIFIED",
+  "original_archive_preserved": true
+}

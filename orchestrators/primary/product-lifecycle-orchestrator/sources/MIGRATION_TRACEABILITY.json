@@ -1,0 +1,51 @@
+{
+  "id": "product-lifecycle-orchestrator",
+  "old_version": "v1",
+  "proposed_version": "v1.1",
+  "source_commit": "f634daa1ad6b86de93806334b1195bda14313646",
+  "files": [
+    {
+      "source": "00_compiled_instruction_set.md",
+      "sha256": "035f4c42e8f7dff0f7e087b43d54ccd958619139fe43cb2cc226677292ea965a",
+      "indexed_sections": [
+        "sections/procedures/source-00-compiled-instruction-set-8a93b84.md"
+      ],
+      "reconstructed_sha256": "035f4c42e8f7dff0f7e087b43d54ccd958619139fe43cb2cc226677292ea965a"
+    },
+    {
+      "source": "01_domain.md",
+      "sha256": "5b98d96491d90764c23e08607843ec6b3f978305cbec2203da592fe4c74aad44",
+      "indexed_sections": [
+        "sections/procedures/source-01-domain-9c0aca2.md"
+      ],
+      "reconstructed_sha256": "5b98d96491d90764c23e08607843ec6b3f978305cbec2203da592fe4c74aad44"
+    },
+    {
+      "source": "02_context_space.md",
+      "sha256": "fbeaa859f7c3c1e07bb1060e89a43dac5377b98453e92b40ecb49599eecbcbe1",
+      "indexed_sections": [
+        "sections/references/source-02-context-space-da68579.md"
+      ],
+      "reconstructed_sha256": "fbeaa859f7c3c1e07bb1060e89a43dac5377b98453e92b40ecb49599eecbcbe1"
+    },
+    {
+      "source": "03_self_heal.md",
+      "sha256": "e62b4f11dcfc412d7acf775da13abcfa64ad130b03bf139099b3d067fe1e64fb",
+      "indexed_sections": [
+        "sections/procedures/source-03-self-heal-3106670.md"
+      ],
+      "reconstructed_sha256": "e62b4f11dcfc412d7acf775da13abcfa64ad130b03bf139099b3d067fe1e64fb"
+    },
+    {
+      "source": "SKILL.md",
+      "sha256": "1c804003cf23a78078afbfcc52c2606f7f7e95b299cf8d114cb6e49faaef1057",
+      "indexed_sections": [
+        "sections/references/original-skill.md"
+      ],
+      "reconstructed_sha256": "1c804003cf23a78078afbfcc52c2606f7f7e95b299cf8d114cb6e49faaef1057"
+    }
+  ],
+  "semantic_equivalence": "NOT_RUN",
+  "owner_approval": "NOT_VERIFIED",
+  "original_archive_preserved": true
+}

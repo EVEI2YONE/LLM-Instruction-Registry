@@ -1,0 +1,75 @@
+{
+  "id": "backend-architecture-consultant",
+  "old_version": "v1.1",
+  "proposed_version": "v1.2",
+  "source_commit": "f634daa1ad6b86de93806334b1195bda14313646",
+  "files": [
+    {
+      "source": "00_compiled_instruction_set.md",
+      "sha256": "dce550230478f58767431e00e86434cb558d374e448610f02d54d71a935488ae",
+      "indexed_sections": [
+        "sections/procedures/source-00-compiled-instruction-set-8a93b84.md"
+      ],
+      "reconstructed_sha256": "dce550230478f58767431e00e86434cb558d374e448610f02d54d71a935488ae"
+    },
+    {
+      "source": "01_architecture_review.md",
+      "sha256": "65fa5bec486d01bb67c9eceedbbb5f7b278af087580430a94ddb53288a79d686",
+      "indexed_sections": [
+        "sections/references/source-01-architecture-review-4bc8b5c.md"
+      ],
+      "reconstructed_sha256": "65fa5bec486d01bb67c9eceedbbb5f7b278af087580430a94ddb53288a79d686"
+    },
+    {
+      "source": "02_atlas_gap_pr.md",
+      "sha256": "bb04b18b43ed38e739a62c5cb9b48a29a26ddf9408722e3972f9ae8805116b01",
+      "indexed_sections": [
+        "sections/references/source-02-atlas-gap-pr-0abf506.md"
+      ],
+      "reconstructed_sha256": "bb04b18b43ed38e739a62c5cb9b48a29a26ddf9408722e3972f9ae8805116b01"
+    },
+    {
+      "source": "03_refactor_handoff.md",
+      "sha256": "a38e965bfde5c2e058ce6120f0ceb4a8fb4ae80ac760750afa6b8e64d20ab496",
+      "indexed_sections": [
+        "sections/references/source-03-refactor-handoff-c672b35.md"
+      ],
+      "reconstructed_sha256": "a38e965bfde5c2e058ce6120f0ceb4a8fb4ae80ac760750afa6b8e64d20ab496"
+    },
+    {
+      "source": "03_self_heal.md",
+      "sha256": "05d4b2e857eae6ad2be5e5a6d37849b5bf146d9668a68f646e7cb7934e6d8025",
+      "indexed_sections": [
+        "sections/procedures/source-03-self-heal-3106670.md"
+      ],
+      "reconstructed_sha256": "05d4b2e857eae6ad2be5e5a6d37849b5bf146d9668a68f646e7cb7934e6d8025"
+    },
+    {
+      "source": "04_self_heal.md",
+      "sha256": "087a91573554dae61fe3c01c9087826d48b76d2cbba73a72f9c50b2ab9dd0890",
+      "indexed_sections": [
+        "sections/procedures/source-04-self-heal-2d7c421.md"
+      ],
+      "reconstructed_sha256": "087a91573554dae61fe3c01c9087826d48b76d2cbba73a72f9c50b2ab9dd0890"
+    },
+    {
+      "source": "90_workflow_integration.md",
+      "sha256": "ce2e6f280b6098f4447f54c9621fde2276a6b6e03cf19ea91fc7a8fd363bf66d",
+      "indexed_sections": [
+        "sections/procedures/source-90-workflow-integration-cdaf867.md"
+      ],
+      "reconstructed_sha256": "ce2e6f280b6098f4447f54c9621fde2276a6b6e03cf19ea91fc7a8fd363bf66d"
+    },
+    {
+      "source": "SKILL.md",
+      "sha256": "eeea4c8464e4e681904577597b5cde56fc497ea5950a6f358f2668dde96921e1",
+      "indexed_sections": [
+        "sections/references/original-skill.md"
+      ],
+      "reconstructed_sha256": "eeea4c8464e4e681904577597b5cde56fc497ea5950a6f358f2668dde96921e1"
+    }
+  ],
+  "semantic_equivalence": "NOT_RUN",
+  "owner_approval": "NOT_VERIFIED",
+  "original_archive_preserved": true
+}

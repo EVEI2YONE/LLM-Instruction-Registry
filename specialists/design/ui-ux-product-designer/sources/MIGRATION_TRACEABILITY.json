@@ -1,0 +1,51 @@
+{
+  "id": "ui-ux-product-designer",
+  "old_version": "v1",
+  "proposed_version": "v1.1",
+  "source_commit": "f634daa1ad6b86de93806334b1195bda14313646",
+  "files": [
+    {
+      "source": "00_compiled_instruction_set.md",
+      "sha256": "86dfa753cbf7c3158b8b67e7fe5c675cbbe9fdb5c73e07fa10c6254404df3fc1",
+      "indexed_sections": [
+        "sections/procedures/source-00-compiled-instruction-set-8a93b84.md"
+      ],
+      "reconstructed_sha256": "86dfa753cbf7c3158b8b67e7fe5c675cbbe9fdb5c73e07fa10c6254404df3fc1"
+    },
+    {
+      "source": "01_domain.md",
+      "sha256": "ff664f2f9c4076f1d0d866093b01791270137e71e03ba0c0ac32c37374ee7acf",
+      "indexed_sections": [
+        "sections/procedures/source-01-domain-9c0aca2.md"
+      ],
+      "reconstructed_sha256": "ff664f2f9c4076f1d0d866093b01791270137e71e03ba0c0ac32c37374ee7acf"
+    },
+    {
+      "source": "02_context_space.md",
+      "sha256": "12c1e4decc3571bc9bd20e58c4c0ebcb8bb17c81801cf5f6a3b3d81691beab45",
+      "indexed_sections": [
+        "sections/references/source-02-context-space-da68579.md"
+      ],
+      "reconstructed_sha256": "12c1e4decc3571bc9bd20e58c4c0ebcb8bb17c81801cf5f6a3b3d81691beab45"
+    },
+    {
+      "source": "03_self_heal.md",
+      "sha256": "276d0b9f8a554dd673822cb57995b255e95b3a91ef2a031dd4849f7db675aefa",
+      "indexed_sections": [
+        "sections/procedures/source-03-self-heal-3106670.md"
+      ],
+      "reconstructed_sha256": "276d0b9f8a554dd673822cb57995b255e95b3a91ef2a031dd4849f7db675aefa"
+    },
+    {
+      "source": "SKILL.md",
+      "sha256": "49bfad2ea8aff6b1117b74bc585515f887d26e4feb6bece4d85a8fa48428646a",
+      "indexed_sections": [
+        "sections/references/original-skill.md"
+      ],
+      "reconstructed_sha256": "49bfad2ea8aff6b1117b74bc585515f887d26e4feb6bece4d85a8fa48428646a"
+    }
+  ],
+  "semantic_equivalence": "NOT_RUN",
+  "owner_approval": "NOT_VERIFIED",
+  "original_archive_preserved": true
+}

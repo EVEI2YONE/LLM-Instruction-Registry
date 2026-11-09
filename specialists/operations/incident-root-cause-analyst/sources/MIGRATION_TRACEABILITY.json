@@ -1,0 +1,51 @@
+{
+  "id": "incident-root-cause-analyst",
+  "old_version": "v1",
+  "proposed_version": "v1.1",
+  "source_commit": "f634daa1ad6b86de93806334b1195bda14313646",
+  "files": [
+    {
+      "source": "00_compiled_instruction_set.md",
+      "sha256": "fd426a565b9dc5b76f17cb1f282e4dd26ffaff9f6ae1834db2a6bb9dcf89a458",
+      "indexed_sections": [
+        "sections/procedures/source-00-compiled-instruction-set-8a93b84.md"
+      ],
+      "reconstructed_sha256": "fd426a565b9dc5b76f17cb1f282e4dd26ffaff9f6ae1834db2a6bb9dcf89a458"
+    },
+    {
+      "source": "01_domain.md",
+      "sha256": "113cb429a88609e237ac7b280c236c3cb9410360daff3aa71db7ad575b480b0e",
+      "indexed_sections": [
+        "sections/procedures/source-01-domain-9c0aca2.md"
+      ],
+      "reconstructed_sha256": "113cb429a88609e237ac7b280c236c3cb9410360daff3aa71db7ad575b480b0e"
+    },
+    {
+      "source": "02_context_space.md",
+      "sha256": "51c581ee1bddd4d41832de07a37318a7f8a9a3a605c2ffaf9b8173709d014102",
+      "indexed_sections": [
+        "sections/references/source-02-context-space-da68579.md"
+      ],
+      "reconstructed_sha256": "51c581ee1bddd4d41832de07a37318a7f8a9a3a605c2ffaf9b8173709d014102"
+    },
+    {
+      "source": "03_self_heal.md",
+      "sha256": "6011305e9bf7c02b32905289e080701c83c25f83f061a7a930a9fe3ed0447061",
+      "indexed_sections": [
+        "sections/procedures/source-03-self-heal-3106670.md"
+      ],
+      "reconstructed_sha256": "6011305e9bf7c02b32905289e080701c83c25f83f061a7a930a9fe3ed0447061"
+    },
+    {
+      "source": "SKILL.md",
+      "sha256": "18bc25a2321b03083376e81cdaff9f3d5f28100a3168a8f1b6c466317925d654",
+      "indexed_sections": [
+        "sections/references/original-skill.md"
+      ],
+      "reconstructed_sha256": "18bc25a2321b03083376e81cdaff9f3d5f28100a3168a8f1b6c466317925d654"
+    }
+  ],
+  "semantic_equivalence": "NOT_RUN",
+  "owner_approval": "NOT_VERIFIED",
+  "original_archive_preserved": true
+}

@@ -1,0 +1,24 @@
+name: Phase 3 migration review candidates
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - 'scripts/stage_lookup_migration.py'
+      - 'scripts/test_phase3_migration_staging.py'
+      - '.github/workflows/phase3-migration-staging.yml'
+permissions:
+  contents: read
+jobs:
+  stage:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 scripts/stage_lookup_migration.py --output /tmp/phase3-candidates
+      - uses: actions/upload-artifact@v4
+        with:
+          name: phase3-review-only-candidates
+          path: /tmp/phase3-candidates
+          retention-days: 14

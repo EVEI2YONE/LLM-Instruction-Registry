@@ -1,0 +1,574 @@
+{
+  "id": "ui-ux-design-system-architect",
+  "version": "v1.3",
+  "source_contract": "lookup-first-v1",
+  "kind": "specialist",
+  "role": "curator",
+  "entrypoint": {
+    "path": "SKILL.md",
+    "words": 162,
+    "sha256": "b1771795941bcdf244b8645de36e3c21e21b859dc3e61bd3e35676924fc2cb8a"
+  },
+  "sections": [
+    {
+      "id": "source-00-compiled-instruction-set-8a93b84",
+      "kind": "procedure",
+      "path": "sections/procedures/source-00-compiled-instruction-set-8a93b84.md",
+      "summary": "Preserved source 00_compiled_instruction_set.md",
+      "read_when": [
+        "about to consult source 00_compiled_instruction_set.md"
+      ],
+      "requires": [],
+      "words": 313,
+      "sha256": "de01ca0f0c1f81e4104c0b811ddbb89d3b4f2c9b3e81760657b784ddc1b810f1"
+    },
+    {
+      "id": "source-01-core-01-mission-b52310e",
+      "kind": "reference",
+      "path": "sections/references/source-01-core-01-mission-b52310e.md",
+      "summary": "Preserved source 01_core/01_mission.md",
+      "read_when": [
+        "about to consult source 01_core/01_mission.md"
+      ],
+      "requires": [],
+      "words": 60,
+      "sha256": "e0bcfad82b3cc9eb0c0d751ed2151885eea0b573211c922fb1f8a4e7e99ef441"
+    },
+    {
+      "id": "source-01-core-02-decision-policy-1ee74aa",
+      "kind": "reference",
+      "path": "sections/references/source-01-core-02-decision-policy-1ee74aa.md",
+      "summary": "Preserved source 01_core/02_decision_policy.md",
+      "read_when": [
+        "about to consult source 01_core/02_decision_policy.md"
+      ],
+      "requires": [],
+      "words": 58,
+      "sha256": "db71d667bc1fdb8482258202875eeac7404e43277f332838461610dcb27bc374"
+    },
+    {
+      "id": "source-02-helpers-01-repo-intake-1503878",
+      "kind": "reference",
+      "path": "sections/references/source-02-helpers-01-repo-intake-1503878.md",
+      "summary": "Preserved source 02_helpers/01_repo_intake.md",
+      "read_when": [
+        "about to consult source 02_helpers/01_repo_intake.md"
+      ],
+      "requires": [],
+      "words": 58,
+      "sha256": "fd0c6211c727d56309eb8d977a39e3b918134b261e65083584ec012a0a1a607b"
+    },
+    {
+      "id": "source-02-helpers-02-component-architecture-f5c01b8",
+      "kind": "reference",
+      "path": "sections/references/source-02-helpers-02-component-architecture-f5c01b8.md",
+      "summary": "Preserved source 02_helpers/02_component_architecture.md",
+      "read_when": [
+        "about to consult source 02_helpers/02_component_architecture.md"
+      ],
+      "requires": [],
+      "words": 62,
+      "sha256": "063001d483f804734c9a8e006e24270726f1447367a61f3fc12435e665940979"
+    },
+    {
+      "id": "source-02-helpers-03-tokens-themes-a4928c0",
+      "kind": "reference",
+      "path": "sections/references/source-02-helpers-03-tokens-themes-a4928c0.md",
+      "summary": "Preserved source 02_helpers/03_tokens_themes.md",
+      "read_when": [
+        "about to consult source 02_helpers/03_tokens_themes.md"
+      ],
+      "requires": [],
+      "words": 54,
+      "sha256": "c191dca32c4b576d71c02158ebeabe0371d6eab85080f73708ff0a85e01b47bb"
+    },
+    {
+      "id": "source-02-helpers-04-styling-architecture-535e13b",
+      "kind": "reference",
+      "path": "sections/references/source-02-helpers-04-styling-architecture-535e13b.md",
+      "summary": "Preserved source 02_helpers/04_styling_architecture.md",
+      "read_when": [
+        "about to consult source 02_helpers/04_styling_architecture.md"
+      ],
+      "requires": [],
+      "words": 57,
+      "sha256": "575010867921ee92e1fbf344d90409e891d822bac2e156204337bbc257284ab2"
+    },
+    {
+      "id": "source-02-helpers-05-ux-interaction-f369773",
+      "kind": "reference",
+      "path": "sections/references/source-02-helpers-05-ux-interaction-f369773.md",
+      "summary": "Preserved source 02_helpers/05_ux_interaction.md",
+      "read_when": [
+        "about to consult source 02_helpers/05_ux_interaction.md"
+      ],
+      "requires": [],
+      "words": 51,
+      "sha256": "e4d59cfa92556638fef4dfc88906ad9a9f799c1e0254aa3a0ad18fc95c4fd61c"
+    },
+    {
+      "id": "source-02-helpers-06-accessibility-5e44d58",
+      "kind": "reference",
+      "path": "sections/references/source-02-helpers-06-accessibility-5e44d58.md",
+      "summary": "Preserved source 02_helpers/06_accessibility.md",
+      "read_when": [
+        "about to consult source 02_helpers/06_accessibility.md"
+      ],
+      "requires": [],
+      "words": 55,
+      "sha256": "08df4e30838d1d1db62cf632a740d80726cd917c33eb8d98ddd39c524dab00c0"
+    },
+    {
+      "id": "source-02-helpers-07-internationalization-9a226a6",
+      "kind": "reference",
+      "path": "sections/references/source-02-helpers-07-internationalization-9a226a6.md",
+      "summary": "Preserved source 02_helpers/07_internationalization.md",
+      "read_when": [
+        "about to consult source 02_helpers/07_internationalization.md"
+      ],
+      "requires": [],
+      "words": 50,
+      "sha256": "b4dd274972b834e97dfba71b18fd20f31b3e33c087d17836d6f49b60f6aca88c"
+    },
+    {
+      "id": "source-02-helpers-08-metrics-88547ce",
+      "kind": "reference",
+      "path": "sections/references/source-02-helpers-08-metrics-88547ce.md",
+      "summary": "Preserved source 02_helpers/08_metrics.md",
+      "read_when": [
+        "about to consult source 02_helpers/08_metrics.md"
+      ],
+      "requires": [],
+      "words": 71,
+      "sha256": "edad7453abe320a8795fe2265ee1207499a6a7fb4a8819a3b22340b1e373ef71"
+    },
+    {
+      "id": "source-02-helpers-09-quality-gates-edb3fe9",
+      "kind": "reference",
+      "path": "sections/references/source-02-helpers-09-quality-gates-edb3fe9.md",
+      "summary": "Preserved source 02_helpers/09_quality_gates.md",
+      "read_when": [
+        "about to consult source 02_helpers/09_quality_gates.md"
+      ],
+      "requires": [],
+      "words": 52,
+      "sha256": "769cf13f20a2c0b78dc50c22abbce20be6e7ebb1e2db64c2e50bd7274e2e347c"
+    },
+    {
+      "id": "source-02-helpers-10-catalog-first-knowledge-audit-b3b3a7c",
+      "kind": "reference",
+      "path": "sections/references/source-02-helpers-10-catalog-first-knowledge-audit-b3b3a7c.md",
+      "summary": "Preserved source 02_helpers/10_catalog_first_knowledge_audit.md",
+      "read_when": [
+        "about to consult source 02_helpers/10_catalog_first_knowledge_audit.md"
+      ],
+      "requires": [],
+      "words": 76,
+      "sha256": "988947ed9dda45a50f27aa234b849e0207eba2e865aee32dfebb630e946a770f"
+    },
+    {
+      "id": "source-03-self-heal-3106670",
+      "kind": "procedure",
+      "path": "sections/procedures/source-03-self-heal-3106670.md",
+      "summary": "Preserved source 03_self_heal.md",
+      "read_when": [
+        "about to correct a failure"
+      ],
+      "requires": [],
+      "words": 38,
+      "sha256": "05d4b2e857eae6ad2be5e5a6d37849b5bf146d9668a68f646e7cb7934e6d8025"
+    },
+    {
+      "id": "source-03-sub-roles-01-design-lead-d0f8b63",
+      "kind": "role",
+      "path": "sections/roles/source-03-sub-roles-01-design-lead-d0f8b63.md",
+      "summary": "Preserved source 03_sub_roles/01_design_lead.md",
+      "read_when": [
+        "about to consult source 03_sub_roles/01_design_lead.md"
+      ],
+      "requires": [],
+      "words": 35,
+      "sha256": "409e256a77687ec295cf6128df0d865596b34d3be77d89010106f38bfa793677"
+    },
+    {
+      "id": "source-03-sub-roles-02-catalog-curator-128fd12",
+      "kind": "role",
+      "path": "sections/roles/source-03-sub-roles-02-catalog-curator-128fd12.md",
+      "summary": "Preserved source 03_sub_roles/02_catalog_curator.md",
+      "read_when": [
+        "about to consult source 03_sub_roles/02_catalog_curator.md"
+      ],
+      "requires": [],
+      "words": 38,
+      "sha256": "6ad037f93abb43cc4447a8cba10f31f32997262be1f4acd162a19b6b80567678"
+    },
+    {
+      "id": "source-03-sub-roles-03-ux-research-analyst-2ec78b3",
+      "kind": "role",
+      "path": "sections/roles/source-03-sub-roles-03-ux-research-analyst-2ec78b3.md",
+      "summary": "Preserved source 03_sub_roles/03_ux_research_analyst.md",
+      "read_when": [
+        "about to consult source 03_sub_roles/03_ux_research_analyst.md"
+      ],
+      "requires": [],
+      "words": 31,
+      "sha256": "119890f6bbfbc64ab7429a1ec8de16c578adce369c74e50801060a54ffb791e5"
+    },
+    {
+      "id": "source-03-sub-roles-04-accessibility-localization-reviewer-b36da24",
+      "kind": "role",
+      "path": "sections/roles/source-03-sub-roles-04-accessibility-localization-reviewer-b36da24.md",
+      "summary": "Preserved source 03_sub_roles/04_accessibility_localization_reviewer.md",
+      "read_when": [
+        "about to consult source 03_sub_roles/04_accessibility_localization_reviewer.md"
+      ],
+      "requires": [],
+      "words": 34,
+      "sha256": "c6dedd331e259cbde96852715f7fa690e0dbee96822fc9ade0d4080e2eb63fe1"
+    },
+    {
+      "id": "source-04-templates-01-component-spec-6a5f1ef",
+      "kind": "template",
+      "path": "sections/templates/source-04-templates-01-component-spec-6a5f1ef.md",
+      "summary": "Preserved source 04_templates/01_component_spec.md",
+      "read_when": [
+        "about to draft a reusable output"
+      ],
+      "requires": [],
+      "words": 37,
+      "sha256": "73c9c97323a99f9fe12f2f0b54e73d3c0c2074f9a4826675c68d111ac20766f0"
+    },
+    {
+      "id": "source-04-templates-02-feature-page-spec-ea98570",
+      "kind": "template",
+      "path": "sections/templates/source-04-templates-02-feature-page-spec-ea98570.md",
+      "summary": "Preserved source 04_templates/02_feature_page_spec.md",
+      "read_when": [
+        "about to draft a reusable output"
+      ],
+      "requires": [],
+      "words": 36,
+      "sha256": "b318f953e1a3bd54e33134eb7a561da8fdd1bd4833e088f2f74a2fa58ecc8001"
+    },
+    {
+      "id": "source-04-templates-03-catalog-entry-schema-babf2ba",
+      "kind": "template",
+      "path": "sections/templates/source-04-templates-03-catalog-entry-schema-babf2ba.md",
+      "summary": "Preserved source 04_templates/03_catalog_entry_schema.md",
+      "read_when": [
+        "about to draft a reusable output"
+      ],
+      "requires": [],
+      "words": 34,
+      "sha256": "fd4c13749ce2d393de859c42c44a753920bfac47d92af08b557adb6271b74d64"
+    },
+    {
+      "id": "source-04-templates-04-catalog-repo-layout-612ff31",
+      "kind": "template",
+      "path": "sections/templates/source-04-templates-04-catalog-repo-layout-612ff31.md",
+      "summary": "Preserved source 04_templates/04_catalog_repo_layout.md",
+      "read_when": [
+        "about to draft a reusable output"
+      ],
+      "requires": [],
+      "words": 44,
+      "sha256": "3c7e66bfddbd3680c64cd311df9612929be75db33b5061bf56464fd9f9c4791e"
+    },
+    {
+      "id": "source-04-templates-05-pr-template-34631b9",
+      "kind": "template",
+      "path": "sections/templates/source-04-templates-05-pr-template-34631b9.md",
+      "summary": "Preserved source 04_templates/05_pr_template.md",
+      "read_when": [
+        "about to draft a reusable output"
+      ],
+      "requires": [],
+      "words": 50,
+      "sha256": "23289e293d1197d8f50f86619a12e5d4064e72b808066bdc7fee147782b6a590"
+    },
+    {
+      "id": "source-04-templates-06-design-review-b6fb750",
+      "kind": "template",
+      "path": "sections/templates/source-04-templates-06-design-review-b6fb750.md",
+      "summary": "Preserved source 04_templates/06_design_review.md",
+      "read_when": [
+        "about to draft a reusable output"
+      ],
+      "requires": [],
+      "words": 37,
+      "sha256": "bdfce4c298c45b781bd73ad1c3579a89179052533eccb48fe9b96fbbdd9f520a"
+    },
+    {
+      "id": "source-04-templates-07-measurement-plan-e03cd19",
+      "kind": "template",
+      "path": "sections/templates/source-04-templates-07-measurement-plan-e03cd19.md",
+      "summary": "Preserved source 04_templates/07_measurement_plan.md",
+      "read_when": [
+        "about to draft a reusable output"
+      ],
+      "requires": [],
+      "words": 30,
+      "sha256": "827e84110a57fa1a04776d184cc6ac7820265c3919b42aee804b44bf314057cd"
+    },
+    {
+      "id": "source-04-templates-08-migration-gap-report-239a49c",
+      "kind": "template",
+      "path": "sections/templates/source-04-templates-08-migration-gap-report-239a49c.md",
+      "summary": "Preserved source 04_templates/08_migration_gap_report.md",
+      "read_when": [
+        "about to draft a reusable output"
+      ],
+      "requires": [],
+      "words": 75,
+      "sha256": "e1bb7e5e6a96ac8cb8e2885811e0affa02428279571d3bb3cf8256560ca5123a"
+    },
+    {
+      "id": "source-05-handoffs-01-workflow-5f427c1",
+      "kind": "procedure",
+      "path": "sections/procedures/source-05-handoffs-01-workflow-5f427c1.md",
+      "summary": "Preserved source 05_handoffs/01_workflow.md",
+      "read_when": [
+        "about to participate in a workflow"
+      ],
+      "requires": [],
+      "words": 68,
+      "sha256": "14cf03606bacc5d52bf31427d92c66ee19c97108248da761feae49d12467cd4a"
+    },
+    {
+      "id": "source-05-handoffs-02-agent-handoff-2870be3",
+      "kind": "reference",
+      "path": "sections/references/source-05-handoffs-02-agent-handoff-2870be3.md",
+      "summary": "Preserved source 05_handoffs/02_agent_handoff.md",
+      "read_when": [
+        "about to consult source 05_handoffs/02_agent_handoff.md"
+      ],
+      "requires": [],
+      "words": 41,
+      "sha256": "a2462d9c098cfbf1245d196b8578e6c844cf41179031e2288265cc454bb40b3c"
+    },
+    {
+      "id": "source-06-sources-to-update-01-decision-registry-d28f83d",
+      "kind": "reference",
+      "path": "sections/references/source-06-sources-to-update-01-decision-registry-d28f83d.md",
+      "summary": "Preserved source 06_sources_to_update/01_decision_registry.md",
+      "read_when": [
+        "about to consult source 06_sources_to_update/01_decision_registry.md"
+      ],
+      "requires": [],
+      "words": 28,
+      "sha256": "a9d844027992db575051d7e27daca6d8172db9092c6fe568819ad977214c7b3d"
+    },
+    {
+      "id": "source-06-sources-to-update-02-component-catalog-registry-c6dda11",
+      "kind": "reference",
+      "path": "sections/references/source-06-sources-to-update-02-component-catalog-registry-c6dda11.md",
+      "summary": "Preserved source 06_sources_to_update/02_component_catalog_registry.md",
+      "read_when": [
+        "about to consult source 06_sources_to_update/02_component_catalog_registry.md"
+      ],
+      "requires": [],
+      "words": 33,
+      "sha256": "6303ca8c87e4caed1fd2ffd2505fdcec5337f04cfa8f74555fdd56f1d1e34741"
+    },
+    {
+      "id": "source-06-sources-to-update-03-correction-log-40422c8",
+      "kind": "reference",
+      "path": "sections/references/source-06-sources-to-update-03-correction-log-40422c8.md",
+      "summary": "Preserved source 06_sources_to_update/03_correction_log.md",
+      "read_when": [
+        "about to consult source 06_sources_to_update/03_correction_log.md"
+      ],
+      "requires": [],
+      "words": 39,
+      "sha256": "4a3378bb28c6ce51e737f080000855230864434b0fed28540d81ae52decf386c"
+    },
+    {
+      "id": "source-06-sources-to-update-04-example-bank-c299dca",
+      "kind": "reference",
+      "path": "sections/references/source-06-sources-to-update-04-example-bank-c299dca.md",
+      "summary": "Preserved source 06_sources_to_update/04_example_bank.md",
+      "read_when": [
+        "about to consult source 06_sources_to_update/04_example_bank.md"
+      ],
+      "requires": [],
+      "words": 52,
+      "sha256": "326788bc8518236dfb2e7b57678d252d1a540940e389914e1692aadfadbd80a4"
+    },
+    {
+      "id": "source-06-sources-to-update-05-unresolved-questions-dc51b31",
+      "kind": "reference",
+      "path": "sections/references/source-06-sources-to-update-05-unresolved-questions-dc51b31.md",
+      "summary": "Preserved source 06_sources_to_update/05_unresolved_questions.md",
+      "read_when": [
+        "about to consult source 06_sources_to_update/05_unresolved_questions.md"
+      ],
+      "requires": [],
+      "words": 36,
+      "sha256": "8e88e0f26056b12df12df3d81c3fddaeeb9f6bec4b58d8eb01cf028c62b1c849"
+    },
+    {
+      "id": "source-07-tables-01-acceptance-matrix-444fea0",
+      "kind": "reference",
+      "path": "sections/references/source-07-tables-01-acceptance-matrix-444fea0.md",
+      "summary": "Preserved source 07_tables/01_acceptance_matrix.md",
+      "read_when": [
+        "about to consult source 07_tables/01_acceptance_matrix.md"
+      ],
+      "requires": [],
+      "words": 43,
+      "sha256": "9877e190ba9931b04a4e033ff20e35060266d4be7399ff2fa2426bbb34a1b008"
+    },
+    {
+      "id": "source-07-tables-02-expected-artifacts-08ff333",
+      "kind": "reference",
+      "path": "sections/references/source-07-tables-02-expected-artifacts-08ff333.md",
+      "summary": "Preserved source 07_tables/02_expected_artifacts.md",
+      "read_when": [
+        "about to consult source 07_tables/02_expected_artifacts.md"
+      ],
+      "requires": [],
+      "words": 47,
+      "sha256": "6b1d4d1383b0525d79382a881dde23c7c88a1c43ad3b66283dd4d60d7d3437c6"
+    },
+    {
+      "id": "source-08-self-heal-01-self-heal-0ada73d",
+      "kind": "procedure",
+      "path": "sections/procedures/source-08-self-heal-01-self-heal-0ada73d.md",
+      "summary": "Preserved source 08_self_heal/01_self_heal.md",
+      "read_when": [
+        "about to correct a failure"
+      ],
+      "requires": [],
+      "words": 61,
+      "sha256": "2aa75417f6e81e87a738bb1fff5fae579f386e5db85b3521dc988b6ea2572c02"
+    },
+    {
+      "id": "source-09-references-01-standards-869a1d7",
+      "kind": "reference",
+      "path": "sections/references/source-09-references-01-standards-869a1d7.md",
+      "summary": "Preserved source 09_references/01_standards.md",
+      "read_when": [
+        "about to consult source 09_references/01_standards.md"
+      ],
+      "requires": [],
+      "words": 47,
+      "sha256": "fa9f7bf724d7133b81410f803df491682732a9f2b0a990d59cfef2f8adfee931"
+    },
+    {
+      "id": "source-90-workflow-integration-cdaf867",
+      "kind": "procedure",
+      "path": "sections/procedures/source-90-workflow-integration-cdaf867.md",
+      "summary": "Preserved source 90_workflow_integration.md",
+      "read_when": [
+        "about to participate in a workflow"
+      ],
+      "requires": [],
+      "words": 300,
+      "sha256": "16ef77da185fb6ae0a2890e6528683ff9a62f15782fd84daffb9343fb093d29b"
+    },
+    {
+      "id": "original-skill",
+      "kind": "reference",
+      "path": "sections/references/original-skill.md",
+      "summary": "Previous entrypoint retained for provenance",
+      "read_when": [
+        "about to audit legacy entrypoint"
+      ],
+      "requires": [],
+      "reference_only": true,
+      "words": 209,
+      "sha256": "0edccfdc5cd5de1dd35ea213fe9619e5db246433ab2a8ecbffab413c3fa11136"
+    }
+  ],
+  "default_sections": [
+    "source-00-compiled-instruction-set-8a93b84",
+    "source-01-core-01-mission-b52310e",
+    "source-01-core-02-decision-policy-1ee74aa"
+  ],
+  "sources": [
+    "00_compiled_instruction_set.md",
+    "01_core/01_mission.md",
+    "01_core/02_decision_policy.md",
+    "02_helpers/01_repo_intake.md",
+    "02_helpers/02_component_architecture.md",
+    "02_helpers/03_tokens_themes.md",
+    "02_helpers/04_styling_architecture.md",
+    "02_helpers/05_ux_interaction.md",
+    "02_helpers/06_accessibility.md",
+    "02_helpers/07_internationalization.md",
+    "02_helpers/08_metrics.md",
+    "02_helpers/09_quality_gates.md",
+    "02_helpers/10_catalog_first_knowledge_audit.md",
+    "03_self_heal.md",
+    "03_sub_roles/01_design_lead.md",
+    "03_sub_roles/02_catalog_curator.md",
+    "03_sub_roles/03_ux_research_analyst.md",
+    "03_sub_roles/04_accessibility_localization_reviewer.md",
+    "04_templates/01_component_spec.md",
+    "04_templates/02_feature_page_spec.md",
+    "04_templates/03_catalog_entry_schema.md",
+    "04_templates/04_catalog_repo_layout.md",
+    "04_templates/05_pr_template.md",
+    "04_templates/06_design_review.md",
+    "04_templates/07_measurement_plan.md",
+    "04_templates/08_migration_gap_report.md",
+    "05_handoffs/01_workflow.md",
+    "05_handoffs/02_agent_handoff.md",
+    "06_sources_to_update/01_decision_registry.md",
+    "06_sources_to_update/02_component_catalog_registry.md",
+    "06_sources_to_update/03_correction_log.md",
+    "06_sources_to_update/04_example_bank.md",
+    "06_sources_to_update/05_unresolved_questions.md",
+    "07_tables/01_acceptance_matrix.md",
+    "07_tables/02_expected_artifacts.md",
+    "08_self_heal/01_self_heal.md",
+    "09_references/01_standards.md",
+    "90_workflow_integration.md",
+    "99_manifest.json",
+    "MIGRATION_TRACEABILITY.json",
+    "README.md",
+    "SKILL.md",
+    "agents/openai.yaml",
+    "manifest.json",
+    "sections/procedures/source-00-compiled-instruction-set-8a93b84.md",
+    "sections/procedures/source-03-self-heal-3106670.md",
+    "sections/procedures/source-05-handoffs-01-workflow-5f427c1.md",
+    "sections/procedures/source-08-self-heal-01-self-heal-0ada73d.md",
+    "sections/procedures/source-90-workflow-integration-cdaf867.md",
+    "sections/references/original-skill.md",
+    "sections/references/source-01-core-01-mission-b52310e.md",
+    "sections/references/source-01-core-02-decision-policy-1ee74aa.md",
+    "sections/references/source-02-helpers-01-repo-intake-1503878.md",
+    "sections/references/source-02-helpers-02-component-architecture-f5c01b8.md",
+    "sections/references/source-02-helpers-03-tokens-themes-a4928c0.md",
+    "sections/references/source-02-helpers-04-styling-architecture-535e13b.md",
+    "sections/references/source-02-helpers-05-ux-interaction-f369773.md",
+    "sections/references/source-02-helpers-06-accessibility-5e44d58.md",
+    "sections/references/source-02-helpers-07-internationalization-9a226a6.md",
+    "sections/references/source-02-helpers-08-metrics-88547ce.md",
+    "sections/references/source-02-helpers-09-quality-gates-edb3fe9.md",
+    "sections/references/source-02-helpers-10-catalog-first-knowledge-audit-b3b3a7c.md",
+    "sections/references/source-05-handoffs-02-agent-handoff-2870be3.md",
+    "sections/references/source-06-sources-to-update-01-decision-registry-d28f83d.md",
+    "sections/references/source-06-sources-to-update-02-component-catalog-registry-c6dda11.md",
+    "sections/references/source-06-sources-to-update-03-correction-log-40422c8.md",
+    "sections/references/source-06-sources-to-update-04-example-bank-c299dca.md",
+    "sections/references/source-06-sources-to-update-05-unresolved-questions-dc51b31.md",
+    "sections/references/source-07-tables-01-acceptance-matrix-444fea0.md",
+    "sections/references/source-07-tables-02-expected-artifacts-08ff333.md",
+    "sections/references/source-09-references-01-standards-869a1d7.md",
+    "sections/roles/source-03-sub-roles-01-design-lead-d0f8b63.md",
+    "sections/roles/source-03-sub-roles-02-catalog-curator-128fd12.md",
+    "sections/roles/source-03-sub-roles-03-ux-research-analyst-2ec78b3.md",
+    "sections/roles/source-03-sub-roles-04-accessibility-localization-reviewer-b36da24.md",
+    "sections/templates/source-04-templates-01-component-spec-6a5f1ef.md",
+    "sections/templates/source-04-templates-02-feature-page-spec-ea98570.md",
+    "sections/templates/source-04-templates-03-catalog-entry-schema-babf2ba.md",
+    "sections/templates/source-04-templates-04-catalog-repo-layout-612ff31.md",
+    "sections/templates/source-04-templates-05-pr-template-34631b9.md",
+    "sections/templates/source-04-templates-06-design-review-b6fb750.md",
+    "sections/templates/source-04-templates-07-measurement-plan-e03cd19.md",
+    "sections/templates/source-04-templates-08-migration-gap-report-239a49c.md"
+  ],
+  "behavioral_evaluation": "NOT_RUN"
+}

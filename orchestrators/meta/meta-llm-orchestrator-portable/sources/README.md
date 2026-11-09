@@ -23,3 +23,6 @@ This PR is intentionally unregistered while review and release gates are outstan
 
 ## Source basis
 User-supplied Meta-LLM v26 review candidate and accompanying correction/provenance materials. These uploaded files are not claimed to be an already-approved registry release.
+## Generation intake enforcement
+
+The optional provider-neutral `tools/intake_gate.py` implements a deterministic pre-generation gate and emits an explicit ASK_DESTINATION/ASK_LOADING_MODE/ASK_REGISTRY_DECISION/READY/REVIEW_ONLY resolution. It never discovers repository sources, installs an agent, or grants permission. Without local execution, follow the same decision rules in `SKILL.md` and `sections/procedures/capability-intake.md`. An inferred current host is not a valid substitute for the user's intended generated-agent destination.

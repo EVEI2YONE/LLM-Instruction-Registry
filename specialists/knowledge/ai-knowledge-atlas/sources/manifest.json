@@ -1,0 +1,696 @@
+{
+  "id": "ai-knowledge-atlas",
+  "version": "v2.3",
+  "source_contract": "lookup-first-v1",
+  "kind": "specialist",
+  "role": "curator",
+  "entrypoint": {
+    "path": "SKILL.md",
+    "words": 160,
+    "sha256": "6e244d9605bea00538a8d197ae52c852e7fb153803792ee7822303e07e60f535"
+  },
+  "sections": [
+    {
+      "id": "source-00-orientation-and-compiled-rules-19b77f9-1",
+      "kind": "procedure",
+      "path": "sections/procedures/source-00-orientation-and-compiled-rules-19b77f9-1.md",
+      "summary": "Preserved source 00_ORIENTATION_AND_COMPILED_RULES.md",
+      "read_when": [
+        "about to consult source 00_ORIENTATION_AND_COMPILED_RULES.md"
+      ],
+      "requires": [],
+      "words": 1200,
+      "sha256": "0c2ac53f436cc678f66a8cc6bcf14823d6a019b7b657a9b2f4947609b44e907d"
+    },
+    {
+      "id": "source-00-orientation-and-compiled-rules-19b77f9-2",
+      "kind": "procedure",
+      "path": "sections/procedures/source-00-orientation-and-compiled-rules-19b77f9-2.md",
+      "summary": "Preserved source 00_ORIENTATION_AND_COMPILED_RULES.md",
+      "read_when": [
+        "about to consult source 00_ORIENTATION_AND_COMPILED_RULES.md"
+      ],
+      "requires": [],
+      "words": 1200,
+      "sha256": "bf0dd1c5553fd523f71cec3079bea1782477272aa9281960ddc336e57328062b"
+    },
+    {
+      "id": "source-00-orientation-and-compiled-rules-19b77f9-3",
+      "kind": "procedure",
+      "path": "sections/procedures/source-00-orientation-and-compiled-rules-19b77f9-3.md",
+      "summary": "Preserved source 00_ORIENTATION_AND_COMPILED_RULES.md",
+      "read_when": [
+        "about to consult source 00_ORIENTATION_AND_COMPILED_RULES.md"
+      ],
+      "requires": [],
+      "words": 776,
+      "sha256": "e00cb5c4ad57577c7b7b390c6614540631664bd23d9ab84073c6b3170715cb57"
+    },
+    {
+      "id": "source-01-core-mission-139f1a0",
+      "kind": "reference",
+      "path": "sections/references/source-01-core-mission-139f1a0.md",
+      "summary": "Preserved source 01_CORE_MISSION.md",
+      "read_when": [
+        "about to consult source 01_CORE_MISSION.md"
+      ],
+      "requires": [],
+      "words": 212,
+      "sha256": "1bdef6657b5c48373be4d2068d4f93cf9924d1b9393b40d45640bc0877783d66"
+    },
+    {
+      "id": "source-02-core-authority-and-scope-035b18f",
+      "kind": "reference",
+      "path": "sections/references/source-02-core-authority-and-scope-035b18f.md",
+      "summary": "Preserved source 02_CORE_AUTHORITY_AND_SCOPE.md",
+      "read_when": [
+        "about to consult source 02_CORE_AUTHORITY_AND_SCOPE.md"
+      ],
+      "requires": [],
+      "words": 397,
+      "sha256": "9fc51562ca9d4bc612a7d085de6a4b647750981aae8ced4ee96d4b2b9d96fa7d"
+    },
+    {
+      "id": "source-03-core-quality-standards-56a2a15",
+      "kind": "reference",
+      "path": "sections/references/source-03-core-quality-standards-56a2a15.md",
+      "summary": "Preserved source 03_CORE_QUALITY_STANDARDS.md",
+      "read_when": [
+        "about to consult source 03_CORE_QUALITY_STANDARDS.md"
+      ],
+      "requires": [],
+      "words": 296,
+      "sha256": "7101cb25a80d536467a534469733f61d9e48e1929e9a57d520195be778b3b90c"
+    },
+    {
+      "id": "source-03-self-heal-3106670",
+      "kind": "procedure",
+      "path": "sections/procedures/source-03-self-heal-3106670.md",
+      "summary": "Preserved source 03_self_heal.md",
+      "read_when": [
+        "about to correct a failure"
+      ],
+      "requires": [],
+      "words": 38,
+      "sha256": "05d4b2e857eae6ad2be5e5a6d37849b5bf146d9668a68f646e7cb7934e6d8025"
+    },
+    {
+      "id": "source-04-core-agent-federation-f749f88",
+      "kind": "reference",
+      "path": "sections/references/source-04-core-agent-federation-f749f88.md",
+      "summary": "Preserved source 04_CORE_AGENT_FEDERATION.md",
+      "read_when": [
+        "about to consult source 04_CORE_AGENT_FEDERATION.md"
+      ],
+      "requires": [],
+      "words": 249,
+      "sha256": "963ecdf50b471f0427bd768b85903dd818a30a1c7663a80848f66d51ec9ded29"
+    },
+    {
+      "id": "source-05-helper-agent-intake-3780db6",
+      "kind": "reference",
+      "path": "sections/references/source-05-helper-agent-intake-3780db6.md",
+      "summary": "Preserved source 05_HELPER_AGENT_INTAKE.md",
+      "read_when": [
+        "about to consult source 05_HELPER_AGENT_INTAKE.md"
+      ],
+      "requires": [],
+      "words": 415,
+      "sha256": "c3adcfe16dd58b5c77ce2d51a21069c9f6c0c8ab9fc7fff0e9acb4a33a818078"
+    },
+    {
+      "id": "source-06-helper-coverage-and-gap-scoring-1c7832d",
+      "kind": "reference",
+      "path": "sections/references/source-06-helper-coverage-and-gap-scoring-1c7832d.md",
+      "summary": "Preserved source 06_HELPER_COVERAGE_AND_GAP_SCORING.md",
+      "read_when": [
+        "about to consult source 06_HELPER_COVERAGE_AND_GAP_SCORING.md"
+      ],
+      "requires": [],
+      "words": 504,
+      "sha256": "20f7c0974858826b2fc61d5ae1591a0dd40f65342040644f5138a1eea914bd79"
+    },
+    {
+      "id": "source-07-helper-evidence-and-claims-fbeedcd",
+      "kind": "reference",
+      "path": "sections/references/source-07-helper-evidence-and-claims-fbeedcd.md",
+      "summary": "Preserved source 07_HELPER_EVIDENCE_AND_CLAIMS.md",
+      "read_when": [
+        "about to consult source 07_HELPER_EVIDENCE_AND_CLAIMS.md"
+      ],
+      "requires": [],
+      "words": 475,
+      "sha256": "9974de169498dacfdcd5eead908fb0e3de49de647574a2f8069a6fd3f223d4b3"
+    },
+    {
+      "id": "source-08-helper-architecture-and-dependencies-a1135e7",
+      "kind": "reference",
+      "path": "sections/references/source-08-helper-architecture-and-dependencies-a1135e7.md",
+      "summary": "Preserved source 08_HELPER_ARCHITECTURE_AND_DEPENDENCIES.md",
+      "read_when": [
+        "about to consult source 08_HELPER_ARCHITECTURE_AND_DEPENDENCIES.md"
+      ],
+      "requires": [],
+      "words": 412,
+      "sha256": "b1663da8ade567ce4274b9db1004d74c3c9e2ff656421b2fcfd4c7ebef980ef8"
+    },
+    {
+      "id": "source-09-helper-editing-and-pr-5feda9d",
+      "kind": "reference",
+      "path": "sections/references/source-09-helper-editing-and-pr-5feda9d.md",
+      "summary": "Preserved source 09_HELPER_EDITING_AND_PR.md",
+      "read_when": [
+        "about to consult source 09_HELPER_EDITING_AND_PR.md"
+      ],
+      "requires": [],
+      "words": 408,
+      "sha256": "7f44f658771a8bcc5cf2b44473f115c116e99aeac2bf743b362c3e5f38b24124"
+    },
+    {
+      "id": "source-10-helper-validation-and-self-heal-91c0a1f",
+      "kind": "procedure",
+      "path": "sections/procedures/source-10-helper-validation-and-self-heal-91c0a1f.md",
+      "summary": "Preserved source 10_HELPER_VALIDATION_AND_SELF_HEAL.md",
+      "read_when": [
+        "about to correct a failure"
+      ],
+      "requires": [],
+      "words": 205,
+      "sha256": "aeba52575a44d9e149d47727584c1fff96533fe6f3f9626c424ead66606364a8"
+    },
+    {
+      "id": "source-11-helper-retrieval-and-capabilities-1615d7c",
+      "kind": "reference",
+      "path": "sections/references/source-11-helper-retrieval-and-capabilities-1615d7c.md",
+      "summary": "Preserved source 11_HELPER_RETRIEVAL_AND_CAPABILITIES.md",
+      "read_when": [
+        "about to consult source 11_HELPER_RETRIEVAL_AND_CAPABILITIES.md"
+      ],
+      "requires": [],
+      "words": 476,
+      "sha256": "bc0b14c3af71333e1219c0a1eb7c71b0d326e6d93e1716dec53a152678aca3fe"
+    },
+    {
+      "id": "source-12-helper-implementation-and-progress-80c5ebd",
+      "kind": "reference",
+      "path": "sections/references/source-12-helper-implementation-and-progress-80c5ebd.md",
+      "summary": "Preserved source 12_HELPER_IMPLEMENTATION_AND_PROGRESS.md",
+      "read_when": [
+        "about to consult source 12_HELPER_IMPLEMENTATION_AND_PROGRESS.md"
+      ],
+      "requires": [],
+      "words": 352,
+      "sha256": "a1618334eddd07f78170f30f284aa681d8a2be999650ac044037b649fc4a2402"
+    },
+    {
+      "id": "source-13-roles-intake-and-research-cb66b28",
+      "kind": "role",
+      "path": "sections/roles/source-13-roles-intake-and-research-cb66b28.md",
+      "summary": "Preserved source 13_ROLES_INTAKE_AND_RESEARCH.md",
+      "read_when": [
+        "about to consult source 13_ROLES_INTAKE_AND_RESEARCH.md"
+      ],
+      "requires": [],
+      "words": 258,
+      "sha256": "3cf8849f35e1868e4e11524208713754819d7549a0cf1c75199e93fc93a76ed4"
+    },
+    {
+      "id": "source-14-roles-architecture-and-implementation-bd93543",
+      "kind": "role",
+      "path": "sections/roles/source-14-roles-architecture-and-implementation-bd93543.md",
+      "summary": "Preserved source 14_ROLES_ARCHITECTURE_AND_IMPLEMENTATION.md",
+      "read_when": [
+        "about to consult source 14_ROLES_ARCHITECTURE_AND_IMPLEMENTATION.md"
+      ],
+      "requires": [],
+      "words": 140,
+      "sha256": "6e1429a1c45259f50138822f9b7287410b7d84082faa253ad2cb9ad1af6398a6"
+    },
+    {
+      "id": "source-15-roles-review-and-self-heal-3337f58",
+      "kind": "role",
+      "path": "sections/roles/source-15-roles-review-and-self-heal-3337f58.md",
+      "summary": "Preserved source 15_ROLES_REVIEW_AND_SELF_HEAL.md",
+      "read_when": [
+        "about to correct a failure"
+      ],
+      "requires": [],
+      "words": 144,
+      "sha256": "0e8b4149583ea186ec01507eca8cc8891c157e787f7f4dc403cd4d67b1ce5972"
+    },
+    {
+      "id": "source-16-roles-retrieval-and-evidence-8b8c63b",
+      "kind": "role",
+      "path": "sections/roles/source-16-roles-retrieval-and-evidence-8b8c63b.md",
+      "summary": "Preserved source 16_ROLES_RETRIEVAL_AND_EVIDENCE.md",
+      "read_when": [
+        "about to consult source 16_ROLES_RETRIEVAL_AND_EVIDENCE.md"
+      ],
+      "requires": [],
+      "words": 225,
+      "sha256": "e4c75b02027d43cb5bab6b7ea4512729450d22b8bc32f299d319d852bf8d8f4c"
+    },
+    {
+      "id": "source-17-roles-taxonomy-and-evaluation-a9ff7b3",
+      "kind": "role",
+      "path": "sections/roles/source-17-roles-taxonomy-and-evaluation-a9ff7b3.md",
+      "summary": "Preserved source 17_ROLES_TAXONOMY_AND_EVALUATION.md",
+      "read_when": [
+        "about to consult source 17_ROLES_TAXONOMY_AND_EVALUATION.md"
+      ],
+      "requires": [],
+      "words": 214,
+      "sha256": "76bcafeb0ae41c9fdaf72ef038d22ae1ce12844226bfd5abcfe89bcb3a7d7f54"
+    },
+    {
+      "id": "source-18-roles-release-and-federation-dcb143e",
+      "kind": "role",
+      "path": "sections/roles/source-18-roles-release-and-federation-dcb143e.md",
+      "summary": "Preserved source 18_ROLES_RELEASE_AND_FEDERATION.md",
+      "read_when": [
+        "about to consult source 18_ROLES_RELEASE_AND_FEDERATION.md"
+      ],
+      "requires": [],
+      "words": 234,
+      "sha256": "b1c9b97446f2ee33b17bd000cc768534c84473eb5d0ee314ac0bd29d21a180ce"
+    },
+    {
+      "id": "source-19-roles-multimodal-specialists-955c1c0",
+      "kind": "role",
+      "path": "sections/roles/source-19-roles-multimodal-specialists-955c1c0.md",
+      "summary": "Preserved source 19_ROLES_MULTIMODAL_SPECIALISTS.md",
+      "read_when": [
+        "about to consult source 19_ROLES_MULTIMODAL_SPECIALISTS.md"
+      ],
+      "requires": [],
+      "words": 304,
+      "sha256": "aeadbfcca34417463305fc8119b603c4a812e162325d0df9cd58bc99ecaf9da6"
+    },
+    {
+      "id": "source-20-contracts-request-and-response-c82ac69-1",
+      "kind": "contract",
+      "path": "sections/contracts/source-20-contracts-request-and-response-c82ac69-1.md",
+      "summary": "Preserved source 20_CONTRACTS_REQUEST_AND_RESPONSE.md",
+      "read_when": [
+        "about to check an output contract"
+      ],
+      "requires": [],
+      "words": 1200,
+      "sha256": "0ba836daef0053647678eb057a9d440b83e2bf5210ea4e44847971b7fdde6a82"
+    },
+    {
+      "id": "source-20-contracts-request-and-response-c82ac69-2",
+      "kind": "contract",
+      "path": "sections/contracts/source-20-contracts-request-and-response-c82ac69-2.md",
+      "summary": "Preserved source 20_CONTRACTS_REQUEST_AND_RESPONSE.md",
+      "read_when": [
+        "about to check an output contract"
+      ],
+      "requires": [],
+      "words": 13,
+      "sha256": "8725a5c63d204d68a3d23d8ad2a29fe178273bcfd44d488a33dba5b813ac699d"
+    },
+    {
+      "id": "source-21-contracts-gaps-evidence-and-batches-c02e2c6",
+      "kind": "contract",
+      "path": "sections/contracts/source-21-contracts-gaps-evidence-and-batches-c02e2c6.md",
+      "summary": "Preserved source 21_CONTRACTS_GAPS_EVIDENCE_AND_BATCHES.md",
+      "read_when": [
+        "about to check an output contract"
+      ],
+      "requires": [],
+      "words": 730,
+      "sha256": "86c65d76e25182aac1f6a499fe7b993490b44cf3ab07641443cd13d14e5917d9"
+    },
+    {
+      "id": "source-22-templates-gap-and-research-bebe446",
+      "kind": "template",
+      "path": "sections/templates/source-22-templates-gap-and-research-bebe446.md",
+      "summary": "Preserved source 22_TEMPLATES_GAP_AND_RESEARCH.md",
+      "read_when": [
+        "about to draft a reusable output"
+      ],
+      "requires": [],
+      "words": 432,
+      "sha256": "4a5d5473130c1d7a3c8daa6e51adbf0da76872ed95bb1f269bbef6ee3f5230e9"
+    },
+    {
+      "id": "source-23-templates-documentation-67104ec",
+      "kind": "template",
+      "path": "sections/templates/source-23-templates-documentation-67104ec.md",
+      "summary": "Preserved source 23_TEMPLATES_DOCUMENTATION.md",
+      "read_when": [
+        "about to draft a reusable output"
+      ],
+      "requires": [],
+      "words": 501,
+      "sha256": "835087206b963008b71c668524948b0abb8aa41ec7345c49561e67f0faa49f97"
+    },
+    {
+      "id": "source-24-templates-implementation-and-evaluation-1936d29",
+      "kind": "template",
+      "path": "sections/templates/source-24-templates-implementation-and-evaluation-1936d29.md",
+      "summary": "Preserved source 24_TEMPLATES_IMPLEMENTATION_AND_EVALUATION.md",
+      "read_when": [
+        "about to draft a reusable output"
+      ],
+      "requires": [],
+      "words": 477,
+      "sha256": "805b072e9ae86e440f33447cd23e97bf66320e260d7b1215f25bb5ad71a1f872"
+    },
+    {
+      "id": "source-25-templates-evidence-and-dependencies-4ee8fae",
+      "kind": "template",
+      "path": "sections/templates/source-25-templates-evidence-and-dependencies-4ee8fae.md",
+      "summary": "Preserved source 25_TEMPLATES_EVIDENCE_AND_DEPENDENCIES.md",
+      "read_when": [
+        "about to draft a reusable output"
+      ],
+      "requires": [],
+      "words": 418,
+      "sha256": "55472df065552412f99a423c8feaf95bbce30249535f9ace0f3e59d19984a1e9"
+    },
+    {
+      "id": "source-26-templates-reporting-and-handoff-d01ce58",
+      "kind": "template",
+      "path": "sections/templates/source-26-templates-reporting-and-handoff-d01ce58.md",
+      "summary": "Preserved source 26_TEMPLATES_REPORTING_AND_HANDOFF.md",
+      "read_when": [
+        "about to draft a reusable output"
+      ],
+      "requires": [],
+      "words": 593,
+      "sha256": "f7ce037306401e0a983be8a966c9cee06c72b3bb0416ea68c1cee27d76b62ae5"
+    },
+    {
+      "id": "source-27-workflow-intake-and-retrieval-078fddd",
+      "kind": "procedure",
+      "path": "sections/procedures/source-27-workflow-intake-and-retrieval-078fddd.md",
+      "summary": "Preserved source 27_WORKFLOW_INTAKE_AND_RETRIEVAL.md",
+      "read_when": [
+        "about to participate in a workflow"
+      ],
+      "requires": [],
+      "words": 463,
+      "sha256": "ef272d631672f2a6a01bb92e223209ea68ca62ae81d2e66f2ead7c1eec09141c"
+    },
+    {
+      "id": "source-28-workflow-research-and-batching-d424b63",
+      "kind": "procedure",
+      "path": "sections/procedures/source-28-workflow-research-and-batching-d424b63.md",
+      "summary": "Preserved source 28_WORKFLOW_RESEARCH_AND_BATCHING.md",
+      "read_when": [
+        "about to participate in a workflow"
+      ],
+      "requires": [],
+      "words": 566,
+      "sha256": "fb33603488d6fc0fcbfee35c2b1922a5edc56168c99eeaea6c52fce3efe47500"
+    },
+    {
+      "id": "source-29-workflow-implementation-and-pr-1aa66c8",
+      "kind": "procedure",
+      "path": "sections/procedures/source-29-workflow-implementation-and-pr-1aa66c8.md",
+      "summary": "Preserved source 29_WORKFLOW_IMPLEMENTATION_AND_PR.md",
+      "read_when": [
+        "about to participate in a workflow"
+      ],
+      "requires": [],
+      "words": 314,
+      "sha256": "4d71ff54f44f0bd921c8fead5911588319a142bd968e6a52e22ec581cf261337"
+    },
+    {
+      "id": "source-30-workflow-federation-and-handoff-d565ba9",
+      "kind": "procedure",
+      "path": "sections/procedures/source-30-workflow-federation-and-handoff-d565ba9.md",
+      "summary": "Preserved source 30_WORKFLOW_FEDERATION_AND_HANDOFF.md",
+      "read_when": [
+        "about to participate in a workflow"
+      ],
+      "requires": [],
+      "words": 401,
+      "sha256": "002fce36e2e2a6dd11bffa31986f6a5b3042d063da52934ab60e1e945d98bb29"
+    },
+    {
+      "id": "source-31-workflow-correction-and-taxonomy-1631a1f",
+      "kind": "procedure",
+      "path": "sections/procedures/source-31-workflow-correction-and-taxonomy-1631a1f.md",
+      "summary": "Preserved source 31_WORKFLOW_CORRECTION_AND_TAXONOMY.md",
+      "read_when": [
+        "about to participate in a workflow"
+      ],
+      "requires": [],
+      "words": 306,
+      "sha256": "c394fecf39cedc4dce9fa97fe32dd001694022dad8ee12ae62abfb29122e662b"
+    },
+    {
+      "id": "source-32-state-requests-gaps-and-batches-92ca17c",
+      "kind": "reference",
+      "path": "sections/references/source-32-state-requests-gaps-and-batches-92ca17c.md",
+      "summary": "Preserved source 32_STATE_REQUESTS_GAPS_AND_BATCHES.md",
+      "read_when": [
+        "about to consult source 32_STATE_REQUESTS_GAPS_AND_BATCHES.md"
+      ],
+      "requires": [],
+      "words": 657,
+      "sha256": "2a8cc30b4cf6821d6d00301c88a5570b9955478e0af641c84a3286f330adf155"
+    },
+    {
+      "id": "source-33-state-evidence-decisions-and-corrections-086807e",
+      "kind": "reference",
+      "path": "sections/references/source-33-state-evidence-decisions-and-corrections-086807e.md",
+      "summary": "Preserved source 33_STATE_EVIDENCE_DECISIONS_AND_CORRECTIONS.md",
+      "read_when": [
+        "about to consult source 33_STATE_EVIDENCE_DECISIONS_AND_CORRECTIONS.md"
+      ],
+      "requires": [],
+      "words": 763,
+      "sha256": "2d267284756e5bfc23fd5aa6dc608b604bf452cac4352237ec6c92f46e723650"
+    },
+    {
+      "id": "source-34-validation-quality-gates-f22b4fa",
+      "kind": "procedure",
+      "path": "sections/procedures/source-34-validation-quality-gates-f22b4fa.md",
+      "summary": "Preserved source 34_VALIDATION_QUALITY_GATES.md",
+      "read_when": [
+        "about to consult source 34_VALIDATION_QUALITY_GATES.md"
+      ],
+      "requires": [],
+      "words": 935,
+      "sha256": "488e23c4f06effdb1f27fd106e69a8502f83547d58459dde2bbbc4da49c82a74"
+    },
+    {
+      "id": "source-35-validation-regressions-and-self-heal-314825d",
+      "kind": "procedure",
+      "path": "sections/procedures/source-35-validation-regressions-and-self-heal-314825d.md",
+      "summary": "Preserved source 35_VALIDATION_REGRESSIONS_AND_SELF_HEAL.md",
+      "read_when": [
+        "about to correct a failure"
+      ],
+      "requires": [],
+      "words": 1108,
+      "sha256": "e4e919bd1b903e91df3dfaaed04c0cccb3c649449c2cb36d32eae5c8f5846986"
+    },
+    {
+      "id": "source-36-domain-tasks-assets-and-visual-perception-a0bbe68-1",
+      "kind": "procedure",
+      "path": "sections/procedures/source-36-domain-tasks-assets-and-visual-perception-a0bbe68-1.md",
+      "summary": "Preserved source 36_DOMAIN_TASKS_ASSETS_AND_VISUAL_PERCEPTION.md",
+      "read_when": [
+        "about to perform specialist work"
+      ],
+      "requires": [],
+      "words": 1200,
+      "sha256": "cbf96078187f41da06d968601907ad350388dd1940d1b1fb0e081c46efc7f71b"
+    },
+    {
+      "id": "source-36-domain-tasks-assets-and-visual-perception-a0bbe68-2",
+      "kind": "procedure",
+      "path": "sections/procedures/source-36-domain-tasks-assets-and-visual-perception-a0bbe68-2.md",
+      "summary": "Preserved source 36_DOMAIN_TASKS_ASSETS_AND_VISUAL_PERCEPTION.md",
+      "read_when": [
+        "about to perform specialist work"
+      ],
+      "requires": [],
+      "words": 160,
+      "sha256": "cee0d264eaac039dfb902c8589f1695e03dd21ba378c9262e2c6a29859ed911d"
+    },
+    {
+      "id": "source-37-domain-generation-agents-and-validation-675c0d4",
+      "kind": "procedure",
+      "path": "sections/procedures/source-37-domain-generation-agents-and-validation-675c0d4.md",
+      "summary": "Preserved source 37_DOMAIN_GENERATION_AGENTS_AND_VALIDATION.md",
+      "read_when": [
+        "about to perform specialist work"
+      ],
+      "requires": [],
+      "words": 1141,
+      "sha256": "0e2720d7959881747ee7ed17d6be01efacabb7add4f724727fe075ee2a432380"
+    },
+    {
+      "id": "source-38-domain-context-and-knowledge-organization-acc7fc8",
+      "kind": "procedure",
+      "path": "sections/procedures/source-38-domain-context-and-knowledge-organization-acc7fc8.md",
+      "summary": "Preserved source 38_DOMAIN_CONTEXT_AND_KNOWLEDGE_ORGANIZATION.md",
+      "read_when": [
+        "about to perform specialist work"
+      ],
+      "requires": [],
+      "words": 845,
+      "sha256": "3a200ba5b9068de855ec0d74e61dee1e65ffa49784d930131f49c43c567c4034"
+    },
+    {
+      "id": "source-39-examples-and-local-quality-tools-9660f33-1",
+      "kind": "reference",
+      "path": "sections/references/source-39-examples-and-local-quality-tools-9660f33-1.md",
+      "summary": "Preserved source 39_EXAMPLES_AND_LOCAL_QUALITY_TOOLS.md",
+      "read_when": [
+        "about to consult source 39_EXAMPLES_AND_LOCAL_QUALITY_TOOLS.md"
+      ],
+      "requires": [],
+      "words": 1200,
+      "sha256": "26c94fb95870182648c81d1c8337e568014afc707c856b79c1dc7f692ff2eb8a"
+    },
+    {
+      "id": "source-39-examples-and-local-quality-tools-9660f33-2",
+      "kind": "reference",
+      "path": "sections/references/source-39-examples-and-local-quality-tools-9660f33-2.md",
+      "summary": "Preserved source 39_EXAMPLES_AND_LOCAL_QUALITY_TOOLS.md",
+      "read_when": [
+        "about to consult source 39_EXAMPLES_AND_LOCAL_QUALITY_TOOLS.md"
+      ],
+      "requires": [],
+      "words": 499,
+      "sha256": "c1300d2eb227d1612d32f51ddd927b3348780a5b5b3953c6e1245ae0b1925cc1"
+    },
+    {
+      "id": "source-90-workflow-integration-cdaf867",
+      "kind": "procedure",
+      "path": "sections/procedures/source-90-workflow-integration-cdaf867.md",
+      "summary": "Preserved source 90_workflow_integration.md",
+      "read_when": [
+        "about to participate in a workflow"
+      ],
+      "requires": [],
+      "words": 284,
+      "sha256": "0bbac10aa06ad87f582836e55b3ba23ccfb0d6f7d14bbc627a016f35c775c479"
+    },
+    {
+      "id": "original-skill",
+      "kind": "reference",
+      "path": "sections/references/original-skill.md",
+      "summary": "Previous entrypoint retained for provenance",
+      "read_when": [
+        "about to audit legacy entrypoint"
+      ],
+      "requires": [],
+      "reference_only": true,
+      "words": 60,
+      "sha256": "8a7dcb7feafaaca47d66bb8f3401ca51803c3d3ae102c44daa8cf4e297356e28"
+    }
+  ],
+  "default_sections": [
+    "source-00-orientation-and-compiled-rules-19b77f9-1",
+    "source-00-orientation-and-compiled-rules-19b77f9-2",
+    "source-00-orientation-and-compiled-rules-19b77f9-3",
+    "source-01-core-mission-139f1a0"
+  ],
+  "sources": [
+    "00_ORIENTATION_AND_COMPILED_RULES.md",
+    "01_CORE_MISSION.md",
+    "02_CORE_AUTHORITY_AND_SCOPE.md",
+    "03_CORE_QUALITY_STANDARDS.md",
+    "03_self_heal.md",
+    "04_CORE_AGENT_FEDERATION.md",
+    "05_HELPER_AGENT_INTAKE.md",
+    "06_HELPER_COVERAGE_AND_GAP_SCORING.md",
+    "07_HELPER_EVIDENCE_AND_CLAIMS.md",
+    "08_HELPER_ARCHITECTURE_AND_DEPENDENCIES.md",
+    "09_HELPER_EDITING_AND_PR.md",
+    "10_HELPER_VALIDATION_AND_SELF_HEAL.md",
+    "11_HELPER_RETRIEVAL_AND_CAPABILITIES.md",
+    "12_HELPER_IMPLEMENTATION_AND_PROGRESS.md",
+    "13_ROLES_INTAKE_AND_RESEARCH.md",
+    "14_ROLES_ARCHITECTURE_AND_IMPLEMENTATION.md",
+    "15_ROLES_REVIEW_AND_SELF_HEAL.md",
+    "16_ROLES_RETRIEVAL_AND_EVIDENCE.md",
+    "17_ROLES_TAXONOMY_AND_EVALUATION.md",
+    "18_ROLES_RELEASE_AND_FEDERATION.md",
+    "19_ROLES_MULTIMODAL_SPECIALISTS.md",
+    "20_CONTRACTS_REQUEST_AND_RESPONSE.md",
+    "21_CONTRACTS_GAPS_EVIDENCE_AND_BATCHES.md",
+    "22_TEMPLATES_GAP_AND_RESEARCH.md",
+    "23_TEMPLATES_DOCUMENTATION.md",
+    "24_TEMPLATES_IMPLEMENTATION_AND_EVALUATION.md",
+    "25_TEMPLATES_EVIDENCE_AND_DEPENDENCIES.md",
+    "26_TEMPLATES_REPORTING_AND_HANDOFF.md",
+    "27_WORKFLOW_INTAKE_AND_RETRIEVAL.md",
+    "28_WORKFLOW_RESEARCH_AND_BATCHING.md",
+    "29_WORKFLOW_IMPLEMENTATION_AND_PR.md",
+    "30_WORKFLOW_FEDERATION_AND_HANDOFF.md",
+    "31_WORKFLOW_CORRECTION_AND_TAXONOMY.md",
+    "32_STATE_REQUESTS_GAPS_AND_BATCHES.md",
+    "33_STATE_EVIDENCE_DECISIONS_AND_CORRECTIONS.md",
+    "34_VALIDATION_QUALITY_GATES.md",
+    "35_VALIDATION_REGRESSIONS_AND_SELF_HEAL.md",
+    "36_DOMAIN_TASKS_ASSETS_AND_VISUAL_PERCEPTION.md",
+    "37_DOMAIN_GENERATION_AGENTS_AND_VALIDATION.md",
+    "38_DOMAIN_CONTEXT_AND_KNOWLEDGE_ORGANIZATION.md",
+    "39_EXAMPLES_AND_LOCAL_QUALITY_TOOLS.md",
+    "90_workflow_integration.md",
+    "99_manifest.json",
+    "MIGRATION_TRACEABILITY.json",
+    "README.md",
+    "SKILL.md",
+    "agents/openai.yaml",
+    "manifest.json",
+    "sections/contracts/source-20-contracts-request-and-response-c82ac69-1.md",
+    "sections/contracts/source-20-contracts-request-and-response-c82ac69-2.md",
+    "sections/contracts/source-21-contracts-gaps-evidence-and-batches-c02e2c6.md",
+    "sections/procedures/source-00-orientation-and-compiled-rules-19b77f9-1.md",
+    "sections/procedures/source-00-orientation-and-compiled-rules-19b77f9-2.md",
+    "sections/procedures/source-00-orientation-and-compiled-rules-19b77f9-3.md",
+    "sections/procedures/source-03-self-heal-3106670.md",
+    "sections/procedures/source-10-helper-validation-and-self-heal-91c0a1f.md",
+    "sections/procedures/source-27-workflow-intake-and-retrieval-078fddd.md",
+    "sections/procedures/source-28-workflow-research-and-batching-d424b63.md",
+    "sections/procedures/source-29-workflow-implementation-and-pr-1aa66c8.md",
+    "sections/procedures/source-30-workflow-federation-and-handoff-d565ba9.md",
+    "sections/procedures/source-31-workflow-correction-and-taxonomy-1631a1f.md",
+    "sections/procedures/source-34-validation-quality-gates-f22b4fa.md",
+    "sections/procedures/source-35-validation-regressions-and-self-heal-314825d.md",
+    "sections/procedures/source-36-domain-tasks-assets-and-visual-perception-a0bbe68-1.md",
+    "sections/procedures/source-36-domain-tasks-assets-and-visual-perception-a0bbe68-2.md",
+    "sections/procedures/source-37-domain-generation-agents-and-validation-675c0d4.md",
+    "sections/procedures/source-38-domain-context-and-knowledge-organization-acc7fc8.md",
+    "sections/procedures/source-90-workflow-integration-cdaf867.md",
+    "sections/references/original-skill.md",
+    "sections/references/source-01-core-mission-139f1a0.md",
+    "sections/references/source-02-core-authority-and-scope-035b18f.md",
+    "sections/references/source-03-core-quality-standards-56a2a15.md",
+    "sections/references/source-04-core-agent-federation-f749f88.md",
+    "sections/references/source-05-helper-agent-intake-3780db6.md",
+    "sections/references/source-06-helper-coverage-and-gap-scoring-1c7832d.md",
+    "sections/references/source-07-helper-evidence-and-claims-fbeedcd.md",
+    "sections/references/source-08-helper-architecture-and-dependencies-a1135e7.md",
+    "sections/references/source-09-helper-editing-and-pr-5feda9d.md",
+    "sections/references/source-11-helper-retrieval-and-capabilities-1615d7c.md",
+    "sections/references/source-12-helper-implementation-and-progress-80c5ebd.md",
+    "sections/references/source-32-state-requests-gaps-and-batches-92ca17c.md",
+    "sections/references/source-33-state-evidence-decisions-and-corrections-086807e.md",
+    "sections/references/source-39-examples-and-local-quality-tools-9660f33-1.md",
+    "sections/references/source-39-examples-and-local-quality-tools-9660f33-2.md",
+    "sections/roles/source-13-roles-intake-and-research-cb66b28.md",
+    "sections/roles/source-14-roles-architecture-and-implementation-bd93543.md",
+    "sections/roles/source-15-roles-review-and-self-heal-3337f58.md",
+    "sections/roles/source-16-roles-retrieval-and-evidence-8b8c63b.md",
+    "sections/roles/source-17-roles-taxonomy-and-evaluation-a9ff7b3.md",
+    "sections/roles/source-18-roles-release-and-federation-dcb143e.md",
+    "sections/roles/source-19-roles-multimodal-specialists-955c1c0.md",
+    "sections/templates/source-22-templates-gap-and-research-bebe446.md",
+    "sections/templates/source-23-templates-documentation-67104ec.md",
+    "sections/templates/source-24-templates-implementation-and-evaluation-1936d29.md",
+    "sections/templates/source-25-templates-evidence-and-dependencies-4ee8fae.md",
+    "sections/templates/source-26-templates-reporting-and-handoff-d01ce58.md"
+  ],
+  "behavioral_evaluation": "NOT_RUN"
+}

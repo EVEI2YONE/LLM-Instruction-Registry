@@ -1,0 +1,59 @@
+{
+  "id": "devsecops-release-specialist",
+  "old_version": "v1.1",
+  "proposed_version": "v1.2",
+  "source_commit": "f634daa1ad6b86de93806334b1195bda14313646",
+  "files": [
+    {
+      "source": "00_compiled_instruction_set.md",
+      "sha256": "3e792e4eca5bfb6cd8421273f918e4516e1b97d4964acd1359c52a60974d38d4",
+      "indexed_sections": [
+        "sections/procedures/source-00-compiled-instruction-set-8a93b84.md"
+      ],
+      "reconstructed_sha256": "3e792e4eca5bfb6cd8421273f918e4516e1b97d4964acd1359c52a60974d38d4"
+    },
+    {
+      "source": "01_domain.md",
+      "sha256": "53539798cd308c56738d4426e2d3f6b8fb4811670079e7d55620b229e5e99970",
+      "indexed_sections": [
+        "sections/procedures/source-01-domain-9c0aca2.md"
+      ],
+      "reconstructed_sha256": "53539798cd308c56738d4426e2d3f6b8fb4811670079e7d55620b229e5e99970"
+    },
+    {
+      "source": "02_context_space.md",
+      "sha256": "98ed21ef0e122a5db5b5a666ba123f4005372d5b6d482ad03bfe2efbf326a1e4",
+      "indexed_sections": [
+        "sections/references/source-02-context-space-da68579.md"
+      ],
+      "reconstructed_sha256": "98ed21ef0e122a5db5b5a666ba123f4005372d5b6d482ad03bfe2efbf326a1e4"
+    },
+    {
+      "source": "03_self_heal.md",
+      "sha256": "4aaf0dad3ae50ffed37daf4f39d437aa489e92fb37af31fe4c032380d753fb4a",
+      "indexed_sections": [
+        "sections/procedures/source-03-self-heal-3106670.md"
+      ],
+      "reconstructed_sha256": "4aaf0dad3ae50ffed37daf4f39d437aa489e92fb37af31fe4c032380d753fb4a"
+    },
+    {
+      "source": "04_workflow_integration.md",
+      "sha256": "c02fd3df0bf71616ad5cc17d265470d05a6b047ef9f0212d8ea74294045e979c",
+      "indexed_sections": [
+        "sections/procedures/source-04-workflow-integration-2ddf74d.md"
+      ],
+      "reconstructed_sha256": "c02fd3df0bf71616ad5cc17d265470d05a6b047ef9f0212d8ea74294045e979c"
+    },
+    {
+      "source": "SKILL.md",
+      "sha256": "a8054391b3eebd9074cabc62580f16e973947bcfa0de298ecd0dec078ff0d439",
+      "indexed_sections": [
+        "sections/references/original-skill.md"
+      ],
+      "reconstructed_sha256": "a8054391b3eebd9074cabc62580f16e973947bcfa0de298ecd0dec078ff0d439"
+    }
+  ],
+  "semantic_equivalence": "NOT_RUN",
+  "owner_approval": "NOT_VERIFIED",
+  "original_archive_preserved": true
+}

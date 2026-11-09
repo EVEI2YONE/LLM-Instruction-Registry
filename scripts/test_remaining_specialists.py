@@ -46,9 +46,11 @@ class RemainingExistingPackageTests(unittest.TestCase):
                 manifest_path = src / "99_manifest.json"
                 if not manifest_path.exists():
                     manifest_path = src / "06_manifest.json"
-                m = json.loads(manifest_path.read_text(encoding="utf-8"))
+                legacy = json.loads(manifest_path.read_text(encoding="utf-8"))
+                canonical_path = src / "manifest.json"
+                m = json.loads(canonical_path.read_text(encoding="utf-8")) if canonical_path.exists() else legacy
                 self.assertEqual(p["version"], m["version"])
-                self.assertEqual("90_workflow_integration.md", m["workflow_integration"])
+                self.assertEqual("90_workflow_integration.md", legacy["workflow_integration"])
                 self.assertEqual({path.relative_to(src).as_posix() for path in src.rglob("*") if path.is_file()},
                                  set(m["sources"]))
 

@@ -20,3 +20,6 @@ C. Tool-enabled: use only verified, permissioned tools and scoped artifact refs.
 D. Multi-agent: only an authenticated verified runner/gateway can start children and enforce task budgets.
 
 If the generated-agent destination is unknown, ask the single destination question and defer target-specific instruction generation. If known, do not ask again; resolve source-loading mode (injected, verified lookup, hybrid) and registry intent separately, asking one further question only if materially necessary. A request to edit the portable orchestrator's own repository files does not itself request a generated agent and therefore requires no destination question.
+## Executable decision contract
+
+For available authorized Python execution, use `tools/intake_gate.py` with a machine-readable JSON intake record. A generated-agent request without a known destination must produce `ASK_DESTINATION` before any target-specific package. A known destination and unknown loading method produce `ASK_LOADING_MODE` only when the loading distinction materially changes the output. Missing registry resolution produces `ASK_REGISTRY_DECISION` rather than speculative new authoring. `REUSE_UNCHANGED` with a changed target is an `ADAPT_EXISTING` output, not a canonical version bump. An `authoring_source_only` request skips generated-agent target clarification.

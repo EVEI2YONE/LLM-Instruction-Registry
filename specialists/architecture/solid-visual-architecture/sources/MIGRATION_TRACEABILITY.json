@@ -1,0 +1,51 @@
+{
+  "id": "solid-visual-architecture",
+  "old_version": "v1.1",
+  "proposed_version": "v1.2",
+  "source_commit": "f634daa1ad6b86de93806334b1195bda14313646",
+  "files": [
+    {
+      "source": "00_compiled_instruction_set.md",
+      "sha256": "8986dbc07b74d60de5bd5983b786ce3f2803bd9706331bdf2d22be7c655fb161",
+      "indexed_sections": [
+        "sections/procedures/source-00-compiled-instruction-set-8a93b84.md"
+      ],
+      "reconstructed_sha256": "8986dbc07b74d60de5bd5983b786ce3f2803bd9706331bdf2d22be7c655fb161"
+    },
+    {
+      "source": "01_original_package_reference.md",
+      "sha256": "0996c322b91bfdee606e6315afb994ba3f0e987d79d2b9d562a943b0e816fd7f",
+      "indexed_sections": [
+        "sections/references/source-01-original-package-reference-8f1a5dc.md"
+      ],
+      "reconstructed_sha256": "0996c322b91bfdee606e6315afb994ba3f0e987d79d2b9d562a943b0e816fd7f"
+    },
+    {
+      "source": "03_self_heal.md",
+      "sha256": "05d4b2e857eae6ad2be5e5a6d37849b5bf146d9668a68f646e7cb7934e6d8025",
+      "indexed_sections": [
+        "sections/procedures/source-03-self-heal-3106670.md"
+      ],
+      "reconstructed_sha256": "05d4b2e857eae6ad2be5e5a6d37849b5bf146d9668a68f646e7cb7934e6d8025"
+    },
+    {
+      "source": "90_workflow_integration.md",
+      "sha256": "28c79607d83235da73c31719bf345fde5bd9551a2f1d5b16ab27db51ab864315",
+      "indexed_sections": [
+        "sections/procedures/source-90-workflow-integration-cdaf867.md"
+      ],
+      "reconstructed_sha256": "28c79607d83235da73c31719bf345fde5bd9551a2f1d5b16ab27db51ab864315"
+    },
+    {
+      "source": "SKILL.md",
+      "sha256": "f262a0a2d6e039f5ac825e7303a6b6c2d06b00fff1bdb8ac989eb5d451e44f6b",
+      "indexed_sections": [
+        "sections/references/original-skill.md"
+      ],
+      "reconstructed_sha256": "f262a0a2d6e039f5ac825e7303a6b6c2d06b00fff1bdb8ac989eb5d451e44f6b"
+    }
+  ],
+  "semantic_equivalence": "NOT_RUN",
+  "owner_approval": "NOT_VERIFIED",
+  "original_archive_preserved": true
+}

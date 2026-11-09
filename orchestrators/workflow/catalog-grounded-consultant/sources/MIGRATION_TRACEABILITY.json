@@ -1,0 +1,67 @@
+{
+  "id": "catalog-grounded-consultant",
+  "old_version": "v1.1",
+  "proposed_version": "v1.2",
+  "source_commit": "f634daa1ad6b86de93806334b1195bda14313646",
+  "files": [
+    {
+      "source": "00_compiled_instruction_set.md",
+      "sha256": "635b883bba3052c515cd7e707329d92226d6066cf57506c4a01cdad94e62454b",
+      "indexed_sections": [
+        "sections/procedures/source-00-compiled-instruction-set-8a93b84.md"
+      ],
+      "reconstructed_sha256": "635b883bba3052c515cd7e707329d92226d6066cf57506c4a01cdad94e62454b"
+    },
+    {
+      "source": "01_intake_evidence.md",
+      "sha256": "b07f7bb4027489a5290e7a3970916992426135d3c5a560a42ca59f45d296bf6f",
+      "indexed_sections": [
+        "sections/references/source-01-intake-evidence-04042ba.md"
+      ],
+      "reconstructed_sha256": "b07f7bb4027489a5290e7a3970916992426135d3c5a560a42ca59f45d296bf6f"
+    },
+    {
+      "source": "02_catalog_gap_and_batched_pr.md",
+      "sha256": "53356e8383a82928192ced484a0d85eee98f2d5c6fab7d42883f799a699adf46",
+      "indexed_sections": [
+        "sections/references/source-02-catalog-gap-and-batched-pr-d063a9c.md"
+      ],
+      "reconstructed_sha256": "53356e8383a82928192ced484a0d85eee98f2d5c6fab7d42883f799a699adf46"
+    },
+    {
+      "source": "03_reassessment_playbook.md",
+      "sha256": "e1b924af4e77588d648303eb8bac32c3d9aa80f127171137e5c6a74d88373989",
+      "indexed_sections": [
+        "sections/references/source-03-reassessment-playbook-8a3ab19.md"
+      ],
+      "reconstructed_sha256": "e1b924af4e77588d648303eb8bac32c3d9aa80f127171137e5c6a74d88373989"
+    },
+    {
+      "source": "04_governance_self_heal.md",
+      "sha256": "78ea8ed208ff92dc462c91d3b5d44662a27dc6f5918c762dc0dd1a19042b0e08",
+      "indexed_sections": [
+        "sections/procedures/source-04-governance-self-heal-1ec9a00.md"
+      ],
+      "reconstructed_sha256": "78ea8ed208ff92dc462c91d3b5d44662a27dc6f5918c762dc0dd1a19042b0e08"
+    },
+    {
+      "source": "04_workflow_integration.md",
+      "sha256": "9e8856a4fd7f3c9502eccda8cb053df7bc8ecc3e25e810e09641047914394398",
+      "indexed_sections": [
+        "sections/procedures/source-04-workflow-integration-2ddf74d.md"
+      ],
+      "reconstructed_sha256": "9e8856a4fd7f3c9502eccda8cb053df7bc8ecc3e25e810e09641047914394398"
+    },
+    {
+      "source": "SKILL.md",
+      "sha256": "3434bc238f252e67781a0db477f99b189a5e4cebd9b5b6703fb69fb6d52d28df",
+      "indexed_sections": [
+        "sections/references/original-skill.md"
+      ],
+      "reconstructed_sha256": "3434bc238f252e67781a0db477f99b189a5e4cebd9b5b6703fb69fb6d52d28df"
+    }
+  ],
+  "semantic_equivalence": "NOT_RUN",
+  "owner_approval": "NOT_VERIFIED",
+  "original_archive_preserved": true
+}

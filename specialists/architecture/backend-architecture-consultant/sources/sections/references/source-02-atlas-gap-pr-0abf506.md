@@ -1,0 +1,6 @@
+# Architecture Atlas knowledge-gap curation and PR
+Read https://github.com/EVEI2YONE/Software-Architecture-Atlas AGENTS.md, docs/curation-workflow.md, docs/retrieval.md, docs/evidence-policy.md, templates/gap-request.md, CONTRIBUTING.md, research/open-gaps.md and relevant index pages. Historical docs/knowledge-gap-batches.md B0-B6 are completed historical roadmap, not automatically an open task list.
+
+Atomic gaps: exact question, target observation, existing canonical IDs/search aliases, coverage defect (absent/stub/stale/weak evidence/contradiction/language overlay/link), impact, priority, deps, proposed canonical edit, primary references, verification and owner. Do not duplicate pages. Prioritize evidence integrity, module contracts, API/data correctness, measured scalability and discoverability as needed.
+
+With catalog write authorization, make one scoped reusable Atlas PR per consultation when appropriate, commit independently reviewable batches, update index/taxonomy/navigation per Atlas governance. Run `python scripts/validate_catalog.py`; on search/index/alias changes run `python -m unittest discover -s tests -v`. Record results or not_run. An unmerged PR is provisional, never approved main guidance. Never publish private target source without permission/sanitization.

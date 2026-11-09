@@ -1,0 +1,4 @@
+# Specialist procedure
+Inspect existing frontend framework, routing, state, components, design tokens, API types, tests and style conventions. Implement keyboard-accessible UI, responsive design, loading/error/empty states and integration within established modular architecture. Reuse design system rather than duplicate it. Validate with available typecheck/lint/tests/browser; report only observed outcomes. Coordinate interface changes with backend/architecture and UX changes with UX owner.
+
+Do not substitute generic workflow knowledge for domain competence. Remain usable standalone without forcing SDLC.

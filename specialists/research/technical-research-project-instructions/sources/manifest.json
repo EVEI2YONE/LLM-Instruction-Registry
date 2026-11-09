@@ -1,0 +1,449 @@
+{
+  "id": "technical-research-project-instructions",
+  "version": "v2.2",
+  "source_contract": "lookup-first-v1",
+  "kind": "specialist",
+  "role": "expert",
+  "entrypoint": {
+    "path": "SKILL.md",
+    "words": 148,
+    "sha256": "f8b3dccbd636bec445550b542c5d35bf5d0686b5bdfbcac7993a1944a52d9c71"
+  },
+  "sections": [
+    {
+      "id": "source-00-readme-961d8bb",
+      "kind": "reference",
+      "path": "sections/references/source-00-readme-961d8bb.md",
+      "summary": "Preserved source 00_README.md",
+      "read_when": [
+        "about to consult source 00_README.md"
+      ],
+      "requires": [],
+      "words": 191,
+      "sha256": "cf70f3ab1227e31f24208c80942e6b206df4a7d71c428e4211a035e15aae2466"
+    },
+    {
+      "id": "source-00-compiled-instruction-set-8a93b84",
+      "kind": "procedure",
+      "path": "sections/procedures/source-00-compiled-instruction-set-8a93b84.md",
+      "summary": "Preserved source 00_compiled_instruction_set.md",
+      "read_when": [
+        "about to consult source 00_compiled_instruction_set.md"
+      ],
+      "requires": [],
+      "words": 1028,
+      "sha256": "f3570d4d7660f334404878dc627802dfd9eefd7731de79e782434c5bf89b096c"
+    },
+    {
+      "id": "source-01-core-01-core-role-instruction-set-d2446c0",
+      "kind": "reference",
+      "path": "sections/references/source-01-core-01-core-role-instruction-set-d2446c0.md",
+      "summary": "Preserved source 01_core/01_core_role_instruction_set.md",
+      "read_when": [
+        "about to consult source 01_core/01_core_role_instruction_set.md"
+      ],
+      "requires": [],
+      "words": 131,
+      "sha256": "51475e28259553fa557f1bfba40401873aadf557fcc1964b601f8364e19ca691"
+    },
+    {
+      "id": "source-02-helpers-01-source-and-citation-helper-40160ea",
+      "kind": "reference",
+      "path": "sections/references/source-02-helpers-01-source-and-citation-helper-40160ea.md",
+      "summary": "Preserved source 02_helpers/01_source_and_citation_helper.md",
+      "read_when": [
+        "about to consult source 02_helpers/01_source_and_citation_helper.md"
+      ],
+      "requires": [],
+      "words": 140,
+      "sha256": "9b6e6ae6530c2fcb1d828a70462813bde2c32aae30952a5bae9cbbee1dec781f"
+    },
+    {
+      "id": "source-02-helpers-02-truthfulness-and-uncertainty-helper-76b885a",
+      "kind": "reference",
+      "path": "sections/references/source-02-helpers-02-truthfulness-and-uncertainty-helper-76b885a.md",
+      "summary": "Preserved source 02_helpers/02_truthfulness_and_uncertainty_helper.md",
+      "read_when": [
+        "about to consult source 02_helpers/02_truthfulness_and_uncertainty_helper.md"
+      ],
+      "requires": [],
+      "words": 91,
+      "sha256": "7cdfb7300208c02613061eaa17cd990bf913cbb37676c18e282c9339dd11f40e"
+    },
+    {
+      "id": "source-02-helpers-03-consulting-decision-helper-8941a07",
+      "kind": "reference",
+      "path": "sections/references/source-02-helpers-03-consulting-decision-helper-8941a07.md",
+      "summary": "Preserved source 02_helpers/03_consulting_decision_helper.md",
+      "read_when": [
+        "about to consult source 02_helpers/03_consulting_decision_helper.md"
+      ],
+      "requires": [],
+      "words": 100,
+      "sha256": "9d7ec5779931a6c9343730c90d2089df4df301f2856db3de47e3b5945b7d818b"
+    },
+    {
+      "id": "source-02-helpers-04-teaching-helper-b5dcb84",
+      "kind": "reference",
+      "path": "sections/references/source-02-helpers-04-teaching-helper-b5dcb84.md",
+      "summary": "Preserved source 02_helpers/04_teaching_helper.md",
+      "read_when": [
+        "about to consult source 02_helpers/04_teaching_helper.md"
+      ],
+      "requires": [],
+      "words": 75,
+      "sha256": "4ac98af22fff5ffcdeee12a0aa50184e7bfd45607e80686feeaa545915f092ae"
+    },
+    {
+      "id": "source-02-helpers-05-request-classifier-2af7e53",
+      "kind": "reference",
+      "path": "sections/references/source-02-helpers-05-request-classifier-2af7e53.md",
+      "summary": "Preserved source 02_helpers/05_request_classifier.md",
+      "read_when": [
+        "about to consult source 02_helpers/05_request_classifier.md"
+      ],
+      "requires": [],
+      "words": 107,
+      "sha256": "a4791b3f789f4618ebc74c0053b96b8fb7b44580c47e4cb6f679eaab7a94323f"
+    },
+    {
+      "id": "source-03-self-heal-3106670",
+      "kind": "procedure",
+      "path": "sections/procedures/source-03-self-heal-3106670.md",
+      "summary": "Preserved source 03_self_heal.md",
+      "read_when": [
+        "about to correct a failure"
+      ],
+      "requires": [],
+      "words": 38,
+      "sha256": "05d4b2e857eae6ad2be5e5a6d37849b5bf146d9668a68f646e7cb7934e6d8025"
+    },
+    {
+      "id": "source-03-sub-roles-01-research-synthesizer-5f667ff",
+      "kind": "role",
+      "path": "sections/roles/source-03-sub-roles-01-research-synthesizer-5f667ff.md",
+      "summary": "Preserved source 03_sub_roles/01_research_synthesizer.md",
+      "read_when": [
+        "about to consult source 03_sub_roles/01_research_synthesizer.md"
+      ],
+      "requires": [],
+      "words": 48,
+      "sha256": "cac102b758bd2d53f8752131010f277744e147b4c8b364e898bae0bd0f5bd462"
+    },
+    {
+      "id": "source-03-sub-roles-02-architecture-consultant-f8dcb01",
+      "kind": "role",
+      "path": "sections/roles/source-03-sub-roles-02-architecture-consultant-f8dcb01.md",
+      "summary": "Preserved source 03_sub_roles/02_architecture_consultant.md",
+      "read_when": [
+        "about to consult source 03_sub_roles/02_architecture_consultant.md"
+      ],
+      "requires": [],
+      "words": 49,
+      "sha256": "425745ef1b6e3d49ef573ae5b2b7bb0b09682e8706dbc45d3c24d9abefcbc1e5"
+    },
+    {
+      "id": "source-03-sub-roles-03-technical-teacher-87f520f",
+      "kind": "role",
+      "path": "sections/roles/source-03-sub-roles-03-technical-teacher-87f520f.md",
+      "summary": "Preserved source 03_sub_roles/03_technical_teacher.md",
+      "read_when": [
+        "about to consult source 03_sub_roles/03_technical_teacher.md"
+      ],
+      "requires": [],
+      "words": 52,
+      "sha256": "3f25299a57e6ccb2ab0a95e32087e9638a5d87e4dafa59f44dc4457c4ddcbf44"
+    },
+    {
+      "id": "source-03-sub-roles-04-design-reviewer-10993d6",
+      "kind": "role",
+      "path": "sections/roles/source-03-sub-roles-04-design-reviewer-10993d6.md",
+      "summary": "Preserved source 03_sub_roles/04_design_reviewer.md",
+      "read_when": [
+        "about to consult source 03_sub_roles/04_design_reviewer.md"
+      ],
+      "requires": [],
+      "words": 50,
+      "sha256": "c555c93216aecb24ab0dd69501d5aae4269e5397952e2f98bd0572d00d8adcca"
+    },
+    {
+      "id": "source-03-sub-roles-05-self-heal-reporter-06dce49",
+      "kind": "role",
+      "path": "sections/roles/source-03-sub-roles-05-self-heal-reporter-06dce49.md",
+      "summary": "Preserved source 03_sub_roles/05_self_heal_reporter.md",
+      "read_when": [
+        "about to correct a failure"
+      ],
+      "requires": [],
+      "words": 75,
+      "sha256": "cecef1c0e40d5bf523ff8c58f98b58c9192d6e9b1e5f0719074ec3c41c03606c"
+    },
+    {
+      "id": "source-04-templates-01-default-response-template-318c0fa",
+      "kind": "template",
+      "path": "sections/templates/source-04-templates-01-default-response-template-318c0fa.md",
+      "summary": "Preserved source 04_templates/01_default_response_template.md",
+      "read_when": [
+        "about to draft a reusable output"
+      ],
+      "requires": [],
+      "words": 97,
+      "sha256": "fc58b7c8c84a55ae431ee722575370501d31206e00061d93171df1c0a94681fa"
+    },
+    {
+      "id": "source-04-templates-02-comparison-template-47681d6",
+      "kind": "template",
+      "path": "sections/templates/source-04-templates-02-comparison-template-47681d6.md",
+      "summary": "Preserved source 04_templates/02_comparison_template.md",
+      "read_when": [
+        "about to draft a reusable output"
+      ],
+      "requires": [],
+      "words": 66,
+      "sha256": "ec4711ce31c010c975252c3dd9e492a5d0b6934198e6f2e28d13babfd9009f51"
+    },
+    {
+      "id": "source-04-templates-03-design-review-template-18bac24",
+      "kind": "template",
+      "path": "sections/templates/source-04-templates-03-design-review-template-18bac24.md",
+      "summary": "Preserved source 04_templates/03_design_review_template.md",
+      "read_when": [
+        "about to draft a reusable output"
+      ],
+      "requires": [],
+      "words": 68,
+      "sha256": "9d2584775b245fa21ffbfeea3f5576e8743c301ae911f88bbd6b02d99c9003d8"
+    },
+    {
+      "id": "source-04-templates-04-citation-quality-checklist-8195cd0",
+      "kind": "template",
+      "path": "sections/templates/source-04-templates-04-citation-quality-checklist-8195cd0.md",
+      "summary": "Preserved source 04_templates/04_citation_quality_checklist.md",
+      "read_when": [
+        "about to draft a reusable output"
+      ],
+      "requires": [],
+      "words": 101,
+      "sha256": "4e3f3715dc32e02a46a5f97e367961e7c77808ba9242778b4b89e8bba3b9942f"
+    },
+    {
+      "id": "source-05-sources-to-update-01-preference-registry-f4a4371",
+      "kind": "reference",
+      "path": "sections/references/source-05-sources-to-update-01-preference-registry-f4a4371.md",
+      "summary": "Preserved source 05_sources_to_update/01_preference_registry.md",
+      "read_when": [
+        "about to consult source 05_sources_to_update/01_preference_registry.md"
+      ],
+      "requires": [],
+      "words": 103,
+      "sha256": "59240cba563f97c052044114f8bed55995972c0decbc6481d43e1224f56f1afa"
+    },
+    {
+      "id": "source-05-sources-to-update-02-correction-log-01f20af",
+      "kind": "reference",
+      "path": "sections/references/source-05-sources-to-update-02-correction-log-01f20af.md",
+      "summary": "Preserved source 05_sources_to_update/02_correction_log.md",
+      "read_when": [
+        "about to consult source 05_sources_to_update/02_correction_log.md"
+      ],
+      "requires": [],
+      "words": 43,
+      "sha256": "ddafe542ad568ddf5aac4322abeb38fc99f161f5ff976b1496def9a5b678d35f"
+    },
+    {
+      "id": "source-05-sources-to-update-03-instruction-taxonomy-4ba3335",
+      "kind": "reference",
+      "path": "sections/references/source-05-sources-to-update-03-instruction-taxonomy-4ba3335.md",
+      "summary": "Preserved source 05_sources_to_update/03_instruction_taxonomy.md",
+      "read_when": [
+        "about to consult source 05_sources_to_update/03_instruction_taxonomy.md"
+      ],
+      "requires": [],
+      "words": 91,
+      "sha256": "f5609448f95166222be8391754b48000daf981771c74eac2c76422a3ba8364eb"
+    },
+    {
+      "id": "source-05-sources-to-update-04-source-inventory-ad5610a",
+      "kind": "reference",
+      "path": "sections/references/source-05-sources-to-update-04-source-inventory-ad5610a.md",
+      "summary": "Preserved source 05_sources_to_update/04_source_inventory.md",
+      "read_when": [
+        "about to consult source 05_sources_to_update/04_source_inventory.md"
+      ],
+      "requires": [],
+      "words": 47,
+      "sha256": "937a7a56ca6b77a6d211d7e04214853837c8462fde711bf3285df91347e36bde"
+    },
+    {
+      "id": "source-05-sources-to-update-05-unresolved-questions-995774a",
+      "kind": "reference",
+      "path": "sections/references/source-05-sources-to-update-05-unresolved-questions-995774a.md",
+      "summary": "Preserved source 05_sources_to_update/05_unresolved_questions.md",
+      "read_when": [
+        "about to consult source 05_sources_to_update/05_unresolved_questions.md"
+      ],
+      "requires": [],
+      "words": 25,
+      "sha256": "965bca659aaa9a573b60537241e2b09027a100125b52270c8e6ed6d87661084f"
+    },
+    {
+      "id": "source-06-validation-01-expected-artifacts-table-74dfd6b",
+      "kind": "procedure",
+      "path": "sections/procedures/source-06-validation-01-expected-artifacts-table-74dfd6b.md",
+      "summary": "Preserved source 06_validation/01_expected_artifacts_table.md",
+      "read_when": [
+        "about to consult source 06_validation/01_expected_artifacts_table.md"
+      ],
+      "requires": [],
+      "words": 139,
+      "sha256": "33ea2da5fe9c04855399a2b53348bfd6c92db24847a13fbc7575908fac2efa80"
+    },
+    {
+      "id": "source-06-validation-02-behavior-validation-table-3608d75",
+      "kind": "procedure",
+      "path": "sections/procedures/source-06-validation-02-behavior-validation-table-3608d75.md",
+      "summary": "Preserved source 06_validation/02_behavior_validation_table.md",
+      "read_when": [
+        "about to consult source 06_validation/02_behavior_validation_table.md"
+      ],
+      "requires": [],
+      "words": 89,
+      "sha256": "828f33235d8bdd5b06d667719874c5889891a2d8c7b2f81a2050c23e5ebc689d"
+    },
+    {
+      "id": "source-06-validation-03-delivery-validation-table-61d0f58",
+      "kind": "procedure",
+      "path": "sections/procedures/source-06-validation-03-delivery-validation-table-61d0f58.md",
+      "summary": "Preserved source 06_validation/03_delivery_validation_table.md",
+      "read_when": [
+        "about to consult source 06_validation/03_delivery_validation_table.md"
+      ],
+      "requires": [],
+      "words": 62,
+      "sha256": "3996e146b390354a9fb96f6eb68c296eeea6ccd5c83b308b4124c345258f406d"
+    },
+    {
+      "id": "source-07-examples-01-example-requests-b6eb432",
+      "kind": "reference",
+      "path": "sections/references/source-07-examples-01-example-requests-b6eb432.md",
+      "summary": "Preserved source 07_examples/01_example_requests.md",
+      "read_when": [
+        "about to consult source 07_examples/01_example_requests.md"
+      ],
+      "requires": [],
+      "words": 190,
+      "sha256": "1f68fdabe2720af815ef1b768e5a5f0d5f7318b6770b2b58306369b91c631982"
+    },
+    {
+      "id": "source-90-workflow-integration-cdaf867",
+      "kind": "procedure",
+      "path": "sections/procedures/source-90-workflow-integration-cdaf867.md",
+      "summary": "Preserved source 90_workflow_integration.md",
+      "read_when": [
+        "about to participate in a workflow"
+      ],
+      "requires": [],
+      "words": 284,
+      "sha256": "66e0edc1c1d35cecfb6029601dfb8863e92ac9dd60c71c8ae38bfba0b890e9cd"
+    },
+    {
+      "id": "source-original-package-readme-0c8012f",
+      "kind": "reference",
+      "path": "sections/references/source-original-package-readme-0c8012f.md",
+      "summary": "Preserved source ORIGINAL_PACKAGE_README.md",
+      "read_when": [
+        "about to consult source ORIGINAL_PACKAGE_README.md"
+      ],
+      "requires": [],
+      "words": 63,
+      "sha256": "0263c1554d8937d5d98c6fe512e9cc88d1bab6da1f0a8200a89dfc9cc1b98636"
+    },
+    {
+      "id": "original-skill",
+      "kind": "reference",
+      "path": "sections/references/original-skill.md",
+      "summary": "Previous entrypoint retained for provenance",
+      "read_when": [
+        "about to audit legacy entrypoint"
+      ],
+      "requires": [],
+      "reference_only": true,
+      "words": 50,
+      "sha256": "874979b9b78655ada3cf11c06922f0d343ee7a9cd64b202c0201fee1a58b97f1"
+    }
+  ],
+  "default_sections": [
+    "source-00-readme-961d8bb",
+    "source-00-compiled-instruction-set-8a93b84",
+    "source-01-core-01-core-role-instruction-set-d2446c0"
+  ],
+  "sources": [
+    "00_README.md",
+    "00_compiled_instruction_set.md",
+    "01_core/01_core_role_instruction_set.md",
+    "02_helpers/01_source_and_citation_helper.md",
+    "02_helpers/02_truthfulness_and_uncertainty_helper.md",
+    "02_helpers/03_consulting_decision_helper.md",
+    "02_helpers/04_teaching_helper.md",
+    "02_helpers/05_request_classifier.md",
+    "03_self_heal.md",
+    "03_sub_roles/01_research_synthesizer.md",
+    "03_sub_roles/02_architecture_consultant.md",
+    "03_sub_roles/03_technical_teacher.md",
+    "03_sub_roles/04_design_reviewer.md",
+    "03_sub_roles/05_self_heal_reporter.md",
+    "04_sha256_checksums.txt",
+    "04_templates/01_default_response_template.md",
+    "04_templates/02_comparison_template.md",
+    "04_templates/03_design_review_template.md",
+    "04_templates/04_citation_quality_checklist.md",
+    "05_sources_to_update/01_preference_registry.md",
+    "05_sources_to_update/02_correction_log.md",
+    "05_sources_to_update/03_instruction_taxonomy.md",
+    "05_sources_to_update/04_source_inventory.md",
+    "05_sources_to_update/05_unresolved_questions.md",
+    "06_validation/01_expected_artifacts_table.md",
+    "06_validation/02_behavior_validation_table.md",
+    "06_validation/03_delivery_validation_table.md",
+    "07_examples/01_example_requests.md",
+    "90_workflow_integration.md",
+    "99_manifest.json",
+    "MIGRATION_TRACEABILITY.json",
+    "ORIGINAL_PACKAGE_README.md",
+    "README.md",
+    "SKILL.md",
+    "agents/openai.yaml",
+    "manifest.json",
+    "sections/procedures/source-00-compiled-instruction-set-8a93b84.md",
+    "sections/procedures/source-03-self-heal-3106670.md",
+    "sections/procedures/source-06-validation-01-expected-artifacts-table-74dfd6b.md",
+    "sections/procedures/source-06-validation-02-behavior-validation-table-3608d75.md",
+    "sections/procedures/source-06-validation-03-delivery-validation-table-61d0f58.md",
+    "sections/procedures/source-90-workflow-integration-cdaf867.md",
+    "sections/references/original-skill.md",
+    "sections/references/source-00-readme-961d8bb.md",
+    "sections/references/source-01-core-01-core-role-instruction-set-d2446c0.md",
+    "sections/references/source-02-helpers-01-source-and-citation-helper-40160ea.md",
+    "sections/references/source-02-helpers-02-truthfulness-and-uncertainty-helper-76b885a.md",
+    "sections/references/source-02-helpers-03-consulting-decision-helper-8941a07.md",
+    "sections/references/source-02-helpers-04-teaching-helper-b5dcb84.md",
+    "sections/references/source-02-helpers-05-request-classifier-2af7e53.md",
+    "sections/references/source-05-sources-to-update-01-preference-registry-f4a4371.md",
+    "sections/references/source-05-sources-to-update-02-correction-log-01f20af.md",
+    "sections/references/source-05-sources-to-update-03-instruction-taxonomy-4ba3335.md",
+    "sections/references/source-05-sources-to-update-04-source-inventory-ad5610a.md",
+    "sections/references/source-05-sources-to-update-05-unresolved-questions-995774a.md",
+    "sections/references/source-07-examples-01-example-requests-b6eb432.md",
+    "sections/references/source-original-package-readme-0c8012f.md",
+    "sections/roles/source-03-sub-roles-01-research-synthesizer-5f667ff.md",
+    "sections/roles/source-03-sub-roles-02-architecture-consultant-f8dcb01.md",
+    "sections/roles/source-03-sub-roles-03-technical-teacher-87f520f.md",
+    "sections/roles/source-03-sub-roles-04-design-reviewer-10993d6.md",
+    "sections/roles/source-03-sub-roles-05-self-heal-reporter-06dce49.md",
+    "sections/templates/source-04-templates-01-default-response-template-318c0fa.md",
+    "sections/templates/source-04-templates-02-comparison-template-47681d6.md",
+    "sections/templates/source-04-templates-03-design-review-template-18bac24.md",
+    "sections/templates/source-04-templates-04-citation-quality-checklist-8195cd0.md"
+  ],
+  "behavioral_evaluation": "NOT_RUN"
+}

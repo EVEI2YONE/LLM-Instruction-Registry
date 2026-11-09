@@ -29,9 +29,11 @@ class UpdatedPackageIntegrityTests(unittest.TestCase):
             with self.subTest(id=ident):
                 item = packages[ident]
                 src = ROOT / item["sources"]
-                manifest = json.loads((src / "99_manifest.json").read_text(encoding="utf-8"))
+                legacy = json.loads((src / "99_manifest.json").read_text(encoding="utf-8"))
+                manifest_path = src / "manifest.json"
+                manifest = json.loads(manifest_path.read_text(encoding="utf-8")) if manifest_path.exists() else legacy
                 self.assertEqual(item["version"], manifest["version"])
-                self.assertEqual("04_workflow_integration.md", manifest["workflow_integration"])
+                self.assertEqual("04_workflow_integration.md", legacy["workflow_integration"])
                 source_files = manifest.get("sources", manifest.get("source_files", []))
                 self.assertIn("04_workflow_integration.md", source_files)
                 expected = {ident + "/" + x.relative_to(src).as_posix(): x

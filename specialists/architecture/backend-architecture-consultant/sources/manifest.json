@@ -1,0 +1,139 @@
+{
+  "id": "backend-architecture-consultant",
+  "version": "v1.2",
+  "source_contract": "lookup-first-v1",
+  "kind": "specialist",
+  "role": "expert",
+  "entrypoint": {
+    "path": "SKILL.md",
+    "words": 154,
+    "sha256": "8dc2cf11db393ce393a0832d60f151db242d5ea45b81669872a266b431e0a0e9"
+  },
+  "sections": [
+    {
+      "id": "source-00-compiled-instruction-set-8a93b84",
+      "kind": "procedure",
+      "path": "sections/procedures/source-00-compiled-instruction-set-8a93b84.md",
+      "summary": "Preserved source 00_compiled_instruction_set.md",
+      "read_when": [
+        "about to consult source 00_compiled_instruction_set.md"
+      ],
+      "requires": [],
+      "words": 388,
+      "sha256": "dce550230478f58767431e00e86434cb558d374e448610f02d54d71a935488ae"
+    },
+    {
+      "id": "source-01-architecture-review-4bc8b5c",
+      "kind": "reference",
+      "path": "sections/references/source-01-architecture-review-4bc8b5c.md",
+      "summary": "Preserved source 01_architecture_review.md",
+      "read_when": [
+        "about to consult source 01_architecture_review.md"
+      ],
+      "requires": [],
+      "words": 104,
+      "sha256": "65fa5bec486d01bb67c9eceedbbb5f7b278af087580430a94ddb53288a79d686"
+    },
+    {
+      "id": "source-02-atlas-gap-pr-0abf506",
+      "kind": "reference",
+      "path": "sections/references/source-02-atlas-gap-pr-0abf506.md",
+      "summary": "Preserved source 02_atlas_gap_pr.md",
+      "read_when": [
+        "about to consult source 02_atlas_gap_pr.md"
+      ],
+      "requires": [],
+      "words": 133,
+      "sha256": "bb04b18b43ed38e739a62c5cb9b48a29a26ddf9408722e3972f9ae8805116b01"
+    },
+    {
+      "id": "source-03-refactor-handoff-c672b35",
+      "kind": "reference",
+      "path": "sections/references/source-03-refactor-handoff-c672b35.md",
+      "summary": "Preserved source 03_refactor_handoff.md",
+      "read_when": [
+        "about to consult source 03_refactor_handoff.md"
+      ],
+      "requires": [],
+      "words": 93,
+      "sha256": "a38e965bfde5c2e058ce6120f0ceb4a8fb4ae80ac760750afa6b8e64d20ab496"
+    },
+    {
+      "id": "source-03-self-heal-3106670",
+      "kind": "procedure",
+      "path": "sections/procedures/source-03-self-heal-3106670.md",
+      "summary": "Preserved source 03_self_heal.md",
+      "read_when": [
+        "about to correct a failure"
+      ],
+      "requires": [],
+      "words": 38,
+      "sha256": "05d4b2e857eae6ad2be5e5a6d37849b5bf146d9668a68f646e7cb7934e6d8025"
+    },
+    {
+      "id": "source-04-self-heal-2d7c421",
+      "kind": "procedure",
+      "path": "sections/procedures/source-04-self-heal-2d7c421.md",
+      "summary": "Preserved source 04_self_heal.md",
+      "read_when": [
+        "about to correct a failure"
+      ],
+      "requires": [],
+      "words": 57,
+      "sha256": "087a91573554dae61fe3c01c9087826d48b76d2cbba73a72f9c50b2ab9dd0890"
+    },
+    {
+      "id": "source-90-workflow-integration-cdaf867",
+      "kind": "procedure",
+      "path": "sections/procedures/source-90-workflow-integration-cdaf867.md",
+      "summary": "Preserved source 90_workflow_integration.md",
+      "read_when": [
+        "about to participate in a workflow"
+      ],
+      "requires": [],
+      "words": 282,
+      "sha256": "ce2e6f280b6098f4447f54c9621fde2276a6b6e03cf19ea91fc7a8fd363bf66d"
+    },
+    {
+      "id": "original-skill",
+      "kind": "reference",
+      "path": "sections/references/original-skill.md",
+      "summary": "Previous entrypoint retained for provenance",
+      "read_when": [
+        "about to audit legacy entrypoint"
+      ],
+      "requires": [],
+      "reference_only": true,
+      "words": 61,
+      "sha256": "eeea4c8464e4e681904577597b5cde56fc497ea5950a6f358f2668dde96921e1"
+    }
+  ],
+  "default_sections": [
+    "source-00-compiled-instruction-set-8a93b84",
+    "source-01-architecture-review-4bc8b5c"
+  ],
+  "sources": [
+    "00_compiled_instruction_set.md",
+    "01_architecture_review.md",
+    "02_atlas_gap_pr.md",
+    "03_refactor_handoff.md",
+    "03_self_heal.md",
+    "04_self_heal.md",
+    "90_workflow_integration.md",
+    "99_manifest.json",
+    "MIGRATION_TRACEABILITY.json",
+    "README.md",
+    "SKILL.md",
+    "agents/openai.yaml",
+    "manifest.json",
+    "sections/procedures/source-00-compiled-instruction-set-8a93b84.md",
+    "sections/procedures/source-03-self-heal-3106670.md",
+    "sections/procedures/source-04-self-heal-2d7c421.md",
+    "sections/procedures/source-90-workflow-integration-cdaf867.md",
+    "sections/references/original-skill.md",
+    "sections/references/source-01-architecture-review-4bc8b5c.md",
+    "sections/references/source-02-atlas-gap-pr-0abf506.md",
+    "sections/references/source-03-refactor-handoff-c672b35.md"
+  ],
+  "behavioral_evaluation": "NOT_RUN"
+}

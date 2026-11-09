@@ -1,0 +1,51 @@
+{
+  "id": "business-feasibility-analyst",
+  "old_version": "v1",
+  "proposed_version": "v1.1",
+  "source_commit": "f634daa1ad6b86de93806334b1195bda14313646",
+  "files": [
+    {
+      "source": "00_compiled_instruction_set.md",
+      "sha256": "04ac4ca8c2d2afcabbd8872577d113686f94584b7706e6aada76899650267203",
+      "indexed_sections": [
+        "sections/procedures/source-00-compiled-instruction-set-8a93b84.md"
+      ],
+      "reconstructed_sha256": "04ac4ca8c2d2afcabbd8872577d113686f94584b7706e6aada76899650267203"
+    },
+    {
+      "source": "01_domain.md",
+      "sha256": "65d1878e042f6cab2d2b9c9b2c835244a437083da9445f84fe71c6b202fd915a",
+      "indexed_sections": [
+        "sections/procedures/source-01-domain-9c0aca2.md"
+      ],
+      "reconstructed_sha256": "65d1878e042f6cab2d2b9c9b2c835244a437083da9445f84fe71c6b202fd915a"
+    },
+    {
+      "source": "02_context_space.md",
+      "sha256": "41575fc30e3753b2909039dd6b4563ed9da07ddc78fc383906586553ec68ae93",
+      "indexed_sections": [
+        "sections/references/source-02-context-space-da68579.md"
+      ],
+      "reconstructed_sha256": "41575fc30e3753b2909039dd6b4563ed9da07ddc78fc383906586553ec68ae93"
+    },
+    {
+      "source": "03_self_heal.md",
+      "sha256": "e62b4f11dcfc412d7acf775da13abcfa64ad130b03bf139099b3d067fe1e64fb",
+      "indexed_sections": [
+        "sections/procedures/source-03-self-heal-3106670.md"
+      ],
+      "reconstructed_sha256": "e62b4f11dcfc412d7acf775da13abcfa64ad130b03bf139099b3d067fe1e64fb"
+    },
+    {
+      "source": "SKILL.md",
+      "sha256": "de1758b3366cbb6f13c5ef7ba7a6f5427b9902e1bdb4334182cb10ea361dc7e1",
+      "indexed_sections": [
+        "sections/references/original-skill.md"
+      ],
+      "reconstructed_sha256": "de1758b3366cbb6f13c5ef7ba7a6f5427b9902e1bdb4334182cb10ea361dc7e1"
+    }
+  ],
+  "semantic_equivalence": "NOT_RUN",
+  "owner_approval": "NOT_VERIFIED",
+  "original_archive_preserved": true
+}

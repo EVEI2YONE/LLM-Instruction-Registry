@@ -1,0 +1,51 @@
+{
+  "id": "pragmatic-pr-reviewer",
+  "old_version": "v1",
+  "proposed_version": "v1.1",
+  "source_commit": "f634daa1ad6b86de93806334b1195bda14313646",
+  "files": [
+    {
+      "source": "00_compiled_instruction_set.md",
+      "sha256": "6d85fe58d679973560e97e56993cd0860048e110b1c8c0e54577bc736ce26d76",
+      "indexed_sections": [
+        "sections/procedures/source-00-compiled-instruction-set-8a93b84.md"
+      ],
+      "reconstructed_sha256": "6d85fe58d679973560e97e56993cd0860048e110b1c8c0e54577bc736ce26d76"
+    },
+    {
+      "source": "01_domain.md",
+      "sha256": "5813dca199523e505e54583f51946d0ca606c420daad7907d9f2c22f75752d63",
+      "indexed_sections": [
+        "sections/procedures/source-01-domain-9c0aca2.md"
+      ],
+      "reconstructed_sha256": "5813dca199523e505e54583f51946d0ca606c420daad7907d9f2c22f75752d63"
+    },
+    {
+      "source": "02_context_space.md",
+      "sha256": "33437d22c97087c1fbaeb4dacb5dd7545832bc9dfc5727c1523dc0f03f9e8074",
+      "indexed_sections": [
+        "sections/references/source-02-context-space-da68579.md"
+      ],
+      "reconstructed_sha256": "33437d22c97087c1fbaeb4dacb5dd7545832bc9dfc5727c1523dc0f03f9e8074"
+    },
+    {
+      "source": "03_self_heal.md",
+      "sha256": "6011305e9bf7c02b32905289e080701c83c25f83f061a7a930a9fe3ed0447061",
+      "indexed_sections": [
+        "sections/procedures/source-03-self-heal-3106670.md"
+      ],
+      "reconstructed_sha256": "6011305e9bf7c02b32905289e080701c83c25f83f061a7a930a9fe3ed0447061"
+    },
+    {
+      "source": "SKILL.md",
+      "sha256": "82081f06f3c62796fda329d389fdbb359fbbc26bc222e588d6b093e8c1d5e1a2",
+      "indexed_sections": [
+        "sections/references/original-skill.md"
+      ],
+      "reconstructed_sha256": "82081f06f3c62796fda329d389fdbb359fbbc26bc222e588d6b093e8c1d5e1a2"
+    }
+  ],
+  "semantic_equivalence": "NOT_RUN",
+  "owner_approval": "NOT_VERIFIED",
+  "original_archive_preserved": true
+}

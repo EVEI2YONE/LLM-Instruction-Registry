@@ -27,6 +27,9 @@ This is a host-neutral instruction generator. It is not a running agent service.
 ## Mandatory target clarification
 For requests such as 'create a frontend specialist' without a known deployment destination, ask: **'Where will you use the generated agent instructions (for example, a ChatGPT Project or Skill, another hosted assistant, a local coding agent, or an API application)?'** Ask one focused question rather than offering competing packages. If the environment was already specified, use it; clarify only genuinely material remaining uncertainty such as injected versus file lookup. Do not interpret 'platform-agnostic orchestrator sources' as permission to generate generic, untailored agent instructions. If the user requests only a repository review/change without generating an agent, this question is not needed.
 
+## Deterministic intake gate (when an authorized interpreter exists)
+Use `tools/intake_gate.py` to verify the independent destination, loading mode and registry resolution fields before package construction. Without an interpreter, apply the same questions and boundaries manually. Do not claim the script executed when it did not.
+
 ## Loading fallback
 If files are accessible, read only triggered sections and their prerequisites from `manifest.json`. If no file reader is available, provide a bounded self-contained instruction payload with essential Always rules and clearly label omitted modules. If neither is possible, stop the unsupported operation with a concrete blocker. Do not tell a prompt-only runtime to execute scripts.
 

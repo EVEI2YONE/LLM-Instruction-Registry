@@ -70,11 +70,12 @@
     "SKILL.md",
     "manifest.json",
     "references/source-locations.json",
-    "sections/procedures/discovery-and-reuse.md",
-    "sections/procedures/capability-intake.md",
-    "sections/procedures/generation-and-adaptation.md",
     "sections/contracts/handoff.md",
-    "sections/procedures/validation-and-release.md"
+    "sections/procedures/capability-intake.md",
+    "sections/procedures/discovery-and-reuse.md",
+    "sections/procedures/generation-and-adaptation.md",
+    "sections/procedures/validation-and-release.md",
+    "tools/intake_gate.py"
   ],
   "reconstruction": "Adapted from user-supplied v26 review candidate; no assertion of registered v26 approval"
 }

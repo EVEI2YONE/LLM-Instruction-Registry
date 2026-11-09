@@ -1,4 +1,4 @@
-# Product Conversation Orchestrator v1.1 (review candidate)
+# Product Conversation Orchestrator v1.2 (review candidate)
 
 **Category:** conversation orchestrators. **Kind:** `conversation-orchestrator`. **Role:** orchestrator.
 
@@ -15,3 +15,6 @@ The uploaded conversation Skill was adapted into a lookup-first canonical source
 ## Source
 
 See `sources/SKILL.md` for entrypoint and `sources/manifest.json` for selective sections. This PR is a candidate until source archive, semantic tests, approval and installation checks are observed.
+## Fail-closed execution gate (v1.2)
+
+Specialist-dependent assessment cannot start before applicable capability declarations are reconciled, a runtime mode is selected, and the registered specialist entrypoint plus required section dependency closure have been loaded. If native spawning is explicitly unavailable (for example in Capabilities.txt), use a tailored `SEQUENTIAL_SPECIALIST` phase; if instructions cannot be loaded, report `BLOCKED_INSTRUCTIONS` and do not issue a specialist readiness verdict. Deterministic regression tests live in `scripts/test_instruction_execution_gate.py`; hosted end-to-end compliance remains NOT_RUN.

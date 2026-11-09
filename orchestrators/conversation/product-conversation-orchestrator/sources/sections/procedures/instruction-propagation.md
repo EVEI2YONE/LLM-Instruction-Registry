@@ -18,6 +18,10 @@
 5. Open a distinct `SEQUENTIAL_SPECIALIST` work phase with the package ID/version, pinned registry revision, loaded section IDs and scoped question. Follow the specialist's applicable instructions subject to higher-priority policies; produce a grounded deliverable, then close the phase.
 6. For multiple specialist roles, use separate attributed parent-run phases and reconcile disagreements. Disclose that no independent child executed or reviewed the work.
 
+## Verifying instruction application
+
+For each selected specialist, derive explicit observable task requirements from the *actual loaded instruction content*. Record what sections were delivered to the executing context and which output/artifact evidence demonstrates each applicable requirement. A self-reported instruction receipt, role label, or well-written generic assessment is not enough. If the runtime does not expose a trustworthy delivery trace, mark propagation unverified; if the output has no checkable rule-level evidence, mark application unverified. Require an actual child execution trace for independent-agent claims; for parent sequential phases, disclose the parent as the executor.
+
 ## Failure classifications
 
 - `POLICY_GATED_NOT_ATTEMPTED`: higher-priority host policy requires direct permission; report this as an authorization gate, **not** a runtime deficiency.

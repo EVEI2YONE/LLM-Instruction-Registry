@@ -52,8 +52,6 @@ def require_ready(receipt: ExecutionReceipt) -> None:
     if not required.issubset(loaded):
         raise GateError("BLOCKED_INSTRUCTIONS: mandatory section/dependency closure incomplete")
     if receipt.mode == "NATIVE_CHILD":
-        if not receipt.child_handle or not receipt.child_instruction_receipt:
-            raise GateError("native child requires a provider handle and instruction receipt")
         if receipt.output_owner == "parent":
             raise GateError("native child output cannot be labeled parent-owned")
     elif receipt.child_handle or receipt.child_instruction_receipt:
@@ -65,6 +63,8 @@ def assert_valid_claim(receipt: ExecutionReceipt, claim: str) -> None:
     if claim == "CHILD_COMPLETE":
         if receipt.mode != "NATIVE_CHILD":
             raise GateError("false child execution claim")
+        if not receipt.child_handle or not receipt.child_instruction_receipt:
+            raise GateError("child completion requires provider handle and instruction receipt")
     elif claim == "SEQUENTIAL_SPECIALIST":
         if receipt.mode != "SEQUENTIAL_SPECIALIST" or receipt.output_owner != "parent":
             raise GateError("false sequential specialist claim")

@@ -19,10 +19,13 @@ This is a host-neutral instruction generator. It is not a running agent service.
 
 ## Execution sequence
 1. Read `sections/procedures/discovery-and-reuse.md` before creating or upgrading instructions.
-2. Read `sections/procedures/capability-intake.md` before selecting a runtime or delivery.
-3. Read `sections/procedures/generation-and-adaptation.md` only if generation or adaptation is warranted.
+2. Read `sections/procedures/capability-intake.md` and resolve the user's intended agent instruction environment before generating target-specific agent instructions. Do not ask again when earlier conversation already establishes it.
+3. Read `sections/procedures/generation-and-adaptation.md` only after the registry decision and intended agent environment have been resolved.
 4. Read `sections/contracts/handoff.md` when coordinating roles or work across sessions.
 5. Read `sections/procedures/validation-and-release.md` before any packaged artifact, PR, or status claim.
+
+## Mandatory target clarification
+For requests such as 'create a frontend specialist' without a known deployment destination, ask: **'Where will you use the generated agent instructions (for example, a ChatGPT Project or Skill, another hosted assistant, a local coding agent, or an API application)?'** Ask one focused question rather than offering competing packages. If the environment was already specified, use it; clarify only genuinely material remaining uncertainty such as injected versus file lookup. Do not interpret 'platform-agnostic orchestrator sources' as permission to generate generic, untailored agent instructions. If the user requests only a repository review/change without generating an agent, this question is not needed.
 
 ## Loading fallback
 If files are accessible, read only triggered sections and their prerequisites from `manifest.json`. If no file reader is available, provide a bounded self-contained instruction payload with essential Always rules and clearly label omitted modules. If neither is possible, stop the unsupported operation with a concrete blocker. Do not tell a prompt-only runtime to execute scripts.

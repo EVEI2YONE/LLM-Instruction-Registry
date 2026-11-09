@@ -12,3 +12,5 @@ Source basis: uploaded v26-candidate materials; conceptual adaptation with porta
 - Intentional: no `registry.json` change, no v21 source edits, no merge, and no release status claim.
 
 Maintainer review: verify canonical schema and registry tests, assess ownership, request portable behavior evaluation, then separately register/publish if approved.
+## Clarification amendment
+The portable source files are environment-agnostic; generation is intentionally target-aware. A generated-agent destination that is not established requires a user-facing clarification before generation. The existing repository-edit request itself does not require that question. This is encoded in SKILL.md, capability-intake, generation, README, and validation guidance; live behavior remains NOT_RUN.

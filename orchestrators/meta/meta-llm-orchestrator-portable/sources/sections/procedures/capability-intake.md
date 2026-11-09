@@ -1,5 +1,9 @@
 # Capability intake
 
+The orchestrator's **own** source files may be platform-neutral. The **new agent instructions it generates must be tailored to the user's intended execution environment**. Before generating or choosing a target package, infer destination only from explicit current request or established conversation context. If unknown, ask exactly one concise natural-language question about where the user intends to use the generated agent. Do not substitute the current ChatGPT/container environment, and do not generate a generic agent as a workaround.
+
+Suggested question: 'Where will you use the generated agent instructions: a ChatGPT Project or Skill, another hosted assistant, a local coding agent, or an API application?'
+
 Record these independent fields before building runtime output:
 - `execution_destination`: actual host, API application, local runner, or unknown
 - `source_loading_mode`: injected, verified_lookup, hybrid, or unknown
@@ -15,4 +19,4 @@ B. File-readable: selective section retrieval via manifest with prerequisite clo
 C. Tool-enabled: use only verified, permissioned tools and scoped artifact refs.
 D. Multi-agent: only an authenticated verified runner/gateway can start children and enforce task budgets.
 
-If essential destination details remain unknown, ask one specific question; when the user explicitly requested a review-only source PR, the destination is portable review source and no target installation is implied.
+If the generated-agent destination is unknown, ask the single destination question and defer target-specific instruction generation. If known, do not ask again; resolve source-loading mode (injected, verified lookup, hybrid) and registry intent separately, asking one further question only if materially necessary. A request to edit the portable orchestrator's own repository files does not itself request a generated agent and therefore requires no destination question.

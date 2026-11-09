@@ -4,9 +4,12 @@ Review candidate derived from the project's v26 instruction design, independentl
 
 The canonical portable source is `SKILL.md` plus `manifest.json` and the indexed `sections/`. The filename SKILL.md is a neutral source-entrypoint convention here, **not** an assertion that any host has installed a native Skill.
 
+## What platform-neutral means
+Only the **orchestrator's own source/packaging** is host-neutral. When asked to generate a specialist, the orchestrator **must ask the user which target environment will run the generated agent if the answer is not already known**, and then tailor the generated instruction package to that environment. The source host and target host may differ. Do not generate one generic destination-agnostic specialist package by default.
+
 ## Use
 1. Read `SKILL.md` and identify the operation.
-2. Check runtime capabilities using `sections/procedures/capability-intake.md`.
+2. Ask for the intended generated agent environment when not already established; then check its runtime capabilities using `sections/procedures/capability-intake.md`.
 3. Use actual repository access to resolve a pinned registry snapshot; compare existing registered packages first.
 4. Select triggered sections from the manifest and load their `requires` dependency closure.
 5. Generate a canonical package or a target-specific rendered output only when needed.

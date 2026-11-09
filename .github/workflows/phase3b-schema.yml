@@ -1,0 +1,24 @@
+name: Phase 3B canonical schema and package integrity
+on:
+  pull_request:
+    paths:
+      - 'registry.json'
+      - 'migration/**'
+      - 'specialists/**'
+      - 'orchestrators/**'
+      - 'scripts/test_phase3b_migrations.py'
+      - 'scripts/validate_phase3b_schema.py'
+      - '.github/workflows/phase3b-schema.yml'
+permissions:
+  contents: read
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: python3 -m pip install 'jsonschema>=4,<5'
+      - run: python3 scripts/validate_phase3b_schema.py
+      - run: python3 -m unittest scripts.test_phase3b_migrations

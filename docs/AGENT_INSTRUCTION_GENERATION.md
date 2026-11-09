@@ -1,6 +1,6 @@
 # Meta-LLM-first instruction generation architecture
 
-Status: **foundation policy, review required**. This is an authoring and migration contract, not an assertion that any existing specialist has been migrated, installed, or behaviorally tested.
+Status: **draft PR, review required**. The PR now includes mechanically migrated source candidates and proposed versioned archives for the 48 formerly pending packages. These changes are not merged or approved, and no behavioral equivalence or runtime installation has been verified.
 
 ## Authoring entrypoint
 
@@ -18,11 +18,11 @@ Use the [Meta-LLM Orchestrator](../orchestrators/meta/meta-llm-orchestrator/READ
 6. **Tailor one delivery.** For injected prompt-only hosts assemble a self-contained bounded payload; for lookup-capable hosts include verified manifest-driven retrieval or manual dependency-closed reads; for native tools or child execution use only demonstrated install/invocation interfaces and approvals. When host capability or instruction limits are unknown, label a review candidate rather than install-ready.
 7. **Validate independently.** Pin the canonical schema to the selected registry commit; check source and ZIP bytes, manifests, dependency closure, rule coverage and migration traceability. Report approval, schema, source inventory, instruction limits, packaging, installation, activation and behavioral evaluation as separate PASS/FAIL/NOT_RUN/BLOCKED outcomes. Never treat package creation as execution or owner approval.
 
-## Existing specialist compatibility, before migration
+## Existing specialist compatibility and Phase 3B review
 
-**Do not change existing specialist sources, registry entries, historical ZIPs, package identities or released version references in this foundation change.** Registered legacy packages remain independently usable. A user who asks to *use* an existing specialist does not need the Meta-LLM generator; a user who asks to *create, modify, regenerate or retarget* its instructions does.
+This PR includes proposed versioned source changes and registry entries for the 48 formerly pending packages, but **leaves every historical ZIP unchanged**. They remain review candidates until approved and merged. Registered legacy versions on main remain independently usable. A user who asks to *use* an existing specialist does not need the Meta-LLM generator; a user who asks to *create, modify, regenerate or retarget* its instructions does.
 
-Future migrations require their own scope and reviewed PR(s). Inventory every registered package, map its normative source requirements and output contracts to the next canonical version, preserve old ZIP blobs, resolve owners/approval boundaries, validate all generated variants, and keep an evidence and rollback ledger. See [lookup-first rebuild plan](LOOKUP_FIRST_REBUILD_PLAN.md), [publishing rules](PUBLISHING.md), [workspace adapters](WORKSPACE_ADAPTERS.md), and [migration inventory](../migration/inventory.json).
+A migration now proposed in this same review PR still requires owner review of every generated section mapping and approval before release. Inventory every registered package, map its normative source requirements and output contracts to the next canonical version, preserve old ZIP blobs, resolve owners/approval boundaries, validate all generated variants, and keep an evidence and rollback ledger. See [lookup-first rebuild plan](LOOKUP_FIRST_REBUILD_PLAN.md), [publishing rules](PUBLISHING.md), [workspace adapters](WORKSPACE_ADAPTERS.md), and [migration inventory](../migration/inventory.json).
 
 ## Regression acceptance scenarios
 

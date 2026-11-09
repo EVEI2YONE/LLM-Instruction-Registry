@@ -8,7 +8,7 @@ A versioned registry of **orchestrators**, **composable workflows**, **independe
 
 The orchestrator's own host can vary, but generated agent instructions must be **tailored to the user's intended execution environment**. If the user has not already specified the destination, the orchestrator asks one concise destination question before generation; it must not assume that the new agent will run where the generator does.
 
-**Existing registered specialists remain directly usable** when no generation or revision is required. This foundation change does not migrate specialists or modify their versions, archives or registry records. See the [generation architecture and migration gates](docs/AGENT_INSTRUCTION_GENERATION.md).
+**Existing registered specialists remain directly usable** when no generation or revision is required. This draft PR also proposes lookup-first migrations for the 48 formerly pending packages; those proposed registry versions remain **unmerged and unapproved**. Previous versioned archives are retained. Behavioral verification was skipped at the user's request. See the [generation architecture and migration gates](docs/AGENT_INSTRUCTION_GENERATION.md).
 
 ## Entry points
 - [Product Lifecycle Orchestrator v1](orchestrators/primary/product-lifecycle-orchestrator/README.md) — user-facing intent routing, specialist selection and workflow composition.
@@ -55,6 +55,10 @@ python3 -m unittest discover -s scripts -p 'test_*.py'
 Published packages are ZIP archives plus complete browsable sources, with stable package IDs and version history. Workflow profiles are declarative and do not imply a live deployed scheduler. Actual runtime tool permissions must be verified. **Human approval** is required for merges, investments, production deployments and irreversible actions.
 
 [Contribution guide](CONTRIBUTING.md) · [Publishing](docs/PUBLISHING.md) · [Role taxonomy](docs/ROLE_TAXONOMY.md) · [Migration map](docs/MIGRATION_MAP.md)
+
+## Phase 3B migration status (proposed, not released)
+
+The Phase 3B migration report is [here](migration/PHASE3B_REPORT.json). The PR includes versioned lookup-first candidates for 48 packages and retains all historical archives. Indexed source sections and byte-equivalent ZIPs have been mechanically generated; **no behavioral equivalence, host activation, or formal owner approval has been established**. Review and approval are required before merge or use as a new default.
 
 ## Existing package upgrades
 All previously uncovered original specialists and the Feature Extension Planning Council now have new versioned archives with optional workflow integration. Research, psychology, teaching and general conversation remain independently invocable; they are not automatically routed through the product lifecycle. See [the complete upgrade inventory](docs/LIFECYCLE_INSTRUCTION_CATALOG.md).
